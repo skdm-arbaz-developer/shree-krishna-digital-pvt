@@ -11,12 +11,9 @@ import salon from "../../assets/images/resources/industry/spa-salon.jpg";
 import "../../css/home/industry.css";
 
 interface CardProps {
-  nav: string;
-  links: Array<{
-    link: string;
-    title: string;
-  }>; // Corrected type
-  children?: ReactNode; // Allow children
+  img: string;
+  title: string;
+  children?: ReactNode;
 }
 
 export default function Industries() {
@@ -62,7 +59,6 @@ export default function Industries() {
         </div>
         <div className="industry-lists mt-10">
           <Swiper
-          
             breakpoints={{
               640: {
                 slidesPerView: 2,
@@ -83,7 +79,7 @@ export default function Industries() {
           >
             {industryList.map((val, index) => (
               <SwiperSlide key={index}>
-                <InductryCard link={val.img} title={val.title} />
+                <InductryCard img={val.img} title={val.title} />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -93,9 +89,9 @@ export default function Industries() {
   );
 }
 
-const InductryCard = ({ link, title }: CardProps) => (
+const InductryCard = ({ img, title }: CardProps) => (
   <div className="industry-card">
-    <img src={link} />
+    <img src={img} />
     <div className="content">
       <h3>{title}</h3>
       <p>
