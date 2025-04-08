@@ -4,6 +4,8 @@ import "../../css/home/faq.css";
 import { FaMinus, FaPlus } from "react-icons/fa6";
 
 export default function FrequentylAskQ() {
+
+
   const faqs = [
     {
       label: "What services do you offer?",
@@ -79,4 +81,6 @@ export default function FrequentylAskQ() {
   );
 }
 
-const Answer = ({ answer }) => <p className="faq-content-text">{answer}</p>;
+const Answer = ({ answer }: any) => (
+  <p className="faq-content-text">{answer}</p>
+);
