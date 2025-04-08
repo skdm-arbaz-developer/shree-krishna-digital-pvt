@@ -1,0 +1,58 @@
+.scrolling-logo {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  overflow: hidden;
+}
+
+.scrolling-logo .label-style {
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-end-start-radius: 5px;
+  border-start-start-radius: 5px;
+  color: #fff;
+  font-size: 1rem;
+  text-align: center;
+  z-index: 1;
+  min-width: 10%;
+}
+
+.logo-list {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+}
+
+.logo-list img {
+  max-width: 100px;
+  object-fit: contain;
+  margin: 0 10px;
+  filter: grayscale(1);
+  cursor: pointer;
+}
+
+.logo-scroll {
+  align-items: center;
+  display: flex;
+  gap: 40px;
+  animation: scroll 60s linear infinite;
+}
+
+.logo-list img:hover {
+  filter: unset;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+/* Duplicate logos to create a loop */
+.logo-list:hover {
+  animation-play-state: paused; /* Pause on hover */
+}

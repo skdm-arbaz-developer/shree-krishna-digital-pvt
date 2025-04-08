@@ -1,0 +1,46 @@
+.home_banner {
+  height: 90vh;
+  background-color: var(--background-color);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.video-content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(0, 0, 0, 0.8);
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  max-width: 50%;
+  padding: 0 50px;
+}
+
+.video-content h2 {
+  font-size: var(--banner-title);
+  color: #fff;
+}
+
+.video-content .gradient-text {
+  font-size: var(--banner-title);
+  font-weight: bold;
+  background: linear-gradient(to right, var(--third-color), var(--primary-color));
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.video-content p{
+    color: #fff;
+}
+
+.video-content button {
+  margin-top: 30px;
+  color: #fff !important; 
+  border-color: #fff !important;
+}

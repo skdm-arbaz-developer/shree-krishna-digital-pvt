@@ -1,0 +1,125 @@
+.header-css {
+  width: 100%;
+  background-color: var(--background-color);
+  box-shadow: 0 0 3px #808080;
+  padding: 20px 0;
+  z-index: 1000;
+  position: sticky;
+  top: 0;
+}
+
+.header-css .logo {
+  display: block;
+  padding: 10px;
+  position: relative;
+  width: 150px;
+}
+
+.header-css .logo img {
+  width: 210px;
+  position: absolute;
+  background-color: var(--background-color);
+  transform: scale(1.2);
+  border-radius: 25px;
+  padding: 5px;
+  top: -20px;
+}
+
+.header-css .logo::after {
+  content: "";
+  position: absolute;
+  background-color: var(--background-color);
+  width: 180px;
+  height: 60px;
+  box-shadow: 0 0 3px #808080;
+  left: -5px;
+  bottom: -70px;
+  z-index: -1;
+  border-radius: 25px;
+}
+
+.header-css .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-links a {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  color: var(--link-color);
+}
+
+/* .nav-links a.active{
+  color: var(--primary-color);
+} */
+
+.dropdown-style {
+  min-width: 500px;
+  max-width: 800px;
+  padding: 20px;
+}
+
+.partnerLogos img {
+  max-width: 100px;
+  object-fit: contain;
+}
+
+.dropdown-style a {
+  font-size: var(--nav-font-size);
+  color: #000;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.dropdown-style a:hover {
+  text-decoration: underline;
+  transition: 0.7s ease-in-out;
+}
+
+.dropdown-style li.para {
+  margin-bottom: 20px;
+}
+
+.dropdown-style li p {
+  color: #808080;
+  font-size: 0.85rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.service_desc svg {
+  width: 100px;
+  height: 50px;
+  padding: 7px;
+  border-radius: 5px;
+  color: #000;
+  background-color: var(--primary-color);
+  margin-right: 10px;
+}
+
+.service_desc p {
+  font-size: 0.9rem;
+  color: #000;
+  font-size: 0.85rem;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.toggle-button {
+  color: var(--font-color);
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  box-shadow: unset;
+}

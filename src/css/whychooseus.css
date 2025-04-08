@@ -1,0 +1,108 @@
+.why-choose-card {
+  box-shadow: 0 0 5px var(--second-color);
+  border-radius: 20px;
+}
+
+.why-choose-card-left {
+  background-color: var(--second-color);
+  padding: 30px;
+  border-start-start-radius: 20px;
+  border-end-start-radius: 20px;
+}
+
+.why-choose-card-left svg:first-child {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.why-choose-card-left svg:last-child {
+  color: #fff;
+  font-size: 1.2rem;
+  opacity: 0;
+  transform: translate(-20px);
+  transition: 0.5s ease-in-out;
+}
+
+.why-choose-title span {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.why-choose-title {
+  opacity: 0.5;
+  cursor: pointer;
+  border-color: #fff !important;
+}
+
+.why-choose-title:hover > svg:last-child {
+  opacity: 1;
+  transform: unset;
+}
+
+.why-choose-title.active{
+    opacity: 1;
+    transition: 0.5s ease-in-out;
+}
+
+.why-choose-title.active > svg:last-child {
+    opacity: 1;
+    transform: unset;
+}
+
+.why-choose-card-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 50px;
+    background-color: #fff;
+    border-start-end-radius: 20px;
+    border-end-end-radius: 20px;
+}
+
+.why-choose-card-right svg{
+    font-size: 5rem;
+    color: var(--third-color);
+}
+
+.why-choose-card-right h3{
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin: 20px 0 10px 0;
+    color: #000;
+}
+
+.why-choose-card-right p{
+    color: #808080;
+}
+
+/* ========================== Steps ======================== */
+
+.steps{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.steps .step-icon{
+  width: 80px;
+  height: 80px;
+  border-radius: 50px;
+  background: #FDF4E8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.steps .step-icon svg{
+  color: var(--primary-color);
+  font-size: 2rem;
+}
+
+.steps h5{
+  margin-top: 10px;
+  font-size: 1.4rem;
+  text-align: center;
+  font-weight: 700;
+}

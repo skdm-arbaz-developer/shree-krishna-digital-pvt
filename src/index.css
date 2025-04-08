@@ -1,0 +1,90 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* 1 */
+:root {
+  --font-color: #000;
+  --background-color: #fff;
+  --link-color: #000;
+  --primary-color: #e98c14;
+  --third-color: #386568;
+  --second-color: #302043;
+  --nav-font-size: 1rem;
+  --button-input-font: 1rem;
+  --paragraph-font: 1rem;
+  --label-caption: 0.875rem;
+  --section-title: 2.5rem;
+  --banner-title: 3rem;
+  --button-icons-large: 1.2rem;
+  --button-icons-medium: 1rem;
+  --button-icons-small: 0.875rem;
+  --gray-sycal: 1;
+  --section-background-gray: #f6f6f6;
+  --section-background-dark: #150e1d;
+  --section-title-color: #302043;
+  --font-color-paragraph: #a8a8a8;
+
+  /* Corrected Font Variables */
+  --paragraph-font-family: "Lato", sans-serif;
+  --paragraph-font-style: normal;
+  --paragraph-font-weight: 400;
+
+  --banner-title-font-family: "Raleway", sans-serif;
+  --banner-title-font-weight: 700;
+  --banner-title-font-style: normal;
+
+  --section-title-font-family: "Quicksand", sans-serif;
+  --section-title-font-weight: 700;
+  --section-title-font-style: normal;
+
+  --cursive-font: "Edu SA Beginner", cursive;
+}
+
+/* 2 */
+[data-theme="dark"] {
+  --font-color: #f6f6f6;
+  --background-color: #000;
+  --link-color: #fff;
+  --primary-color: #e98c14;
+  --gray-sycal: 0;
+  --section-background-gray: #262222;
+  --section-background-dark: #302043;
+  --section-title-color: #fff;
+  --font-color-paragraph: #a5a5a5;
+}
+
+/* 3 */
+body {
+  background-color: var(--background-color);
+  color: var(--font-color);
+  font-family: var(--paragragraph-font);
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+p {
+  font-family: var(--paragraph-font-family);
+  font-style: var(--paragraph-font-style);
+  font-weight: var(--paragraph-font-weight);
+}
+
+h1 {
+  font-family: var(--banner-title-font-family);
+  font-weight: var(--banner-title-font-weight);
+  font-style: var(--banner-title-font-style);
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--section-title-font-family);
+  font-weight: var(--section-title-font-weight);
+  font-style: var(--section-title-font-style);
+}
+
