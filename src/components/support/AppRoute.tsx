@@ -34,8 +34,7 @@ const componentMap: RouteMap = {
   whychooseus: <WhyChooseUs />,
 };
 
-const navigations: NavigationType[] =
-  typeof NavigationLinks === "function" ? NavigationLinks() : NavigationLinks;
+const navigations: NavigationType[] = NavigationLinks;
 
   const dynamicRoutes: RouteObject[] = navigations.flatMap((nav: NavigationType) => {
     if (Array.isArray(nav.link)) {
