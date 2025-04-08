@@ -14,6 +14,19 @@ interface RouteMap {
   [key: string]: ReactNode;
 }
 
+interface NavLinkItem {
+  link: string;
+  name: string;
+  icon?: ReactNode;
+  desc?: string;
+}
+
+interface NavigationType {
+  name: string;
+  icon?: ReactNode;
+  link: string | NavLinkItem[];
+}
+
 const componentMap: RouteMap = {
   "": <Home />, // 👈 for "/"
   aboutus: <AboutUs />,
@@ -21,33 +34,33 @@ const componentMap: RouteMap = {
   whychooseus: <WhyChooseUs />,
 };
 
-const navigations =
+const navigations: NavigationType[] =
   typeof NavigationLinks === "function" ? NavigationLinks() : NavigationLinks;
 
-const dynamicRoutes: RouteObject[] = navigations.flatMap((nav) => {
-  if (Array.isArray(nav.link)) {
-    return nav.link
-      .map((item) => {
-        const path = item.link;
-        const key = path.replace(/-/g, "").toLowerCase();
-        const component = componentMap[key];
-        return component
-          ? {
-              path: `/${path}`,
-              element: component,
-            }
-          : null;
-      })
-      .filter(Boolean) as RouteObject[];
-  } else if (typeof nav.link === "string") {
-    const path = nav.link === "/" ? "" : nav.link.replace(/^\//, ""); // handle "/" correctly
-    const key = path.replace(/-/g, "").toLowerCase();
-    const component = componentMap[key];
-    return component ? [{ path: nav.link, element: component }] : [];
-  }
-  return [];
-});
-
+  const dynamicRoutes: RouteObject[] = navigations.flatMap((nav: NavigationType) => {
+    if (Array.isArray(nav.link)) {
+      return nav.link
+        .map((item: NavLinkItem) => {
+          const path = item.link;
+          const key = path.replace(/-/g, "").toLowerCase();
+          const component = componentMap[key];
+          return component
+            ? {
+                path: `/${path}`,
+                element: component,
+              }
+            : null;
+        })
+        .filter(Boolean) as RouteObject[];
+    } else if (typeof nav.link === "string") {
+      const path = nav.link === "/" ? "" : nav.link.replace(/^\//, "");
+      const key = path.replace(/-/g, "").toLowerCase();
+      const component = componentMap[key];
+      return component ? [{ path: nav.link, element: component }] : [];
+    }
+    return [];
+  });
+  
 // dynamicRoutes.push({
 //   path: "*",
 //   element: <NotFound />,
