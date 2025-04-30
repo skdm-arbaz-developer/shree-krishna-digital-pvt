@@ -1,11 +1,13 @@
-import { Button } from "antd";
-import { Navigation } from "swiper/modules";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import CaseStudyCard from "../CaseStudy/CaseStudyCard";
-import "../../css/casestudy.css";
+import { useState } from "react";
+import FilterSection from "../components/CaseStudy/FilterSection";
+import CommanBanner from "../components/support/CommanBanner";
+import "../css/casestudy.css";
+import CaseStudyCard from "../components/CaseStudy/CaseStudyCard";
 
-export default function OurSuccessStorie() {
+export default function CaseStudy() {
+  const [selectServices, setSelectServices] = useState("All");
+  const [selectIndustrie, setSelectIndustrie] = useState("All");
+
   const casestudy = [
     {
       img: "https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
@@ -68,54 +70,37 @@ export default function OurSuccessStorie() {
       desc: "Optimized product pages and checkout for a 45% increase in conversions.",
     },
   ];
-
   return (
-    <section className="section section-dark">
-      <div className="container mx-auto">
-        <div className="grid grid-cols-12">
-          <div className="col-span-4">
-            <div className="section-body">
-              <h2 className="section-title">Our Success Stories</h2>
-              <p className="section-content">
-                Explore how we’ve helped businesses achieve remarkable results.
-              </p>
-              <Button
-                className="comman-button mt-5"
-                style={{ color: "#fff", borderColor: "#fff" }}
-              >
-                View All Stories <HiOutlineArrowLongRight />
-              </Button>
+    <>
+      <CommanBanner
+        title="Case Study"
+        desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime, porro, quae perferendis odit dolorem eveniet odio saepe inventore repudiandae non repellendus commodi a corporis? Consequuntur aspernatur officia vero dolores!"
+        image="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=1200"
+      />
+
+      <section className="section">
+        <div className="container mx-auto">
+          <div className="grid grid-cols-12 gap-7">
+            <div className="col-span-3">
+              <FilterSection
+                selectIndustrie={selectIndustrie}
+                setSelectIndustrie={setSelectIndustrie}
+                selectServices={selectServices}
+                setSelectServices={setSelectServices}
+              />
+            </div>
+            <div className="col-span-9">
+              <div className="grid grid-cols-12 gap-7">
+                {casestudy.map((val, index) => (
+                  <div className="col-span-4" key={index}>
+                    <CaseStudyCard data={val} />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-          <div className="col-span-8">
-            <Swiper
-              navigation={true}
-              breakpoints={{
-                640: {
-                  slidesPerView: 2,
-                  spaceBetween: 20,
-                },
-                768: {
-                  slidesPerView: 2,
-                  spaceBetween: 20,
-                },
-                1024: {
-                  slidesPerView: 2,
-                  spaceBetween: 20,
-                },
-              }}
-              modules={[Navigation]}
-              className="case-study"
-            >
-              {casestudy.map((val) => (
-                <SwiperSlide>
-                  <CaseStudyCard data={val} />
-                </SwiperSlide>
-              ))}
-            </Swiper>
-          </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }

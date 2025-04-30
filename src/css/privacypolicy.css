@@ -1,0 +1,24 @@
+.policy-content {
+  padding: 30px 0;
+  position: relative;
+}
+
+.policy-content::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #808080;
+}
+
+.policy-content h3 {
+  font-size: 1.375rem;
+  color: var(--font-color);
+}
+
+
+.policy-content p{
+    color: #808080;
+    font-size: .9rem;
+}

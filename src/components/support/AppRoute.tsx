@@ -9,6 +9,8 @@ import WhyChooseUs from "../../pages/WhyChooseUs";
 const Home = lazy(() => import("../../pages/Home"));
 const AboutUs = lazy(() => import("../../pages/AboutUs"));
 const OurTeam = lazy(() => import("../../pages/OurTeam"));
+const CaseStudy = lazy(() => import("../../pages/CaseStudy"));
+const PrivacyPolicy = lazy(() => import("../../pages/PrivacyPolicy"));
 
 interface RouteMap {
   [key: string]: ReactNode;
@@ -32,6 +34,8 @@ const componentMap: RouteMap = {
   aboutus: <AboutUs />,
   ourteam: <OurTeam />,
   whychooseus: <WhyChooseUs />,
+  casestudy: <CaseStudy />,
+  privacypolicy: <PrivacyPolicy />
 };
 
 const navigations: NavigationType[] = NavigationLinks;

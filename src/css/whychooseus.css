@@ -39,68 +39,68 @@
   transform: unset;
 }
 
-.why-choose-title.active{
-    opacity: 1;
-    transition: 0.5s ease-in-out;
+.why-choose-title.active {
+  opacity: 1;
+  transition: 0.5s ease-in-out;
 }
 
 .why-choose-title.active > svg:last-child {
-    opacity: 1;
-    transform: unset;
+  opacity: 1;
+  transform: unset;
 }
 
-.why-choose-card-right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 0 50px;
-    background-color: #fff;
-    border-start-end-radius: 20px;
-    border-end-end-radius: 20px;
+.why-choose-card-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0 50px;
+  background-color: #fff;
+  border-start-end-radius: 20px;
+  border-end-end-radius: 20px;
 }
 
-.why-choose-card-right svg{
-    font-size: 5rem;
-    color: var(--third-color);
+.why-choose-card-right svg {
+  font-size: 5rem;
+  color: var(--third-color);
 }
 
-.why-choose-card-right h3{
-    font-weight: 700;
-    font-size: 1.8rem;
-    margin: 20px 0 10px 0;
-    color: #000;
+.why-choose-card-right h3 {
+  font-weight: 700;
+  font-size: 1.8rem;
+  margin: 20px 0 10px 0;
+  color: #000;
 }
 
-.why-choose-card-right p{
-    color: #808080;
+.why-choose-card-right p {
+  color: #808080;
 }
 
 /* ========================== Steps ======================== */
 
-.steps{
+.steps {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.steps .step-icon{
+.steps .step-icon {
   width: 80px;
   height: 80px;
   border-radius: 50px;
-  background: #FDF4E8;
+  background: #fdf4e8;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.steps .step-icon svg{
+.steps .step-icon svg {
   color: var(--primary-color);
   font-size: 2rem;
 }
 
-.steps h5{
+.steps h5 {
   margin-top: 10px;
   font-size: 1.4rem;
   text-align: center;

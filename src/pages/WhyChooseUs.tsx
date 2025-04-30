@@ -19,8 +19,9 @@ export default function WhyChooseUs() {
       />
       <Brands />
       <WhyChoosePoints />
-      <OutProccess />
       <OurSuccessStorie />
+      <OutProccess />
+
     </>
   );
 }

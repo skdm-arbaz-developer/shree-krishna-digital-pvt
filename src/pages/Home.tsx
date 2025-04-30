@@ -1,6 +1,7 @@
 import AboutUs from "../components/HomeComponents/AboutUs";
 import Banner from "../components/HomeComponents/Banner";
 import Blog from "../components/HomeComponents/Blog";
+import CompanyVideo from "../components/HomeComponents/CompanyVideo";
 import Counter from "../components/HomeComponents/Counter";
 import FrequentylAskQ from "../components/HomeComponents/FrequentylAskQ";
 import Industries from "../components/HomeComponents/Industries";
@@ -13,6 +14,7 @@ export default function Home() {
   return (
     <>
       <Banner />
+      <CompanyVideo />
       <LogoScrolling />
       <AboutUs />
       <Counter />

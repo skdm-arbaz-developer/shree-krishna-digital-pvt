@@ -30,9 +30,9 @@ const NavigationLinks = [
         link: "why-choose-us",
       },
       {
-        name: "Events",
+        name: "Life at SKD",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "events",
+        link: "life-at-skd",
       },
       {
         name: "News",
@@ -65,37 +65,32 @@ const NavigationLinks = [
       {
         name: "SEO Optimization",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "about-us",
+        link: "seo-optimization",
       },
       {
         name: "Social Media Marketing",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "our-time",
+        link: "social-media-marketing",
       },
       {
         name: "Pay-Per-Click (PPC)",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "why-choose-use",
-      },
-      {
-        name: "PR Marketing",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "privacy-policy",
+        link: "pay-per-click",
       },
       {
         name: "Web Development",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "news",
+        link: "web-development",
       },
       {
         name: "Application Development",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "events",
+        link: "application-development",
       },
       {
         name: "CRM Development",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "case-study",
+        link: "crm-development",
       },
     ],
   },
@@ -106,45 +101,49 @@ const NavigationLinks = [
       {
         name: "Healthcare (Doctor & Hospital)",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "our-time",
+        link: "healthcare",
       },
       {
         name: "Hospitality & Catering",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "news",
+        link: "hospitality",
       },
       {
         name: "Real Estate",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "about-us",
+        link: "real-estate",
       },
       {
         name: "Resorts & Villa",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "privacy-policy",
+        link: "resort-&-villa",
       },
 
       {
         name: "Interior Designs",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "events",
+        link: "interior-design",
       },
       {
         name: "Spa & Salon",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "case-study",
+        link: "spa-&-salon",
       },
       {
         name: "Education",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "why-choose-use",
+        link: "education",
       },
       {
         name: "Lifestyle",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "case-study",
+        link: "lifestyle",
       },
     ],
+  },
+  {
+    name: "PR & Advertising",
+    link: "/pr-advertising",
   },
   {
     name: "Career",

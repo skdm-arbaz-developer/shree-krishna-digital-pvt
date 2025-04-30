@@ -12,7 +12,7 @@ interface DropDownProps {
 
 export default function Comopnay({ links }: DropDownProps) {
   const firstRow = ["About Us", "Our Team", "Why Choose Us"];
-  const secondRow = ["News", "Case Study", "Privacy Policy", "Events"];
+  const secondRow = ["Life at SKD", "Case Study", "Privacy Policy", "Events"];
   const thirdRow = ["Partnership"];
 
   return (

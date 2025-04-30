@@ -26,14 +26,24 @@ export default function Header() {
           {NavigationLinks.map((val, index) =>
             val.icon ? (
               <DropDown key={index} nav={val.name} links={val.link}>
-                <NavLink className="active" key={index} to="/">
+                <NavLink
+                  className="active"
+                  key={index}
+                  to={Array.isArray(val.link) ? val.link[0].link : val.link}
+                >
                   {val.name}&nbsp;{val.icon}
                 </NavLink>
               </DropDown>
-            ) : ( val.name !== "Home" &&
-              <NavLink className="active" key={index} to="/">
-                {val.name}&nbsp;{val.icon}
-              </NavLink>
+            ) : (
+              val.name !== "Home" && (
+                <NavLink
+                  className="active"
+                  key={index}
+                  to={Array.isArray(val.link) ? val.link[0].link : val.link}
+                >
+                  {val.name}&nbsp;{val.icon}
+                </NavLink>
+              )
             )
           )}
         </nav>
