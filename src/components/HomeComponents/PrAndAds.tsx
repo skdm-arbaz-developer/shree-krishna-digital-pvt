@@ -1,6 +1,7 @@
 import { Button } from "antd";
 import { BsArrowRight } from "react-icons/bs";
 import "../../css/home/prads.css";
+import { NavLink } from "react-router-dom";
 
 export default function PrAndAds() {
   return (
@@ -9,9 +10,12 @@ export default function PrAndAds() {
         <div className="section-body">
           <div className="flex justify-between">
             <h2 className="section-title">We Help to, Make PR & Ads</h2>
-            <Button className="comman-button mt-5">
-              Know More <BsArrowRight />
-            </Button>
+            <NavLink to="/who-we-are-pr-advertising">
+              {" "}
+              <Button className="comman-button mt-5">
+                Know More <BsArrowRight />
+              </Button>
+            </NavLink>
           </div>
           <p className="section-content">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente

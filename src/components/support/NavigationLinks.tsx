@@ -9,9 +9,11 @@ const NavigationLinks = [
   {
     name: "Home",
     link: "/",
+    desc: "",
   },
   {
-    name: "Company",  
+    name: "Company",
+    desc: "",
     icon: <FaAngleDown />,
     link: [
       {
@@ -53,7 +55,7 @@ const NavigationLinks = [
       {
         name: "Partnership",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "partnership",
+        link: "#",
         logos: [Google, Meta, GoogleAds, Rayzorpay, PhonePe],
       },
     ],
@@ -61,6 +63,7 @@ const NavigationLinks = [
   {
     name: "Services",
     icon: <FaAngleDown />,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam provident natus similique? Dolorem ad nobis voluptates. Placeat pariatur, delectus perferendis autem unde, ipsum deleniti veritatis facere rem laborum laudantium magnam.",
     link: [
       {
         name: "SEO Optimization",
@@ -73,9 +76,9 @@ const NavigationLinks = [
         link: "social-media-marketing",
       },
       {
-        name: "Pay-Per-Click (PPC)",
+        name: "Google My Business",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "pay-per-click",
+        link: "google-my-business",
       },
       {
         name: "Web Development",
@@ -97,6 +100,7 @@ const NavigationLinks = [
   {
     name: "Industries",
     icon: <FaAngleDown />,
+    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam provident natus similique? Dolorem ad nobis voluptates.",
     link: [
       {
         name: "Healthcare (Doctor & Hospital)",
@@ -143,15 +147,35 @@ const NavigationLinks = [
   },
   {
     name: "PR & Advertising",
-    link: "/pr-advertising",
+    icon: <FaAngleDown />,
+    desc: "",
+    link: [
+      {
+        name: "Who We Are",
+        desc: "Get to know our team of seasoned PR professionals who craft compelling narratives and build brand reputation.",
+        link: "who-we-are-pr-advertising",
+      },
+      {
+        name: "Our Portfolio",
+        desc: "Explore our past PR and advertising campaigns that have successfully elevated brands and driven engagement.",
+        link: "our-portfolio",
+      },
+    ],
   },
   {
     name: "Career",
     link: "/career",
+    desc: "",
+  },
+  {
+    name: "Blogs",
+    link: "/blogs",
+    desc: "",
   },
   {
     name: "Contact Us",
     link: "/contact-us",
+    desc: "",
   },
 ];
 

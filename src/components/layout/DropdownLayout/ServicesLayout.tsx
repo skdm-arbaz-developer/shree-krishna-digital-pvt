@@ -1,8 +1,11 @@
 import { Divider } from "antd";
+import { FaBusinessTime } from "react-icons/fa6";
 import { GrServices } from "react-icons/gr";
 import { NavLink } from "react-router-dom";
 
 interface DropDownProps {
+  desc: string;
+  name: string;
   links: Array<{
     link: string;
     name: string;
@@ -11,17 +14,16 @@ interface DropDownProps {
   }>; // Corrected type
 }
 
-export default function ServicesLayout({ links }: DropDownProps) {
+export default function ServicesLayout({ name, desc, links }: DropDownProps) {
   return (
     <div className="container mx-auto dropdown-style">
       <div className="service_desc flex">
-        <GrServices />
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia,
-          animi illum earum quos explicabo, ratione quasi libero facere soluta
-          vero ut! Magni consequuntur quisquam quos aliquid ea repudiandae.
-          Eius, nesciunt.
-        </p>
+        {name === "Services" ? (
+          <GrServices style={{ color: "#fff" }} />
+        ) : (
+          <FaBusinessTime style={{ color: "#fff" }} />
+        )}
+        <p>{desc}</p>
       </div>
       <Divider />
       <div className="grid grid-cols-3 gap-2">

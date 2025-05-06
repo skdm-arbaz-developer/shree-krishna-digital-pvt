@@ -3,7 +3,7 @@ import Comopnay from "./DropdownLayout/Comopnay";
 import ServicesLayout from "./DropdownLayout/ServicesLayout";
 
 
-export default function DropDown({ nav, links, children }: any) {
+export default function DropDown({ nav, desc, links, children }: any) {
   return (
     <ConfigProvider
       theme={{
@@ -18,7 +18,7 @@ export default function DropDown({ nav, links, children }: any) {
         arrow={false}
         placement={nav === "Company" ? "bottomLeft" : "bottom"}
         content={
-          nav === "Company" ? <Comopnay links={links} /> : <ServicesLayout links={links} />
+          nav === "Company" ? <Comopnay links={links} /> : <ServicesLayout name={nav} desc={desc} links={links} />
         }
         trigger="hover"
       >

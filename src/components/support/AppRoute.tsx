@@ -3,7 +3,6 @@ import { RouteObject } from "react-router-dom";
 
 // Navigation config
 import NavigationLinks from "./NavigationLinks";
-import WhyChooseUs from "../../pages/WhyChooseUs";
 
 // Lazy-loaded components
 const Home = lazy(() => import("../../pages/Home"));
@@ -11,6 +10,13 @@ const AboutUs = lazy(() => import("../../pages/AboutUs"));
 const OurTeam = lazy(() => import("../../pages/OurTeam"));
 const CaseStudy = lazy(() => import("../../pages/CaseStudy"));
 const PrivacyPolicy = lazy(() => import("../../pages/PrivacyPolicy"));
+const WhyChooseUs = lazy(() => import("../../pages/WhyChooseUs"));
+const WhoWeArePrAdd = lazy(() => import("../../pages/WhoWeArePrAdd"));
+const PortfolioPrAds = lazy(() => import("../../pages/PortfolioPrAds"));
+const ContactUs = lazy(() => import("../../pages/ContactUs"));
+const Career = lazy(() => import("../../pages/Career"));
+const LifeAtSkd = lazy(() => import("../../pages/LifeAtSkd"));
+const CaseStudyView = lazy(() => import("../../pages/CaseStudyView"));
 
 interface RouteMap {
   [key: string]: ReactNode;
@@ -35,7 +41,13 @@ const componentMap: RouteMap = {
   ourteam: <OurTeam />,
   whychooseus: <WhyChooseUs />,
   casestudy: <CaseStudy />,
-  privacypolicy: <PrivacyPolicy />
+  privacypolicy: <PrivacyPolicy />,
+  whowearepradvertising:<WhoWeArePrAdd />,
+  ourportfolio:<PortfolioPrAds />,
+  contactus:<ContactUs />,
+  career:<Career />,
+  lifeatskd: <LifeAtSkd />,
+  casestudyview: <CaseStudyView />
 };
 
 const navigations: NavigationType[] = NavigationLinks;

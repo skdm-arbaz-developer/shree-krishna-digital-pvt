@@ -1,18 +1,18 @@
-import videoBanner from "../../assets/videos/SKD WITH MUSIC.mp4";
 import thumbnail from "../../assets/images/banners/shree-krishna-thumbnail.png";
 
 export default function CompanyVideo() {
   return (
     <div className="container mx-auto mt-15 mb-15">
-      <video
-        style={{ maxWidth: "100%", borderRadius: "20px" }}
-        className="w-full h-auto object-cover"
-        autoPlay
-        poster={thumbnail}
-        controls
-      >
-        <source src={videoBanner} />
-      </video>
+      <iframe
+        width={"100%"}
+        height={"550"}
+        src="https://www.youtube-nocookie.com/embed/r1uKGjwrpZk?si=KMUv0tK_Ftf4l3W2&amp;controls=0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
     </div>
   );
 }

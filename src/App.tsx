@@ -7,6 +7,7 @@ import dynamicRoutes from "./components/support/AppRoute";
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
+import CaseStudyView from "./pages/CaseStudyView";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         {dynamicRoutes.map((route, idx) => (
           <Route key={idx} path={route.path} element={route.element} />
         ))}
+        <Route path="/case-study-view/:id" element={<CaseStudyView />} />
       </Routes>
       
       <Footer />
