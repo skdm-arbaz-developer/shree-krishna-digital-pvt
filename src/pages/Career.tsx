@@ -2,7 +2,7 @@ import CommanBanner from "../components/support/CommanBanner";
 import TeamBanner from "../assets/images/banners/team-banner.jpeg";
 import { ConfigProvider, Form, Input, Tabs } from "antd";
 import { FaCode, FaPaintbrush, FaUpload } from "react-icons/fa6";
-import { MdAdsClick, MdMic } from "react-icons/md";
+import { MdAdsClick } from "react-icons/md";
 import { AiFillInstagram } from "react-icons/ai";
 import { RiTeamFill } from "react-icons/ri";
 import { Button } from "antd";
