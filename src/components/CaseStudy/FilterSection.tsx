@@ -1,4 +1,4 @@
-import { Checkbox, Col, Collapse, Divider, Row } from "antd";
+import { Checkbox, Col, Collapse, Row } from "antd";
 import { FaAngleDown } from "react-icons/fa6";
 
 export default function FilterSection({

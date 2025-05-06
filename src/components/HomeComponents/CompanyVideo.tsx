@@ -1,5 +1,3 @@
-import thumbnail from "../../assets/images/banners/shree-krishna-thumbnail.png";
-
 export default function CompanyVideo() {
   return (
     <div className="container mx-auto mt-15 mb-15">
