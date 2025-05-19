@@ -14,7 +14,7 @@ interface SearchWindowProps {
   isScrolling: boolean;
   onScroll: (e: React.UIEvent<HTMLDivElement>) => void;
   onAnimationEnd: () => void;
-  inputRef: React.RefObject<HTMLInputElement>;
+  inputRef: React.RefObject<HTMLInputElement | null>;
 }
 
 const SearchWindow = forwardRef<HTMLDivElement, SearchWindowProps>(
