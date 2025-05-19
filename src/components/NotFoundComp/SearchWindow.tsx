@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import { forwardRef } from "react";
 import { Animal } from "./animal-information";
 import { Button } from "antd";
 import { IoCloseSharp } from "react-icons/io5";
