@@ -99,6 +99,14 @@ const services = [
         },
       ],
     },
+    enhance: {
+      mode: "light",
+      title: "Enhance your online presence",
+      image: "",
+      shortdesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+      desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+    },
     whychoose: {
       mode: "dark",
       title: "Why We Are The Perfect Fit For Your Needs",
@@ -134,6 +142,88 @@ const services = [
             "https://www.monkeydigital.org/wp-content/uploads/2023/08/Onpage-SEO-300x217-1-280x217-1.jpg",
           title: "On-Page Optimization and Technical Optimization",
           desc: "Optimizing on-page elements as well as technological aspects on your site is essential for higher ranking in search engines. Our SEO experts examine and optimize key elements like title tags, meta descriptions headers images, and URL structure. We ensure that your site is secure, fast, and mobile-friendly. We also make sure your website is accessible improving the user experience overall and the crawlability of your website.",
+        },
+      ],
+    },
+    benefits: {
+      mode: "gray",
+      title: "The Benefits Of Partnering With Shree Krishna Digital",
+      shortdesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa quisquam ex dolorum ut quam quaerat iure exercitationem deleniti minima reiciendis magnam, quas doloremque repudiandae ad asperiores eligendi architecto itaque!",
+      whychoosepoints: [
+        {
+          image:
+            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Screenshot_5-raOu7uZmi-transformed-606x400-1.jpg",
+          title: "Customized SEO Strategies",
+          desc: "We understand that each company is unique and a standard approach to SEO will not produce optimal outcomes. Our team creates customized SEO strategies that are tailored to your unique objectives, needs, and the changing dynamics of your industry. When we understand your intended market and competitors we develop a strategy that is aligned with your business goals and ensures maximum efficiency and effectiveness.",
+        },
+        {
+          image:
+            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Screenshot-a_A5qIf7b-transformed-601x400-1.jpg",
+          title: "Proven track record",
+          desc: "Take your website to new heights with our comprehensive monthly SEO services. With many years of expertise in the SEO business, we have had remarkable success with a variety of clients from a variety of industries. Our performance is proof of our ability to provide tangible results that help companies achieve sustainable growth with increased search engine rankings. With our experience and expertise, you can get an edge in the world of digital.",
+        },
+        {
+          image:
+            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Screenshot_1-HeRF66lAW-transformed-597x400-1.jpg",
+          title: "Transparent reporting and analytics",
+          desc: "We recognize the importance of transparency in creating trust and forging an effective partnership. We provide thorough analysis and reporting that provides detailed insights into the performance and effectiveness of our SEO campaigns. Our insightful reports provide important metrics like organic traffic, search engine ranking, conversion rate, and much more, which allow you to assess the effectiveness of our campaigns. We believe that by remaining updated on the results of your SEO initiatives, you will be able to take informed decisions and take part in the development of your website’s presence.",
+        },
+        {
+          image:
+            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Screenshot_2-HYO2GdcC6-transformed-606x400-1.jpg",
+          title: "Affirmed Support and Collaboration",
+          desc: "Gain valuable insights with our in-depth SEO analysis. Get a comprehensive review of your website’s performance. We at Digital X Press SEO Agency are committed to the importance of open communication and collaboration. Our team of SEO experts works closely with you, offering continuous assistance and support all through the process. We believe in building strong relationships with our customers by understanding their individual desires and needs. Through collaboration, we make sure that our strategies align with your business goals creating the mutual benefit of a relationship that leads to the success of your business.",
+        },
+        {
+          image:
+            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Screenshot_3-KlndiIHtuF-transformed-604x400-1.jpg",
+          title: "Beating the Curve",
+          desc: "The world of digital is continuously evolving, and keeping in the forefront of technology is vital to continue to achieve success. Our group of SEO experts keeps an of industry trends as well as algorithm updates and the latest technologies. Through constant adaptation of our strategies and methods, we make sure that your site is well-designed and adaptable to constantly changing search engine trends. We keep our fingers in the pulse of the SEO market We provide you with an edge to compete that allows you to keep two steps ahead of the competition.",
+        },
+      ],
+    },
+    ourworks: {
+      mode: "image",
+      title: "Our SEO Works",
+      shortdesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+      worklist: [
+        {
+          link: "https://www.youtube-nocookie.com/embed/4YqmxZhQS0A?si=GcIpAI10vWbDHclG",
+          title: "Sejal Exports",
+          desc: {
+            para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+            keywords: [
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+            ],
+          },
+        },
+        {
+          link: "https://www.youtube-nocookie.com/embed/4YqmxZhQS0A?si=GcIpAI10vWbDHclG",
+          title: "Indian Delight",
+          desc: {
+            para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+            keywords: [
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+            ],
+          },
+        },
+        {
+          link: "https://www.youtube-nocookie.com/embed/4YqmxZhQS0A?si=GcIpAI10vWbDHclG",
+          title: "De Grandier",
+          desc: {
+            para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+            keywords: [
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+            ],
+          },
         },
       ],
     },

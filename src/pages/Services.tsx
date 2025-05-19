@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import services from "../components/support/ServicesArrayList";
 import CommanBanner from "../components/support/CommanBanner";
 import { FaCheck, FaIndianRupeeSign, FaMinus, FaPlus } from "react-icons/fa6";
@@ -9,6 +9,8 @@ import FaqArrow from "../assets/images/icons/faq-arrow.svg";
 import FaqStart from "../assets/images/icons/faq-star.svg";
 import SvgIcon from "../assets/images/icons/home-about-right.svg";
 import circle from "../assets/images/icons/service-home.svg";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "../css/services.css";
 
 export default function Services() {
   const [form] = Form.useForm();
@@ -84,6 +86,25 @@ export default function Services() {
           </section>
         )}
 
+        {data.package && (
+          <section className={`section section-${data?.enhance?.mode}`}>
+            <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title text-center">
+                  {data?.enhance?.title}
+                </h2>
+                <p className="section-content text-center max-w-200">
+                  {data?.enhance?.shortdesc}
+                </p>
+
+                <p className="section-content text-center max-w-200 mt-10">
+                  {data?.enhance?.desc}
+                </p>
+              </div>
+            </div>
+          </section>
+        )}
+
         {data.whychoose && (
           <section
             className={`section relative section-${data?.whychoose?.mode}`}
@@ -109,6 +130,59 @@ export default function Services() {
               <div className="section-detail mt-20">
                 {data?.whychoose?.whychoosepoints?.map((val, index) => (
                   <WhyChooseSection detail={val} index={index} key={index} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+
+        {data?.ourworks && (
+          <section className={`section section-${data?.ourworks?.mode}`}>
+            <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title text-center">
+                  {data?.ourworks?.title}
+                </h2>
+                <p className="section-content text-center max-w-200">
+                  {data?.ourworks?.shortdesc}
+                </p>
+              </div>
+              <Swiper className="mySwiper mt-20">
+                {data?.ourworks?.worklist?.map((val, index) => (
+                  <SwiperSlide>
+                    <OurWork data={val} key={index} />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+          </section>
+        )}
+
+        {data.benefits && (
+          <section
+            className={`section relative section-${data?.benefits?.mode}`}
+          >
+            <img src={FaqArrow} className="absolute -top-10 left-0" />
+            <img src={FaqStart} className="absolute top-0 right-0" />
+            <img
+              src={circle}
+              alt="circle"
+              className="absolute bottom-10 right-20"
+            />
+
+            <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title text-center">
+                  {data?.benefits?.title}
+                </h2>
+                <p className="section-content text-center max-w-200">
+                  {data?.benefits?.shortdesc}
+                </p>
+              </div>
+
+              <div className="section-detail mt-20">
+                {data?.benefits?.whychoosepoints?.map((val, index) => (
+                  <BenefitsSection detail={val} index={index} key={index} />
                 ))}
               </div>
             </div>
@@ -250,6 +324,45 @@ const WhyChooseSection = ({ detail, index }: any) => (
   </div>
 );
 
+const BenefitsSection = ({ detail, index }: any) => (
+  <div className="grid grid-cols-3 gap-10 mb-15">
+    {index % 2 === 0 ? (
+      <div className="descption-image">
+        <img
+          className="rounded-2xl"
+          style={{
+            width: "100%",
+            height: "100%",
+            maxHeight: 250,
+            objectFit: "cover",
+          }}
+          src={detail?.image}
+        />
+      </div>
+    ) : null}
+
+    <div className="section-detail-content col-span-2">
+      <h5 className=" text-3xl mb-3">{detail?.title}</h5>
+      <p className="mb-5  font-extralight">{detail?.desc}</p>
+    </div>
+
+    {index % 2 !== 0 ? (
+      <div className="descption-image">
+        <img
+          className="rounded-2xl"
+          style={{
+            width: "100%",
+            height: "100%",
+            maxHeight: 250,
+            objectFit: "cover",
+          }}
+          src={detail?.image}
+        />
+      </div>
+    ) : null}
+  </div>
+);
+
 const PackageCard = ({ detail }: any) => (
   <div
     className={`package-card  p-12 cursor-pointer ${
@@ -371,6 +484,51 @@ const FAQ = ({ detail }: any) => (
               ),
             })
           )}
+        />
+      </div>
+    </div>
+  </div>
+);
+
+const OurWork = ({ data }: any) => (
+  <div className="work-section">
+    <div className="grid grid-cols-7 gap-15">
+      <div className="col-span-4">
+        <div className="videoFrame">
+          <iframe
+            width={"100%"}
+            height={400}
+            src={data?.link}
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          />
+        </div>
+      </div>
+      <div className="col-span-3">
+        <strong>SEO Enhance</strong>
+        <h3>{data?.title}</h3>
+        <p>{data?.desc?.para}</p>
+        <Collapse
+          bordered={false}
+          expandIconPosition="right"
+          defaultActiveKey={["1"]}
+          style={{ background: "transparent", padding: 0 }}
+          items={[
+            {
+              key: "1",
+              label: <h5>Rank Keywords</h5>,
+              children: (
+                <div className="flex flex-col">
+                  {data?.desc?.keywords?.map((val: string, index: number) => (
+                    <NavLink key={index} to="#">
+                      {index + 1})&nbsp;{val}
+                    </NavLink>
+                  ))}
+                </div>
+              ),
+            },
+          ]}
         />
       </div>
     </div>

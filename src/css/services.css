@@ -1,0 +1,30 @@
+.work-section{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.work-section h5{
+    color: var(--primary-color);
+}
+
+.work-section strong {
+  color: var(--third-color);
+}
+
+
+.work-section svg {
+  color: #000;
+}
+
+.work-section h3 {
+  font-size: 2rem;
+}
+
+.work-section a{
+    color: #808080;
+}
+
+.work-section a:hover{
+    text-decoration: underline;
+}

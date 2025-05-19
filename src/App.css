@@ -62,6 +62,12 @@ section.section.section-dark {
   background-color: var(--section-background-dark);
 }
 
+section.section-image{
+  background-image: url("./assets/images/resources/bg-section.png");
+  object-fit: cover;
+  background-attachment: fixed;
+}
+
 section .section-title {
   color: var(--section-title-color);
   font-size: var(--section-title);
