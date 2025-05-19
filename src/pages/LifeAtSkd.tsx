@@ -6,6 +6,7 @@ import { FaBirthdayCake, FaBusAlt } from "react-icons/fa";
 import { PiOfficeChairFill } from "react-icons/pi";
 import "../css/galler.css";
 import { FaImage } from "react-icons/fa6";
+import banner from "../assets/images/banners/life-at-skdm-banner.jpeg";
 
 export default function LifeAtSkd() {
   const [activeKey, setActiveKey] = useState("all");
@@ -199,7 +200,7 @@ export default function LifeAtSkd() {
     <>
       <CommanBanner
         image={
-          "https://lh3.googleusercontent.com/p/AF1QipOr46CkP00SNM4i7FjIQUJfEeL884DM0PtqPTA0=s1360-w1360-h1020-rw"
+          banner
         }
         title="Life at Shree Krishna Digital Solution"
         desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ab dolorum, non distinctio voluptatibus deserunt natus tempore corporis vel eum molestiae exercitationem ea, ipsum sunt expedita reiciendis obcaecati! Beatae, repudiandae."

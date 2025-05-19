@@ -200,3 +200,13 @@ section.secton-center p {
 .comman-banner p{
   color: var(--font-color-paragraph);
 }
+
+.formInput{
+  height: 45px;
+}
+
+.formInput:hover,
+.formInput:focus {
+  border-color: #000;
+  outline: #000;
+}

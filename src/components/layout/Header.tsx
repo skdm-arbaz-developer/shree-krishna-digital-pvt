@@ -1,7 +1,7 @@
 import "../../css/layout/Header.css";
 import logo from "../../assets/images/logo.png";
 import logoWhite from "../../assets/images/logo-white.png";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import ModeControl from "../support/ModeControl";
 import { useTheme } from "../../context/ThemeContext";
 import DropDown from "./DropDown";
@@ -9,13 +9,22 @@ import LeftDrawerNav from "./LeftDrawerNav";
 import EnquiryForm from "../Modal/EnquiryForm";
 import NavigationLinks from "../support/NavigationLinks";
 import { Dropdown, Space } from "antd";
+import { useEffect } from "react";
 
 export default function Header() {
   const { theme } = useTheme();
 
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+    });
+  }, [pathname]);
+
   return (
     <header className="header-css">
-      <div className="container mx-auto flex flex-wrap flex-row items-center">
+      <div className="container mx-auto flex flex-row items-center justify-between">
         <LeftDrawerNav />
         <NavLink to="/" className="logo">
           <img
@@ -47,7 +56,12 @@ export default function Header() {
                   </NavLink>
                 </Dropdown>
               ) : (
-                <DropDown key={index} desc={val.desc} nav={val.name} links={val.link}>
+                <DropDown
+                  key={index}
+                  desc={val.desc}
+                  nav={val.name}
+                  links={val.link}
+                >
                   <NavLink
                     className="active"
                     key={index}

@@ -10,6 +10,7 @@ import { RiUserCommunityFill } from "react-icons/ri";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { GoArrowRight } from "react-icons/go";
 import { useEffect, useState } from "react";
+import SvgIcon from "../../assets/images/icons/home-about-right.svg";
 
 export default function WhyChoosePoints() {
   type ItemType = {
@@ -65,11 +66,13 @@ export default function WhyChoosePoints() {
     },
   ];
   useEffect(() => {
-    setActive(data[0])
+    setActive(data[0]);
   }, []);
 
   return (
-    <section className="section">
+    <section className="section relative">
+      <img src={SvgIcon} className="absolute top-0 right-0" />
+
       <div className="container mx-auto">
         <div className="section-body flex flex-col justify-center items-center">
           <h2 className="section-title">Types of websites</h2>

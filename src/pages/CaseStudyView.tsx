@@ -140,7 +140,8 @@ export default function CaseStudyView() {
   const selectedCaseStudy = casestudy.find((val) => val.title === id);
 
   return selectedCaseStudy ? (
-    <section className="section">
+    <section className="section relative">
+
       <div className="container mx-auto">
         <div className="section-body">
           <Tag color="black">{selectedCaseStudy?.type}</Tag>

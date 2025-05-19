@@ -12,8 +12,7 @@ export default function OurTeam() {
       <CommanBanner
         image={TeamBanner}
         title="Our Team"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sequi accusamus consectetur dolore numquam ut aspernatur quidem, culpa unde consequatur distinctio. Dignissimos, ea quasi officiis a similique numquam vero molestiae.
-"
+        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sequi accusamus consectetur dolore numquam ut aspernatur quidem, culpa unde consequatur distinctio. Dignissimos, ea quasi officiis a similique numquam vero molestiae."
       />
       <AboutOwner />
     </>

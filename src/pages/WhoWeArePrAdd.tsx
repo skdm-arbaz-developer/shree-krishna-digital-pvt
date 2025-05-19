@@ -12,6 +12,9 @@ import image4 from "../assets/images/partners/PhonePe.png";
 import image5 from "../assets/images/partners/Rayzorpay.png";
 import { BsArrowRight } from "react-icons/bs";
 import PortfolioSectionCard from "../components/AdsAndPR/PortfolioSectionCard";
+import SvgIcon from "../assets/images/icons/home-about-right.svg";
+import FaqArrow from "../assets/images/icons/faq-arrow.svg";
+import FaqStart from "../assets/images/icons/faq-star.svg";
 
 export default function WhoWeArePrAdd() {
   const teamlist = [
@@ -155,7 +158,6 @@ export default function WhoWeArePrAdd() {
       video: "https://www.pexels.com/video/854194/",
     },
   ];
-  
 
   return (
     <>
@@ -164,7 +166,8 @@ export default function WhoWeArePrAdd() {
         desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime, porro, quae perferendis odit dolorem eveniet odio saepe inventore repudiandae non repellendus commodi a corporis? Consequuntur aspernatur officia vero dolores!"
         image="https://images.pexels.com/photos/3045399/pexels-photo-3045399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
       />
-      <section className="section">
+      <section className="section relative">
+        <img src={SvgIcon} className="absolute top-0 right-0" />
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-10">
             <div className="col-span-5">
@@ -204,6 +207,7 @@ export default function WhoWeArePrAdd() {
           </div>
         </div>
       </section>
+
       <section className="section section-gray">
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-10">
@@ -242,6 +246,7 @@ export default function WhoWeArePrAdd() {
           </div>
         </div>
       </section>
+
       <div className="adspromotion">
         <video autoPlay loop>
           <source src="https://videos.pexels.com/video-files/854106/854106-hd_1920_1080_25fps.mp4" />
@@ -258,7 +263,9 @@ export default function WhoWeArePrAdd() {
           </NavLink>
         </div>
       </div>
-      <section className="section section-dark">
+      <section className="section relative section-dark">
+      <img src={FaqArrow} className="absolute -top-10 left-0" />
+      <img src={FaqStart} className="absolute top-0 right-0" />
         <div className="container mx-auto">
           <div className="section-body flex justify-center items-center flex-col">
             <h2 className="section-title text-center">Team Behind the Ads</h2>
@@ -329,7 +336,7 @@ export default function WhoWeArePrAdd() {
         </div>
       </section>
 
-      {portfolio.splice(0,5).map((val, index) => (
+      {portfolio.splice(0, 5).map((val, index) => (
         <PortfolioSectionCard key={index} index={index} portfolio={val} />
       ))}
     </>

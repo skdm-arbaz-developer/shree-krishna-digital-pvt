@@ -3,6 +3,7 @@ import FilterSection from "../components/CaseStudy/FilterSection";
 import CommanBanner from "../components/support/CommanBanner";
 import "../css/casestudy.css";
 import CaseStudyCard from "../components/CaseStudy/CaseStudyCard";
+import SvgIcon from "../assets/images/icons/home-about-right.svg";
 
 export default function CaseStudy() {
   const [selectServices, setSelectServices] = useState("All");
@@ -78,7 +79,9 @@ export default function CaseStudy() {
         image="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=1200"
       />
 
-      <section className="section">
+      <section className="section relative">
+        <img src={SvgIcon} className="absolute top-0 right-0" />
+
         <div className="container mx-auto">
           <div className="grid grid-cols-12 gap-7">
             <div className="col-span-3">

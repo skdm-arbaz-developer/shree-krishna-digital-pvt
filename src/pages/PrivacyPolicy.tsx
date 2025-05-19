@@ -1,4 +1,5 @@
 import "../css/privacypolicy.css";
+import SvgIcon from "../assets/images/icons/home-about-right.svg";
 
 export default function PrivacyPolicy() {
   const privacyPolicyData = [
@@ -165,7 +166,9 @@ export default function PrivacyPolicy() {
   ];
 
   return (
-    <section className="section">
+    <section className="section relative">
+      <img src={SvgIcon} className="absolute top-0 right-0" />
+
       <div className="container mx-auto">
         <div className="section-body pb-20 flex flex-col justify-center items-center">
           <h2 className="section-title">Privacy Policy</h2>

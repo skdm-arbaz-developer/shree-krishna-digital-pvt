@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import CaseStudyCard from "../CaseStudy/CaseStudyCard";
 import "../../css/casestudy.css";
+import FaqArrow from "../../assets/images/icons/faq-arrow.svg";
+import FaqStart from "../../assets/images/icons/faq-star.svg";
 
 export default function OurSuccessStorie() {
   const casestudy = [
@@ -70,7 +72,10 @@ export default function OurSuccessStorie() {
   ];
 
   return (
-    <section className="section section-dark">
+    <section className="section relative section-dark">
+      <img src={FaqArrow} className="absolute -top-10 left-0" />
+      <img src={FaqStart} className="absolute top-0 right-0" />
+
       <div className="container mx-auto">
         <div className="grid grid-cols-12">
           <div className="col-span-4">

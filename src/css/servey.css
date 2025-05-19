@@ -1,0 +1,158 @@
+.survay-form {
+  background-color: #eee;
+  border-radius: 15px;
+  padding-bottom: 30px;
+  width: 100%;
+}
+
+.survay-header {
+  position: relative;
+  height: 250px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.survay-header > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.survey-content {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  border-radius: 15px;
+  padding: 15px;
+}
+
+.survey-content > img {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+}
+
+.survey-content h2 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 10px;
+  color: var(--secondary-color);
+  padding: 0 15px;
+}
+
+.survey-question {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  border-radius: 15px;
+  transform: translateY(-50px);
+  z-index: 100000;
+  width: 90%;
+}
+
+.survey-question h4 {
+  font-size: 1.2rem;
+}
+
+.button-list {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.button-list button {
+  height: 40px;
+  min-width: 100px;
+  border: 1px solid;
+  border-color: var(--primary-color) !important;
+  color: var(--primary-color);
+}
+
+.button-list button:hover,
+.button-list button:focus {
+  background-color: var(--primary-color) !important;
+  color: #fff !important;
+}
+
+.button-list button.success {
+  background-color: green !important;
+  border: green !important;
+  color: #fff !important;
+}
+
+/* Media Queries for Responsive Design */
+@media screen and (max-width: 768px) {
+  .survay-header {
+    height: 200px;
+  }
+
+  .survay-header > img {
+    height: 200px;
+  }
+
+  .survey-content > img {
+    max-width: 150px;
+  }
+
+  .survey-content h2 {
+    font-size: 1rem;
+  }
+
+  .survey-question {
+    padding: 15px;
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .survay-header {
+    height: 180px;
+  }
+
+  .survay-header > img {
+    height: 180px;
+  }
+
+  .survey-content > img {
+    max-width: 120px;
+  }
+
+  .survey-content h2 {
+    font-size: 0.9rem;
+  }
+
+  .survey-question {
+    padding: 12px;
+    transform: translateY(-30px);
+  }
+
+  .survey-question h4 {
+    font-size: 1rem;
+  }
+
+  .button-list {
+    padding: 0 10px;
+  }
+
+  .button-list button {
+    min-width: 90px;
+    font-size: 0.9rem;
+  }
+}

@@ -1,4 +1,7 @@
-.blog-card.list {
+.blog-card{
+  cursor: "pointer";
+}
+.list {
   margin-bottom: 20px;
 }
 

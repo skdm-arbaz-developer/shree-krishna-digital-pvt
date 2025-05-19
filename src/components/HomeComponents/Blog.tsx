@@ -141,9 +141,7 @@ const BlogCard = ({ type, data }: CardProps) => (
           </Tag>
         ))
       ) : (
-        <Tag color="#e98c14">
-          {data?.tags[0]}
-        </Tag>
+        <Tag color="#e98c14">{data?.tags[0]}</Tag>
       )}
       <h4 className="blog-card-title">{data?.title}</h4>
       <p className="blog-card-content">{data?.summary}</p>

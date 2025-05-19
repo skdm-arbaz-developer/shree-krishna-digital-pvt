@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700");
+
+:root {
+  --background: 260 100% 19%; /* Dark Purple #6200C4 */
+  --foreground: 0 0% 100%; /* White */
+  --card: 260 100% 19%;
+  --card-foreground: 0 0% 100%;
+  --popover: 260 100% 19%;
+  --popover-foreground: 0 0% 100%;
+  --primary: 31 100% 47%; /* Vibrant Orange #ED6F00 */
+  --primary-foreground: 0 0% 100%;
+  --secondary: 0 0% 100%; /* White for search window (alpha applied in component) */
+  --secondary-foreground: 0 0% 0%; /* Black text for search window */
+  --muted: 0 0% 96.1%;
+  --muted-foreground: 0 0% 45.1%;
+  --accent: 196 100% 71%; /* Cyan #69CDFF */
+  --accent-foreground: 0 0% 0%; /* Black text on accent */
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 0 0% 98%;
+  --border: 0 0% 89.8%;
+  --input: 0 0% 89.8%;
+  --ring: 196 100% 71%; /* Accent color for ring */
+  --radius: 0.75rem;
+
+  --font-fredoka-one: "Fredoka One", cursive;
+  --font-open-sans: "Open Sans", sans-serif;
+
+  /* Variables from SCSS */
+  --wave-time: 600ms;
+  --wave-size: 1vmin;
+  --search-icon-size: 2.8rem;
+  --search-icon-rotate: -38deg;
+  --search-show-time: 375ms;
+  --search-fade-time: 256ms;
+  --search-move-time: 32ms; /* Adjusted for smoother transition with requestAnimationFrame */
+  --search-box-size: var(--search-icon-size);
+  --search-window-shown-width: calc(100vw - 4rem);
+  --search-window-shown-height: calc(100vh - 4rem);
+  --search-window-shown-top: 2rem;
+  --search-window-shown-left: 2rem;
+  --search-window-show-time: 512ms;
+}
+
+/* App container, matching #app from Vue */
+.app-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Error Page Styles */
+.error-container {
+  background-image: linear-gradient(to bottom right, #6200c4, #ed6f00);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  left: 0;
+  cursor: none;
+}
+
+.error-container::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.error-code {
+  font-family: var(--font-fredoka-one);
+  font-size: 24vmin;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: calc(24vmin / 15) calc(24vmin / 15) rgba(48, 48, 48, 0.5);
+  user-select: none;
+  padding: 1.5vmin 5vmin;
+  display: flex;
+}
+
+.error-code span {
+  font-weight: bold;
+  display: block;
+}
+
+.error-code span:nth-child(1) { animation: error-code-1 var(--wave-time) linear infinite; }
+.error-code span:nth-child(2) { animation: error-code-2 var(--wave-time) linear infinite; }
+.error-code span:nth-child(3) { animation: error-code-3 var(--wave-time) linear infinite; }
+
+@keyframes error-code-1 {
+  0%, 100% { transform: translateY(0vmin); }
+  25% { transform: translateY(calc(-1 * var(--wave-size))); }
+  50% { transform: translateY(0vmin); }
+  75% { transform: translateY(var(--wave-size)); }
+}
+@keyframes error-code-2 {
+  0%, 100% { transform: translateY(0vmin); }
+  25% { transform: translateY(var(--wave-size)); }
+  50% { transform: translateY(0vmin); }
+  75% { transform: translateY(calc(-1 * var(--wave-size))) }
+}
+@keyframes error-code-3 {
+  0%, 100% { transform: translateY(0vmin); }
+  25% { transform: translateY(calc(-1 * var(--wave-size))); }
+  50% { transform: translateY(0vmin); }
+  75% { transform: translateY(var(--wave-size)); }
+}
+
+.error-title-main { /* Renamed to avoid conflict if CardTitle is used elsewhere */
+  font-family: var(--font-fredoka-one);
+  font-size: 2.8rem;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: calc(2.8rem / 15) calc(2.8rem / 15) rgba(48, 48, 48, 0.5);
+  user-select: none;
+  padding: 1.5vmin 10vmin;
+}
+
+.error-message {
+  font-family: var(--font-fredoka-one); /* As per request for consistency, or use Open Sans if preferred for messages */
+  font-size: 1.2rem;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: calc(1.2rem / 15) calc(1.2rem / 15) rgba(48, 48, 48, 0.5);
+  user-select: none;
+  padding: 1.5vmin 5vmin; /* Adjusted padding for smaller text */
+  max-width: 70vw;
+}
+
+/* Search Icon Styles */
+.search-icon {
+  --icon-width: 0.32rem;
+  --box-shadow-val: calc(-1 * var(--icon-width)) var(--icon-width) calc(var(--icon-width) * 2) rgba(31, 31, 31, 0.8);
+  background-color: rgba(105, 205, 255, 0.5); /* #69CDFF with alpha */
+  width: var(--search-icon-size);
+  height: var(--search-icon-size);
+  border: solid var(--icon-width) #fffb8c;
+  box-sizing: border-box;
+  border-radius: 50%;
+  position: absolute;
+  transform: rotate(var(--search-icon-rotate));
+  box-shadow: var(--box-shadow-val);
+  pointer-events: none;
+  /* transition for top/left handled by inline style updates + requestAnimationFrame for smoothness */
+  opacity: 0; /* Initial state for animation */
+}
+
+.search-icon.visible {
+  animation: show-search-icon var(--search-show-time) linear forwards;
+}
+.search-icon.hidden {
+  opacity: 0;
+  transition: opacity var(--search-fade-time) ease-out;
+}
+
+
+.search-icon::after {
+  --handle-width: 0.45rem;
+  --handle-height: 1.4rem;
+  content: '';
+  background-color: #30b3ff;
+  width: var(--handle-width);
+  height: var(--handle-height);
+  position: absolute;
+  bottom: calc(-1 * (var(--handle-height) + var(--icon-width)));
+  left: calc(50% - (var(--handle-width) / 2));
+  border-radius: calc(var(--handle-width) / 2);
+  box-shadow: var(--box-shadow-val);
+}
+
+@keyframes show-search-icon {
+  0% { transform: rotate(var(--search-icon-rotate)) scale(0); opacity: 0; }
+  40% { transform: rotate(var(--search-icon-rotate)) scale(1.15); opacity: 1;}
+  60% { transform: rotate(var(--search-icon-rotate)) scale(0.9); }
+  80% { transform: rotate(var(--search-icon-rotate)) scale(1.05); }
+  100% { transform: rotate(var(--search-icon-rotate)) scale(1); opacity: 1;}
+}
+
+
+/* Search Window Styles */
+.search-window {
+  font-family: var(--font-open-sans);
+  background-color: rgba(255, 255, 255, 0.7);
+  width: var(--search-window-shown-width);
+  height: var(--search-window-shown-height);
+  border-radius: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0.5rem 1.2rem 2rem rgba(0, 0, 0, 0.7);
+  box-sizing: border-box;
+  position: absolute;
+  top: var(--search-window-shown-top);
+  left: var(--search-window-shown-left);
+  overflow: hidden;
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px); /* For Safari */
+  opacity: 0; /* Initial state, animation controls visibility */
+}
+
+.search-window.visible {
+  animation: search-window-show var(--search-window-show-time) ease-out forwards;
+  opacity: 1; /* Make sure it stays visible after animation if not handled by 'forwards' */
+}
+.search-window.visible.closing {
+  opacity: 0;
+  transition: opacity var(--search-fade-time) ease-out;
+}
+
+
+@keyframes search-window-show {
+  0% {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    /* Dynamic top/left will be set by JS for the start of animation */
+  }
+  30%, 35% {
+    width: var(--search-box-size);
+    height: var(--search-box-size);
+    opacity: 1;
+    /* top/left will transition from JS-set initial to var(--search-window-shown-top/left) */
+  }
+  65%, 75% {
+    width: var(--search-window-shown-width);
+    height: var(--search-box-size);
+    top: var(--search-window-shown-top);
+    left: var(--search-window-shown-left);
+    opacity: 1;
+  }
+  100% {
+    width: var(--search-window-shown-width);
+    height: var(--search-window-shown-height);
+    top: var(--search-window-shown-top);
+    left: var(--search-window-shown-left);
+    opacity: 1;
+  }
+}
+
+.search-window-search {
+  display: flex;
+  flex-shrink: 0;
+  flex-grow: 0;
+  box-shadow: 0 0 0 #8f8f8f;
+  /* transform: translateZ(1px); Fixes potential rendering glitches with box-shadow and backdrop-filter */
+  transition: box-shadow 120ms ease-out;
+  z-index: 10; /* Ensure it's above scrolling content for shadow */
+  background-color: rgba(255, 255, 255, 0.3); /* Slight bg to differentiate from content area */
+}
+
+.search-window-search input[type="text"] {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0 1rem;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  width: 100%;
+  flex-grow: 1;
+  height: var(--search-box-size);
+  color: var(--secondary-foreground);
+}
+.search-window-search input[type="text"]::placeholder {
+  color: hsl(var(--muted-foreground) / 0.7);
+}
+
+
+.search-window-search button[type="button"] {
+  font-family: inherit;
+  font-size: inherit;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+  width: var(--search-box-size);
+  height: var(--search-box-size);
+  flex-shrink: 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+.search-window-search button[type="button"] > span {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: transform 250ms cubic-bezier(0.18, 0.89, 0.32, 1.275); /* Adjusted bezier for pop effect */
+}
+
+.search-window-search button[type="button"] > span > span {
+  --close-icon-width: 1.6rem;
+  --close-icon-height: 0.3rem;
+  content: "";
+  background-color: var(--accent-foreground); /* Use theme variable */
+  width: var(--close-icon-width);
+  height: var(--close-icon-height);
+  opacity: 0;
+  position: absolute;
+  top: calc(50% - (var(--close-icon-height) / 2));
+  left: calc(50% - (var(--close-icon-width) / 2));
+  border-radius: 0.1rem;
+  transform-origin: center center;
+}
+
+.search-window-search button[type="button"] > span > span:nth-child(1) {
+  animation: close-icon-show-1 0.5s ease-out var(--search-window-show-time) forwards;
+}
+.search-window-search button[type="button"] > span > span:nth-child(2) {
+  animation: close-icon-show-2 0.5s ease-out var(--search-window-show-time) forwards;
+}
+
+.search-window-search button[type="button"]:hover > span {
+  transform: scale(1.2);
+}
+
+@keyframes close-icon-show-1 {
+  0% { opacity: 0; transform: rotate(45deg) translateX(1rem); }
+  100% { opacity: 1; transform: rotate(45deg) translateX(0rem); }
+}
+@keyframes close-icon-show-2 {
+  0% { opacity: 0; transform: rotate(-45deg) translateX(1rem); }
+  100% { opacity: 1; transform: rotate(-45deg) translateX(0rem); }
+}
+
+.search-window-section {
+  --padding-val: 0.4rem;
+  height: 100%;
+  flex-shrink: 1;
+  flex-grow: 1;
+  overflow-y: auto;
+  color: var(--secondary-foreground);
+}
+.search-window-section > div { /* This targets the results container */
+   padding-top: var(--padding-val);
+}
+
+.search-window-container {
+  padding: calc(var(--padding-val) * 2) calc(var(--padding-val) * 4); /* More horizontal padding for items */
+  transition: background-color 150ms ease-out, opacity 150ms ease-out;
+  opacity: 1;
+}
+.search-window-container.item-exit {
+  opacity: 0;
+}
+
+.search-window-container:hover {
+  background-color: rgba(0, 0, 0, 0.05); /* Darker hover for better contrast on light bg */
+}
+
+.search-window-title {
+  padding: var(--padding-val) 0; /* Reduced padding within item */
+}
+.search-window-title a {
+  color: inherit;
+  font-size: 1.1em; /* Relative to parent */
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+}
+.search-window-title a:hover {
+  text-decoration: underline;
+}
+
+.search-window-content {
+  padding: var(--padding-val) 0; /* Reduced padding within item */
+  font-size: 0.95em;
+  line-height: 1.5;
+}
+
+/* Hide scrollbar for a cleaner look, but still scrollable */
+.search-window-section::-webkit-scrollbar {
+  width: 8px;
+}
+.search-window-section::-webkit-scrollbar-track {
+  background: transparent;
+}
+.search-window-section::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+.search-window-section::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0,0,0,0.3);
+}

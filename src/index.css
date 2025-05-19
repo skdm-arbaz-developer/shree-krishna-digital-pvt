@@ -38,6 +38,7 @@
   --section-title-font-style: normal;
 
   --cursive-font: "Edu SA Beginner", cursive;
+  --sidebar-background-color: #eee;
 }
 
 /* 2 */
@@ -51,6 +52,13 @@
   --section-background-dark: #302043;
   --section-title-color: #fff;
   --font-color-paragraph: #a5a5a5;
+  --sidebar-background-color: #444;
+}
+
+body,
+html{
+  scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 /* 3 */

@@ -1,48 +1,58 @@
 import "../../css/team.css";
+import SvgIcon from "../../assets/images/icons/home-about-right.svg";
+import boss from "../../assets/images/team/ambrish-sir.png";
+import arbaz from "../../assets/images/team/arbaz-ansari.png";
+import priyanka from "../../assets/images/team/priyanka-salvi.jpeg";
+import rahul from "../../assets/images/team/rahul-shjul.jpeg";
+import saba from "../../assets/images/team/saba-patel.jpeg";
+import jyoti from "../../assets/images/team/jyoti-shukla.jpeg";
+import prem from "../../assets/images/team/prem-singh.jpeg";
+import aayush from "../../assets/images/team/aayush-choubey.jpeg";
+import vaisnavi from "../../assets/images/team/vaishnavi-alhat.jpg";
+import lovkush from "../../assets/images/team/lovkush.jpeg";
+import siddesh from "../../assets/images/team/siddesh.jpeg";
 
 export default function AboutOwner() {
   const teamlist = [
     {
-      image:
-        "https://images.pexels.com/photos/8871884/pexels-photo-8871884.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: jyoti,
       name: "Jyoti Shukla",
       designation: "Co-founder & Director",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel ?",
     },
     {
-      image:
-        "https://media.licdn.com/dms/image/v2/C4D03AQEeEyYzNtDq7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1524234561685?e=2147483647&v=beta&t=uHzeaBv3V2z6Tp6wvhzGABlTs9HR-SP-tEX1UbYNn4Q",
+      image: arbaz,
       name: "Arbaz Ansari",
       designation: "Sr. Developer & Team Lead",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
     },
     {
-      image:
-        "https://images.pexels.com/photos/31431924/pexels-photo-31431924/free-photo-of-confident-businessman-in-outdoor-setting.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: aayush,
       name: "Aayush Choubey",
-      designation: "Sr. Ads Executive",
+      designation: "Creative Head",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
     },
     {
-      image:
-        "https://images.pexels.com/photos/8528852/pexels-photo-8528852.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      image: priyanka,
       name: "Priyanka Salvi",
       designation: "Sr. Sales Executive & Team Lead",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
     },
     {
-      image:
-        "https://wac-cdn.atlassian.com/dam/jcr:ba03a215-2f45-40f5-8540-b2015223c918/Max-R_Headshot%20(1).jpg?cdnVersion=2637",
-
+      image: prem,
+      name: "Prem Singh",
+      designation: "Sr. Sales Executive",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
+    },
+    {
+      image: rahul,
       name: "Rahul Sehjul",
       designation: "SEO Executive",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
     },
 
     {
-      image:
-        "https://images.pexels.com/photos/4342352/pexels-photo-4342352.jpeg?auto=compress&cs=tinysrgb&w=1200",
-
+      image: vaisnavi,
       name: "Vaisnavi  Alhat",
       designation: "Social Media Manager",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
@@ -54,10 +64,30 @@ export default function AboutOwner() {
       designation: "Graphic Designer",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
     },
+    {
+      image: saba,
+      name: "Saba Patel",
+      designation: "Project Manager",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
+    },
+    {
+      image: lovkush,
+      name: "Lovkush",
+      designation: "Frontend Developer",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
+    },
+    {
+      image: siddesh,
+      name: "Siddesh Thamekar",
+      designation: "Backend Developer",
+      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
+    },
   ];
 
   return (
-    <section className="section section-gray">
+    <section className="section relative section-gray">
+      <img src={SvgIcon} className="absolute top-0 right-0" />
+
       <div className="container mx-auto">
         <div className="section-body flex justify-center flex-col items-center">
           <h2 className="section-title text-center">Our Leadership & Team</h2>
@@ -66,13 +96,10 @@ export default function AboutOwner() {
           </p>
         </div>
         <div className="about-team mt-20">
-          <div className="owner-detail">
+          <div className="owner-detail relative">
             <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">
               <div className="owner-image">
-                <img
-                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  alt="Owner"
-                />
+                <img src={boss} alt="Owner" />
               </div>
               <div className="owner-content col-span-2">
                 <h2>Mr. Ambrish Kumar</h2>
