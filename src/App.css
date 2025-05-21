@@ -62,7 +62,7 @@ section.section.section-dark {
   background-color: var(--section-background-dark);
 }
 
-section.section-image{
+section.section-image {
   background-image: url("./assets/images/resources/bg-section.png");
   object-fit: cover;
   background-attachment: fixed;
@@ -97,11 +97,10 @@ section .section-title::after {
   height: 10px;
 }
 
-.section-center .section-title::after {
-  left: 50%;
-  transform: translateX(-50%);
+section.section-center .section-title::after {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
 }
-
 
 section.section-dark .section-content {
   font-size: 16px;
@@ -147,7 +146,8 @@ section.secton-center p {
   background-color: #fff;
   border: unset;
   outline: unset;
-  width: 300px;
+  width: 100%;
+  min-width: 300px;
   padding: 12px 10px;
   border-radius: 50px;
   padding-left: 20px;
@@ -177,6 +177,19 @@ section.secton-center p {
   background: #594d69;
 }
 
+@media (max-width: 768px) {
+  .get-in-touch h2 {
+    font-size: 1.8rem;
+    max-width: 100%;
+    text-align: left;
+  }
+}
+@media (max-width: 576px) {
+  .get-input input {
+    min-width: 100%;
+  }
+}
+
 /* ======================== Comman Banner =================== */
 
 .comman-banner {
@@ -185,7 +198,6 @@ section.secton-center p {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  
 }
 
 .banner-content {
@@ -203,11 +215,11 @@ section.secton-center p {
   color: #fff;
 }
 
-.comman-banner p{
+.comman-banner p {
   color: var(--font-color-paragraph);
 }
 
-.formInput{
+.formInput {
   height: 45px;
 }
 
@@ -215,4 +227,38 @@ section.secton-center p {
 .formInput:focus {
   border-color: #000;
   outline: #000;
+}
+
+@media (max-width: 990px) {
+  .enquiry-button {
+    border: unset;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 20px;
+  }
+
+  .comman-banner {
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-content {
+    max-width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    bottom: unset;
+    height: unset;
+  }
+
+  .comman-banner h2 {
+    font-size: 1.8rem;
+  }
+
+  section .section-title{
+    font-size: 1.8rem;
+  }
 }

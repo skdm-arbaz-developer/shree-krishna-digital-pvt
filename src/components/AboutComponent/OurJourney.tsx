@@ -49,7 +49,7 @@ export default function OurJourney() {
   return (
     <>
       <section
-        className="section section-dark section-center"
+        className="section section-dark"
         style={{ padding: "50px 0 30px 0" }}
       >
         <img src={FaqArrow} className="absolute -top-10 left-0" />
@@ -58,13 +58,13 @@ export default function OurJourney() {
         <div className="container mx-auto">
           <div className="section-body flex flex-col justify-between items-center">
             <h2
-              className="section-title text-center"
+              className="section-title"
               style={{ maxWidth: "600px" }}
             >
               SKDM’s Journey: From Vision to Reality
             </h2>
             <p
-              className="section-content text-center"
+              className="section-content"
               style={{ maxWidth: "700px" }}
             >
               From a bold vision in 2018 to becoming a trusted digital partner,
@@ -90,7 +90,7 @@ export default function OurJourney() {
 const JourneyCard = ({ year, title, content, image, index }: any) => {
   return (
     <div className="journey-card">
-      <div className="grid grid-cols-2">
+      <div className="md:grid md:grid-cols-2 relative">
         <div
           className={`journey-image ${index % 2 === 0 ? "order-2" : "order-1"}`}
         >

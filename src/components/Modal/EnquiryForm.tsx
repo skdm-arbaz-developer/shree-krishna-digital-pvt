@@ -156,8 +156,8 @@ export default function EnquiryForm() {
 
   return (
     <>
-      <Button onClick={showModal} className="comman-button">
-        <span className="block md:hidden xl:block">Get Quoate</span>
+      <Button onClick={showModal} className="comman-button enquiry-button">
+        <span className="hidden xl:block">Get Quoate</span>
         <MdOutlineSupportAgent />
       </Button>
       <Modal

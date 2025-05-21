@@ -1,4 +1,4 @@
-.footer {
+footer {
   background: #302043;
   color: #fff;
   padding: 50px 0;
@@ -6,26 +6,26 @@
   padding-bottom: 120px;
 }
 
-.footer p {
+footer p {
   font-weight: 300;
 }
 
-.footer .count {
+footer .count {
   margin: 25px 0;
 }
 
-.footer .count h5 {
+footer .count h5 {
   font-size: 2.2rem;
   font-weight: 700;
 }
 
-.footer .count p {
+footer .count p {
   font-size: 1.1rem;
   font-weight: 300;
   margin-top: 15px;
 }
 
-.footer .footer-brand img {
+footer .footer-brand img {
   width: 250px;
   margin-bottom: 10px;
 }
@@ -83,7 +83,6 @@
 .footer-link{
   margin: 0 10px;
   text-align: center;
-  width: 100%;
   position: relative;
 }
 .footer-line:last-child{

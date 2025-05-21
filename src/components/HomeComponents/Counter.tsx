@@ -23,7 +23,7 @@ export default function Counter() {
   return (
     <section className="section">
       <div className="container mx-auto">
-        <div className="grid grid-cols-4 gap-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {counters.map((val, index) => (
             <div key={index}>
               <CountUp enableScrollSpy start={0} end={val.digit} scrollSpyDelay={1000} delay={10000}>

@@ -19,7 +19,7 @@ export default function MissionVission() {
   return (
     <section className="section section-gray">
       <div className="container mx-auto">
-        <div className="section-body flex flex-row items-center justify-between">
+        <div className="section-body md:flex flex-row items-center justify-between">
           <h2 className="section-title" style={{ maxWidth: "600px" }}>
             Making Life Smoother and Easier Every Day
           </h2>
@@ -31,7 +31,13 @@ export default function MissionVission() {
         </div>
         <div className="mission-vission-content">
           {missionVissionContent.map((item, index) => (
-            <div className={`mission-vission-card ${(index+1) % 2 !== 0 && "right" }`} key={index} style={{backgroundImage: `url(${item.image})`}}>
+            <div
+              className={`mission-vission-card ${
+                (index + 1) % 2 !== 0 && "right"
+              }`}
+              key={index}
+              style={{ backgroundImage: `url(${item.image})` }}
+            >
               <div className="mission-vision-details">
                 <h2>{item.title}</h2>
                 <p>

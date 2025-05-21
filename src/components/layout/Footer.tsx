@@ -5,10 +5,11 @@ import { FaRegEnvelope } from "react-icons/fa6";
 import { HiOutlineLocationMarker } from "react-icons/hi";
 import { FiFacebook } from "react-icons/fi";
 import { CiLinkedin } from "react-icons/ci";
-import { FaInstagram } from "react-icons/fa";
+import { FaAngleDoubleRight, FaInstagram } from "react-icons/fa";
 import { BsWhatsapp } from "react-icons/bs";
 import { NavLink } from "react-router-dom";
 import GetInTouch from "../HomeComponents/GetInTouch";
+import countries from "../support/Countries";
 
 export default function Footer() {
   const counts = [
@@ -66,9 +67,9 @@ export default function Footer() {
   return (
     <>
       <GetInTouch />
-      <div className="footer">
+      <footer>
         <div className="container mx-auto">
-          <div className="grid grid-cols-3 gap-20">
+          <div className="md:grid md:grid-cols-3 gap-20">
             <div className="footer-brand">
               <img src={logo} />
               <p>
@@ -78,7 +79,7 @@ export default function Footer() {
                 ab temporibus provident aut quisquam praesentium.
               </p>
             </div>
-            <div className="footer-growth">
+            {/* <div className="footer-growth">
               <div className="grid grid-cols-2">
                 {counts.map((count, index) => (
                   <div className="count" key={index}>
@@ -86,6 +87,19 @@ export default function Footer() {
                     <p>{count.title}</p>
                   </div>
                 ))}
+              </div>
+            </div> */}
+            <div className="footer-contact">
+              <h3>Countries</h3>
+              <div className="contact-list">
+                <div className="grid grid-cols-2">
+                  {countries?.map((val, index) => (
+                    <div key={index} className="contact flex items-center">
+                      <FaAngleDoubleRight />
+                      <NavLink to={val?.url}>{val?.title}</NavLink>
+                    </div>
+                  ))}
+                </div>
               </div>
             </div>
             <div className="footer-contact">
@@ -151,21 +165,29 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="footer-links flex justify-center items-center flex-col">
-            <div className="devider" />
-            <div className="flex justify-center items-center gap-2 mt-3">
+          <div className="footer-links flex justify-center items-center flex-col px-4 py-6">
+            <div className="devider w-full h-px bg-gray-300" />
+
+            <div className="flex flex-wrap justify-center items-center gap-3 mt-4 text-center">
               {links.map((link, index) => (
-                <>
-                  <NavLink key={index} className="footer-link" to={link.link}>
+                <div key={index} className="flex items-center">
+                  <NavLink
+                    className="footer-link text-sm md:text-base text-white hover:text-black transition"
+                    to={link.link}
+                  >
                     {link.title}
                   </NavLink>
-                  <span className="footer-line">|</span>
-                </>
+                  {index !== links.length - 1 && (
+                    <span className="footer-line mx-2 text-white hidden sm:inline">
+                      |
+                    </span>
+                  )}
+                </div>
               ))}
             </div>
           </div>
         </div>
-      </div>
+      </footer>
     </>
   );
 }

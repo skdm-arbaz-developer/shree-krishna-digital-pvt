@@ -9,7 +9,7 @@ import { GrTechnology } from "react-icons/gr";
 import { RiUserCommunityFill } from "react-icons/ri";
 import { MdOutlineSupportAgent } from "react-icons/md";
 import { GoArrowRight } from "react-icons/go";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import SvgIcon from "../../assets/images/icons/home-about-right.svg";
 
 export default function WhyChoosePoints() {
@@ -20,6 +20,7 @@ export default function WhyChoosePoints() {
   };
 
   const [active, setActive] = useState<ItemType | null>(null);
+  const whyChooseRef = useRef<HTMLDivElement>(null);
 
   const data = [
     {
@@ -69,21 +70,30 @@ export default function WhyChoosePoints() {
     setActive(data[0]);
   }, []);
 
+  const handleClick = () => {
+    if (whyChooseRef.current) {
+      whyChooseRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     <section className="section relative">
       <img src={SvgIcon} className="absolute top-0 right-0" />
 
       <div className="container mx-auto">
         <div className="section-body flex flex-col justify-center items-center">
-          <h2 className="section-title">Types of websites</h2>
+          <h2 className="section-title">Why you Need Us</h2>
           <p className="section-content">
-            Custom Solutions for Every Business Need
+            Why we are the best choice for your business
           </p>
         </div>
 
         <div className="why-choose-section mt-20">
-          <div className="grid grid-cols-7 why-choose-card">
-            <div className="col-span-3 why-choose-card-left">
+          <div className="lg:grid lg:grid-cols-7 why-choose-card">
+            <div className="lg:col-span-3 why-choose-card-left">
               <List
                 dataSource={data}
                 renderItem={(item: ItemType) => (
@@ -93,7 +103,10 @@ export default function WhyChoosePoints() {
                         ? "why-choose-title active"
                         : " why-choose-title"
                     }
-                    onClick={() => setActive(item)}
+                    onClick={() => {
+                      setActive(item);
+                      handleClick();
+                    }}
                   >
                     <div className="flex items-center">
                       {item.icon}
@@ -104,7 +117,10 @@ export default function WhyChoosePoints() {
                 )}
               />
             </div>
-            <div className="col-span-4 why-choose-card-right">
+            <div
+              className="lg:col-span-4 why-choose-card-right mt-10 lg:mt-0"
+              ref={whyChooseRef}
+            >
               {active?.icon}
               <h3>{active?.title}</h3>
               <p>{active?.description}</p>

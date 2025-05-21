@@ -109,10 +109,10 @@ export default function Testimonial() {
 
       <div className="container mx-auto relative">
         <div className="section-body flex justify-center pb-20">
-          <h2 className="section-title text-center">What our clients, Say</h2>
+          <h2 className="section-title">What our clients, Say</h2>
         </div>
 
-        <div className="testimonial-list mt-20">
+        <div className="testimonial-list mt-30 lg:mt-20">
           <Swiper
             breakpoints={{
               640: {
@@ -128,6 +128,7 @@ export default function Testimonial() {
                 spaceBetween: 25,
               },
             }}
+            spaceBetween={20}
             pagination={{
               dynamicBullets: true,
             }}
@@ -159,7 +160,7 @@ const TestimonialCard = ({ review, name, company }: CardProps) => (
     </div>
     <div className="writer-detail">
       <Avatar size={50} shape="circle" icon={<FaUser />} />
-      <div className="contact-detail">
+      <div className="testimonial-contact-detail">
         <h5>{name}</h5>
         <p>{company}</p>
       </div>

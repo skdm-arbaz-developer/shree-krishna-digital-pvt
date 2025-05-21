@@ -1,10 +1,10 @@
 import { Button, Collapse, Divider, Drawer, List } from "antd";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import logo from "../../assets/images/logo.png";
 import whiteLogo from "../../assets/images/logo-white.png";
 import { GrClose } from "react-icons/gr";
 import NavigationLinks from "../support/NavigationLinks";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import "../../css/layout/Header.css";
 import {
   FaAngleDown,
@@ -19,6 +19,7 @@ import "../../css/contactus.css";
 export default function LeftDrawerNav() {
   const [open, setOpen] = useState(false);
   const { theme } = useTheme();
+  const location = useLocation();
 
   const showDrawer = () => {
     setOpen(true);
@@ -27,6 +28,10 @@ export default function LeftDrawerNav() {
   const onClose = () => {
     setOpen(false);
   };
+
+  useEffect(() => {
+    setOpen(false);
+  }, [location]);
 
   return (
     <>
@@ -142,14 +147,19 @@ export default function LeftDrawerNav() {
                       </NavLink>
                     }
                     title={
-                      <h5 className="header-drawer-nav-link">{item?.name}</h5>
+                      <NavLink
+                        to={item?.link}
+                        className="header-drawer-nav-link"
+                      >
+                        {item?.name}
+                      </NavLink>
                     }
                   />
                 )}
               </List.Item>
             )}
           />
-           <Divider />
+          <Divider />
           <div className="social-media">
             <h5 className="header-drawer-nav-link">Follow Us</h5>
             <ul>

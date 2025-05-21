@@ -10,11 +10,8 @@ const OurJourney = lazy(
 const MissionVission = lazy(
   () => import("../components/AboutComponent/MissionVission")
 );
-const CommanBanner = lazy(
-  () => import("../components/support/CommanBanner")
-);
+const CommanBanner = lazy(() => import("../components/support/CommanBanner"));
 import "../css/aboutpage.css";
-
 
 export default function AboutUs() {
   return (

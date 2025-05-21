@@ -3,7 +3,7 @@ export default function CompanyVideo() {
     <div className="container mx-auto mt-15 mb-15">
       <iframe
         width={"100%"}
-        height={"550"}
+        className="h-[300px] lg:h-[700px] rounded-lg"
         src="https://www.youtube-nocookie.com/embed/r1uKGjwrpZk?si=KMUv0tK_Ftf4l3W2&controls=0"
         title="YouTube video player"
         frameBorder={0}

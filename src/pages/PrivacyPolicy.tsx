@@ -177,7 +177,7 @@ export default function PrivacyPolicy() {
 
         {privacyPolicyData.map((val, index) => (
           <div className="policy-content" key={index}>
-            <div className="grid grid-cols-12">
+            <div className="grid md:grid-cols-12">
               <div className="col-span-3">
                 <h3>{val.section}</h3>
                 <p>{val.subContent}</p>
@@ -190,12 +190,12 @@ export default function PrivacyPolicy() {
                         <ul
                           style={{
                             margin: "10px 0",
-                            padding: "0 0 0 40px",
-                            listStyle: "inherit",
+                            padding: "0 0 0 30px",
+                            listStyle: "square",
                           }}
                         >
                           {valItem?.points?.map((val, index) => (
-                            <li key={index}>{val}</li>
+                            <li key={index}>-&nbsp;{val}</li>
                           ))}
                         </ul>
                         <p

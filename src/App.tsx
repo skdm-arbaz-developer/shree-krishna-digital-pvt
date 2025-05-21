@@ -14,8 +14,14 @@ import NotFound from "./pages/404";
 import BlogView from "./pages/BlogView";
 import industries from "./components/support/IndustryArrayList";
 import Industries from "./pages/Industries";
+import countries from "./components/support/Countries";
+import CountryServices from "./pages/CountryServices";
+import CountryServiceView from "./pages/CountryServiceView";
+import ComingSoon from "./pages/ComingSoon";
 
 function App() {
+
+
   return (
     <BrowserRouter>
       <Routes>
@@ -47,7 +53,7 @@ function App() {
           element={
             <>
               <Header />
-              <BlogView /> 
+              <BlogView />
               <Footer />
             </>
           }
@@ -65,7 +71,7 @@ function App() {
             }
           />
         ))}
-          {industries.map((val, index) => (
+        {industries.map((val, index) => (
           <Route
             path={val.slug}
             key={index}
@@ -78,6 +84,37 @@ function App() {
             }
           />
         ))}
+
+        {countries?.map((val) =>
+          val?.services?.map((val, index) => (
+            <Route
+              path={val.url}
+              key={index}
+              element={
+                <>
+                  {/* <Header /> */}
+                  <ComingSoon />
+                  {/* <Footer /> */}
+                </>
+              }
+            />
+          ))
+        )}
+
+        {countries?.map((val, index) => (
+          <Route
+            path={val.url}
+            key={index}
+            element={
+              <>
+                {/* <Header /> */}
+                <ComingSoon />
+                {/* <Footer /> */}
+              </>
+            }
+          />
+        ))}
+        <Route path="/coming-soon" element={<ComingSoon />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

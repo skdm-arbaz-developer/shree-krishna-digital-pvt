@@ -8,16 +8,15 @@ export default function PrAndAds() {
     <section className="section section-gray">
       <div className="container mx-auto">
         <div className="section-body">
-          <div className="flex justify-between">
+          <div className="lg:flex justify-between">
             <h2 className="section-title">We Help to, Make PR & Ads</h2>
             <NavLink to="/who-we-are-pr-advertising">
-              {" "}
               <Button className="comman-button mt-5">
                 Know More <BsArrowRight />
               </Button>
             </NavLink>
           </div>
-          <p className="section-content">
+          <p className="section-content mt-5 lg:mt-0">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
             quibusdam fuga tenetur neque soluta facere! Ipsa esse sint dolorum
             quidem magni unde qui exercitationem inventore. Voluptas fugiat nam
@@ -28,7 +27,7 @@ export default function PrAndAds() {
           </p>
         </div>
         <div className="ads-video mt-5">
-          <div className="grid grid-cols-3 gap-5">
+          <div className="grid lg:grid-cols-3 gap-y-5 lg:gap-5">
             <video
               className="first col-span-2"
               poster="https://www.coca-cola.com/content/dam/onexp/in/en/brands/thums-up/updated-banners/tu_srk-toofan-glass-size-1440x810-v3.jpg"

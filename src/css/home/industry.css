@@ -87,3 +87,9 @@
 .industry-swiper .swiper-rtl .swiper-button-next {
   left: var(--swiper-navigation-sides-offset, 0px) !important;
 }
+
+@media (max-width: 400px) {
+  .industry-card img {
+    min-height: 300px;
+  }
+}

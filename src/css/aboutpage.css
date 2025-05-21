@@ -70,7 +70,7 @@
 
 .left-section .journey-content {
   transform: translateX(20%);
-  z-index: 1000;
+  z-index: 100;
 }
 
 .right-section .journey-content {
@@ -117,4 +117,22 @@
   font-size: 1rem;
   font-weight: 300;
   color: #000;
+}
+
+@media (max-width: 768px) {
+  .journey-content-left {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    right: 30px;
+    transform: translateY(-50%);
+  }
+
+  .left-section .journey-content {
+    transform: unset;
+  }
+
+  .right-section .journey-content {
+    transform: unset;
+  }
 }

@@ -17,7 +17,7 @@ export default function OutProccess() {
         </div>
 
         <div className="section-proccess mt-20">
-          <div className="grid grid-cols-7">
+          <div className="grid lg:grid-cols-7">
             <div className="steps">
               <div className="step-icon">
                 <FiSearch />

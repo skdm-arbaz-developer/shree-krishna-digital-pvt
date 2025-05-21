@@ -295,12 +295,12 @@ export default function LifeAtSkd() {
           </ConfigProvider>
 
           <div className="images-list mt-10">
-            <div className="grid grid-cols-6 gap-10">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10">
               {(activeKey === "all"
                 ? contents
                 : contents.filter((val) => val.type === activeKey)
               ).map((val, index) => (
-                <div className="col-span-2 relative">
+                <div className="relative">
                   <Image.PreviewGroup key={index} items={val?.images}>
                     <Badge.Ribbon
                       color={finddBadgeColor({ type: val.type })}

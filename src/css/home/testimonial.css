@@ -35,17 +35,17 @@
   justify-content: flex-start;
   align-items: center;
 }
-.testimonial-card .writer-detail .contact-detail{
+.testimonial-card .writer-detail .testimonial-contact-detail{
     margin-left: 10px;
 }
 
-.testimonial-card .writer-detail .contact-detail h5{
+.testimonial-card .writer-detail .testimonial-contact-detail h5{
     font-size: 1.3rem;
     font-weight: 700;
     color: #000;
 }
 
-.testimonial-card .writer-detail .contact-detail p{
+.testimonial-card .writer-detail .testimonial-contact-detail p{
     font-size: .9rem;
     color: #808080;
 }

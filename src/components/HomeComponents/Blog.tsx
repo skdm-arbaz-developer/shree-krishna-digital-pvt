@@ -102,7 +102,7 @@ export default function Blog() {
     <section className="section">
       <div className="container mx-auto">
         <div className="section-body">
-          <div className="flex justify-between">
+          <div className="lg:flex justify-between">
             <h2 className="section-title">
               Explore Our Blog <br />
               and Articles
@@ -113,8 +113,8 @@ export default function Blog() {
           </div>
         </div>
 
-        <div className="blog-list">
-          <div className="grid grid-cols-2 gap-6">
+        <div className="blog-list mt-5 lg:mt-0">
+          <div className="lg:grid lg:grid-cols-2 gap-6">
             <BlogCard type="grid-card" data={blogs[0]} />
             <div className="blogs-list">
               {blogs.slice(1).map((blog, index) => (

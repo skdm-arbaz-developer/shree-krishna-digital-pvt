@@ -47,13 +47,14 @@ const NavigationLinks = [
       {
         name: "News",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/news",
+        link: "/coming-soon",
       },
 
       {
         name: "Case Study",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/case-study",
+        // link: "/case-study",
+        link: "/coming-soon",
       },
       {
         name: "Privacy Policy",
@@ -90,6 +91,11 @@ const NavigationLinks = [
         link: "/google-my-business",
       },
       {
+        name: "Pay Per Click",
+        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        link: "/pay-per-click",
+      },
+      {
         name: "Web Development",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         link: "/web-development",
@@ -115,43 +121,51 @@ const NavigationLinks = [
       {
         name: "Healthcare (Doctor & Hospital)",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/healthcare",
+        // link: "/healthcare",
+        link: "/coming-soon",
       },
       {
         name: "Hospitality & Catering",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/hospitality",
+        // link: "/hospitality",
+        link: "/coming-soon",
       },
       {
         name: "Real Estate",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/real-estate",
+        // link: "/real-estate",
+        link: "/coming-soon",
       },
       {
         name: "Resorts & Villa",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/resort-&-villa",
+        // link: "/resort-&-villa",
+        link: "/coming-soon",
       },
 
       {
         name: "Interior Designs",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/interior-design",
+        // link: "/interior-design",
+        link: "/coming-soon",
       },
       {
         name: "Spa & Salon",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/spa-&-salon",
+        // link: "/spa-&-salon",
+        link: "/coming-soon",
       },
       {
         name: "Education",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/education",
+        // link: "/education",
+        link: "/coming-soon",
       },
       {
         name: "Lifestyle",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/lifestyle",
+        // link: "/lifestyle",
+        link: "/coming-soon",
       },
     ],
   },
@@ -164,25 +178,29 @@ const NavigationLinks = [
       {
         name: "Who We Are",
         desc: "Get to know our team of seasoned PR professionals who craft compelling narratives and build brand reputation.",
-        link: "/who-we-are-pr-advertising",
+        // link: "/who-we-are-pr-advertising",
+        link: "/coming-soon",
       },
       {
         name: "Our Portfolio",
         desc: "Explore our past PR and advertising campaigns that have successfully elevated brands and driven engagement.",
-        link: "/our-portfolio",
+        // link: "/our-portfolio",
+        link: "/coming-soon",
       },
     ],
   },
   {
     prefix: <PiOfficeChairFill color="#e98c14" style={{ fontSize: "20px" }} />,
     name: "Career",
-    link: "/career",
+    // link: "/career",
+    link: "/coming-soon",
     desc: "",
   },
   {
     prefix: <LiaBloggerB color="#e98c14" style={{ fontSize: "20px" }} />,
     name: "Blogs",
-    link: "/blogs",
+    // link: "/blogs",
+    link: "/coming-soon",
     desc: "",
   },
   {

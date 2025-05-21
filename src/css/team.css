@@ -138,3 +138,9 @@
     color: #37676a;
     font-weight: 300;
 }
+
+@media (max-width: 1022px) {
+  .owner-image {
+    height: 100%;
+  }
+}

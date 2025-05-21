@@ -48,9 +48,9 @@ export default function Industries() {
     },
   ];
   return (
-    <section className="section secton-center">
+    <section className="section">
       <div className="container mx-auto">
-        <div className="section-body">
+        <div className="section-body flex justify-center flex-col items-center">
           <h2 className="section-title">Indusries, We Serve</h2>
           <p className="section-content">
             We provide a comprehensive range of solutions designed to address
@@ -73,6 +73,7 @@ export default function Industries() {
                 spaceBetween: 25,
               },
             }}
+            spaceBetween={20}
             navigation={true}
             modules={[Navigation]}
             className="industry-swiper"

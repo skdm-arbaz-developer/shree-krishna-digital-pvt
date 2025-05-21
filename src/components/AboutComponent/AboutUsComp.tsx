@@ -8,11 +8,11 @@ export default function AboutUsComp() {
   return (
     <section className="section section-gray home-about-us">
       <div className="container mx-auto">
-        <div className="grid grid-cols-2">
+        <div className="lg:grid lg:grid-cols-2">
           <div className="home-about-image">
             <img src={AboutUsImage} />
           </div>
-          <div className="section-body px-10 flex flex-col justify-center">
+          <div className="section-body mt-5 lg:mt-0 lg:px-10 flex flex-col justify-center">
             <h2 className="section-title" style={{ fontSize: "2rem" }}>
               Empowering Businesses with Smart Marketing & Tech Solutions
             </h2>
@@ -31,14 +31,14 @@ export default function AboutUsComp() {
 
             <Divider />
 
-            <div className="contact-info flex gap-20">
+            <div className="contact-info sm:flex gap-20">
               <div className="about-contact">
                 <h5 className="flex items-center gap-2">
                   <FaRegEnvelope /> Email
                 </h5>
                 <p>shreemarketing09@gmail.com</p>
               </div>
-              <div className="about-contact">
+              <div className="about-contact mt-5 lg:mt-0">
                 <h5 className="flex items-center gap-2">
                   <IoCallOutline /> Phone
                 </h5>

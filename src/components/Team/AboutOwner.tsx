@@ -90,18 +90,18 @@ export default function AboutOwner() {
 
       <div className="container mx-auto">
         <div className="section-body flex justify-center flex-col items-center">
-          <h2 className="section-title text-center">Our Leadership & Team</h2>
-          <p className="section-content text-center">
+          <h2 className="section-title">Our Leadership & Team</h2>
+          <p className="section-content">
             Guiding with Vision, Delivering with Passion
           </p>
         </div>
         <div className="about-team mt-20">
           <div className="owner-detail relative">
-            <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-10">
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
               <div className="owner-image">
                 <img src={boss} alt="Owner" />
               </div>
-              <div className="owner-content col-span-2">
+              <div className="owner-content lg:col-span-2">
                 <h2>Mr. Ambrish Kumar</h2>
                 <span>Founder & CEO</span>
                 <p>
@@ -124,7 +124,7 @@ export default function AboutOwner() {
           </div>
 
           <div className="team-list mt-30">
-            <div className="grid grid-cols-4 gap-8">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="team-card-list">
                 <h3>Our Team</h3>
                 <p>

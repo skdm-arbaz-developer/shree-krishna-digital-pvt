@@ -43,17 +43,17 @@ export default function FrequentylAskQ() {
     <section className="section section-dark">
       <div className="container mx-auto">
         <div className="section-body flex flex-col justify-center items-center">
-          <h2 className="section-title text-center">
+          <h2 className="section-title">
             Frequently Asked Questions
           </h2>
-          <p className="section-content text-center max-w-3xl">
+          <p className="section-content md:text-center max-w-3xl">
             Here, you’ll find answers to the most common questions. If you need
             further assistance, feel free to reach out!
           </p>
         </div>
 
         <div className="faq-list mt-10">
-          <div className="grid grid-cols-3">
+          <div className="grid lg:grid-cols-3">
             <div className="faq-image col-span-2">
               <img src={FaqImage} />
             </div>

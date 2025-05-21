@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import CaseStudyCard from "../CaseStudy/CaseStudyCard";
 import "../../css/casestudy.css";
+import "../../css/home/industry.css";
 import FaqArrow from "../../assets/images/icons/faq-arrow.svg";
 import FaqStart from "../../assets/images/icons/faq-star.svg";
 
@@ -77,8 +78,8 @@ export default function OurSuccessStorie() {
       <img src={FaqStart} className="absolute top-0 right-0" />
 
       <div className="container mx-auto">
-        <div className="grid grid-cols-12">
-          <div className="col-span-4">
+        <div className="lg:grid lg:grid-cols-12">
+          <div className="lg:col-span-4 mb-10 lg:mb-0">
             <div className="section-body">
               <h2 className="section-title">Our Success Stories</h2>
               <p className="section-content">
@@ -92,7 +93,7 @@ export default function OurSuccessStorie() {
               </Button>
             </div>
           </div>
-          <div className="col-span-8">
+          <div className="lg:col-span-8">
             <Swiper
               navigation={true}
               breakpoints={{
@@ -109,8 +110,9 @@ export default function OurSuccessStorie() {
                   spaceBetween: 20,
                 },
               }}
+              spaceBetween={20}
               modules={[Navigation]}
-              className="case-study"
+              className="industry-swiper"
             >
               {casestudy.map((val) => (
                 <SwiperSlide>

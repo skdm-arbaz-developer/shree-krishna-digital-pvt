@@ -34,16 +34,14 @@ export default function Services() {
 
             <div className="container mx-auto">
               <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
-                  {data?.description?.title}
-                </h2>
-                <p className="section-content text-center ">
+                <h2 className="section-title">{data?.description?.title}</h2>
+                <p className="section-content">
                   {data?.description?.shortdesc}
                 </p>
               </div>
 
               <div className="section-details mt-10">
-                <div className="grid grid-cols-2 gap-10">
+                <div className="grid lg:grid-cols-2 gap-10">
                   <div className="descption-image">
                     <img
                       style={{ width: "100%", height: "100%" }}
@@ -67,39 +65,18 @@ export default function Services() {
           <section className={`section section-${data?.package?.mode}`}>
             <div className="container mx-auto">
               <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
-                  {data?.package?.title}
-                </h2>
-                <p className="section-content text-center max-w-200">
+                <h2 className="section-title">{data?.package?.title}</h2>
+                <p className="section-content max-w-200">
                   {data?.package?.shortdesc}
                 </p>
               </div>
 
               <div className="section-details mt-10">
-                <div className="grid grid-cols-3 gap-10">
+                <div className="lg:grid lg:grid-cols-3 gap-10">
                   {data?.package?.packagelist?.map((val, index) => (
                     <PackageCard key={index} detail={val} />
                   ))}
                 </div>
-              </div>
-            </div>
-          </section>
-        )}
-
-        {data.package && (
-          <section className={`section section-${data?.enhance?.mode}`}>
-            <div className="container mx-auto">
-              <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
-                  {data?.enhance?.title}
-                </h2>
-                <p className="section-content text-center max-w-200">
-                  {data?.enhance?.shortdesc}
-                </p>
-
-                <p className="section-content text-center max-w-200 mt-10">
-                  {data?.enhance?.desc}
-                </p>
               </div>
             </div>
           </section>
@@ -119,10 +96,8 @@ export default function Services() {
 
             <div className="container mx-auto">
               <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
-                  {data?.whychoose?.title}
-                </h2>
-                <p className="section-content text-center max-w-200">
+                <h2 className="section-title">{data?.whychoose?.title}</h2>
+                <p className="section-content max-w-200">
                   {data?.whychoose?.shortdesc}
                 </p>
               </div>
@@ -136,7 +111,25 @@ export default function Services() {
           </section>
         )}
 
-        {data?.ourworks && (
+        {data.enhance && (
+          <section className={`section section-${data?.enhance?.mode}`}>
+            <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title text-center">
+                  {data?.enhance?.title}
+                </h2>
+                <p className="section-content text-center max-w-200">
+                  {data?.enhance?.shortdesc}
+                </p>
+
+                <p className="section-content text-center max-w-200 mt-10">
+                  {data?.enhance?.desc}
+                </p>
+              </div>
+            </div>
+          </section>
+        )}
+        {/* {data?.ourworks && (
           <section className={`section section-${data?.ourworks?.mode}`}>
             <div className="container mx-auto">
               <div className="section-body flex flex-col items-center">
@@ -156,7 +149,7 @@ export default function Services() {
               </Swiper>
             </div>
           </section>
-        )}
+        )} */}
 
         {data.benefits && (
           <section
@@ -172,10 +165,8 @@ export default function Services() {
 
             <div className="container mx-auto">
               <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
-                  {data?.benefits?.title}
-                </h2>
-                <p className="section-content text-center max-w-200">
+                <h2 className="section-title">{data?.benefits?.title}</h2>
+                <p className="section-content max-w-200">
                   {data?.benefits?.shortdesc}
                 </p>
               </div>
@@ -196,7 +187,7 @@ export default function Services() {
                 <h2 className="section-title text-center">
                   {data?.faq?.title}
                 </h2>
-                <p className="section-content text-center max-w-200">
+                <p className="section-content sm:text-center max-w-200">
                   {data?.faq?.shortdesc}
                 </p>
               </div>
@@ -224,8 +215,16 @@ export default function Services() {
               </div>
 
               <div className="section-detail mt-15">
-                <div className="grid grid-cols-12">
-                  <div className="col-span-6">
+                <div className="lg:grid lg:grid-cols-12">
+                  <div className="lg:col-span-6 block lg:hidden">
+                    <div className="image-detail">
+                      <img
+                        className="w-full h-full"
+                        src={data?.contact?.image}
+                      />
+                    </div>
+                  </div>
+                  <div className="lg:col-span-6">
                     <Form layout="vertical" form={form}>
                       <div className="grid grid-cols-12">
                         {data?.contact?.form?.map(
@@ -256,8 +255,7 @@ export default function Services() {
                                   />
                                 ) : (
                                   <Button className="comman-button">
-                                    {val?.icon}
-                                    {val?.placeholder}
+                                    {val?.placeholder} {val?.icon}
                                   </Button>
                                 )}
                               </Form.Item>
@@ -267,7 +265,7 @@ export default function Services() {
                       </div>
                     </Form>
                   </div>
-                  <div className="col-span-6">
+                  <div className="lg:col-span-6 hidden lg:block">
                     <div className="image-detail">
                       <img
                         className="w-full h-full"
@@ -286,35 +284,45 @@ export default function Services() {
 }
 
 const WhyChooseSection = ({ detail, index }: any) => (
-  <div className="grid grid-cols-3 gap-10 mb-15">
+  <div className="sm:grid sm:grid-cols-3 gap-10 mb-15">
     {index % 2 === 0 ? (
       <div className="descption-image">
         <img
-          className="rounded-2xl"
+          className="rounded-2xl sm:max-h-[250px]"
           style={{
             width: "100%",
             height: "100%",
-            maxHeight: 250,
             objectFit: "cover",
           }}
           src={detail?.image}
         />
       </div>
-    ) : null}
-
-    <div className="section-detail-content col-span-2">
-      <h5 className="text-white text-3xl mb-3">{detail?.title}</h5>
-      <p className="mb-5 text-white font-extralight">{detail?.desc}</p>
-    </div>
-
-    {index % 2 !== 0 ? (
-      <div className="descption-image">
+    ) : (
+      <div className="descption-image block sm:hidden">
         <img
-          className="rounded-2xl"
+          className="rounded-2xl sm:max-h-[250px]"
           style={{
             width: "100%",
             height: "100%",
-            maxHeight: 250,
+            objectFit: "cover",
+          }}
+          src={detail?.image}
+        />
+      </div>
+    )}
+
+    <div className="section-detail-content col-span-2 mt-5 sm:mt-0">
+      <h5 className="text-white text-2xl md:text-3xl mb-3">{detail?.title}</h5>
+      <p className="mb-5 text-gray-300 font-extralight">{detail?.desc}</p>
+    </div>
+
+    {index % 2 !== 0 ? (
+      <div className="descption-image hidden sm:block">
+        <img
+          className="rounded-2xl sm:max-h-[250px]"
+          style={{
+            width: "100%",
+            height: "100%",
             objectFit: "cover",
           }}
           src={detail?.image}
@@ -325,11 +333,11 @@ const WhyChooseSection = ({ detail, index }: any) => (
 );
 
 const BenefitsSection = ({ detail, index }: any) => (
-  <div className="grid grid-cols-3 gap-10 mb-15">
+  <div className="sm:grid sm:grid-cols-3 gap-10 mb-15">
     {index % 2 === 0 ? (
       <div className="descption-image">
         <img
-          className="rounded-2xl"
+          className="rounded-2xl sm:max-h-[250px]"
           style={{
             width: "100%",
             height: "100%",
@@ -339,17 +347,29 @@ const BenefitsSection = ({ detail, index }: any) => (
           src={detail?.image}
         />
       </div>
-    ) : null}
+    ) : (
+      <div className="descption-image block sm:hidden">
+        <img
+          className="rounded-2xl sm:max-h-[250px]"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+          }}
+          src={detail?.image}
+        />
+      </div>
+    )}
 
-    <div className="section-detail-content col-span-2">
-      <h5 className=" text-3xl mb-3">{detail?.title}</h5>
-      <p className="mb-5  font-extralight">{detail?.desc}</p>
+    <div className="section-detail-content col-span-2 mt-5 sm:mt-0">
+      <h5 className="text-2xl md:text-3xl mb-3">{detail?.title}</h5>
+      <p className="mb-5 text-gray-500 font-extralight">{detail?.desc}</p>
     </div>
 
     {index % 2 !== 0 ? (
-      <div className="descption-image">
+      <div className="descption-image hidden sm:block">
         <img
-          className="rounded-2xl"
+          className="rounded-2xl sm:max-h-[250px]"
           style={{
             width: "100%",
             height: "100%",
@@ -365,7 +385,7 @@ const BenefitsSection = ({ detail, index }: any) => (
 
 const PackageCard = ({ detail }: any) => (
   <div
-    className={`package-card  p-12 cursor-pointer ${
+    className={`package-card  p-12 cursor-pointer mt-5 lg:mt-0 ${
       detail.status === "active" ? "bg-violet-950" : "bg-white"
     }`}
   >
@@ -447,11 +467,11 @@ const PackageCard = ({ detail }: any) => (
 
 const FAQ = ({ detail }: any) => (
   <div className="faq-list mt-15">
-    <div className="grid grid-cols-12">
-      <div className="faq-image col-span-7">
+    <div className="lg:grid lg:grid-cols-12">
+      <div className="faq-image lg:col-span-7">
         <img src={detail?.image} />
       </div>
-      <div className="faq-content col-span-5 flex items-start justify-start">
+      <div className="faq-content lg:col-span-5 flex items-start justify-start mt-10">
         <Collapse
           accordion
           style={{ width: "100%", border: "unset", background: "transparent" }}
@@ -490,47 +510,47 @@ const FAQ = ({ detail }: any) => (
   </div>
 );
 
-const OurWork = ({ data }: any) => (
-  <div className="work-section">
-    <div className="grid grid-cols-7 gap-15">
-      <div className="col-span-4">
-        <div className="videoFrame">
-          <iframe
-            width={"100%"}
-            height={400}
-            src={data?.link}
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-          />
-        </div>
-      </div>
-      <div className="col-span-3">
-        <strong>SEO Enhance</strong>
-        <h3>{data?.title}</h3>
-        <p>{data?.desc?.para}</p>
-        <Collapse
-          bordered={false}
-          expandIconPosition="right"
-          defaultActiveKey={["1"]}
-          style={{ background: "transparent", padding: 0 }}
-          items={[
-            {
-              key: "1",
-              label: <h5>Rank Keywords</h5>,
-              children: (
-                <div className="flex flex-col">
-                  {data?.desc?.keywords?.map((val: string, index: number) => (
-                    <NavLink key={index} to="#">
-                      {index + 1})&nbsp;{val}
-                    </NavLink>
-                  ))}
-                </div>
-              ),
-            },
-          ]}
-        />
-      </div>
-    </div>
-  </div>
-);
+// const OurWork = ({ data }: any) => (
+//   <div className="work-section">
+//     <div className="grid grid-cols-7 gap-15">
+//       <div className="col-span-4">
+//         <div className="videoFrame">
+//           <iframe
+//             width={"100%"}
+//             height={400}
+//             src={data?.link}
+//             title="YouTube video player"
+//             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+//             referrerPolicy="strict-origin-when-cross-origin"
+//           />
+//         </div>
+//       </div>
+//       <div className="col-span-3">
+//         <strong>SEO Enhance</strong>
+//         <h3>{data?.title}</h3>
+//         <p>{data?.desc?.para}</p>
+//         <Collapse
+//           bordered={false}
+//           expandIconPosition="right"
+//           defaultActiveKey={["1"]}
+//           style={{ background: "transparent", padding: 0 }}
+//           items={[
+//             {
+//               key: "1",
+//               label: <h5>Rank Keywords</h5>,
+//               children: (
+//                 <div className="flex flex-col">
+//                   {data?.desc?.keywords?.map((val: string, index: number) => (
+//                     <NavLink key={index} to="#">
+//                       {index + 1})&nbsp;{val}
+//                     </NavLink>
+//                   ))}
+//                 </div>
+//               ),
+//             },
+//           ]}
+//         />
+//       </div>
+//     </div>
+//   </div>
+// );

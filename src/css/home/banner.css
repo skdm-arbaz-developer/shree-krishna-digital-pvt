@@ -44,3 +44,25 @@
   color: #fff !important; 
   border-color: #fff !important;
 }
+
+@media (max-width: 768px) {
+  .video-content {
+    max-width: 100%;
+    padding: 20px;
+    left: 20px;
+    right: 20px;
+    border-radius: 0;
+    max-height: 60vh;
+    bottom: unset;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 20px;
+  }
+  .video-content h2 {
+    font-size: var(--banner-title-mobile);
+  }
+  .video-content p {
+    font-size: var(--banner-paragraph-mobile);
+  }
+  
+}
