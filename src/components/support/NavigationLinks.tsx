@@ -26,17 +26,17 @@ const NavigationLinks = [
     link: [
       {
         name: "About Us",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        desc: "Shree Krishna Digital Solution Pvt Ltd stands as a top-tier digital marketing company in Mumbai, offering complete digital services under one roof. We help brands grow online with clarity, innovation, and marketing that brings results.",
         link: "/about-us",
       },
       {
         name: "Our Team",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        desc: "At Shree Krishna Digital Solution Pvt Ltd, our team is our biggest strength. We are developers, designers, marketers, and problem-solvers who work with one mission: your success.",
         link: "/our-team",
       },
       {
         name: "Why Choose Us",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        desc: "We’ve partnered with trusted brands through dedication and results. Our team works with heart and focus, giving you real value and long-term support in every step.",
         link: "/why-choose-us",
       },
       {
@@ -63,7 +63,7 @@ const NavigationLinks = [
       },
       {
         name: "Partnership",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        desc: "We are proud to partner with this brand, working together to drive innovation, achieve shared goals, and deliver impactful digital solutions that fuel mutual growth and success.",
         link: "#",
         logos: [Google, Meta, GoogleAds, Rayzorpay, PhonePe],
       },
@@ -73,7 +73,7 @@ const NavigationLinks = [
     prefix: <FaServer color="#e98c14" style={{ fontSize: "20px" }} />,
     name: "Services",
     icon: <FaAngleDown />,
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam provident natus similique? Dolorem ad nobis voluptates. Placeat pariatur, delectus perferendis autem unde, ipsum deleniti veritatis facere rem laborum laudantium magnam.",
+    desc: "We provide comprehensive digital solutions, including SEO, social media marketing, website development, branding, and content creation designed to elevate your online presence and deliver measurable results for your business growth.",
     link: [
       {
         name: "Search Engine Optimization",
@@ -83,32 +83,38 @@ const NavigationLinks = [
       {
         name: "Social Media Marketing",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/social-media-marketing",
+        // link: "/social-media-marketing",
+        link: "/coming-soon",
       },
       {
         name: "Google My Business",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/google-my-business",
+        // link: "/google-my-business",
+        link: "/coming-soon",
       },
       {
         name: "Pay Per Click",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/pay-per-click",
+        // link: "/pay-per-click",
+        link: "/coming-soon",
       },
       {
         name: "Web Development",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/web-development",
+        // link: "/web-development",
+        link: "/coming-soon",
       },
       {
         name: "Application Development",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/application-development",
+        // link: "/application-development",
+        link: "/coming-soon",
       },
       {
         name: "CRM Development",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/crm-development",
+        // link: "/crm-development",
+        link: "/coming-soon",
       },
     ],
   },

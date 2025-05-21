@@ -27,25 +27,25 @@ export default function WhyChoosePoints() {
       icon: <SiGoogledisplayandvideo360 />,
       title: "360° Digital Solutions",
       description:
-        "We offer end-to-end services from digital marketing to full-stack IT solutions — everything your business needs to grow online under one roof. We offer end-to-end services from digital marketing to full-stack IT solutions — everything your business needs to grow online under one roof. We offer end-to-end services from digital marketing to full-stack IT solutions — everything your business needs to grow online under one roof.",
+        "We provide complete digital solutions designed to match your business needs. From powerful marketing strategies to strong full-stack development, our skilled team takes care of everything to help you succeed online, all in one place. We provide top digital marketing service in Mumbai and focus on smart ideas and smooth processes. We support brands in growing, connecting with their audience, and staying ahead in today’s fast-moving digital space through reliable and full-service support.",
     },
     {
       icon: <MdDashboardCustomize />,
       title: "Customized Strategies",
       description:
-        "No one-size-fits-all. We tailor every campaign and tech solution to your unique business goals and target audience. No one-size-fits-all. We tailor every campaign and tech solution to your unique business goals and target audience. ",
+        "We don't treat every business as a one-size-fits-all. We meticulously craft digital campaigns and tech solutions that are tailored to meet your audience and desired goals. By closely tracking your brand, we devise strategies that enhance performance, engage with your target audience, and facilitate business growth.",
     },
     {
       icon: <FaSteam />,
       title: "Experienced & Skilled Team",
       description:
-        "Our team consists of certified digital marketers, creative designers, and expert developers who bring years of industry experience.",
+        "Our highly skilled team is made up of certified digital marketers, creative designers, and experienced developers who bring years of hands-on expertise in the digital industry. Each member contributes deep knowledge and technical proficiency, ensuring that every project is executed with precision, creativity, and a results-driven approach tailored to meet your business goals.",
     },
     {
       icon: <FaTeamspeak />,
       title: "Results-Driven Approach",
       description:
-        "We focus on data, ROI, and performance metrics to ensure every campaign delivers measurable results.",
+        "To ensure genuine business impact, we prioritize data-driven approaches, measurable outcomes, and detailed tracking to ensure successful campaigns. We analyze important data and optimize your efforts to achieve tangible outcomes. Why choose us? We offer transparency, accountability, and consistent growth to meet your business objectives and marketing goals.",
     },
     {
       icon: <GrTechnology />,

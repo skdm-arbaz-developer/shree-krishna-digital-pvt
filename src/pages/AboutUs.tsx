@@ -19,7 +19,10 @@ export default function AboutUs() {
       <CommanBanner
         image={AboutBanner}
         title="About Us"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur sequi dolorum earum vel! Vero ullam quidem laudantium, mollitia quos ad repudiandae veritatis cumque doloribus consequuntur repellat quibusdam nulla odio dicta."
+        desc="Shree Krishna Digital Solution Pvt Ltd stands as a top-tier
+              digital marketing company in Mumbai, offering complete digital
+              services under one roof. We help brands grow online with clarity,
+              innovation, and marketing that brings results."
       />
       <AboutUsComp />
       <Counter />

@@ -27,9 +27,12 @@ export default function Brands() {
     <section className="section section-gray">
       <div className="container mx-auto">
         <div className="section-body flex justify-center items-center flex-col">
-          <h2 className="section-title">Trusted by leading brands</h2>
-          <p className="section-content">
-            Explore the companies that trust us to deliver exceptional results.
+          <h2 className="section-title">Chosen by top brands for results</h2>
+          <p className="section-content md:text-center mx-w-[900px]">
+            We're chosen by brands like Google and PhonePe because we deliver
+            what matters: growth. As a top digital marketing service in Mumbai,
+            our results speak for themselves through strong partnerships and
+            digital experience.
           </p>
         </div>
 

@@ -11,39 +11,39 @@ export default function OurJourney() {
       year: "2018",
       title: "The Beginning",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse at veritatis quaerat, placeat autem corporis in facere deleniti itaque minus sapiente perferendis ipsa possimus ullam mollitia consequuntur. Asperiores, quibusdam quidem.",
+        "Two individuals set out on a journey to enhance online business growth with the launch of Shree Krishna Digital Marketing (Shree Krishna Digital Solution Pvt Ltd) in 2018. With just a single SEO project and a website assignment, our journey began from a small setup. This marked the birth of a future-leading digital marketing company in Mumbai.",
     },
     {
       image:
         "https://images.pexels.com/photos/6077983/pexels-photo-6077983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       year: "2020",
-      title: "First Milestone",
+      title: "Building Our Core Team",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse at veritatis quaerat, placeat autem corporis in facere deleniti itaque minus sapiente perferendis ipsa possimus ullam mollitia consequuntur. Asperiores, quibusdam quidem.",
+        "By 2020, we had moved into our first office space and formed a dedicated team of 10 professionals. We successfully completed 64 website development projects and 38 social media campaigns. Our work ethic and results laid the foundation for Shree Krishna Digital Solution Pvt Ltd as a go-to digital marketing company in Mumbai.",
     },
     {
       image:
         "https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       year: "2021",
-      title: "Expansion",
+      title: "Growth Through Consistency",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse at veritatis quaerat, placeat autem corporis in facere deleniti itaque minus sapiente perferendis ipsa possimus ullam mollitia consequuntur. Asperiores, quibusdam quidem.",
+        "We carried our momentum into 2021, crossing the mark of 100+ completed digital projects. With every project, we built more trust and loyalty among clients, growing our influence and reputation across various industries.",
     },
     {
       image:
         "https://images.pexels.com/photos/8111895/pexels-photo-8111895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       year: "2023",
-      title: "Client Success",
+      title: "A Landmark Year",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse at veritatis quaerat, placeat autem corporis in facere deleniti itaque minus sapiente perferendis ipsa possimus ullam mollitia consequuntur. Asperiores, quibusdam quidem.",
+        "2023 was a game-changing year. Shree Krishna Digital Solution Pvt Ltd achieved its highest revenue, proudly serving over 300+ clients. We delivered 100+ SEO projects and 100+ social media marketing campaigns. This year, we also introduced professional Ads and PR services, expanding our reach and impact.",
     },
     {
       image:
         "https://images.pexels.com/photos/8353804/pexels-photo-8353804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       year: "2024 & Beyond",
-      title: "Innovation Hub",
+      title: "Scaling New Heights",
       content:
-        "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse at veritatis quaerat, placeat autem corporis in facere deleniti itaque minus sapiente perferendis ipsa possimus ullam mollitia consequuntur. Asperiores, quibusdam quidem.",
+        "By 2024, our consistent dedication helped us serve over 600+ happy clients. With a growing team and stronger strategies, we continue to deliver end-to-end digital solutions, empowering businesses to thrive online.",
     },
   ];
   return (
@@ -58,17 +58,19 @@ export default function OurJourney() {
         <div className="container mx-auto">
           <div className="section-body flex flex-col justify-between items-center">
             <h2
-              className="section-title"
-              style={{ maxWidth: "600px" }}
+              className="section-title lg:text-center"
+              style={{ maxWidth: "900px" }}
             >
-              SKDM’s Journey: From Vision to Reality
+              Where It All Began: Shree Krishna Digital Solution Pvt Ltd's
+              Growth Story
             </h2>
             <p
-              className="section-content"
+              className="section-content lg:text-center"
               style={{ maxWidth: "700px" }}
             >
-              From a bold vision in 2018 to becoming a trusted digital partner,
-              our journey is defined by innovation, growth, and client success.
+              Started in 2018 with a dream, Shree Krishna Digital Solution Pvt
+              Ltd grew into a reliable digital force built on trust and
+              creativity.
             </p>
           </div>
         </div>
@@ -101,7 +103,7 @@ const JourneyCard = ({ year, title, content, image, index }: any) => {
             index % 2 === 0 ? "order-1 left-section" : "order-2 right-section"
           }`}
         >
-          <section className="section journey-content" >
+          <section className="section journey-content">
             <span className="journey-icon">
               <FaCalendar />
               {year}

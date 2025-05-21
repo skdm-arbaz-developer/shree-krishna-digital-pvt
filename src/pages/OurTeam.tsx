@@ -12,7 +12,8 @@ export default function OurTeam() {
       <CommanBanner
         image={TeamBanner}
         title="Our Team"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, sequi accusamus consectetur dolore numquam ut aspernatur quidem, culpa unde consequatur distinctio. Dignissimos, ea quasi officiis a similique numquam vero molestiae."
+        desc="At Shree Krishna Digital Solution Pvt Ltd, our team is our biggest strength. We are developers, designers, marketers, and problem-solvers who work with one 
+mission: your success."
       />
       <AboutOwner />
     </>

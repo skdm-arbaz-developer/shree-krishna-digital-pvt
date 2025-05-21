@@ -5,9 +5,7 @@ const Brands = lazy(() => import("../components/WhyChooseUs/Brands"));
 const WhyChoosePoints = lazy(
   () => import("../components/WhyChooseUs/WhyChoosePoints")
 );
-const OutProccess = lazy(
-  () => import("../components/WhyChooseUs/OutProccess")
-);
+const OutProccess = lazy(() => import("../components/WhyChooseUs/OutProccess"));
 
 export default function WhyChooseUs() {
   return (
@@ -15,13 +13,12 @@ export default function WhyChooseUs() {
       <CommanBanner
         image="https://images.pexels.com/photos/4960341/pexels-photo-4960341.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
         title="Why Choose Us"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae consequuntur ratione fugiat mollitia suscipit asperiores aperiam eos voluptatibus ducimus quia impedit provident autem rerum sed hic dolor magnam, cum corrupti."
+        desc="We’ve partnered with trusted brands through dedication and results. Our team works with heart and focus, giving you real value and long-term support in every step."
       />
       <Brands />
       <WhyChoosePoints />
       <OurSuccessStorie />
       <OutProccess />
-
     </>
   );
 }

@@ -17,16 +17,19 @@ export default function AboutUsComp() {
               Empowering Businesses with Smart Marketing & Tech Solutions
             </h2>
             <p className="section-content">
-              Shree Krishna Digital Marketing is a dynamic and versatile digital
-              marketing agency that has been providing comprehensive solutions
-              to businesses of all sizes and sectors since 2018. Based in
-              Mumbai, we pride ourselves on being Andheri's most dynamic and
-              adaptable online marketing powerhouse. Our data-driven approach
-              and expertise in research and marketing help us create a
-              competitive advantage for our clients across different industries.
-              Our goal is to help businesses boost their online presence and
-              thrive in the world of technology through effective marketing
-              methods.
+              Shree Krishna Digital Marketing (Shree Krishna Digital Solution
+              Pvt Ltd) empowers your business in the digital space. We offer
+              website, app, and CRM development along with expert services in
+              SEO, PPC, graphic design, and social media marketing. From the
+              healthcare sector to resorts and startups, we’ve helped brands
+              achieve real growth online. Our team believes in delivering
+              measurable results through creativity and strategy. We don’t just
+              build campaigns
+            </p>
+            <p>
+              We build trust, visibility, and growth with a digital marketing
+              company in Mumbai; your goals become our digital mission every
+              single time.
             </p>
 
             <Divider />

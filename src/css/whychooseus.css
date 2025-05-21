@@ -107,7 +107,7 @@
   font-weight: 700;
 }
 
-@media (max-width: 990px) {
+@media (max-width: 1200px) {
   .why-choose-card {
     border-radius: unset;
     box-shadow: unset;

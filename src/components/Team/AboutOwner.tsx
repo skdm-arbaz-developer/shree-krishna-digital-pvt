@@ -91,8 +91,14 @@ export default function AboutOwner() {
       <div className="container mx-auto">
         <div className="section-body flex justify-center flex-col items-center">
           <h2 className="section-title">Our Leadership & Team</h2>
-          <p className="section-content">
-            Guiding with Vision, Delivering with Passion
+          <p className="section-content lg:text-center max-w-[900px]">
+            Get a glimpse of the passionate team behind Shree Krishna Digital
+            Solution Pvt Ltd’s exceptional work. With creativity, dedication,
+            and expertise, they work together to craft smart solutions that
+            drive digital success. Every member brings unique value, turning
+            challenges into opportunities. They don’t just complete tasks; they
+            build results. As the best digital marketing agency in Mumbai, our
+            team’s commitment and energy help take your brand to new heights.
           </p>
         </div>
         <div className="about-team mt-20">
@@ -104,13 +110,21 @@ export default function AboutOwner() {
               <div className="owner-content lg:col-span-2">
                 <h2>Mr. Ambrish Kumar</h2>
                 <span>Founder & CEO</span>
-                <p>
-                  Ambrish Kumar is the driving force behind SKDM. With a vision
-                  to deliver innovative digital solutions, he founded the
-                  company to help businesses grow through cutting-edge
-                  technology and strategic insights. His leadership and
-                  expertise continue to shape the company’s success and client
-                  satisfaction.
+                <p style={{ fontSize: "1rem", color: "#000" }}>
+                  Ambrish Kumar is the founder and CEO of Shree Krishna Digital
+                  Solution Pvt Ltd, leading the company’s vision to provide
+                  impactful digital solutions. With deep expertise in business
+                  growth and marketing strategy, he started Shree Krishna
+                  Digital Solution Pvt Ltd to empower ambitious brands. Ambrish
+                  is recognized for his forward-thinking mindset, strategic
+                  planning, and focus on innovation. His leadership has built a
+                  culture that values performance, flexibility, and client
+                  success. Under his direction, it is the best digital marketing
+                  agency in Mumbai. We have earned a solid reputation as a
+                  reliable digital partner, delivering results that matter. Our
+                  drive for creative and effective solutions continues to guide
+                  the team. helping businesses navigate the digital world and
+                  grow confidently in a fast-evolving industry.
                 </p>
                 <div className="flex justify-between items-center">
                   <div>
@@ -128,8 +142,9 @@ export default function AboutOwner() {
               <div className="team-card-list">
                 <h3>Our Team</h3>
                 <p>
-                  Our team combines diverse skills and a shared vision to
-                  deliver excellence in everything we do.
+                  Take a closer look at the professionals driving Shree Krishna
+                  Digital Solution Pvt Ltd’s mission forward. Their expertise
+                  and dedication help clients reach new digital heights.
                 </p>
               </div>
               {teamlist.map((val, index) => (
@@ -149,7 +164,7 @@ const TeamCard = ({ data }: any) => (
       <img src={data?.image} alt={data?.name} />
     </div>
     <div className="team-detail">
-      <p className="team-content">{data?.desc}</p>
+      {/* <p className="team-content">{data?.desc}</p> */}
 
       <div className="team-title">
         <h3>{data?.name}</h3>

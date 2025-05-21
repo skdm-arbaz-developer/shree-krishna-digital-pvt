@@ -199,10 +199,8 @@ export default function LifeAtSkd() {
   return (
     <>
       <CommanBanner
-        image={
-          banner
-        }
-        title="Life at Shree Krishna Digital Solution"
+        image={banner}
+        title="Life At Shree Krishna Digital Solution Pvt Ltd"
         desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ab dolorum, non distinctio voluptatibus deserunt natus tempore corporis vel eum molestiae exercitationem ea, ipsum sunt expedita reiciendis obcaecati! Beatae, repudiandae."
       />
 

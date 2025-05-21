@@ -32,7 +32,7 @@ export default function Header() {
             src={theme === "dark" ? logoWhite : logo}
           />
         </NavLink>
-        <nav className="nav-links lg:flex hidden">
+        <nav className="nav-links xl:flex hidden">
           {NavigationLinks.map((val, index) =>
             val.icon ? (
               val.name === "PR & Advertising" ? (
