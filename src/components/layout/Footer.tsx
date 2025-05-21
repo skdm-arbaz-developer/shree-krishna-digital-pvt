@@ -12,29 +12,29 @@ import GetInTouch from "../HomeComponents/GetInTouch";
 import countries from "../support/Countries";
 
 export default function Footer() {
-  const counts = [
-    {
-      title: "Happy Clients",
-      count: 100,
-    },
-    {
-      title: "Projects Completed",
-      count: 200,
-    },
-    {
-      title: "Awards Won",
-      count: 50,
-    },
-    {
-      title: "Years of Experience",
-      count: 10,
-    },
-    {
-      title: "Team Members",
-      count: 20,
-    },
-    { title: "Associates Partners", count: 10 },
-  ];
+  // const counts = [
+  //   {
+  //     title: "Happy Clients",
+  //     count: 100,
+  //   },
+  //   {
+  //     title: "Projects Completed",
+  //     count: 200,
+  //   },
+  //   {
+  //     title: "Awards Won",
+  //     count: 50,
+  //   },
+  //   {
+  //     title: "Years of Experience",
+  //     count: 10,
+  //   },
+  //   {
+  //     title: "Team Members",
+  //     count: 20,
+  //   },
+  //   { title: "Associates Partners", count: 10 },
+  // ];
 
   const links = [
     {

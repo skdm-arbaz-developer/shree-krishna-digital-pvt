@@ -28,7 +28,8 @@ export default function ComingSoon() {
   }, []);
 
   const calculateTimeLeft = () => {
-    const difference = new Date("2025-06-01T18:00:00") - new Date();
+    const difference =
+      new Date("2025-06-01T18:00:00").getTime() - new Date().getTime();
     if (difference <= 0) return null;
 
     return {
@@ -39,7 +40,7 @@ export default function ComingSoon() {
     };
   };
 
-    const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
+  const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -50,8 +51,6 @@ export default function ComingSoon() {
 
     return () => clearInterval(timer);
   }, []);
-
-
 
   return (
     <>

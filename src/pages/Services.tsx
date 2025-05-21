@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import services from "../components/support/ServicesArrayList";
 import CommanBanner from "../components/support/CommanBanner";
 import { FaCheck, FaIndianRupeeSign, FaMinus, FaPlus } from "react-icons/fa6";
@@ -9,7 +9,7 @@ import FaqArrow from "../assets/images/icons/faq-arrow.svg";
 import FaqStart from "../assets/images/icons/faq-star.svg";
 import SvgIcon from "../assets/images/icons/home-about-right.svg";
 import circle from "../assets/images/icons/service-home.svg";
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 import "../css/services.css";
 
 export default function Services() {

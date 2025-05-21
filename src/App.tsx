@@ -15,8 +15,8 @@ import BlogView from "./pages/BlogView";
 import industries from "./components/support/IndustryArrayList";
 import Industries from "./pages/Industries";
 import countries from "./components/support/Countries";
-import CountryServices from "./pages/CountryServices";
-import CountryServiceView from "./pages/CountryServiceView";
+// import CountryServices from "./pages/CountryServices";
+// import CountryServiceView from "./pages/CountryServiceView";
 import ComingSoon from "./pages/ComingSoon";
 
 function App() {
