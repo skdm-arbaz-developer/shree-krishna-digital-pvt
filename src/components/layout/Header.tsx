@@ -1,9 +1,6 @@
 import "../../css/layout/Header.css";
 import logo from "../../assets/images/logo.png";
-import logoWhite from "../../assets/images/logo-white.png";
 import { NavLink, useLocation } from "react-router-dom";
-import ModeControl from "../support/ModeControl";
-import { useTheme } from "../../context/ThemeContext";
 import DropDown from "./DropDown";
 import LeftDrawerNav from "./LeftDrawerNav";
 import EnquiryForm from "../Modal/EnquiryForm";
