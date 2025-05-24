@@ -1,6 +1,15 @@
-import { FaBriefcase, FaEnvelope, FaUser } from "react-icons/fa6";
+import {
+  FaBriefcase,
+  FaBusinessTime,
+  FaEnvelope,
+  FaUser,
+} from "react-icons/fa6";
 import contactImage from "../../assets/images/contact-us-form.png";
-import { MdMessage, MdPhone, MdSend } from "react-icons/md";
+import { MdMessage, MdPeopleAlt, MdPhone, MdSend } from "react-icons/md";
+import { RiMoneyRupeeCircleFill } from "react-icons/ri";
+import furniture from "../../assets/images/resources/services/furniture.png";
+import doctor from "../../assets/images/resources/services/doctor.png";
+import gmbImage from "../../assets/images/resources/services/gmbWhychoose.png";
 
 const services = [
   {
@@ -20,6 +29,8 @@ const services = [
         "We prioritize on-page and off-site SEO to generate genuine interest and encourage those who want to buy your products or services. Our expert SEO team implements proven marketing funnels to attract and convert the right customers into leads. ",
         "Choose from flexible SEO plans tailored to your budget. As the best SEO company in Mumbai, Shree Krishna Digital Solution Pvt Ltd Pvt. Ltd. is here to help your business grow and succeed online. Let’s connect to explore what an ideal SEO package should include.",
       ],
+      subtitle: null,
+      subdesc: [],
       image:
         "https://img.freepik.com/free-photo/employee-working-marketing-setting_23-2151871171.jpg?semt=ais_hybrid&w=740",
     },
@@ -108,7 +119,8 @@ const services = [
         {
           image:
             "https://www.monkeydigital.org/wp-content/uploads/2023/08/Website-Audit-300x279-1-280x279-1.png",
-          title: "We provide comprehensive website auditing services that ensure strategic SEO.",
+          title:
+            "We provide comprehensive website auditing services that ensure strategic SEO.",
           desc: "The first step in getting started with SEO is analyzing your website extensively. The report covers the design of the site, its user interface and other on-page SEO elements, as well as the technical framework. The in-depth study identifies themes that may affect search engine performance and necessitate further investigation. A customized SEO approach is established based on industry standards and measures the results achieved. The effectiveness of SEO, website traffic generation, and the recruitment of qualified leads.",
         },
         {
@@ -227,98 +239,86 @@ const services = [
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question: "What is SEO?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
+            para: "SEO (Search Engine Optimization) is the process of improving your website’s visibility on search engines like Google. The goal is to get more organic (unpaid) traffic by ranking higher for relevant keywords.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Why is SEO important for my business?",
+          answer: {
+            para: "SEO helps people find your business online. A well-optimized website attracts more traffic, generates leads, increases sales, and builds brand credibility.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How long does SEO take to show results?",
+          answer: {
+            para: "SEO is a long-term strategy. Most websites start seeing noticeable improvements in 3 to 6 months, depending on the competition and the quality of the SEO work.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "What are keywords and why do they matter?",
+          answer: {
+            para: "Keywords are the words or phrases people type into search engines. Using the right keywords in your content helps your website appear in relevant search results.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "What is the difference between on-page and off-page SEO?",
+          answer: {
+            para: "",
             list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
+              "On-page SEO includes elements like keywords, content, titles, and internal links on your website.",
+              "Off-page SEO refers to actions taken outside your site, like backlink building, social media marketing, and online reviews.",
             ],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Do I need SEO if I’m running Google Ads?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes. SEO and Google Ads can work together. Ads bring immediate traffic, while SEO builds long-term visibility and trust organically.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What are backlinks and why are they important?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Backlinks are links from other websites pointing to your site. They signal trust and authority to search engines, helping your site rank higher.",
+            list: [],
+            note: "",
+          },
+        },
+
+        {
+          question: "Can I do SEO myself or should I hire an agency?",
+          answer: {
+            para: "While basic SEO can be done with some research, hiring an experienced SEO agency (like Shree Krishna Digital Solution PVT. LTD) ensures better strategy, results, and return on investment.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How does local SEO work?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Local SEO helps your business show up in local searches (like restaurant near me). It includes optimizing your Google My Business profile, location-based keywords, and getting local reviews.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How do I know if my SEO is working?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "You can track SEO performance using tools like Google Analytics, Google Search Console, and SEO dashboards. Key metrics include traffic, keyword rankings, bounce rate, and conversions.",
+            list: [],
             note: "",
           },
         },
@@ -384,138 +384,196 @@ const services = [
   },
   {
     banner:
-      "https://cdn.prod.website-files.com/648764d8e05edb7ed3cf8edc/66b629b6291ad3b28064cb53_66437714876944daa4716548_How%2520To%2520Integrate%2520Social%2520Media%2520Into%2520Your%2520Marketing%2520Strategy.jpeg",
-    title: "Stablish your brand with social media marketing",
+      "https://i.pinimg.com/originals/c5/18/2c/c5182c09b6a831cb9c654362a6aceb20.jpg",
+    title: "Social Media Marketing",
     shortdesc:
-      "This is where affordable SEO monthly packages come in handy. They give you the opportunity of getting help with your SEO efforts without having to spend too much money up front.",
+      "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
     slug: "/social-media-marketing",
     description: {
       mode: "light",
-      title: "Unbeatable SEO Packages & Pricing",
-      shortdesc:
-        "Increase Your Organic Traffic By Ranking Your Website On First Page In SERPs",
+      title: "SMM Services Company in Mumbai",
+      shortdesc: "Increase Your Organic Traffic By Ranking Your GMB On First",
       desc: [
-        "Get the best value for your money with our affordable SEO monthly packages. Digital X Press is a highly motivated team with 17 years of experience in this industry. We have worked on more than 100+ projects and getting the best organic results for our clients. Our goal is to make a successful business relationship with our clients by offering the best SEO service possible. We help you to boost Your online presence in search engines, Earn more qualified Leads and sales, and generate more revenue.",
-        "We target the audience who are interested in your product or services and get the possible conversions with our on-page and off-page SEO strategy.",
-        "Our professional SEO experts are able to implement successful SEO marketing funnels to target the right customers and convert them into leads. We offer the best SEO packages that are affordable and include all necessary SEO tasks. Our aim is to boost keywords ranking by targeting informative keywords first, boosting brand awareness, creating informative and valuable, and user-friendly content, and avoiding confusing business jargon. Choose from our range of SEO packages tailored to fit your budget. Let’s discuss what should an SEO package include?",
+        "In this world which is driven by technology, social media is not merely a fad, it's an ecosystem where your clients or customers exist. Being one of the leading social media marketing agencies in Mumbai, we help you harness this opportunity by marketing your business, services and products on Facebook, Instagram, Twitter, LinkedIn, Pinterest, YouTube and many other leading platforms. Our goal is to enhance your visibility on the internet, move the right customers and help in the development of the brand strategically and purposefully. By building campaigns aimed at relevancy, telling great engaging stories, and going beyond data, we help social media fulfill its true potential for your business.",
+      ],
+      subtitle: "Why Social Media Marketing Matters for Your Brand",
+      subdesc: [
+        "Social media marketing encompasses more than simply making posts, it entails the development of a cohesive image which appeals to the audience. A powerful social strategy helps in improving the company image, driving visitors to the business website, and supporting the SEO goals. We assist your brand in building engagement through blogs, communities, and purposeful interactions that capture attention and drive conversions. Brand recall, improved engagement, or increased leads – no matter your goal, our tailored SMM solutions make certain that the message is visible, audible, and unforgettable.",
       ],
       image:
-        "https://img.freepik.com/free-photo/employee-working-marketing-setting_23-2151871171.jpg?semt=ais_hybrid&w=740",
+        "https://i.pinimg.com/736x/62/0c/91/620c915299d3c0306c5a36254ec5034a.jpg",
+      imagePostion: "right",
     },
-    package: {
+
+    services: {
       mode: "gray",
-      title: "SEO Packges",
+      title: "Proven SMM Strategies Tailored to You",
       shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus ab accusantium recusandae vitae, quos fugit impedit minus, sapiente quod laudantium iure. Quae minima ad nesciunt reiciendis pariatur blanditiis voluptates.",
+        "We offer a range of SMO services to help you build a strong online presence and engage with your audience effectively.",
+      list: [
+        {
+          title: "Strategic Brand Growth",
+          desc: "Boost your visibility and build organic traction with long-term brand positioning.",
+        },
+        {
+          title: "Grow Followers",
+          desc: "Strengthen your presence across Facebook, Instagram, LinkedIn, and Twitter with steady follower growth.",
+        },
+        {
+          title: "Engagement That Matters",
+          desc: "Drive real conversations and increase interaction through targeted content and timely posts.",
+        },
+        {
+          title: "Make It Viral",
+          desc: "With creative campaigns and trending content, we expand your reach and help your brand go viral.",
+        },
+        {
+          title: "Join the Buzz",
+          desc: "Be part of trending topics and discussions with active engagement across relevant social spaces.",
+        },
+        {
+          title: "Reputation Protection",
+          desc: "We monitor your brand mentions and maintain a positive image using smart social listening.",
+        },
+        {
+          title: "Smarter Targeting",
+          desc: "Our audience-focused ads and campaigns help you reach the right people at the right time.",
+        },
+        {
+          title: "Transparent Tracking",
+          desc: "We track and report performance regularly to refine and improve your social strategies.",
+        },
+      ],
+    },
+
+    package: {
+      mode: "dark",
+      title: "SMM Pricing & Packges",
+      shortdesc:
+        "In the realm of the internet, we know how challenging it can be to get people’s attention.",
       packagelist: [
         {
           title: "BASIC",
-          price: "5000",
+          price: "7000",
           period: "Monthly",
           shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 15 pages",
+            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 7 pages",
           features: [
-            "Initial Review & Analysis",
-            "10 Keywords",
-            "25 hrs/Month",
-            "On-Page Optimization",
+            "Initial Website Review & SEO Audit",
+            "Keyword Research (5-7 Targeted Keywords)",
+            "Keyword Optimisation (Up to 3-4 Keywords)",
+            "On-Page SEO",
             "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 2",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
+            "Title & Meta Tag Optimisation",
+            "Header Tag (H1, H2) Structuring",
+            "Image ALT Text Optimisation",
+            "URL Slug Optimisation",
           ],
         },
         {
           status: "active",
           title: "STANDARD",
-          price: "8000",
+          price: "12000",
           period: "Monthly",
           shortdesc:
             "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 30 pages",
           features: [
-            "Initial Review & Analysis",
-            "25 Keywords",
-            "60 hrs/Month",
-            "On-Page Optimization",
+            "Comprehensive Website SEO Audit",
+            "Keyword Research (10–12 Keywords)",
+            "Keyword Optimisation (Up to 8 Keywords)",
+            "On-Page SEO Optimisation",
             "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 5",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
+            "Meta Tags (Title, Description)",
+            "Header Tags Structuring (H1, H2, etc.)",
+            "Keyword Placement in Content",
+            "URL Slug Optimisation",
+            "Image Optimisation with ALT Tags",
           ],
         },
         {
           status: "",
           title: "PREMIUM",
-          price: "12000",
+          price: "18000",
           period: "Monthly",
           shortdesc:
             "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 50 pages",
           features: [
-            "Initial Review & Analysis",
-            "50 Keywords",
-            "100 hrs/Month",
-            "On-Page Optimization",
+            "Comprehensive Website SEO Audit",
+            "Advanced Keyword Research (30 Keywords)",
+            "Advanced On-Page SEO Optimisation",
             "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 10",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
+            "Title & Meta Tags",
+            "Header Tags (H1, H2, etc.)",
+            "Image ALT Tags",
+            "SEO-friendly URLs",
+            "Content keyword integration",
+            "URL Optimisation",
+            "Image ALT Tags",
+            "Structured internal linking",
           ],
         },
       ],
     },
-    whychoose: {
-      mode: "dark",
-      title: "Why We Are The Perfect Fit For Your Needs",
+
+    platform: {
+      mode: "light",
+      title: "Platform-Specific SMM Services",
+      image:
+        "https://i.pinimg.com/736x/b9/93/5c/b9935cb835561ed50a8b418e4f8f0bb1.jpg",
       shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa quisquam ex dolorum ut quam quaerat iure exercitationem deleniti minima reiciendis magnam, quas doloremque repudiandae ad asperiores eligendi architecto itaque!",
-      whychoosepoints: [
+        "We specialize in managing and optimizing your presence on various social media platforms to maximize your brand's reach and engagement.",
+      list: [
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Website-Audit-300x279-1-280x279-1.png",
-          title: "An extensive analysis of your website",
-          desc: "To begin your SEO experience, our highly experienced team of experts performs a rigorous website audit and analysis. Through a thorough examination of various aspects like web structure, on-page components such as user experience, site structure, along with technical factors, we can identify areas that need improvement that could greatly affect your search engine ranking. Our thorough audit can help us develop a custom SEO strategy that meets the specific needs and goals of your company.",
+          name: "Facebook",
+          icon: "https://cdn-icons-png.flaticon.com/128/3670/3670124.png",
+          desc: "We use targeted ad strategies and engaging content to help your brand reach a broader audience. From awareness campaigns to conversion-focused ads, we manage everything—from planning and execution to analytics and performance tweaks.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Keyword_Research-transformed-300x255-1-280x255-1.png",
-          title: "Keyword Research and Optimization",
-          desc: "Keyword research is the heart of all successful SEO campaigns. Our team uses state-of-the-art technology and techniques to determine relevant keywords with high value that match your niche of business and users. By optimizing your web page’s content, meta tags as well as headings, and URLs using these keywords We increase its relevancy and appeal in search results, thereby increasing your chances of appearing better in the search result.",
+          name: "Instagram",
+          icon: "https://cdn-icons-png.flaticon.com/128/15713/15713420.png",
+          desc: "With a visually driven approach, we help you build a strong Instagram presence. From curated feeds to strategic hashtags and creative reels, we focus on increasing your visibility and driving leads through engaging and share-worthy content.",
         },
+        {},
+
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Content-Creation-300x252-1-280x252-1.png",
-          title: "Unique and engaging content creation",
-          desc: "Engaging and informative written content has always been the most important aspect of SEO. Our skilled team of copywriters is adept at creating appealing rich, keyword-rich content that draws your viewers while also educating the search engines that you are an expert. We carefully study your field, identifying the issues of your intended audience, and then create content that offers beneficial solutions and builds confidence. In everything from blog articles to landing page pages, we make sure that every piece of content we create is optimized to draw users and crawlers.",
+          name: "LinkedIn",
+          icon: "https://cdn-icons-png.flaticon.com/128/2504/2504923.png",
+          desc: "Speak directly to decision-makers and industry professionals. We create high-value content that boosts your credibility, builds authority, and opens the door to B2B opportunities through targeted campaigns and meaningful engagement.",
         },
+
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Link-Building-Service-300x208-1-280x208-1.png",
-          title: "Link Building Strategies",
-          desc: "Quality backlinks can be compared to endorsements from reliable sources, which boost your website’s authority and credibility. We implement efficient strategies for building links to gain authoritative and relevant backlinks that will help you stand out from your competition. By establishing relationships with powerful websites and exploiting guest posting opportunities, we will ensure that your site gets the required visibility and prominence within your field.",
+          name: "YouTube",
+          icon: "https://cdn-icons-png.flaticon.com/128/5968/5968852.png",
+          desc: "Video is king—and YouTube is where it rules. From creating polished, engaging videos to optimizing for search and managing your YouTube ad campaigns, we ensure your content gets discovered and delivers results.",
         },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Onpage-SEO-300x217-1-280x217-1.jpg",
-          title: "On-Page Optimization and Technical Optimization",
-          desc: "Optimizing on-page elements as well as technological aspects on your site is essential for higher ranking in search engines. Our SEO experts examine and optimize key elements like title tags, meta descriptions headers images, and URL structure. We ensure that your site is secure, fast, and mobile-friendly. We also make sure your website is accessible improving the user experience overall and the crawlability of your website.",
-        },
+        {},
       ],
     },
+
+    benefitsSecond: {
+      mode: "gray",
+      title: "Why Choose Our SMM Services?",
+      shortdesc:
+        "As a leading social media marketing agency in Mumbai, we offer comprehensive SMM services that help you connect with your audience and grow your brand.",
+      desc: [
+        "We’re not just another agency. As a respectable social media marketing agency in Mumbai, we place a high value on quantifiable results. Our team blends creativity with deep insights to create social media strategies that deliver real value.",
+      ],
+      points: [
+        "Custom content for each platform",
+        "Scheduling aligned with platform algorithms",
+        "Strategic use of trending hashtags",
+        "Organic strategies to grow followers",
+        "Real-time interaction with your audience",
+        "Campaigns that drive user-generated content",
+        "Higher traffic and lead conversions",
+        "Better search engine visibility",
+        "Stronger online brand credibility",
+      ],
+      image:
+        "https://i.pinimg.com/736x/fe/ef/3e/feef3e29c0198fbb5b322ac6867776b8.jpg",
+      imagePostion: "left",
+    },
+
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "light",
@@ -524,98 +582,84 @@ const services = [
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question: "What is social media marketing?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Social media marketing involves using platforms like Facebook, Instagram, LinkedIn, Twitter, and others to promote your business, build brand awareness, connect with your audience, and drive website traffic or sales.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Which social media platforms should my business use?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "It depends on your target audience and business goals. For B2C, platforms like Instagram, Facebook, and TikTok work well. For B2B, LinkedIn is ideal. We help identify and prioritize the platforms best suited to your audience.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How often should I post on social media?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Consistency is key. Most businesses benefit from posting 3–5 times a week. The frequency can vary depending on the platform and your goals. We create custom content calendars to maintain regular engagement.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How long does it take to see results from social media marketing?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Typically, it takes 2–3 months to see consistent engagement growth and 3–6 months for measurable results like leads, sales, or conversions. Paid campaigns may generate faster results.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Do I need to run ads to succeed on social media?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "While organic content is essential for building trust and brand presence, social media ads help amplify reach, target specific audiences, and drive faster results. We often recommend a mix of both.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What kind of content should I post on social media?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "A mix of engaging, informative, and promotional content works best—such as tips, customer testimonials, behind-the-scenes videos, product highlights, reels, and offers. We customize content based on your brand tone and goals.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Can social media help with lead generation?",
+          answer: {
+            para: "Absolutely. With the right strategy—targeted content, compelling CTAs, lead magnets, and ad campaigns—social media can be a powerful lead generation tool for both B2B and B2C businesses.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "How do you measure the success of a social media campaign?",
+          answer: {
+            para: "We track key metrics such as engagement rate, reach, followers, website traffic, lead conversions, and ROI. Regular reports help you see what’s working and where we can improve.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Will you manage my accounts or just provide guidance?",
+          answer: {
+            para: "We offer both options. We can fully manage your accounts—from content creation to posting and analytics—or work alongside your in-house team to provide strategy, training, and performance reviews.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How much does social media marketing cost?",
+          answer: {
+            para: "Our pricing depends on the scope of work, number of platforms, content needs, and whether you're including paid ads. We offer flexible packages tailored to your goals and budget.",
+            list: [],
             note: "",
           },
         },
@@ -681,1129 +725,230 @@ const services = [
   },
   {
     banner:
-      "https://www.cibirix.com/cdn/uploads//2018/02/Google-My-Business.jpg",
-    title: "Be on top of list of every brands & business.",
+      "https://i.pinimg.com/1200x/f9/62/83/f9628343b04725da400b8ff31fb789d0.jpg",
+    title: "Google My Business",
     shortdesc:
-      "This is where affordable SEO monthly packages come in handy. They give you the opportunity of getting help with your SEO efforts without having to spend too much money up front.",
+      "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
     slug: "/google-my-business",
     description: {
       mode: "light",
-      title: "Unbeatable SEO Packages & Pricing",
+      title:
+        "Google Business Listing & Ranking Services to Elevate Your Local Reach",
       shortdesc:
         "Increase Your Organic Traffic By Ranking Your Website On First Page In SERPs",
       desc: [
-        "Get the best value for your money with our affordable SEO monthly packages. Digital X Press is a highly motivated team with 17 years of experience in this industry. We have worked on more than 100+ projects and getting the best organic results for our clients. Our goal is to make a successful business relationship with our clients by offering the best SEO service possible. We help you to boost Your online presence in search engines, Earn more qualified Leads and sales, and generate more revenue.",
-        "We target the audience who are interested in your product or services and get the possible conversions with our on-page and off-page SEO strategy.",
-        "Our professional SEO experts are able to implement successful SEO marketing funnels to target the right customers and convert them into leads. We offer the best SEO packages that are affordable and include all necessary SEO tasks. Our aim is to boost keywords ranking by targeting informative keywords first, boosting brand awareness, creating informative and valuable, and user-friendly content, and avoiding confusing business jargon. Choose from our range of SEO packages tailored to fit your budget. Let’s discuss what should an SEO package include?",
+        "Are you looking to attract more local customers? Our Google Business listing service in Mumbai is designed to boost your visibility right where it matters most—on Google Maps and in local search results. Whether you’re a small shop or a growing brand, we help you stand out when customers are searching for the services you offer.",
+        "At SKD, we go beyond just setting up your listing. Our local SEO experts enhance and manage your profile with smart optimizations that:",
+        "We stay updated with Google’s evolving algorithms to make sure your business appears in front of people who are most likely to convert. While you focus on running your business, we focus on bringing more customers to your doorstep.",
+      ],
+      subdesc: [],
+      subtitle: "We have Acchived",
+      points: [
+        {
+          icon: (
+            <RiMoneyRupeeCircleFill
+              className="text-4xl"
+              style={{ color: "var(--primary-color)" }}
+            />
+          ),
+          subtitle: "We've generated over",
+          title: "2,214,145,292",
+          desc: "in revenue for our local clients",
+        },
+        {
+          icon: (
+            <FaBusinessTime
+              className="text-4xl"
+              style={{ color: "var(--primary-color)" }}
+            />
+          ),
+          subtitle: "We've optimized over",
+          title: "5,000",
+          desc: "different local business stores",
+        },
+        {
+          icon: (
+            <MdPeopleAlt
+              className="text-4xl"
+              style={{ color: "var(--primary-color)" }}
+            />
+          ),
+          subtitle: "A dedicated team of",
+          title: "30+",
+          desc: "local business SEO Experts.",
+        },
       ],
       image:
-        "https://img.freepik.com/free-photo/employee-working-marketing-setting_23-2151871171.jpg?semt=ais_hybrid&w=740",
+        "https://i.pinimg.com/736x/fc/2d/b1/fc2db19c99cb9ed764593899b30d28d0.jpg",
+      imagePostion: "left",
     },
-    package: {
+
+    workimages: {
       mode: "gray",
-      title: "SEO Packges",
+      title: "See Real Growth: Our Clients Get More Visibility & Walk-Ins",
       shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus ab accusantium recusandae vitae, quos fugit impedit minus, sapiente quod laudantium iure. Quae minima ad nesciunt reiciendis pariatur blanditiis voluptates.",
-      packagelist: [
+        "Want measurable results? Businesses that use our Google Business listing service in Mumbai consistently see: 1)Improved local search rankings, 2)Increased customer interactions, 3)Higher footfall and online inquiries 4)When done right, your Google Business Profile becomes a lead magnet that works 24/7.",
+      images: [
         {
-          title: "BASIC",
-          price: "5000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 15 pages",
-          features: [
-            "Initial Review & Analysis",
-            "10 Keywords",
-            "25 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 2",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
+          title:
+            "Ranked a Wholesale Furniture Business GMB Profile in the 1st Position on Google Maps",
+          image: furniture,
         },
         {
-          status: "active",
-          title: "STANDARD",
-          price: "8000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 30 pages",
-          features: [
-            "Initial Review & Analysis",
-            "25 Keywords",
-            "60 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 5",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
-        },
-        {
-          status: "",
-          title: "PREMIUM",
-          price: "12000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 50 pages",
-          features: [
-            "Initial Review & Analysis",
-            "50 Keywords",
-            "100 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 10",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
+          title:
+            "Ranked a Pediatrician Doctor GMB Profile in the 1st Position on Google Maps",
+          image: doctor,
         },
       ],
     },
-    whychoose: {
+
+    benefitsSecond: {
       mode: "dark",
-      title: "Why We Are The Perfect Fit For Your Needs",
+      title: "How Does Google Business Help Grow Your Brand Locally?",
+      shortdesc: "",
+      desc: [
+        "Not only a digital listing, a well-maintained Google Business Profile is an effective tool for local marketing. It puts your business in front of nearby users exactly when they’re looking for products or services like yours.",
+        "Here’s how we make the most of your profile:",
+      ],
+      points: [
+        "Double-checking that your info is always accurate and up to date.",
+        "Including eye-catching images that accurately convey your brand",
+        "Publishing engaging posts to keep your audience informed",
+        "Managing customer reviews to build a trustworthy image",
+        "Helping you outrank local competitors",
+        "Increasing the number of people who visit your website or store",
+        "Building long-term customer trust",
+      ],
+      image:
+        "https://i.pinimg.com/736x/57/31/2a/57312a1f57d8ccdd64c44bc36e3ae9e6.jpg",
+      imagePostion: "right",
+    },
+
+    platform: {
+      mode: "light",
+      title: "Step-by-Step Process After the Chart",
+      image: gmbImage,
       shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa quisquam ex dolorum ut quam quaerat iure exercitationem deleniti minima reiciendis magnam, quas doloremque repudiandae ad asperiores eligendi architecto itaque!",
-      whychoosepoints: [
+        "What makes our Google Business listing service in Mumbai effective is our structured, results-driven process. Every step is aimed at increasing your profile’s visibility and engagemen",
+      list: [
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Website-Audit-300x279-1-280x279-1.png",
-          title: "An extensive analysis of your website",
-          desc: "To begin your SEO experience, our highly experienced team of experts performs a rigorous website audit and analysis. Through a thorough examination of various aspects like web structure, on-page components such as user experience, site structure, along with technical factors, we can identify areas that need improvement that could greatly affect your search engine ranking. Our thorough audit can help us develop a custom SEO strategy that meets the specific needs and goals of your company.",
+          name: "Claim or Create Your Google Business Profile",
+          icon: "https://cdn-icons-png.flaticon.com/128/3601/3601002.png",
+          desc: "Don’t have a profile yet? No worries. We’ll create or claim it for you and optimize it with complete, up-to-date info that helps your business shine in search results.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Keyword_Research-transformed-300x255-1-280x255-1.png",
-          title: "Keyword Research and Optimization",
-          desc: "Keyword research is the heart of all successful SEO campaigns. Our team uses state-of-the-art technology and techniques to determine relevant keywords with high value that match your niche of business and users. By optimizing your web page’s content, meta tags as well as headings, and URLs using these keywords We increase its relevancy and appeal in search results, thereby increasing your chances of appearing better in the search result.",
+          name: "Add Accurate & Complete Business Details",
+          icon: "https://cdn-icons-png.flaticon.com/128/3840/3840738.png",
+          desc: "Accuracy is essential in all aspects of your business, from name and location to hours and website.. We fix inconsistencies and fill gaps to make sure your profile is fully optimized for better rankings.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Content-Creation-300x252-1-280x252-1.png",
-          title: "Unique and engaging content creation",
-          desc: "Engaging and informative written content has always been the most important aspect of SEO. Our skilled team of copywriters is adept at creating appealing rich, keyword-rich content that draws your viewers while also educating the search engines that you are an expert. We carefully study your field, identifying the issues of your intended audience, and then create content that offers beneficial solutions and builds confidence. In everything from blog articles to landing page pages, we make sure that every piece of content we create is optimized to draw users and crawlers.",
+          name: "Add High-Quality Photos & Videos",
+          icon: "https://cdn-icons-png.flaticon.com/128/8068/8068129.png",
+          desc: "Visuals matter. We’ll add professional images of your store, products, and team to help potential customers connect with your business before they even visit.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Link-Building-Service-300x208-1-280x208-1.png",
-          title: "Link Building Strategies",
-          desc: "Quality backlinks can be compared to endorsements from reliable sources, which boost your website’s authority and credibility. We implement efficient strategies for building links to gain authoritative and relevant backlinks that will help you stand out from your competition. By establishing relationships with powerful websites and exploiting guest posting opportunities, we will ensure that your site gets the required visibility and prominence within your field.",
+          name: "Keep Your Profile Fresh with Google Posts",
+          icon: "https://cdn-icons-png.flaticon.com/128/10469/10469552.png",
+          desc: "We post regular updates about your offers, events, and announcements to keep your audience engaged—and your profile active.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Onpage-SEO-300x217-1-280x217-1.jpg",
-          title: "On-Page Optimization and Technical Optimization",
-          desc: "Optimizing on-page elements as well as technological aspects on your site is essential for higher ranking in search engines. Our SEO experts examine and optimize key elements like title tags, meta descriptions headers images, and URL structure. We ensure that your site is secure, fast, and mobile-friendly. We also make sure your website is accessible improving the user experience overall and the crawlability of your website.",
+          name: "Use Target Keywords for Better Search Visibility",
+          icon: "https://cdn-icons-png.flaticon.com/128/9181/9181393.png",
+          desc: "We research the right keywords and integrate them naturally into your profile, helping your business appear in more local searches like services near me.",
+        },
+
+        {
+          name: "Track Performance & Optimize Continuously",
+          icon: "https://cdn-icons-png.flaticon.com/128/8921/8921823.png",
+          desc: "We don’t stop at setup. Our team monitors your listing’s performance and provides regular reports, so we can fine-tune strategies for even better results.",
         },
       ],
     },
+
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "light",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question: "What is Google My Business (GMB)?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Google My Business is a free tool by Google that allows businesses to manage their online presence across Google Search and Google Maps. It helps customers find your business location, contact details, reviews, photos, and more.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Why is Google My Business important for local SEO?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "GMB plays a critical role in local SEO by boosting your visibility in local search results, especially when people search for services “near me” or within a specific location.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How do I create a Google My Business profile?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "You can create a GMB profile by visiting google.com/business, signing in with your Google account, entering your business details, verifying your listing, and optimizing it with relevant information.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What is the verification process for GMB?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Most businesses verify their GMB listing through a postcard sent to their business address. Some businesses may also qualify for phone, email, or instant verification options, depending on their category.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How can I optimize my Google My Business profile?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "You can optimize your GMB profile by adding accurate business information, uploading high-quality photos, regularly posting updates, responding to reviews, and using relevant keywords in your description.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How does GMB help bring more customers to my business?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-      ],
-    },
-    contact: {
-      mode: "gray",
-      title: "Have Any Query! Let's discuss",
-      image: contactImage,
-      shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
-      form: [
-        {
-          label: "Full Name",
-          placeholder: "Enter Name",
-          formType: "input",
-          inputType: "text",
-          class: "col-span-12",
-          icon: <FaUser />,
-        },
-        {
-          label: "Email ID",
-          placeholder: "example@dmail.com",
-          formType: "input",
-          inputType: "text",
-          class: "col-span-6 mr-2",
-          icon: <FaEnvelope />,
-        },
-        {
-          label: "Phone Number",
-          placeholder: "1234567890",
-          formType: "input",
-          inputType: "number",
-          class: "col-span-6 ml-2",
-          icon: <MdPhone />,
-        },
-        {
-          label: "Service",
-          placeholder: "Service Name",
-          formType: "input",
-          inputType: "text",
-          class: "col-span-12",
-          icon: <FaBriefcase />,
-        },
-        {
-          label: "Describe your requirments",
-          placeholder: "Write here..",
-          formType: "textarea",
-          inputType: "text",
-          class: "col-span-12",
-          icon: <MdMessage />,
-        },
-        {
-          label: "",
-          placeholder: "Submit Enquiry",
-          formType: "button",
-          inputType: "",
-          class: "col-span-12",
-          icon: <MdSend />,
-        },
-      ],
-    },
-  },
-  {
-    banner:
-      "https://kartikmehtablog.com/wp-content/uploads/2022/12/AdobeStock_419269782-scaled.jpeg",
-    title: "Convert your business to brand, get your first Dynamic website",
-    shortdesc:
-      "This is where affordable SEO monthly packages come in handy. They give you the opportunity of getting help with your SEO efforts without having to spend too much money up front.",
-    slug: "/web-development",
-    description: {
-      mode: "light",
-      title: "Unbeatable SEO Packages & Pricing",
-      shortdesc:
-        "Increase Your Organic Traffic By Ranking Your Website On First Page In SERPs",
-      desc: [
-        "Get the best value for your money with our affordable SEO monthly packages. Digital X Press is a highly motivated team with 17 years of experience in this industry. We have worked on more than 100+ projects and getting the best organic results for our clients. Our goal is to make a successful business relationship with our clients by offering the best SEO service possible. We help you to boost Your online presence in search engines, Earn more qualified Leads and sales, and generate more revenue.",
-        "We target the audience who are interested in your product or services and get the possible conversions with our on-page and off-page SEO strategy.",
-        "Our professional SEO experts are able to implement successful SEO marketing funnels to target the right customers and convert them into leads. We offer the best SEO packages that are affordable and include all necessary SEO tasks. Our aim is to boost keywords ranking by targeting informative keywords first, boosting brand awareness, creating informative and valuable, and user-friendly content, and avoiding confusing business jargon. Choose from our range of SEO packages tailored to fit your budget. Let’s discuss what should an SEO package include?",
-      ],
-      image:
-        "https://img.freepik.com/free-photo/employee-working-marketing-setting_23-2151871171.jpg?semt=ais_hybrid&w=740",
-    },
-    package: {
-      mode: "gray",
-      title: "SEO Packges",
-      shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus ab accusantium recusandae vitae, quos fugit impedit minus, sapiente quod laudantium iure. Quae minima ad nesciunt reiciendis pariatur blanditiis voluptates.",
-      packagelist: [
-        {
-          title: "BASIC",
-          price: "5000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 15 pages",
-          features: [
-            "Initial Review & Analysis",
-            "10 Keywords",
-            "25 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 2",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
-        },
-        {
-          status: "active",
-          title: "STANDARD",
-          price: "8000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 30 pages",
-          features: [
-            "Initial Review & Analysis",
-            "25 Keywords",
-            "60 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 5",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
-        },
-        {
-          status: "",
-          title: "PREMIUM",
-          price: "12000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 50 pages",
-          features: [
-            "Initial Review & Analysis",
-            "50 Keywords",
-            "100 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 10",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
-        },
-      ],
-    },
-    whychoose: {
-      mode: "dark",
-      title: "Why We Are The Perfect Fit For Your Needs",
-      shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa quisquam ex dolorum ut quam quaerat iure exercitationem deleniti minima reiciendis magnam, quas doloremque repudiandae ad asperiores eligendi architecto itaque!",
-      whychoosepoints: [
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Website-Audit-300x279-1-280x279-1.png",
-          title: "An extensive analysis of your website",
-          desc: "To begin your SEO experience, our highly experienced team of experts performs a rigorous website audit and analysis. Through a thorough examination of various aspects like web structure, on-page components such as user experience, site structure, along with technical factors, we can identify areas that need improvement that could greatly affect your search engine ranking. Our thorough audit can help us develop a custom SEO strategy that meets the specific needs and goals of your company.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Keyword_Research-transformed-300x255-1-280x255-1.png",
-          title: "Keyword Research and Optimization",
-          desc: "Keyword research is the heart of all successful SEO campaigns. Our team uses state-of-the-art technology and techniques to determine relevant keywords with high value that match your niche of business and users. By optimizing your web page’s content, meta tags as well as headings, and URLs using these keywords We increase its relevancy and appeal in search results, thereby increasing your chances of appearing better in the search result.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Content-Creation-300x252-1-280x252-1.png",
-          title: "Unique and engaging content creation",
-          desc: "Engaging and informative written content has always been the most important aspect of SEO. Our skilled team of copywriters is adept at creating appealing rich, keyword-rich content that draws your viewers while also educating the search engines that you are an expert. We carefully study your field, identifying the issues of your intended audience, and then create content that offers beneficial solutions and builds confidence. In everything from blog articles to landing page pages, we make sure that every piece of content we create is optimized to draw users and crawlers.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Link-Building-Service-300x208-1-280x208-1.png",
-          title: "Link Building Strategies",
-          desc: "Quality backlinks can be compared to endorsements from reliable sources, which boost your website’s authority and credibility. We implement efficient strategies for building links to gain authoritative and relevant backlinks that will help you stand out from your competition. By establishing relationships with powerful websites and exploiting guest posting opportunities, we will ensure that your site gets the required visibility and prominence within your field.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Onpage-SEO-300x217-1-280x217-1.jpg",
-          title: "On-Page Optimization and Technical Optimization",
-          desc: "Optimizing on-page elements as well as technological aspects on your site is essential for higher ranking in search engines. Our SEO experts examine and optimize key elements like title tags, meta descriptions headers images, and URL structure. We ensure that your site is secure, fast, and mobile-friendly. We also make sure your website is accessible improving the user experience overall and the crawlability of your website.",
-        },
-      ],
-    },
-    faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
-      mode: "light",
-      title: "Helpfull SEO F.A.Q.",
-      shortdesc:
-        "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
-      list: [
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "A well-optimized GMB profile makes your business more discoverable in local searches, increases trust through reviews and photos, and provides users with quick access to contact or visit you, leading to higher foot traffic and inquiries.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Is Google My Business free to use?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, GMB is completely free to set up and use. However, investing in professional GMB management services can enhance your profile performance significantly.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What are local SEO ranking factors for GMB?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Important ranking factors include proximity to the searcher, relevance of your business category, number and quality of reviews, keyword optimization, consistent NAP (Name, Address, Phone) data, and profile completeness.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Can I manage multiple locations under one Google My Business account?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, you can manage multiple business locations from a single GMB dashboard. Each location should have accurate and unique details to maintain authenticity and visibility.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How often should I update my GMB listing?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-      ],
-    },
-    contact: {
-      mode: "gray",
-      title: "Have Any Query! Let's discuss",
-      image: contactImage,
-      shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
-      form: [
-        {
-          label: "Full Name",
-          placeholder: "Enter Name",
-          formType: "input",
-          inputType: "text",
-          class: "col-span-12",
-          icon: <FaUser />,
-        },
-        {
-          label: "Email ID",
-          placeholder: "example@dmail.com",
-          formType: "input",
-          inputType: "text",
-          class: "col-span-6 mr-2",
-          icon: <FaEnvelope />,
-        },
-        {
-          label: "Phone Number",
-          placeholder: "1234567890",
-          formType: "input",
-          inputType: "number",
-          class: "col-span-6 ml-2",
-          icon: <MdPhone />,
-        },
-        {
-          label: "Service",
-          placeholder: "Service Name",
-          formType: "input",
-          inputType: "text",
-          class: "col-span-12",
-          icon: <FaBriefcase />,
-        },
-        {
-          label: "Describe your requirments",
-          placeholder: "Write here..",
-          formType: "textarea",
-          inputType: "text",
-          class: "col-span-12",
-          icon: <MdMessage />,
-        },
-        {
-          label: "",
-          placeholder: "Submit Enquiry",
-          formType: "button",
-          inputType: "",
-          class: "col-span-12",
-          icon: <MdSend />,
-        },
-      ],
-    },
-  },
-  {
-    banner:
-      "https://bairesdev.mo.cloudinary.net/blog/2023/10/Steps-of-Mobile-App-Development.jpg?tx=w_1920,q_auto",
-    title: "Convert your business to brand, get your first Dynamic website",
-    shortdesc:
-      "This is where affordable SEO monthly packages come in handy. They give you the opportunity of getting help with your SEO efforts without having to spend too much money up front.",
-    slug: "/application-development",
-    description: {
-      mode: "light",
-      title: "Unbeatable SEO Packages & Pricing",
-      shortdesc:
-        "Increase Your Organic Traffic By Ranking Your Website On First Page In SERPs",
-      desc: [
-        "Get the best value for your money with our affordable SEO monthly packages. Digital X Press is a highly motivated team with 17 years of experience in this industry. We have worked on more than 100+ projects and getting the best organic results for our clients. Our goal is to make a successful business relationship with our clients by offering the best SEO service possible. We help you to boost Your online presence in search engines, Earn more qualified Leads and sales, and generate more revenue.",
-        "We target the audience who are interested in your product or services and get the possible conversions with our on-page and off-page SEO strategy.",
-        "Our professional SEO experts are able to implement successful SEO marketing funnels to target the right customers and convert them into leads. We offer the best SEO packages that are affordable and include all necessary SEO tasks. Our aim is to boost keywords ranking by targeting informative keywords first, boosting brand awareness, creating informative and valuable, and user-friendly content, and avoiding confusing business jargon. Choose from our range of SEO packages tailored to fit your budget. Let’s discuss what should an SEO package include?",
-      ],
-      image:
-        "https://img.freepik.com/free-photo/employee-working-marketing-setting_23-2151871171.jpg?semt=ais_hybrid&w=740",
-    },
-    package: {
-      mode: "gray",
-      title: "SEO Packges",
-      shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus ab accusantium recusandae vitae, quos fugit impedit minus, sapiente quod laudantium iure. Quae minima ad nesciunt reiciendis pariatur blanditiis voluptates.",
-      packagelist: [
-        {
-          title: "BASIC",
-          price: "5000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 15 pages",
-          features: [
-            "Initial Review & Analysis",
-            "10 Keywords",
-            "25 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 2",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
-        },
-        {
-          status: "active",
-          title: "STANDARD",
-          price: "8000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 30 pages",
-          features: [
-            "Initial Review & Analysis",
-            "25 Keywords",
-            "60 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 5",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
-        },
-        {
-          status: "",
-          title: "PREMIUM",
-          price: "12000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 50 pages",
-          features: [
-            "Initial Review & Analysis",
-            "50 Keywords",
-            "100 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 10",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
-        },
-      ],
-    },
-    whychoose: {
-      mode: "dark",
-      title: "Why We Are The Perfect Fit For Your Needs",
-      shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa quisquam ex dolorum ut quam quaerat iure exercitationem deleniti minima reiciendis magnam, quas doloremque repudiandae ad asperiores eligendi architecto itaque!",
-      whychoosepoints: [
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Website-Audit-300x279-1-280x279-1.png",
-          title: "An extensive analysis of your website",
-          desc: "To begin your SEO experience, our highly experienced team of experts performs a rigorous website audit and analysis. Through a thorough examination of various aspects like web structure, on-page components such as user experience, site structure, along with technical factors, we can identify areas that need improvement that could greatly affect your search engine ranking. Our thorough audit can help us develop a custom SEO strategy that meets the specific needs and goals of your company.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Keyword_Research-transformed-300x255-1-280x255-1.png",
-          title: "Keyword Research and Optimization",
-          desc: "Keyword research is the heart of all successful SEO campaigns. Our team uses state-of-the-art technology and techniques to determine relevant keywords with high value that match your niche of business and users. By optimizing your web page’s content, meta tags as well as headings, and URLs using these keywords We increase its relevancy and appeal in search results, thereby increasing your chances of appearing better in the search result.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Content-Creation-300x252-1-280x252-1.png",
-          title: "Unique and engaging content creation",
-          desc: "Engaging and informative written content has always been the most important aspect of SEO. Our skilled team of copywriters is adept at creating appealing rich, keyword-rich content that draws your viewers while also educating the search engines that you are an expert. We carefully study your field, identifying the issues of your intended audience, and then create content that offers beneficial solutions and builds confidence. In everything from blog articles to landing page pages, we make sure that every piece of content we create is optimized to draw users and crawlers.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Link-Building-Service-300x208-1-280x208-1.png",
-          title: "Link Building Strategies",
-          desc: "Quality backlinks can be compared to endorsements from reliable sources, which boost your website’s authority and credibility. We implement efficient strategies for building links to gain authoritative and relevant backlinks that will help you stand out from your competition. By establishing relationships with powerful websites and exploiting guest posting opportunities, we will ensure that your site gets the required visibility and prominence within your field.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Onpage-SEO-300x217-1-280x217-1.jpg",
-          title: "On-Page Optimization and Technical Optimization",
-          desc: "Optimizing on-page elements as well as technological aspects on your site is essential for higher ranking in search engines. Our SEO experts examine and optimize key elements like title tags, meta descriptions headers images, and URL structure. We ensure that your site is secure, fast, and mobile-friendly. We also make sure your website is accessible improving the user experience overall and the crawlability of your website.",
-        },
-      ],
-    },
-    faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
-      mode: "light",
-      title: "Helpfull SEO F.A.Q.",
-      shortdesc:
-        "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
-      list: [
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-      ],
-    },
-    contact: {
-      mode: "gray",
-      title: "Have Any Query! Let's discuss",
-      image: contactImage,
-      shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
-      form: [
-        {
-          label: "Full Name",
-          placeholder: "Enter Name",
-          formType: "input",
-          inputType: "text",
-          class: "col-span-12",
-          icon: <FaUser />,
-        },
-        {
-          label: "Email ID",
-          placeholder: "example@dmail.com",
-          formType: "input",
-          inputType: "text",
-          class: "col-span-6 mr-2",
-          icon: <FaEnvelope />,
-        },
-        {
-          label: "Phone Number",
-          placeholder: "1234567890",
-          formType: "input",
-          inputType: "number",
-          class: "col-span-6 ml-2",
-          icon: <MdPhone />,
-        },
-        {
-          label: "Service",
-          placeholder: "Service Name",
-          formType: "input",
-          inputType: "text",
-          class: "col-span-12",
-          icon: <FaBriefcase />,
-        },
-        {
-          label: "Describe your requirments",
-          placeholder: "Write here..",
-          formType: "textarea",
-          inputType: "text",
-          class: "col-span-12",
-          icon: <MdMessage />,
-        },
-        {
-          label: "",
-          placeholder: "Submit Enquiry",
-          formType: "button",
-          inputType: "",
-          class: "col-span-12",
-          icon: <MdSend />,
-        },
-      ],
-    },
-  },
-  {
-    banner:
-      "https://images.squarespace-cdn.com/content/v1/633b7e78de034963eb2a9ac5/1665717596132-N3L4QUIXW0UGN4E379QS/AppHeroesHomeBanner2+%281%29.png",
-    title: "Convert your business to brand, get your first Dynamic website",
-    shortdesc:
-      "This is where affordable SEO monthly packages come in handy. They give you the opportunity of getting help with your SEO efforts without having to spend too much money up front.",
-    slug: "/crm-development",
-    description: {
-      mode: "light",
-      title: "Unbeatable SEO Packages & Pricing",
-      shortdesc:
-        "Increase Your Organic Traffic By Ranking Your Website On First Page In SERPs",
-      desc: [
-        "Get the best value for your money with our affordable SEO monthly packages. Digital X Press is a highly motivated team with 17 years of experience in this industry. We have worked on more than 100+ projects and getting the best organic results for our clients. Our goal is to make a successful business relationship with our clients by offering the best SEO service possible. We help you to boost Your online presence in search engines, Earn more qualified Leads and sales, and generate more revenue.",
-        "We target the audience who are interested in your product or services and get the possible conversions with our on-page and off-page SEO strategy.",
-        "Our professional SEO experts are able to implement successful SEO marketing funnels to target the right customers and convert them into leads. We offer the best SEO packages that are affordable and include all necessary SEO tasks. Our aim is to boost keywords ranking by targeting informative keywords first, boosting brand awareness, creating informative and valuable, and user-friendly content, and avoiding confusing business jargon. Choose from our range of SEO packages tailored to fit your budget. Let’s discuss what should an SEO package include?",
-      ],
-      image:
-        "https://img.freepik.com/free-photo/employee-working-marketing-setting_23-2151871171.jpg?semt=ais_hybrid&w=740",
-    },
-    package: {
-      mode: "gray",
-      title: "SEO Packges",
-      shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptatibus ab accusantium recusandae vitae, quos fugit impedit minus, sapiente quod laudantium iure. Quae minima ad nesciunt reiciendis pariatur blanditiis voluptates.",
-      packagelist: [
-        {
-          title: "BASIC",
-          price: "5000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 15 pages",
-          features: [
-            "Initial Review & Analysis",
-            "10 Keywords",
-            "25 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 2",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
-        },
-        {
-          status: "active",
-          title: "STANDARD",
-          price: "8000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 30 pages",
-          features: [
-            "Initial Review & Analysis",
-            "25 Keywords",
-            "60 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 5",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
-        },
-        {
-          status: "",
-          title: "PREMIUM",
-          price: "12000",
-          period: "Monthly",
-          shortdesc:
-            "Meta Tags (Title & Description), Header Tags, Alt Tags, Upto 50 pages",
-          features: [
-            "Initial Review & Analysis",
-            "50 Keywords",
-            "100 hrs/Month",
-            "On-Page Optimization",
-            "Off-page Optimization",
-            "Internal link Optimization",
-            "Competition Analysis: 10",
-            "Mobile Usability Check",
-            "Content Marketing",
-            "Link Building",
-            "Social Media Marketing",
-            "Video Marketing",
-            "Monthly Reporting",
-          ],
-        },
-      ],
-    },
-    whychoose: {
-      mode: "dark",
-      title: "Why We Are The Perfect Fit For Your Needs",
-      shortdesc:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa quisquam ex dolorum ut quam quaerat iure exercitationem deleniti minima reiciendis magnam, quas doloremque repudiandae ad asperiores eligendi architecto itaque!",
-      whychoosepoints: [
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Website-Audit-300x279-1-280x279-1.png",
-          title: "An extensive analysis of your website",
-          desc: "To begin your SEO experience, our highly experienced team of experts performs a rigorous website audit and analysis. Through a thorough examination of various aspects like web structure, on-page components such as user experience, site structure, along with technical factors, we can identify areas that need improvement that could greatly affect your search engine ranking. Our thorough audit can help us develop a custom SEO strategy that meets the specific needs and goals of your company.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Keyword_Research-transformed-300x255-1-280x255-1.png",
-          title: "Keyword Research and Optimization",
-          desc: "Keyword research is the heart of all successful SEO campaigns. Our team uses state-of-the-art technology and techniques to determine relevant keywords with high value that match your niche of business and users. By optimizing your web page’s content, meta tags as well as headings, and URLs using these keywords We increase its relevancy and appeal in search results, thereby increasing your chances of appearing better in the search result.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Content-Creation-300x252-1-280x252-1.png",
-          title: "Unique and engaging content creation",
-          desc: "Engaging and informative written content has always been the most important aspect of SEO. Our skilled team of copywriters is adept at creating appealing rich, keyword-rich content that draws your viewers while also educating the search engines that you are an expert. We carefully study your field, identifying the issues of your intended audience, and then create content that offers beneficial solutions and builds confidence. In everything from blog articles to landing page pages, we make sure that every piece of content we create is optimized to draw users and crawlers.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Link-Building-Service-300x208-1-280x208-1.png",
-          title: "Link Building Strategies",
-          desc: "Quality backlinks can be compared to endorsements from reliable sources, which boost your website’s authority and credibility. We implement efficient strategies for building links to gain authoritative and relevant backlinks that will help you stand out from your competition. By establishing relationships with powerful websites and exploiting guest posting opportunities, we will ensure that your site gets the required visibility and prominence within your field.",
-        },
-        {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Onpage-SEO-300x217-1-280x217-1.jpg",
-          title: "On-Page Optimization and Technical Optimization",
-          desc: "Optimizing on-page elements as well as technological aspects on your site is essential for higher ranking in search engines. Our SEO experts examine and optimize key elements like title tags, meta descriptions headers images, and URL structure. We ensure that your site is secure, fast, and mobile-friendly. We also make sure your website is accessible improving the user experience overall and the crawlability of your website.",
-        },
-      ],
-    },
-    faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
-      mode: "light",
-      title: "Helpfull SEO F.A.Q.",
-      shortdesc:
-        "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
-      list: [
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
-            note: "",
-          },
-        },
-        {
-          question: "What are the key component of an SEO Package",
-          answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "It's recommended to update your GMB profile regularly—post updates weekly, respond to reviews promptly, and ensure all business details (like hours, address, services) are always accurate.",
+            list: [],
             note: "",
           },
         },

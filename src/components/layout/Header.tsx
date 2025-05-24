@@ -12,8 +12,6 @@ import { Dropdown, Space } from "antd";
 import { useEffect } from "react";
 
 export default function Header() {
-  const { theme } = useTheme();
-
   const { pathname } = useLocation();
 
   useEffect(() => {
@@ -27,10 +25,7 @@ export default function Header() {
       <div className="container mx-auto flex flex-row items-center justify-between">
         <LeftDrawerNav />
         <NavLink to="/" className="logo">
-          <img
-            alt="Shree Krishna Digital"
-            src={theme === "dark" ? logoWhite : logo}
-          />
+          <img alt="Shree Krishna Digital" src={logo} />
         </NavLink>
         <nav className="nav-links xl:flex hidden">
           {NavigationLinks.map((val, index) =>
@@ -85,7 +80,7 @@ export default function Header() {
           )}
         </nav>
         <div className="right-layout text-center flex items-center">
-          <ModeControl />
+          {/* <ModeControl /> */}
           <EnquiryForm />
         </div>
       </div>

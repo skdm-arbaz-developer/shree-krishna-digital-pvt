@@ -83,14 +83,15 @@ const NavigationLinks = [
       {
         name: "Social Media Marketing",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        // link: "/social-media-marketing",
-        link: "/coming-soon",
+        link: "/social-media-marketing",
+        // link: "/coming-soon",
       },
+      
       {
         name: "Google My Business",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        // link: "/google-my-business",
-        link: "/coming-soon",
+        link: "/google-my-business",
+        // link: "/coming-soon",
       },
       {
         name: "Pay Per Click",
@@ -198,8 +199,8 @@ const NavigationLinks = [
   {
     prefix: <PiOfficeChairFill color="#e98c14" style={{ fontSize: "20px" }} />,
     name: "Career",
-    // link: "/career",
-    link: "/coming-soon",
+    link: "/career",
+    // link: "/coming-soon",
     desc: "",
   },
   {

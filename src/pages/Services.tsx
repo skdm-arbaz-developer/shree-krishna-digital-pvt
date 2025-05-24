@@ -30,7 +30,11 @@ export default function Services() {
           <section
             className={`section relative section-${data?.description?.mode}`}
           >
-            <img src={SvgIcon} className="absolute top-0 right-0" />
+            <img
+              src={SvgIcon}
+              alt={data?.description?.title}
+              className="absolute top-0 right-0"
+            />
 
             <div className="container mx-auto">
               <div className="section-body flex flex-col items-center">
@@ -42,19 +46,141 @@ export default function Services() {
 
               <div className="section-details mt-10">
                 <div className="grid lg:grid-cols-2 gap-10">
-                  <div className="descption-image">
-                    <img
-                      style={{ width: "100%", height: "100%" }}
-                      src={data?.description?.image}
-                    />
-                  </div>
+                  {data?.description?.imagePostion !== "right" ? (
+                    <div className="descption-image">
+                      <img
+                        alt={data?.description?.title}
+                        style={{ width: "100%", height: "100%" }}
+                        src={data?.description?.image}
+                        className="rounded-2xl"
+                      />
+                    </div>
+                  ) : (
+                    <div className="block lg:hidden descption-image">
+                      <img
+                        alt={data?.description?.title}
+                        style={{ width: "100%", height: "100%" }}
+                        src={data?.description?.image}
+                        className="rounded-2xl"
+                      />
+                    </div>
+                  )}
+
                   <div className="section-detail-content">
                     {data?.description?.desc.map((val, index) => (
                       <p className="mb-5" key={index}>
                         {val}
                       </p>
                     ))}
+
+                    {data?.description?.subtitle && (
+                      <h5 style={{ fontSize: "1.4rem" }}>
+                        {data?.description?.subtitle}
+                      </h5>
+                    )}
+
+                    {data?.description?.subdesc.map((val, index) => (
+                      <p className="my-3" key={index}>
+                        {val}
+                      </p>
+                    ))}
+
+                    {data?.description?.points?.map((val, index) => (
+                      <div
+                        className="service-card flex items-center my-5"
+                        key={index}
+                      >
+                        <div
+                          className="icon"
+                          style={{ borderWidth: 2, width: 50, height: 50 }}
+                        >
+                          {val?.icon}
+                        </div>
+                        <div className="card-content">
+                          <span style={{ fontSize: ".8rem" }}>
+                            {val?.subtitle}
+                          </span>
+                          <h5 className="text-gray-950 text-xl">
+                            {val?.title}
+                          </h5>
+                          <p className="text-gray-500">{val?.desc}</p>
+                        </div>
+                      </div>
+                    ))}
                   </div>
+
+                  {data?.description?.imagePostion === "right" && (
+                    <div className="hidden lg:block descption-image">
+                      <img
+                        alt={data?.description?.title}
+                        style={{ width: "100%", height: "100%", maxWidth: 500 }}
+                        src={data?.description?.image}
+                        className="rounded-2xl"
+                      />
+                    </div>
+                  )}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {data?.workimages && (
+          <section className={`section section-${data?.workimages?.mode}`}>
+            <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title">{data?.workimages?.title}</h2>
+                <p className="section-content max-w-200">
+                  {data?.workimages?.shortdesc}
+                </p>
+              </div>
+
+              <div className="section-details mt-10">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-10">
+                  {data?.workimages?.images?.map((val, index) => (
+                    <div className="work-image-card" key={index}>
+                      <h5 className="mb-5 max-w-[500px]">{val?.title}</h5>
+                      <img
+                        src={val?.image}
+                        alt={`Work Image ${index + 1}`}
+                        className="rounded-2xl"
+                      />
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {data?.services && (
+          <section className={`section section-${data?.services?.mode}`}>
+            <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title text">{data?.services?.title}</h2>
+                <p className="section-content md:text-center max-w-200">
+                  {data?.services?.shortdesc}
+                </p>
+              </div>
+
+              <div className="section-content">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-3">
+                  {data?.services?.list?.map((val, index) => (
+                    <div className="service-card py-5 lg:p-5" key={index}>
+                      <div className="icon" style={{ borderWidth: 2 }}>
+                        <FaCheck
+                          className="text-4xl"
+                          style={{ color: "var(--primary-color)" }}
+                        />
+                      </div>
+                      <div className="card-content">
+                        <h5 className="text-gray-950 text-xl mt-3">
+                          {val?.title}
+                        </h5>
+                        <p className="text-gray-500">{val?.desc}</p>
+                      </div>
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
@@ -76,6 +202,124 @@ export default function Services() {
                   {data?.package?.packagelist?.map((val, index) => (
                     <PackageCard key={index} detail={val} />
                   ))}
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {data?.platform && (
+          <section className={`section section-${data?.platform?.mode}`}>
+            <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title text-center">
+                  {data?.platform?.title}
+                </h2>
+                <p className="section-content text-center max-w-200">
+                  {data?.platform?.shortdesc}
+                </p>
+              </div>
+              <div className="section-detail mt-20">
+                <div className="grid md:grid-cols-3 gap-10 items-center justify-center">
+                  <div className="social-list">
+                    {data?.platform?.list?.slice(0, 3).map((val) => (
+                      <div className="platform-card mb-10 flex flex-col items-center">
+                        <img
+                          src={val?.icon}
+                          alt={val?.name}
+                          style={{ maxWidth: 50 }}
+                        />
+                        <h5 className="text-gray-950 text-xl mt-3 text-center">
+                          {val?.name}
+                        </h5>
+                        <p className="text-gray-500 text-center">{val?.desc}</p>
+                      </div>
+                    ))}
+                  </div>
+                  <img src={data?.platform?.image} alt="" />
+                  <div className="social-list">
+                    {data?.platform?.list?.slice(3, 6).map((val) => (
+                      <div className="platform-card mb-10 flex flex-col items-center">
+                        <img
+                          src={val?.icon}
+                          alt={val?.name}
+                          style={{ maxWidth: 50 }}
+                        />
+                        <h5 className="text-gray-950 text-xl mt-3 text-center">
+                          {val?.name}
+                        </h5>
+                        <p className="text-gray-500 text-center">{val?.desc}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {data.benefitsSecond && (
+          <section
+            className={`section relative section-${data?.benefitsSecond?.mode}`}
+          >
+            <img
+              src={SvgIcon}
+              alt={data?.benefitsSecond?.title}
+              className="absolute top-0 right-0"
+            />
+
+            <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title">{data?.benefitsSecond?.title}</h2>
+                <p className="section-content">
+                  {data?.benefitsSecond?.shortdesc}
+                </p>
+              </div>
+
+              <div className="section-details mt-10">
+                <div className="lg:grid lg:grid-cols-3 gap-10">
+                  {data?.benefitsSecond?.imagePostion !== "right" && (
+                    <div className="descption-image">
+                      <img
+                        alt={data?.benefitsSecond?.title}
+                        style={{ width: "100%", height: "100%" }}
+                        src={data?.benefitsSecond?.image}
+                        className="rounded-2xl"
+                      />
+                    </div>
+                  )}
+
+                  <div
+                    className={`section-detail-content col-span-2 ${
+                      data?.benefitsSecond?.mode === "dark"
+                        ? "text-white"
+                        : "text-gray-950"
+                    }`}
+                  >
+                    {data?.benefitsSecond?.desc.map((val, index) => (
+                      <p className="mb-5" key={index}>
+                        {val}
+                      </p>
+                    ))}
+                    <ul>
+                      {data?.benefitsSecond?.points.map((val, index) => (
+                        <li className="my-3" key={index}>
+                          - {val}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+
+                  {data?.benefitsSecond?.imagePostion === "right" && (
+                    <div className="descption-image">
+                      <img
+                        alt={data?.benefitsSecond?.title}
+                        style={{ width: "100%", height: "100%" }}
+                        src={data?.benefitsSecond?.image}
+                        className="rounded-2xl"
+                      />
+                    </div>
+                  )}
                 </div>
               </div>
             </div>
@@ -129,6 +373,7 @@ export default function Services() {
             </div>
           </section>
         )}
+
         {/* {data?.ourworks && (
           <section className={`section section-${data?.ourworks?.mode}`}>
             <div className="container mx-auto">
