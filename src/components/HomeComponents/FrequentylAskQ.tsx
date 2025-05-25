@@ -8,34 +8,34 @@ export default function FrequentylAskQ() {
 
   const faqs = [
     {
-      label: "What services do you offer?",
+      label: "Why should I choose your agency or freelancer or in-house stream for my business?",
       children:
-        "We offer a range of digital marketing services, including SEO, social media marketing, pay-per-click advertising, content marketing, email marketing, and website development.",
+        "We offer a skilled, transparent, and results-driven team that adapts to your needs. Whether you're a startup or enterprise, our personalized approach ensures your goals are met with measurable outcomes.",
     },
     {
-      label: "How can digital marketing help my business?",
+      label: "I have been burned by SEO agencies before. How are you different?",
       children:
-        "Digital marketing helps increase brand visibility, drive targeted traffic, generate leads, and boost sales by leveraging online channels such as search engines, social media, and email marketing.",
+        "e understand your concern. Our agency is built on transparency, timely service delivery, and trust. We provide regular performance reports, address all your doubts via scheduled or on-call support, and operate with a proper company setup, ensuring you get reliable, accountable, and results-driven SEO services.",
     },
     {
-      label: "How long does it take to see results?",
+      label: "How quickly can I expect the results?",
       children:
-        "The timeline for results varies depending on the strategy. SEO can take 3-6 months, while paid advertising and social media campaigns can yield quicker results within weeks.",
+        "Results vary by service, PPC brings faster results, while SEO and organic growth typically take 3–6 months. We set realistic timelines and keep you informed throughout the journey.",
     },
     {
-      label: "Do you offer customized marketing strategies?",
+      label: "What is your pricing? I am scared of hidden costs.",
       children:
-        "Yes, we tailor our marketing strategies based on your business goals, target audience, and industry to ensure maximum effectiveness.",
+        "Our pricing is straightforward with no hidden fees. We offer detailed proposals and transparent billing, so you know exactly what you’re paying for at every step.",
     },
     {
-      label: "What industries do you work with?",
+      label: "Why are my Instagram posts getting zero engagement?",
       children:
-        "We work with various industries, including real estate, healthcare, e-commerce, hospitality, education, and startups, among others.",
+        "Low engagement can stem from inconsistent content, poor timing, or lack of audience targeting. We audit your profile, refine your strategy, and use data to boost visibility and interaction.",
     },
     {
-      label: "How do I get started?",
+      label: "Do you work with local businesses or just big brands?",
       children:
-        "Getting started is easy! Contact us for a free consultation, and we'll discuss your business goals and create a tailored digital marketing strategy for you.",
+        "We work with both! Whether you're a local business or a large brand, we tailor strategies to suit your goals, budget, and growth stage with equal dedication.",
     },
   ];
 

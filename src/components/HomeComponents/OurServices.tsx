@@ -15,10 +15,10 @@ export default function OurServices() {
       title: "App Development",
       link: "/application-development",
     },
-    {
-      title: "CRM Development",
-      link: "/crm-development",
-    },
+    // {
+    //   title: "CRM Development",
+    //   link: "/crm-development",
+    // },
     {
       title: "SEO Optimization",
       link: "/search-engine-optimization",

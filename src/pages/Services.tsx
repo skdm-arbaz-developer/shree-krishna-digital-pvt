@@ -38,8 +38,10 @@ export default function Services() {
 
             <div className="container mx-auto">
               <div className="section-body flex flex-col items-center">
-                <h2 className="section-title">{data?.description?.title}</h2>
-                <p className="section-content">
+                <h2 className="section-title max-w-[900px] md:text-center">
+                  {data?.description?.title}
+                </h2>
+                <p className="section-content md:text-center">
                   {data?.description?.shortdesc}
                 </p>
               </div>
@@ -85,14 +87,137 @@ export default function Services() {
                       </p>
                     ))}
 
+                    {data?.description?.pointStyle !== "card" &&
+                      data?.description?.points?.map((val, index) => (
+                        <div
+                          className="service-card flex items-center my-5"
+                          key={index}
+                        >
+                          {val?.icon && (
+                            <div
+                              className="icon"
+                              style={{ borderWidth: 2, width: 50, height: 50 }}
+                            >
+                              {val?.icon}
+                            </div>
+                          )}
+                          <div className="card-content">
+                            <span style={{ fontSize: ".8rem" }}>
+                              {val?.subtitle}
+                            </span>
+                            <h5 className="text-gray-950 text-xl">
+                              {val?.title}
+                            </h5>
+                            <p className="text-gray-500">{val?.desc}</p>
+                          </div>
+                        </div>
+                      ))}
+                  </div>
+
+                  {data?.description?.imagePostion === "right" && (
+                    <div className="hidden lg:block descption-image">
+                      <img
+                        alt={data?.description?.title}
+                        style={{ width: "100%", height: "100%", maxWidth: 500 }}
+                        src={data?.description?.image}
+                        className="rounded-2xl"
+                      />
+                    </div>
+                  )}
+                </div>
+                <div className="card-list mt-10">
+                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
                     {data?.description?.points?.map((val, index) => (
+                      <div className="card shadow p-5" key={index}>
+                        <div className="icon">{val?.icon}</div>
+                        <h5 style={{ fontSize: "1.2rem", margin: "10px 0" }}>
+                          {val?.title}
+                        </h5>
+                        <p style={{ fontSize: ".85rem" }}>{val?.desc}</p>
+                      </div>
+                    ))}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
+
+        {data.descriptionSecond && (
+          <section
+            className={`section relative section-${data?.descriptionSecond?.mode}`}
+          >
+            <img
+              src={SvgIcon}
+              alt={data?.descriptionSecond?.title}
+              className="absolute top-0 right-0"
+            />
+
+            <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title max-w-[900px] md:text-center">
+                  {data?.descriptionSecond?.title}
+                </h2>
+                <p className="section-content md:text-center">
+                  {data?.descriptionSecond?.shortdesc}
+                </p>
+              </div>
+
+              <div className="section-details mt-10">
+                <div className="grid lg:grid-cols-2 gap-10">
+                  {data?.descriptionSecond?.imagePostion !== "right" ? (
+                    <div className="descption-image">
+                      <img
+                        alt={data?.descriptionSecond?.title}
+                        style={{ width: "100%", height: "100%" }}
+                        src={data?.descriptionSecond?.image}
+                        className="rounded-2xl"
+                      />
+                    </div>
+                  ) : (
+                    <div className="block lg:hidden descption-image">
+                      <img
+                        alt={data?.descriptionSecond?.title}
+                        style={{ width: "100%", height: "100%" }}
+                        src={data?.descriptionSecond?.image}
+                        className="rounded-2xl"
+                      />
+                    </div>
+                  )}
+
+                  <div className="section-detail-content">
+                    {data?.descriptionSecond?.desc.map((val, index) => (
+                      <p className="mb-5" key={index}>
+                        {val}
+                      </p>
+                    ))}
+
+                    {data?.descriptionSecond?.subtitle && (
+                      <h5 style={{ fontSize: "1.4rem" }}>
+                        {data?.descriptionSecond?.subtitle}
+                      </h5>
+                    )}
+
+                    {data?.descriptionSecond?.subdesc.map((val, index) => (
+                      <p className="my-3" key={index}>
+                        {val}
+                      </p>
+                    ))}
+
+                    {data?.descriptionSecond?.points?.map((val, index) => (
                       <div
                         className="service-card flex items-center my-5"
                         key={index}
                       >
                         <div
                           className="icon"
-                          style={{ borderWidth: 2, width: 50, height: 50 }}
+                          style={{
+                            borderWidth: 2,
+                            width: 50,
+                            height: 50,
+                            minWidth: 50,
+                            minHeight: 50,
+                          }}
                         >
                           {val?.icon}
                         </div>
@@ -109,12 +234,12 @@ export default function Services() {
                     ))}
                   </div>
 
-                  {data?.description?.imagePostion === "right" && (
+                  {data?.descriptionSecond?.imagePostion === "right" && (
                     <div className="hidden lg:block descption-image">
                       <img
-                        alt={data?.description?.title}
+                        alt={data?.descriptionSecond?.title}
                         style={{ width: "100%", height: "100%", maxWidth: 500 }}
-                        src={data?.description?.image}
+                        src={data?.descriptionSecond?.image}
                         className="rounded-2xl"
                       />
                     </div>
@@ -129,8 +254,10 @@ export default function Services() {
           <section className={`section section-${data?.workimages?.mode}`}>
             <div className="container mx-auto">
               <div className="section-body flex flex-col items-center">
-                <h2 className="section-title">{data?.workimages?.title}</h2>
-                <p className="section-content max-w-200">
+                <h2 className="section-title md:text-center max-w-[900px]">
+                  {data?.workimages?.title}
+                </h2>
+                <p className="section-content max-w-200 text-center">
                   {data?.workimages?.shortdesc}
                 </p>
               </div>
@@ -174,7 +301,13 @@ export default function Services() {
                         />
                       </div>
                       <div className="card-content">
-                        <h5 className="text-gray-950 text-xl mt-3">
+                        <h5
+                          className={`${
+                            data?.services?.mode === "dark"
+                              ? "text-white"
+                              : "text-gray-950"
+                          }  text-xl mt-3`}
+                        >
                           {val?.title}
                         </h5>
                         <p className="text-gray-500">{val?.desc}</p>
@@ -369,6 +502,8 @@ export default function Services() {
                 <p className="section-content text-center max-w-200 mt-10">
                   {data?.enhance?.desc}
                 </p>
+
+                {data?.enhance?.image && <img src={data?.enhance?.image} />}
               </div>
             </div>
           </section>

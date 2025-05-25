@@ -11,97 +11,81 @@ export default function Career() {
   const openPosition = [
     {
       position: "Frontend Developer",
-      experinceFrom: "2",
-      experinceTo: "4",
+      experinceFrom: "1",
+      experinceTo: "2",
       responsibilities: [
-        "Develop responsive user interfaces using React.js",
-        "Collaborate with backend developers and designers",
-        "Optimize applications for maximum speed and scalability",
+        "Develop user interfaces using React.js",
+        "Collaborate with backend team for API integration",
+        "Ensure responsive design and cross-browser compatibility",
       ],
       skills: [
-        "Strong understanding of JavaScript and modern frontend frameworks like React",
-        "Proficient in writing clean HTML and CSS with responsiveness in mind",
-        "Familiarity with version control tools like Git",
+        "Proficiency in React.js and JavaScript",
+        "Basic understanding of HTML, CSS, and responsive design",
+        "Familiarity with Git and code versioning",
       ],
       icon: "development",
     },
     {
       position: "Backend Developer",
-      experinceFrom: "3",
-      experinceTo: "5",
+      experinceFrom: "1",
+      experinceTo: "2",
       responsibilities: [
-        "Develop and maintain server-side logic",
-        "Build RESTful APIs and integrate third-party services",
-        "Ensure performance and scalability of backend systems",
+        "Build and maintain backend services using Laravel",
+        "Integrate APIs and manage databases",
+        "Ensure backend performance and data security",
       ],
       skills: [
-        "Expertise in server-side development using Node.js and Express",
-        "Experience working with databases such as MongoDB or MySQL",
-        "Ability to write secure and scalable backend code",
+        "Good understanding of PHP and Laravel framework",
+        "Experience with MySQL or related databases",
+        "Basic knowledge of RESTful APIs and MVC architecture",
       ],
       icon: "development",
     },
     {
-      position: "UI/UX Designer",
-      experinceFrom: "1",
+      position: "Sales Executive",
+      experinceFrom: "2",
       experinceTo: "3",
       responsibilities: [
-        "Design intuitive and visually appealing interfaces",
-        "Create wireframes, prototypes, and design systems",
-        "Conduct user research and usability testing",
+        "Conduct client visits and manage sales meetings",
+        "Understand customer needs and offer suitable solutions",
+        "Generate leads and follow up on sales inquiries",
       ],
       skills: [
-        "Proficiency in design tools like Figma or Adobe XD",
-        "Understanding of user-centered design principles",
-        "Ability to translate requirements into engaging visuals",
-      ],
-      icon: "graphic",
-    },
-    {
-      position: "Digital Marketing Executive",
-      experinceFrom: "2",
-      experinceTo: "4",
-      responsibilities: [
-        "Plan and execute digital marketing campaigns",
-        "Monitor SEO/SEM and website analytics",
-        "Create and manage content for social media and blogs",
-      ],
-      skills: [
-        "Good grasp of SEO strategies and Google Ads management",
-        "Experience with content creation for multiple platforms",
-        "Ability to analyze and report campaign performance metrics",
-      ],
-      icon: "socialmedia",
-    },
-    {
-      position: "Project Manager",
-      experinceFrom: "4",
-      experinceTo: "7",
-      responsibilities: [
-        "Coordinate internal resources and third parties/vendors",
-        "Ensure projects are delivered on-time and within scope",
-        "Manage risk and develop mitigation plans",
-      ],
-      skills: [
-        "Strong leadership and organizational skills",
-        "Experience with project management tools and agile methodologies",
-        "Excellent communication and stakeholder management abilities",
+        "Basic knowledge of client meetings and field sales",
+        "Good communication and interpersonal skills",
+        "Ability to build relationships and close deals",
       ],
       icon: "sales",
     },
     {
-      position: "HR Executive",
-      experinceFrom: "2",
-      experinceTo: "5",
+      position: "Digital Marketing Executive",
+      experinceFrom: "1",
+      experinceTo: "2",
       responsibilities: [
-        "Manage recruitment and onboarding process",
-        "Handle employee relations and compliance",
-        "Support organizational development initiatives",
+        "Assist in planning digital marketing strategies",
+        "Handle social media and basic SEO tasks",
+        "Support content creation and campaign tracking",
       ],
       skills: [
-        "Knowledge of HR best practices and labor laws",
-        "Ability to conduct interviews and evaluate candidates",
-        "Experience in employee engagement and performance management",
+        "Basic understanding of SEO, social media, and Google tools",
+        "Experience in content creation and digital promotion",
+        "Ability to analyze basic performance metrics",
+      ],
+      icon: "socialmedia",
+    },
+    {
+      position: "HR Executive",
+      experinceFrom: "1",
+      experinceTo: "2",
+      responsibilities: [
+        "Assist with recruitment and onboarding",
+        "Maintain employee records and support HR policies",
+        "Support team coordination and employee engagement",
+      ],
+      skills: [
+        "Basic knowledge of HR practices and hiring process",
+        "Good communication and documentation skills",
+        "Ability to handle employee queries and maintain records",
       ],
       icon: "ads",
     },
@@ -240,7 +224,7 @@ export default function Career() {
 
                       <Form.Item>
                         <Button className="comman-button">
-                            Submit
+                          Submit
                           <FaUpload />
                         </Button>
                       </Form.Item>

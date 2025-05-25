@@ -1,7 +1,12 @@
 import {
+  FaAppStoreIos,
   FaBriefcase,
   FaBusinessTime,
+  FaCheck,
+  FaClock,
   FaEnvelope,
+  FaFlutter,
+  FaShield,
   FaUser,
 } from "react-icons/fa6";
 import contactImage from "../../assets/images/contact-us-form.png";
@@ -10,6 +15,12 @@ import { RiMoneyRupeeCircleFill } from "react-icons/ri";
 import furniture from "../../assets/images/resources/services/furniture.png";
 import doctor from "../../assets/images/resources/services/doctor.png";
 import gmbImage from "../../assets/images/resources/services/gmbWhychoose.png";
+import adsimage from "../../assets/images/resources/services/adsimage.png";
+import addgraph from "../../assets/images/resources/services/addgraph.png";
+import { FaPaintBrush } from "react-icons/fa";
+import { SiApachecordova } from "react-icons/si";
+import { IoLogoAndroid, IoLogoIonic } from "react-icons/io5";
+import { TbBrandReactNative } from "react-icons/tb";
 
 const services = [
   {
@@ -234,7 +245,7 @@ const services = [
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "light",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
@@ -306,22 +317,22 @@ const services = [
             note: "",
           },
         },
-        {
-          question: "How does local SEO work?",
-          answer: {
-            para: "Local SEO helps your business show up in local searches (like restaurant near me). It includes optimizing your Google My Business profile, location-based keywords, and getting local reviews.",
-            list: [],
-            note: "",
-          },
-        },
-        {
-          question: "How do I know if my SEO is working?",
-          answer: {
-            para: "You can track SEO performance using tools like Google Analytics, Google Search Console, and SEO dashboards. Key metrics include traffic, keyword rankings, bounce rate, and conversions.",
-            list: [],
-            note: "",
-          },
-        },
+        // {
+        //   question: "How does local SEO work?",
+        //   answer: {
+        //     para: "Local SEO helps your business show up in local searches (like restaurant near me). It includes optimizing your Google My Business profile, location-based keywords, and getting local reviews.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
+        // {
+        //   question: "How do I know if my SEO is working?",
+        //   answer: {
+        //     para: "You can track SEO performance using tools like Google Analytics, Google Search Console, and SEO dashboards. Key metrics include traffic, keyword rankings, bounce rate, and conversions.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
       ],
     },
     contact: {
@@ -577,7 +588,7 @@ const services = [
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "light",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
@@ -647,22 +658,22 @@ const services = [
             note: "",
           },
         },
-        {
-          question: "Will you manage my accounts or just provide guidance?",
-          answer: {
-            para: "We offer both options. We can fully manage your accounts—from content creation to posting and analytics—or work alongside your in-house team to provide strategy, training, and performance reviews.",
-            list: [],
-            note: "",
-          },
-        },
-        {
-          question: "How much does social media marketing cost?",
-          answer: {
-            para: "Our pricing depends on the scope of work, number of platforms, content needs, and whether you're including paid ads. We offer flexible packages tailored to your goals and budget.",
-            list: [],
-            note: "",
-          },
-        },
+        // {
+        //   question: "Will you manage my accounts or just provide guidance?",
+        //   answer: {
+        //     para: "We offer both options. We can fully manage your accounts—from content creation to posting and analytics—or work alongside your in-house team to provide strategy, training, and performance reviews.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
+        // {
+        //   question: "How much does social media marketing cost?",
+        //   answer: {
+        //     para: "Our pricing depends on the scope of work, number of platforms, content needs, and whether you're including paid ads. We offer flexible packages tailored to your goals and budget.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
       ],
     },
     contact: {
@@ -936,26 +947,882 @@ const services = [
             note: "",
           },
         },
-        {
-          question: "Can I manage multiple locations under one Google My Business account?",
-          answer: {
-            para: "Yes, you can manage multiple business locations from a single GMB dashboard. Each location should have accurate and unique details to maintain authenticity and visibility.",
-            list: [],
-            note: "",
-          },
-        },
-        {
-          question: "How often should I update my GMB listing?",
-          answer: {
-            para: "It's recommended to update your GMB profile regularly—post updates weekly, respond to reviews promptly, and ensure all business details (like hours, address, services) are always accurate.",
-            list: [],
-            note: "",
-          },
-        },
+        // {
+        //   question: "Can I manage multiple locations under one Google My Business account?",
+        //   answer: {
+        //     para: "Yes, you can manage multiple business locations from a single GMB dashboard. Each location should have accurate and unique details to maintain authenticity and visibility.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
+        // {
+        //   question: "How often should I update my GMB listing?",
+        //   answer: {
+        //     para: "It's recommended to update your GMB profile regularly—post updates weekly, respond to reviews promptly, and ensure all business details (like hours, address, services) are always accurate.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
       ],
     },
     contact: {
       mode: "gray",
+      title: "Have Any Query! Let's discuss",
+      image: contactImage,
+      shortdesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+      form: [
+        {
+          label: "Full Name",
+          placeholder: "Enter Name",
+          formType: "input",
+          inputType: "text",
+          class: "col-span-12",
+          icon: <FaUser />,
+        },
+        {
+          label: "Email ID",
+          placeholder: "example@dmail.com",
+          formType: "input",
+          inputType: "text",
+          class: "col-span-6 mr-2",
+          icon: <FaEnvelope />,
+        },
+        {
+          label: "Phone Number",
+          placeholder: "1234567890",
+          formType: "input",
+          inputType: "number",
+          class: "col-span-6 ml-2",
+          icon: <MdPhone />,
+        },
+        {
+          label: "Service",
+          placeholder: "Service Name",
+          formType: "input",
+          inputType: "text",
+          class: "col-span-12",
+          icon: <FaBriefcase />,
+        },
+        {
+          label: "Describe your requirments",
+          placeholder: "Write here..",
+          formType: "textarea",
+          inputType: "text",
+          class: "col-span-12",
+          icon: <MdMessage />,
+        },
+        {
+          label: "",
+          placeholder: "Submit Enquiry",
+          formType: "button",
+          inputType: "",
+          class: "col-span-12",
+          icon: <MdSend />,
+        },
+      ],
+    },
+  },
+  {
+    banner:
+      "https://i.pinimg.com/1200x/71/58/6a/71586ab3e90e6bd3f157d048c578a809.jpg",
+    title: "Pay Per Click",
+    shortdesc:
+      "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
+    slug: "/pay-per-click",
+    description: {
+      mode: "light",
+      title: "Smart PPC Techniques for Your Business Growth",
+      shortdesc: "",
+      desc: [
+        "Understanding PPC (Pay-Per-Click) Marketing PPC marketing is a targeted advertising approach where you pay only when someone clicks your ad in search engine results. Unlike organic traffic, these are sponsored placements (like those top Google ads) that instantly boost visibility.",
+      ],
+      subdesc: [
+        "Each click costs a small fee, but when optimized well, the return outweighs the cost. For instance, a ₹500 click that generates a ₹15,000 sale is smart business. This precision makes PPC a favourite for growth-focused brands, especially when managed by experts like a PPC agency in Mumbai.",
+      ],
+      subtitle: "How PPC Works",
+      points: [],
+      image:
+        "https://i.pinimg.com/736x/f1/1b/d7/f11bd72266c8b9bddd5d65ad51788a3a.jpg",
+      imagePostion: "right",
+    },
+
+    descriptionSecond: {
+      mode: "gray",
+      title: "Why PPC Benefits Everyone?",
+      shortdesc: "",
+      desc: [],
+      subdesc: [],
+      subtitle: "",
+      points: [
+        {
+          icon: <FaCheck />,
+          subtitle: "",
+          title: "For users:",
+          desc: "People actually prefer relevant ads, studies show PPC ads get more clicks than other digital ads. Google ensures ads match search intent, making them helpful rather than intrusive.",
+        },
+        {
+          icon: <FaCheck />,
+          subtitle: "",
+          title: "For Advertisers:",
+          desc: "It’s laser-targeted marketing. You reach people actively searching for your offerings, with measurable ROI. Every click reveals customer intent, helping refine strategies.",
+        },
+        {
+          icon: <FaCheck />,
+          subtitle: "",
+          title: "For search engines:",
+          desc: "PPC balances user experience with revenue. Google prioritizes useful ads, creating a win-win for searchers and businesses.",
+        },
+        {
+          icon: <FaCheck />,
+          subtitle: "",
+          title: "The Performance Edge",
+          desc: "Google doesn’t just favor high bidders; it rewards high-quality ads. Better engagement (clicks, relevance) lowers costs and improves ad positions. Essentially, well-crafted PPC campaigns perform better and cost less over time.",
+        },
+      ],
+      image: adsimage,
+      imagePostion: "left",
+    },
+
+    benefitsSecond: {
+      mode: "dark",
+      title: "Mastering Google Ads for PPC Success",
+      shortdesc: "",
+      desc: [
+        "Google Ads remains the dominant PPC platform, operating on a pay-per-click model where advertisers bid for keywords. Each search triggers an instant auction where Google selects winning ads based on:",
+        "For example, bidding on digital marketing services could land your ad at the top of search results. The actual placement depends on your Ad Rank, a combination of your maximum bid and Quality Score. Interestingly, higher Quality Scores can lower your actual cost-per-click (CPC), making campaigns more efficient.",
+        "A skilled PPC agency in Mumbai can optimize these factors to maximize visibility while controlling costs. The smarter your bids and ads, the better your results, making PPC a win-win for businesses and searchers alike. ",
+      ],
+      points: [
+        "Bid Amount",
+        "Ad relevance",
+        "Quality Score (measuring CTR, landing page experience, etc.)",
+        "Managing customer reviews to build a trustworthy image",
+        "Helping you outrank local competitors",
+        "Increasing the number of people who visit your website or store",
+        "Building long-term customer trust",
+      ],
+      image:
+        "https://i.pinimg.com/736x/1b/e7/3a/1be73a6727a8072253c4d9b414253cb0.jpg",
+      imagePostion: "right",
+    },
+
+    platform: {
+      mode: "gray",
+      title: "PPC Campaign Management Simplified",
+      image: addgraph,
+      shortdesc:
+        "Creating PPC campaigns is just the first step – the real key to success lies in continuous optimization and refinement. Regular campaign management ensures your ads stay relevant, competitive, and cost-effective over time.",
+      list: [
+        {
+          name: "Keyword Expansion & Refinement",
+          icon: "https://cdn-icons-png.flaticon.com/128/3601/3601002.png",
+          desc: "Continuously research and add new, high-intent keywords, Identify and eliminate underperforming terms, Create comprehensive lists of negative keywords.",
+        },
+        {
+          name: "Ad Group Restructuring",
+          icon: "https://cdn-icons-png.flaticon.com/128/3840/3840738.png",
+          desc: "To improve relevancy, create ad groups with a tight topic. Develop highly specific ad copy for each group, Improve Quality Scores through better organization",
+        },
+        {},
+
+        {
+          name: "Landing Page Optimization",
+          icon: "https://cdn-icons-png.flaticon.com/128/8068/8068129.png",
+          desc: "Ensure perfect alignment between ads and landing pages. Try out various layouts, CTAs, and content. Improve conversion rates through continuous testing ",
+        },
+
+        {
+          name: "Performance Monitoring",
+          icon: "https://cdn-icons-png.flaticon.com/128/10469/10469552.png",
+          desc: "Examine measurements every week to identify patterns. Adapt bids according to the performance of keywords Redirect funds to campaigns that are performing well.",
+        },
+        {},
+      ],
+    },
+
+    services: {
+      mode: "light",
+      title: "Smart Keyword Research for PPC",
+      shortdesc:
+        "While time-intensive, keyword research forms the foundation of every high-performing PPC campaign. Unlike a one-time setup, winning advertisers treat keyword discovery as an ongoing process - constantly uncovering valuable, low-competition terms that most competitors overlook. Relying solely on basic tools like Keyword Planner means missing high-intent, long-tail keywords that could be driving quality traffic at lower costs.  ",
+      list: [
+        {
+          title: "Precision Relevance",
+          desc: "Target only terms closely tied to your offerings. Irrelevant keywords drain budgets and lower quality scores. Ideal terms should: Align with user search intent, Drive qualified click-throughs, Maintain low CPCs while boosting conversions  ",
+        },
+        {
+          title: "Comprehensive Coverage",
+          desc: "Go beyond generic head terms to capture the long tail those specific, less-searched phrases that: Account for 70% of all search terms. Faceless competition Often implies greater purchase intent. Example: Instead than just running shoes, try best cushioned running shoes for flat feet.",
+        },
+        {
+          title: "Continuous Evolution",
+          desc: "Treat your keyword list as a living system: Regularly add newly discovered terms, Test match types (exact vs. phrase), Extend according to performance information ",
+        },
+      ],
+    },
+
+    faq: {
+      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      mode: "light",
+      title: "Helpfull F.A.Q.",
+      shortdesc:
+        "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
+      list: [
+        {
+          question: "What is Pay-Per-Click (PPC) advertising?",
+          answer: {
+            para: "PPC is a digital advertising model where advertisers pay a fee each time someone clicks on their ad. It's commonly used on platforms like Google Ads, Facebook Ads, and Bing Ads to drive targeted traffic to websites.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How does PPC work?",
+          answer: {
+            para: "PPC ads appear on search engines or social media platforms. You bid on keywords, and when users search for those terms, your ad may appear. If they click, you pay a fee based on the bid and ad quality.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Which platforms can I run PPC ads on?",
+          answer: {
+            para: "Popular platforms include:",
+            list: [
+              "Google Ads (Search, Display, YouTube)",
+              "* Microsoft/Bing Ads",
+              "Facebook and Instagram Ads",
+              "LinkedIn Ads",
+              "Twitter/X Ads",
+            ],
+            note: "",
+          },
+        },
+        {
+          question: "How much does PPC advertising cost?",
+          answer: {
+            para: "There’s no fixed cost. You set a daily or monthly budget, and your cost-per-click (CPC) depends on competition, industry, keyword quality, and other factors. It can range from a few cents to several dollars per click.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "What are the benefits of PPC for my business?",
+          answer: {
+            para: "",
+            list: [
+              "Immediate visibility in search results",
+              "Targeted traffic based on location, interests, or behavior",
+              "Flexible budget control",
+              "Trackable ROI and performance metrics",
+              "Increases brand awareness and conversions",
+            ],
+            note: "",
+          },
+        },
+        {
+          question: "What is Quality Score in Google Ads?",
+          answer: {
+            para: "Quality Score is Google's rating of your ad relevance, keyword choice, and landing page experience. A higher score can lower your cost per click and improve your ad position.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How do I choose the right keywords for PPC?",
+          answer: {
+            para: "Using keyword research tools, identify terms your target audience is searching. Focus on keywords with high intent, relevance, and manageable competition. Include long-tail keywords for better targeting.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Can PPC help my local business?",
+          answer: {
+            para: "Yes! PPC is great for local targeting. With local extensions and geo-targeting, you can show ads to people searching for services near your location, driving foot traffic and local leads.",
+            list: [],
+            note: "",
+          },
+        },
+        // {
+        //   question: "Can I manage multiple locations under one Google My Business account?",
+        //   answer: {
+        //     para: "Yes, you can manage multiple business locations from a single GMB dashboard. Each location should have accurate and unique details to maintain authenticity and visibility.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
+        // {
+        //   question: "How often should I update my GMB listing?",
+        //   answer: {
+        //     para: "It's recommended to update your GMB profile regularly—post updates weekly, respond to reviews promptly, and ensure all business details (like hours, address, services) are always accurate.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
+      ],
+    },
+    contact: {
+      mode: "gray",
+      title: "Have Any Query! Let's discuss",
+      image: contactImage,
+      shortdesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+      form: [
+        {
+          label: "Full Name",
+          placeholder: "Enter Name",
+          formType: "input",
+          inputType: "text",
+          class: "col-span-12",
+          icon: <FaUser />,
+        },
+        {
+          label: "Email ID",
+          placeholder: "example@dmail.com",
+          formType: "input",
+          inputType: "text",
+          class: "col-span-6 mr-2",
+          icon: <FaEnvelope />,
+        },
+        {
+          label: "Phone Number",
+          placeholder: "1234567890",
+          formType: "input",
+          inputType: "number",
+          class: "col-span-6 ml-2",
+          icon: <MdPhone />,
+        },
+        {
+          label: "Service",
+          placeholder: "Service Name",
+          formType: "input",
+          inputType: "text",
+          class: "col-span-12",
+          icon: <FaBriefcase />,
+        },
+        {
+          label: "Describe your requirments",
+          placeholder: "Write here..",
+          formType: "textarea",
+          inputType: "text",
+          class: "col-span-12",
+          icon: <MdMessage />,
+        },
+        {
+          label: "",
+          placeholder: "Submit Enquiry",
+          formType: "button",
+          inputType: "",
+          class: "col-span-12",
+          icon: <MdSend />,
+        },
+      ],
+    },
+  },
+  {
+    banner:
+      "https://i.pinimg.com/1200x/54/0c/16/540c16fe8d7c4529661b33cb6dedaea7.jpg",
+    title: "Website Development",
+    shortdesc:
+      "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+    slug: "/web-development",
+    description: {
+      mode: "light",
+      title: "Web Development Solutions for Complex Business Needs",
+      shortdesc: "",
+      desc: [
+        "We specialize in delivering powerful, scalable web solutions built to handle high volumes of traffic, complex business logic, and demanding security requirements. Whether you're a growing brand or a large-scale enterprise, our solutions are designed to be robust, secure, and future-ready.",
+      ],
+      subdesc: [
+        "As a trusted web development company in Mumbai, we combine creativity with cutting-edge technology to craft websites that are not only visually appealing but also highly functional. Our goal is simple—to create digital platforms that speak your brand’s language while delivering a smooth, engaging user experience on every device. By blending design thinking with technical precision, we help your business make a lasting impression and build stronger connections with your audience, driving meaningful growth in a digital-first world.",
+      ],
+      subtitle: "Transforming Brands Through Purposeful Web Design",
+      points: [
+        {
+          title: "Innovative Designs",
+          subtitle: "",
+          icon: <FaPaintBrush />,
+          desc: "We create clean, modern, and mobile-friendly websites that look great and work seamlessly across all screen sizes. Every layout is designed to reflect your brand's identity while enhancing user engagement through intuitive navigation and visual clarity.",
+        },
+        {
+          title: "Skilled & Certified Team",
+          subtitle: "",
+          icon: <FaShield />,
+          desc: "Our team includes experienced web developers, UX/UI experts, and QA professionals who work together to deliver custom-built websites tailored to your exact needs. From e-commerce to enterprise portals, we handle it all with precision and care.",
+        },
+        {
+          title: "Reliable Timelines",
+          subtitle: "",
+          icon: <FaClock />,
+          desc: "Using agile practices, we break projects into clear milestones. This ensures your site is delivered on schedule, fully tested, and optimized—without ever sacrificing quality.",
+        },
+        {
+          title: "24/7 Technical Support",
+          subtitle: "",
+          icon: <MdPhone />,
+          desc: "Your website should work for you around the clock. That’s why we offer dedicated technical support to address issues promptly, maintain performance, and safeguard against security threats—day or night.",
+        },
+      ],
+      pointStyle: "card",
+      image:
+        "https://i.pinimg.com/1200x/54/60/71/5460718577e51bb4f6e9427bd108233a.jpg",
+      imagePostion: "right",
+    },
+    descriptionSecond: {
+      mode: "gray",
+      title: "Empowering Your Digital Future",
+      shortdesc: "",
+      desc: [
+        "As a leading web development company in Mumbai, we go beyond basic websites. Our solutions include responsive web portals, mobile-integrated platforms, and scalable cloud-based systems designed to evolve with your business. We don’t just build websites—we build digital ecosystems that help your brand adapt, grow, and stay ahead in a competitive landscape.",
+        "Let’s Build Something That Lasts",
+      ],
+      subdesc: [
+        "Create a lasting impact online with expertly crafted websites that are secure, scalable, and built for speed. Our custom web development focuses on delivering seamless user experiences, reliable performance, and the flexibility your business needs to grow in today’s digital world.",
+      ],
+      subtitle:
+        "High-Performance Web Solutions to Strengthen Your Digital Presence",
+      points: [
+        {
+          icon: <FaCheck />,
+          subtitle: "",
+          title: "Custom Web Development:",
+          desc: "We build fully customized websites that reflect your brand’s personality and business goals. From tailored layouts to advanced functionalities, every feature is developed to give you a unique digital presence that captures attention and converts visitors into customers.",
+        },
+        {
+          icon: <FaCheck />,
+          subtitle: "",
+          title: "E-Commerce Solutions",
+          desc: "Increase your online revenue with help from a top-rated web development company in Mumbai. Our e-commerce solutions are built for performance—featuring secure platforms, user-friendly navigation, optimized product displays, and streamlined checkout systems that enhance the shopping experience and drive conversions.",
+        },
+        {
+          icon: <FaCheck />,
+          subtitle: "",
+          title: "Mobile Optimization",
+          desc: "Your website should shine on every screen. We fine-tune each element—from layout to speed—to ensure it runs smoothly on smartphones and tablets. The result is a responsive, mobile-first experience that keeps users engaged and encourages longer site visits.",
+        },
+        {
+          icon: <FaCheck />,
+          subtitle: "",
+          title: "Landing Pages & Microsites",
+          desc: "We design goal-oriented landing pages and microsites that are built to convert. Whether you're launching a campaign or promoting a product, our focused designs eliminate clutter and spotlight your key messages—delivering stronger leads and measurable results.",
+        },
+      ],
+      image:
+        "https://i.pinimg.com/474x/73/2f/6d/732f6dbac1eadd8c7a3b2d4775344a75.jpg",
+      imagePostion: "left",
+    },
+    services: {
+      mode: "dark",
+      title: "Features & Objective",
+      shortdesc: "",
+      list: [
+        {
+          title: "Rapid Development",
+          desc: "Need to move fast without sacrificing quality? Our agile development process ensures your website or app is delivered quickly and efficiently. We break projects into focused milestones, helping you meet tight deadlines while staying competitive—without ever compromising performance or reliability.",
+        },
+        {
+          title: "Robust Security",
+          desc: "Keep your digital assets protected with industry-leading security practices. From SSL certificates and secure coding to regular vulnerability checks and advanced firewalls, we prioritize the safety of your data. Clients trust us because we deliver not just great websites—but peace of mind too.",
+        },
+        {
+          title: "Seamless Integrations",
+          desc: "As a trusted web development company in Mumbai, we specialize in integrating your website with the tools and platforms your business relies on. Whether it's CRMs, payment gateways, or third-party APIs, our solutions are built to streamline workflows and deliver a smoother experience for both you and your users.",
+        },
+      ],
+    },
+    platform: {
+      mode: "light",
+      title: "Our Development Proccess",
+      image:
+        "https://i.pinimg.com/736x/cf/fc/be/cffcbec4c5d20014a18466b1f0c0354d.jpg",
+      shortdesc: "",
+      list: [
+        {
+          name: "Discover",
+          icon: "https://cdn-icons-png.flaticon.com/128/3601/3601002.png",
+          desc: "We start by understanding your vision. This phase includes setting clear objectives, conducting in-depth research, and outlining a strategic roadmap tailored to your business needs.",
+        },
+        {
+          name: "Design",
+          icon: "https://cdn-icons-png.flaticon.com/128/3840/3840738.png",
+          desc: "Our creative team brings your ideas to life with intuitive UI designs. Once finalized and approved, the design becomes the blueprint for a smooth and engaging user experience.",
+        },
+        {},
+
+        {
+          name: "Develop",
+          icon: "https://cdn-icons-png.flaticon.com/128/8068/8068129.png",
+          desc: "With your design in hand, our developers write clean, scalable code. As a leading web development company in Mumbai, we focus on performance, security, and adaptability at every stage.",
+        },
+
+        {
+          name: "Deploy",
+          icon: "https://cdn-icons-png.flaticon.com/128/10469/10469552.png",
+          desc: "Your project is launched seamlessly across all platforms. We ensure a smooth rollout, thorough testing, and optimized performance so your website is ready to impress from day one.",
+        },
+        {},
+      ],
+    },
+    faq: {
+      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      mode: "gray",
+      title: "Helpfull F.A.Q.",
+      shortdesc:
+        "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
+      list: [
+        {
+          question: "What is web development?",
+          answer: {
+            para: "PWeb development is the process of creating and maintaining websites or web applications. It involves front-end development (what users see), back-end development (server-side logic), and sometimes database management.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "What’s the difference between web design and web development?",
+          answer: {
+            para: "Web design focuses on the look, layout, and user experience of a website, while web development involves writing the code to make the website function. Designers create the visuals, and developers bring them to life.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How long does it take to build a website?",
+          answer: {
+            para: "The timeline depends on the project's complexity. A basic website may take 1–3 weeks, while a complex website or e-commerce platform could take 6–12 weeks or more.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How much does web development cost?",
+          answer: {
+            para: "Costs vary based on design, features, content, and functionality. A basic site may start from a few hundred dollars, while custom-built or enterprise-level websites can cost significantly more.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Will my website be mobile-friendly?",
+          answer: {
+            para: "es. All our websites are developed with responsive design, ensuring they look and function perfectly on smartphones, tablets, and desktops.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Can I update the website myself after it's built?",
+          answer: {
+            para: "Absolutely. We build websites with easy-to-use content management systems (CMS) like WordPress, so you can update content, images, and more without technical knowledge.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Do you offer website maintenance and support?",
+          answer: {
+            para: "Yes. We offer ongoing maintenance plans that include updates, backups, security checks, and technical support to keep your website running smoothly.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "Can you help with website hosting and domain registration?",
+          answer: {
+            para: "Yes. We assist with domain name registration, web hosting setup, and SSL certificate installation to ensure your site is secure and live online.",
+            list: [],
+            note: "",
+          },
+        },
+        // {
+        //   question: "Can I manage multiple locations under one Google My Business account?",
+        //   answer: {
+        //     para: "Yes, you can manage multiple business locations from a single GMB dashboard. Each location should have accurate and unique details to maintain authenticity and visibility.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
+        // {
+        //   question: "How often should I update my GMB listing?",
+        //   answer: {
+        //     para: "It's recommended to update your GMB profile regularly—post updates weekly, respond to reviews promptly, and ensure all business details (like hours, address, services) are always accurate.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
+      ],
+    },
+    contact: {
+      mode: "light",
+      title: "Have Any Query! Let's discuss",
+      image: contactImage,
+      shortdesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+      form: [
+        {
+          label: "Full Name",
+          placeholder: "Enter Name",
+          formType: "input",
+          inputType: "text",
+          class: "col-span-12",
+          icon: <FaUser />,
+        },
+        {
+          label: "Email ID",
+          placeholder: "example@dmail.com",
+          formType: "input",
+          inputType: "text",
+          class: "col-span-6 mr-2",
+          icon: <FaEnvelope />,
+        },
+        {
+          label: "Phone Number",
+          placeholder: "1234567890",
+          formType: "input",
+          inputType: "number",
+          class: "col-span-6 ml-2",
+          icon: <MdPhone />,
+        },
+        {
+          label: "Service",
+          placeholder: "Service Name",
+          formType: "input",
+          inputType: "text",
+          class: "col-span-12",
+          icon: <FaBriefcase />,
+        },
+        {
+          label: "Describe your requirments",
+          placeholder: "Write here..",
+          formType: "textarea",
+          inputType: "text",
+          class: "col-span-12",
+          icon: <MdMessage />,
+        },
+        {
+          label: "",
+          placeholder: "Submit Enquiry",
+          formType: "button",
+          inputType: "",
+          class: "col-span-12",
+          icon: <MdSend />,
+        },
+      ],
+    },
+  },
+  {
+    banner:
+      "https://i.pinimg.com/1200x/5b/15/29/5b1529a1f734a7d97994ffa928892ccc.jpg",
+    title: "Application Development",
+    shortdesc:
+      "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+    slug: "/application-development",
+    description: {
+      mode: "light",
+      title: "Custom Mobile App Solutions for Business Growth",
+      shortdesc: "",
+      desc: [
+        "Do you want to move your company around? Our staff at a leading app development company in Mumbai specializes in creating mobile apps that are tailored to your operations, objectives, and brand. We collaborate closely with you to create solutions that support your digital growth, whether you're beginning from scratch or redesigning an existing platform.",
+        "We are renowned for creating high-performing apps that not only work well but also leave a lasting impression by fusing precision engineering with a thorough comprehension of customer demands.",
+      ],
+      subdesc: [
+        "We provide full-cycle app development that is customized to your vision as a reputable app development company in Mumbai. Every stage, from conception to release, is managed by skilled developers who know how to transform concepts into useful, entertaining mobile applications.",
+        "Our method—listening before building—is what sets us apart. The foundation of our process is an understanding of your target market, business model, and long-term objectives. This guarantees that we develop solutions that are both effective and realistic.",
+      ],
+      subtitle: "Comprehensive App Development Solutions",
+      points: [
+        {
+          icon: <FaAppStoreIos />,
+          title: "iOS Native App Development",
+          subtitle: "",
+          desc: "",
+        },
+        {
+          icon: <TbBrandReactNative />,
+          title: "React Native App Development",
+          subtitle: "",
+          desc: "",
+        },
+        {
+          icon: <FaFlutter />,
+          title: "Flutter App Development",
+          subtitle: "",
+          desc: "",
+        },
+        {
+          icon: <IoLogoAndroid />,
+          title: "Android App Development",
+          subtitle: "",
+          desc: "",
+        },
+        {
+          icon: <SiApachecordova />,
+          title: "Cordova App Development",
+          subtitle: "",
+          desc: "",
+        },
+        {
+          icon: <IoLogoIonic />,
+          title: "Ionic App Development",
+          subtitle: "",
+          desc: "",
+        },
+      ],
+      pointStyle: "card",
+      image:
+        "https://i.pinimg.com/736x/b1/d5/5a/b1d55a474870b13245e6ca1bca7d45dc.jpg",
+      imagePostion: "left",
+    },
+    services: {
+      mode: "dark",
+      title: "Why Choose Us for Mobile App Development?",
+      shortdesc: "",
+      list: [
+        {
+          title: "Reasonably priced, superior solutions",
+          desc: "We think high-quality apps shouldn't be prohibitively expensive. Regardless of the size of your business, we provide value-driven mobile applications that are made to optimize your return on investment through flexible pricing and astute development techniques.",
+        },
+        {
+          title: "The Process of Agile Development",
+          desc: "Quickness and flexibility are essential. For this reason, we divide your project into digestible sprints using agile approaches. Your software will remain in line with your changing needs thanks to frequent updates, fast feedback loops, and rapid modifications.",
+        },
+        {
+          title: "Guaranteed Perfect Performance",
+          desc: "We thoroughly test your app from the very beginning to the end. Every feature is tested for dependability and cross-platform compatibility to give users a seamless, error-free experience.",
+        },
+        {
+          title: "Skilled and Accredited Developers",
+          desc: "Our development team, which is situated in Mumbai, has years of practical experience with cross-platform technologies and platforms including iOS and Android. We create user-friendly programs that scale with your business and operate dependably, regardless of how complicated your idea is.",
+        },
+        {
+          title: "Complete NDA Confidentiality",
+          desc: "We keep your thoughts secure. We secure your intellectual property from conception to launch by operating under stringent non-disclosure agreements. You may confidently express your ideas because we protect and uphold your creative rights.",
+        },
+        {
+          title: "UI/UX Design Focused on Users",
+          desc: "We create mobile interfaces that are both aesthetically pleasing and useful. Each screen, button, and interaction has been carefully planned to improve the user experience, boost interaction, and represent the essence of your brand.",
+        },
+        {
+          title: "Transparency and Clear Communication",
+          desc: "We don't think speculation is acceptable. Regular updates, open communication, and clear timetables will let you know how your project is progressing at all times. From launch to post-launch assistance, we guarantee total transparency and confidence.",
+        },
+
+        {
+          title: "Consistent on-time delivery",
+          desc: "We are aware of how crucial deadlines are in the corporate world. Our team ensures that your software is available on time without sacrificing quality by adhering to milestone-based progress and defined workflows.",
+        },
+        {
+          title: "Verified Performance History: Over 600 Projects Finalized",
+          desc: "More than 600 mobile apps have been successfully supplied by us in industries like healthcare, e-commerce, and fintech. Because of our background as a Mumbai app development company, we can contribute our industry knowledge and creative ideas to any project, no matter how big or complicated.",
+        },
+      ],
+    },
+    enhance: {
+      mode: "light",
+      title: "Together, let's create something extraordinary.",
+      image:
+        "https://i.pinimg.com/originals/05/cd/9a/05cd9a0bb4c72e5ba98ece031987955d.gif",
+      shortdesc:
+        "We can assist you if you're prepared to release a mobile application that accurately reflects your company and produces tangible outcomes. Join forces with a Mumbai app development company that is dedicated to your success at every stage.",
+      desc: "",
+    },
+    faq: {
+      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      mode: "gray",
+      title: "Helpfull F.A.Q.",
+      shortdesc:
+        "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
+      list: [
+        {
+          question: "What is application development?",
+          answer: {
+            para: "Application development is the process of creating software applications for mobile devices, desktops, or web platforms. It involves planning, designing, coding, testing, and launching apps tailored to user or business needs.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "What platforms do you develop applications for?",
+          answer: {
+            para: "We develop applications for Android, iOS, web browsers, and desktop systems. We also build cross-platform apps that work seamlessly across multiple devices using frameworks like Flutter or React Native.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How much does it cost to develop an app?",
+          answer: {
+            para: "The cost varies based on the app’s complexity, features, design, and the platforms involved. We offer customized quotes after a detailed requirement discussion to match your budget and goals.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How long does it take to develop an application?",
+          answer: {
+            para: "The development timeline depends on the scope of the project. On average, a simple app takes 4–8 weeks, while complex applications may take 3–6 months or more.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Can you help with app design and user interface (UI/UX)?",
+          answer: {
+            para: "Yes, we have a dedicated team of UI/UX designers who create visually appealing, intuitive, and user-friendly interfaces to ensure an optimal user experience.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Do you provide post-launch support and updates?",
+          answer: {
+            para: "Absolutely! We offer maintenance and support packages that include bug fixes, feature enhancements, updates for new OS versions, and performance monitoring.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Will I own the source code of my app?",
+          answer: {
+            para: "Yes. Once the project is complete and full payment is made, you will have full ownership of the app and its source code.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "Can you integrate third-party services like payment gateways or APIs?",
+          answer: {
+            para: "Yes, we regularly integrate third-party APIs including payment gateways, location services, chat systems, and more to enhance app functionality.",
+            list: [],
+            note: "",
+          },
+        },
+        // {
+        //   question: "Can I manage multiple locations under one Google My Business account?",
+        //   answer: {
+        //     para: "Yes, you can manage multiple business locations from a single GMB dashboard. Each location should have accurate and unique details to maintain authenticity and visibility.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
+        // {
+        //   question: "How often should I update my GMB listing?",
+        //   answer: {
+        //     para: "It's recommended to update your GMB profile regularly—post updates weekly, respond to reviews promptly, and ensure all business details (like hours, address, services) are always accurate.",
+        //     list: [],
+        //     note: "",
+        //   },
+        // },
+      ],
+    },
+    contact: {
+      mode: "light",
       title: "Have Any Query! Let's discuss",
       image: contactImage,
       shortdesc:
