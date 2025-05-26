@@ -44,11 +44,11 @@ const NavigationLinks = [
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
         link: "/life-at-skd",
       },
-      {
-        name: "News",
-        desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/coming-soon",
-      },
+      // {
+      //   name: "News",
+      //   desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+      //   link: "/coming-soon",
+      // },
 
       {
         name: "Case Study",
@@ -206,8 +206,8 @@ const NavigationLinks = [
   {
     prefix: <LiaBloggerB color="#e98c14" style={{ fontSize: "20px" }} />,
     name: "Blogs",
-    // link: "/blogs",
-    link: "/coming-soon",
+    link: "/blogs",
+    // link: "/coming-soon",
     desc: "",
   },
   {

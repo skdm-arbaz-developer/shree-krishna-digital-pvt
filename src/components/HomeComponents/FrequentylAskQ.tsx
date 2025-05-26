@@ -15,7 +15,7 @@ export default function FrequentylAskQ() {
     {
       label: "I have been burned by SEO agencies before. How are you different?",
       children:
-        "e understand your concern. Our agency is built on transparency, timely service delivery, and trust. We provide regular performance reports, address all your doubts via scheduled or on-call support, and operate with a proper company setup, ensuring you get reliable, accountable, and results-driven SEO services.",
+        "We understand your concern. Our agency is built on transparency, timely service delivery, and trust. We provide regular performance reports, address all your doubts via scheduled or on-call support, and operate with a proper company setup, ensuring you get reliable, accountable, and results-driven SEO services.",
     },
     {
       label: "How quickly can I expect the results?",

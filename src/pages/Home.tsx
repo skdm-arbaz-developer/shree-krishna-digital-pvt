@@ -7,7 +7,7 @@ import FrequentylAskQ from "../components/HomeComponents/FrequentylAskQ";
 import Industries from "../components/HomeComponents/Industries";
 import LogoScrolling from "../components/HomeComponents/LogoScrolling";
 import OurServices from "../components/HomeComponents/OurServices";
-// import PrAndAds from "../components/HomeComponents/PrAndAds";
+import PrAndAds from "../components/HomeComponents/PrAndAds";
 import Testimonial from "../components/HomeComponents/Testimonial";
 
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
       <Counter />
       <OurServices />
       <Industries />
-      {/* <PrAndAds /> */}
+      <PrAndAds />
       <Testimonial />
       <FrequentylAskQ />
       <Blog />

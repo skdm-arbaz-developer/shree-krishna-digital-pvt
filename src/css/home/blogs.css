@@ -53,6 +53,13 @@
   font-size: 0.85rem;
 }
 
+.blog-card-content {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 @media (max-width: 767px) {
   .blog-card.list {
     flex-direction: column;

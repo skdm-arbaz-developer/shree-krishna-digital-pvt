@@ -17,38 +17,35 @@ export default function PrAndAds() {
             </NavLink>
           </div>
           <p className="section-content mt-5 lg:mt-0">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-            quibusdam fuga tenetur neque soluta facere! Ipsa esse sint dolorum
-            quidem magni unde qui exercitationem inventore. Voluptas fugiat nam
-            maxime non! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Sapiente quibusdam fuga tenetur neque soluta facere! Ipsa esse sint
-            dolorum quidem magni unde qui exercitationem inventore. Voluptas
-            fugiat nam maxime non!
+            We are a leading PR and advertising agency, dedicated to helping
+            businesses build their brand, connect with their audience, and
+            achieve their marketing goals. Our team of experts specializes in
+            creating tailored strategies that drive results and elevate your
+            brand's presence in the market.
           </p>
         </div>
         <div className="ads-video mt-5">
-          <div className="grid lg:grid-cols-3 gap-y-5 lg:gap-5">
-            <video
-              className="first col-span-2"
-              poster="https://www.coca-cola.com/content/dam/onexp/in/en/brands/thums-up/updated-banners/tu_srk-toofan-glass-size-1440x810-v3.jpg"
-              controls
-            >
-              <source />
-            </video>
+          <div className="lg:grid lg:grid-cols-3 lg:gap-5">
+            
+            <iframe
+              title="vimeo-player"
+              src="https://player.vimeo.com/video/755873395?h=2808c87a1c"
+              width="100%"
+              height="100%"
+              className="col-span-2 min-h-[250px]"
+            />
+
             <div className="video-group">
-              <video
-                controls
-                poster="https://static.vecteezy.com/system/resources/previews/005/741/476/non_2x/gentle-cleaning-shampoo-or-skin-care-product-ads-with-bottle-banner-ad-for-beauty-products-wooden-surface-in-front-of-window-and-curtain-on-background-for-natural-product-display-design-vector.jpg"
-              >
-                <source />
-              </video>
-              <video
-                className="mt-5"
-                controls
-                poster="https://i.ytimg.com/vi/bzPJXza4_EM/maxresdefault.jpg"
-              >
-                <source />
-              </video>
+              <iframe
+                src="https://player.vimeo.com/video/755873578?h=6fddfdfe2b"
+                width="100%"
+                height="250"
+              />
+              <iframe
+                src="https://player.vimeo.com/video/755873578?h=6fddfdfe2b"
+                width="100%"
+                height="250"
+              />
             </div>
           </div>
         </div>

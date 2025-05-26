@@ -2,101 +2,27 @@ import { Button, Tag } from "antd";
 import { BsArrowRight } from "react-icons/bs";
 import "../../css/home/blogs.css";
 import { ReactNode } from "react";
-import blog_one from "../../assets/images/resources/blog1.jpeg";
-import blog_two from "../../assets/images/resources/blog2.jpeg";
-import blog_three from "../../assets/images/resources/blog3.jpeg";
+import { NavLink } from "react-router-dom";
+import blogsdata from "../support/BlogsArrayList";
 
 interface Data {
   image: string;
   title: string;
   slug: string;
-  author: string;
-  published_date: string;
-  category: string;
+  content: string;
   tags: string[];
   summary: string;
-  content: string;
 }
 
 interface CardProps {
   type: string;
   data: Data;
+  hideStyle: boolean;
   children?: ReactNode; // Allow children
 }
 
 export default function Blog() {
-  const blogs = [
-    {
-      image: blog_one,
-      title: "Top 5 Digital Marketing Trends to Watch in 2025",
-      slug: "digital-marketing-trends-2025",
-      author: "Vinay Mishra",
-      published_date: "2025-04-04",
-      category: "Trends",
-      tags: [
-        "AI",
-        "Marketing Automation",
-        "Voice Search",
-        "Social Media",
-        "SEO",
-      ],
-      summary:
-        "Stay ahead of the curve with these 5 digital marketing trends that will dominate in 2025, from AI to voice-activated search.",
-      content:
-        "The digital marketing landscape is evolving rapidly. In 2025, expect major shifts with the rise of AI-driven tools, marketing automation, hyper-personalization, and the growing importance of voice search. Brands will need to focus more on delivering seamless omnichannel experiences. Embracing video content, micro-influencers, and data-driven strategies will also be key to staying competitive. Make sure your digital strategy is ready for the future.",
-    },
-    {
-      image: blog_two,
-      title: "Why Every Business Needs a Strong Social Media Strategy",
-      slug: "importance-of-social-media-strategy",
-      author: "Vinay Mishra",
-      published_date: "2025-04-04",
-      category: "Social Media",
-      tags: ["Facebook", "Instagram", "LinkedIn", "Engagement", "Branding"],
-      summary:
-        "Discover how a powerful social media strategy can boost your brand presence, engagement, and sales in 2025.",
-      content:
-        "Social media isn't just about likes and followers — it's about building relationships, trust, and brand loyalty. A solid strategy across platforms like Instagram, LinkedIn, and Facebook allows businesses to engage their target audience, provide customer service, and build communities. Consistency, storytelling, and understanding your audience are key to leveraging social media effectively. With algorithm changes and new features rolling out regularly, staying informed is crucial to success.",
-    },
-    {
-      image: blog_three,
-      title: "SEO in 2025: What Has Changed and What Still Matters",
-      slug: "seo-2025-guide",
-      author: "Vinay Mishra",
-      published_date: "2025-04-04",
-      category: "SEO",
-      tags: [
-        "Search Engine Optimization",
-        "Google Ranking",
-        "Keywords",
-        "Content Marketing",
-        "Core Web Vitals",
-      ],
-      summary:
-        "A look at how SEO has evolved in 2025, and the top practices businesses should continue focusing on for higher Google rankings.",
-      content:
-        "While the fundamentals of SEO — like high-quality content and keyword optimization — remain important, 2025 brings new areas to prioritize. Core Web Vitals, user experience (UX), and mobile-first indexing are now key ranking factors. Google’s algorithms are also favoring intent-based searches, voice search queries, and structured data. Businesses that focus on creating valuable content and a seamless user journey will continue to outperform competitors in search results.",
-    },
-    {
-      image: blog_three,
-      title: "SEO in 2025: What Has Changed and What Still Matters",
-      slug: "seo-2025-guide",
-      author: "Vinay Mishra",
-      published_date: "2025-04-04",
-      category: "SEO",
-      tags: [
-        "Search Engine Optimization",
-        "Google Ranking",
-        "Keywords",
-        "Content Marketing",
-        "Core Web Vitals",
-      ],
-      summary:
-        "A look at how SEO has evolved in 2025, and the top practices businesses should continue focusing on for higher Google rankings.",
-      content:
-        "While the fundamentals of SEO — like high-quality content and keyword optimization — remain important, 2025 brings new areas to prioritize. Core Web Vitals, user experience (UX), and mobile-first indexing are now key ranking factors. Google’s algorithms are also favoring intent-based searches, voice search queries, and structured data. Businesses that focus on creating valuable content and a seamless user journey will continue to outperform competitors in search results.",
-    },
-  ];
+
 
   return (
     <section className="section">
@@ -115,10 +41,15 @@ export default function Blog() {
 
         <div className="blog-list mt-5 lg:mt-0">
           <div className="lg:grid lg:grid-cols-2 gap-6">
-            <BlogCard type="grid-card" data={blogs[0]} />
+            <BlogCard type="grid-card" data={blogsdata[0]} hideStyle={false} />
             <div className="blogs-list">
-              {blogs.slice(1).map((blog, index) => (
-                <BlogCard key={index} type="list" data={blog} />
+              {blogsdata.slice(1).map((blog, index) => (
+                <BlogCard
+                  key={index}
+                  type="list"
+                  data={blog}
+                  hideStyle={false}
+                />
               ))}
             </div>
           </div>
@@ -128,10 +59,20 @@ export default function Blog() {
   );
 }
 
-const BlogCard = ({ type, data }: CardProps) => (
-  <div className={"blog-card " + type}>
+const BlogCard = ({ type, data, hideStyle }: CardProps) => (
+  <NavLink
+    to={`/blog-view/${data?.slug}`}
+    className={"blog-card cursor-pointer " + type}
+  >
     <div className="blog-card-image">
-      <img src={data?.image} alt={data?.slug} />
+      <img
+        style={{
+          maxHeight: hideStyle ? "230px" : "unset",
+          minHeight: hideStyle ? "230px" : "unset",
+        }}
+        src={data?.image}
+        alt={data?.slug}
+      />
     </div>
     <div className="blog-card-body">
       {type === "grid-card" ? (
@@ -143,8 +84,18 @@ const BlogCard = ({ type, data }: CardProps) => (
       ) : (
         <Tag color="#e98c14">{data?.tags[0]}</Tag>
       )}
-      <h4 className="blog-card-title">{data?.title}</h4>
-      <p className="blog-card-content">{data?.summary}</p>
+      <h4
+        className="blog-card-title"
+        style={{ fontSize: hideStyle ? "1rem" : "" }}
+      >
+        {data?.title}
+      </h4>
+      <p
+        className="blog-card-content"
+        style={{ fontSize: hideStyle ? ".8rem" : "" }}
+      >
+        {data?.summary}
+      </p>
     </div>
-  </div>
+  </NavLink>
 );

@@ -72,10 +72,10 @@ body {
   font-family: var(--paragragraph-font);
 }
 
-ul {
+ul, ol {
   padding: 0;
   margin: 0;
-  list-style: none;
+  list-style: unset !important;
 }
 
 p {

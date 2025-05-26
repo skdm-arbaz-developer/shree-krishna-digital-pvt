@@ -128,7 +128,10 @@ export default function Career() {
           <div className="section-body flex justify-center items-center flex-col mb-20">
             <h2 className="section-title">Open Positions</h2>
             <p className="section-content text-center">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Explore exciting career opportunities with us! We are looking for
+              talented individuals to join our team in various roles. If you are
+              passionate about your work and eager to grow, we would love to
+              hear from you.
             </p>
           </div>
 

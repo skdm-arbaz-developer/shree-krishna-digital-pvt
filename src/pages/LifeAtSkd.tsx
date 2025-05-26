@@ -86,7 +86,6 @@ export default function LifeAtSkd() {
         "https://skdm.in/static/media/off1.2aba26ed57c446f1cc4e.jpeg",
       ],
     },
-
     {
       type: "festive",
       title: "Ganpati Festive Celebration at 2024",
@@ -152,7 +151,7 @@ export default function LifeAtSkd() {
         break;
       case "charity":
         color = "purple";
-        name = "PR & Charity";
+        name = "Events";
         break;
       case "office":
         color = "blue";
@@ -201,7 +200,7 @@ export default function LifeAtSkd() {
       <CommanBanner
         image={banner}
         title="Life At Shree Krishna Digital Solution Pvt Ltd"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam ab dolorum, non distinctio voluptatibus deserunt natus tempore corporis vel eum molestiae exercitationem ea, ipsum sunt expedita reiciendis obcaecati! Beatae, repudiandae."
+        desc="Experience the vibrant culture and dynamic work environment at Shree Krishna Digital Solution Pvt Ltd, where innovation meets creativity. Join us in our journey of digital excellence."
       />
 
       <section className="section">
@@ -211,10 +210,10 @@ export default function LifeAtSkd() {
               Memories with Shree Krishna Digital
             </h2>
             <p className="section-contet text-center" style={{ maxWidth: 750 }}>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Cupiditate, fugit asperiores. Odio asperiores in cupiditate odit
-              quod praesentium optio dolorem quam quidem, commodi assumenda
-              ducimus rerum, delectus nam debitis aperiam.
+              At Shree Krishna Digital, we believe in creating lasting memories
+              that reflect our vibrant culture and team spirit. From festive
+              celebrations to team outings, every moment is a testament to our
+              commitment to fostering a positive and engaging work environment.
             </p>
           </div>
           <ConfigProvider
@@ -284,7 +283,7 @@ export default function LifeAtSkd() {
                   label: (
                     <div className="flex items-center">
                       <PiOfficeChairFill />
-                      &nbsp; Charity & PR
+                      &nbsp; Events & PR
                     </div>
                   ),
                 },

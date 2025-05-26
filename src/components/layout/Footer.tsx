@@ -39,29 +39,29 @@ export default function Footer() {
   const links = [
     {
       title: <>About&nbsp;Us</>,
-      link: "/about",
+      link: "/about-us",
     },
     {
-      title: "Events",
-      link: "/events",
+      title: <>Our&nbsp;Team</>,
+      link: "/our-team",
     },
     {
       title: <>Privacy&nbsp;Policy</>,
-      link: "/privacy",
+      link: "/privacy-policy",
     },
 
     {
-      title: "Partnerships",
-      link: "/partnerships",
+      title: "Careers",
+      link: "/career",
     },
     {
-      title: "News",
-      link: "/news",
+      title: "Blogs",
+      link: "/blogs",
     },
 
     {
       title: <>Contact&nbsp;Us</>,
-      link: "/contact",
+      link: "/contact-us",
     },
   ];
   return (
@@ -73,10 +73,10 @@ export default function Footer() {
             <div className="footer-brand">
               <img src={logo} />
               <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Facilis eveniet earum vero! Magni architecto natus aliquam
-                commodi? Fugit, voluptates autem illum aliquam, quasi inventore
-                ab temporibus provident aut quisquam praesentium.
+                Shree Marketing is a leading digital marketing agency
+                specializing in innovative strategies to elevate your brand's
+                online presence. Our expert team is dedicated to delivering
+                results-driven solutions tailored to your unique business needs.
               </p>
             </div>
             {/* <div className="footer-growth">
@@ -143,22 +143,37 @@ export default function Footer() {
 
               <div className="grid grid-cols-8">
                 <div className="col-span-2">
-                  <NavLink to="#" className="icon">
+                  <NavLink
+                    to="https://www.facebook.com/shree.krishnadigitalsolutions/"
+                    target="_blank"
+                    className="icon"
+                  >
                     <FiFacebook />
                   </NavLink>
                 </div>
                 <div className="col-span-2">
-                  <NavLink to="#" className="icon">
+                  <NavLink
+                    to="https://www.linkedin.com/company/shree-krishna-digital-marketing/?originalSubdomain=in"
+                    target="_blank"
+                    className="icon"
+                  >
                     <CiLinkedin />
                   </NavLink>
                 </div>
                 <div className="col-span-2">
-                  <NavLink to="#" className="icon">
+                  <NavLink
+                    to="https://www.instagram.com/shreekrishna_digitalsolutions/"
+                    target="_blank"
+                    className="icon"
+                  >
                     <FaInstagram />
                   </NavLink>
                 </div>
                 <div className="col-span-2">
-                  <NavLink to="#" className="icon">
+                  <NavLink
+                    to="https://api.whatsapp.com/send/?phone=%2B917021390953&text=Hello%2C%20I'm%20interested%20in%20your%20digital%20marketing%20services.%20Please%20share%20more%20details%20about%20how%20you%20can%20help%20grow%20my%20business%20online.&type=phone_number&app_absent=0"
+                    className="icon"
+                  >
                     <BsWhatsapp />
                   </NavLink>
                 </div>
@@ -172,7 +187,7 @@ export default function Footer() {
               {links.map((link, index) => (
                 <div key={index} className="flex items-center">
                   <NavLink
-                    className="footer-link text-sm md:text-base text-white hover:text-black transition"
+                    className="footer-link text-sm md:text-base text-white hover:text-gray-400 transition"
                     to={link.link}
                   >
                     {link.title}

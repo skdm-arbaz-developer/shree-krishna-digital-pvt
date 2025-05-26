@@ -13,6 +13,7 @@ import "../../css/home/industry.css";
 interface CardProps {
   img: string;
   title: string;
+  desc: string;
   children?: ReactNode;
 }
 
@@ -21,30 +22,37 @@ export default function Industries() {
     {
       title: "Healthcare",
       img: doctor,
+      desc: "We provide innovative healthcare solutions to enhance patient care and streamline operations.",
     },
     {
       title: "Education",
       img: education,
+      desc: "Empowering educational institutions with technology to enhance learning experiences and administrative efficiency.",
     },
     {
       title: "Resorts & Villa",
       img: resort,
+      desc: "Transforming hospitality experiences with cutting-edge solutions for resorts and villas.",
     },
     {
       title: "Hospitality & Catering",
       img: hospitality,
+      desc: "Revolutionizing the hospitality and catering industry with tailored solutions for seamless operations.",
     },
     {
       title: "Interior Designs",
       img: interior,
+      desc: "Crafting stunning interior designs with innovative solutions that elevate spaces.",
     },
     {
       title: "Real Estate",
       img: realestate,
+      desc: "Empowering real estate businesses with technology to streamline processes and enhance customer experiences.",
     },
     {
       title: "Spa & Salon",
       img: salon,
+      desc: "Enhancing spa and salon experiences with innovative solutions for better customer engagement and management.",
     },
   ];
   return (
@@ -80,7 +88,7 @@ export default function Industries() {
           >
             {industryList.map((val, index) => (
               <SwiperSlide key={index}>
-                <InductryCard img={val.img} title={val.title} />
+                <InductryCard img={val.img} title={val.title} desc={val.desc} />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -90,17 +98,12 @@ export default function Industries() {
   );
 }
 
-const InductryCard = ({ img, title }: CardProps) => (
+const InductryCard = ({ img, title, desc }: CardProps) => (
   <div className="industry-card">
     <img src={img} />
     <div className="content">
       <h3>{title}</h3>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, debitis.
-        Repudiandae vel ab a officiis modi nostrum unde, neque accusamus! Harum
-        ducimus inventore rem accusamus aperiam repellat blanditiis maiores.
-        Omnis.
-      </p>
+      <p>{desc}</p>
     </div>
   </div>
 );

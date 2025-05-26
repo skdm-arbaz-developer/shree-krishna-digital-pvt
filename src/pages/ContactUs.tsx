@@ -18,7 +18,7 @@ export default function ContactUs() {
     <>
       <CommanBanner
         title="Contact Us"
-        desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium consequatur error, illo reiciendis quisquam et vel? Deleniti magnam nobis rem omnis, impedit voluptatum beatae sunt molestias voluptate sapiente harum rerum."
+        desc="Get in touch with us for any queries or support"
         image="https://eclipsesol.com/wp-content/uploads/2023/09/contact-us-scaled-1.jpg"
       />
 
@@ -30,14 +30,14 @@ export default function ContactUs() {
               className="section-content text-center"
               style={{ maxWidth: 750 }}
             >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
-              minima. Ipsam, autem ea corrupti error quibusdam doloribus rerum
-              modi omnis ipsa, nostrum nisi fugit id libero quos debitis a quia.
+              We’re here to help! Whether you have questions about our services,
+              need support, or just want to say hello, feel free to reach out.
+              Our team is ready to assist you with any inquiries you may have.
             </p>
           </div>
 
           <div className="contact-us-card">
-            <div className="grid grid-cols-7">
+            <div className="grid lg:grid-cols-7">
               <div className="col-span-2">
                 <div className="contact-us-left">
                   <div className="contact-detail-list">
