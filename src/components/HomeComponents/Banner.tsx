@@ -1,7 +1,5 @@
-import { Button } from "antd";
 import banner from "../../assets/videos/homebanner.mp4";
 import "../../css/home/banner.css";
-import { FaAngleRight } from "react-icons/fa6";
 import EnquiryForm from "../Modal/EnquiryForm";
 
 export default function Banner() {
