@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 export default function Testimonial({ testimonialRef }: any) {
   return (
+    // 
     <section className="testimonials-section" ref={testimonialRef}>
       <div className="container mx-auto">
         <div className="sec-title">
