@@ -23,6 +23,15 @@
   --section-background-dark: #150e1d;
   --section-title-color: #302043;
   --font-color-paragraph: #a8a8a8;
+  --india-color: rgb(255, 170, 23);
+  --dubai-color: rgb(113, 157, 92);
+  --australia-color: rgb(233, 192, 0);
+  --usa-color: rgb(255, 124, 109);
+  --canada-color: rgb(255, 127, 103);
+  --nepal-color: rgb(189 112 153);
+  --maldives-color: rgb(56, 182, 255);
+  --united-kingdom-color: rgb(99, 121, 176);
+  --malasia-color: rgb(255, 116, 224);
 
   /* Corrected Font Variables */
   --paragraph-font-family: "Lato", sans-serif;
@@ -41,7 +50,7 @@
   --sidebar-background-color: #eee;
 
   --banner-title-mobile: 2rem;
-  --banner-paragraph-mobile: .9rem;
+  --banner-paragraph-mobile: 0.9rem;
 }
 
 /* 2 */
@@ -59,11 +68,10 @@
 } */
 
 body,
-html{
+html {
   overflow-x: hidden;
   width: 100%;
 }
-
 
 /* 3 */
 body {
@@ -72,7 +80,8 @@ body {
   font-family: var(--paragragraph-font);
 }
 
-ul, ol {
+ul,
+ol {
   padding: 0;
   margin: 0;
   list-style: unset !important;
@@ -99,4 +108,3 @@ h6 {
   font-weight: var(--section-title-font-weight);
   font-style: var(--section-title-font-style);
 }
-

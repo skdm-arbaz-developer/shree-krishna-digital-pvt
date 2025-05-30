@@ -4,12 +4,14 @@ import countries from "../components/support/Countries";
 import CommanBanner from "../components/support/CommanBanner";
 
 interface Service {
-  banner: string;
+  icon: string;
   title: string;
-  url: string;
+  link: string;
   shortdesc: string;
   desc: string[];
+  bannerImage: string;
 }
+
 
 export default function CountryServiceView() {
   const location = useLocation();
@@ -18,15 +20,16 @@ export default function CountryServiceView() {
   useEffect(() => {
     const matchedService = countries
       ?.flatMap((country) => country.services)
-      ?.find((service) => service.url === location?.pathname);
+      ?.find((service) => service.link === location?.pathname);
 
     setData(matchedService);
   }, [location]);
+  
   return (
     data && (
       <>
         <CommanBanner
-          image={data?.banner}
+          image={data?.bannerImage}
           title={data?.title}
           desc={data?.shortdesc}
         />

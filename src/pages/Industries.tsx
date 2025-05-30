@@ -1,4 +1,4 @@
-import { useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import CommanBanner from "../components/support/CommanBanner";
 import industries from "../components/support/IndustryArrayList";
 import { Avatar, Button, Collapse, Form, Input } from "antd";
@@ -7,14 +7,15 @@ import { FaMinus, FaPlus, FaUser } from "react-icons/fa6";
 import "../css/home/logoscroll.css";
 import { BsQuote } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination } from "swiper/modules";
+import { Autoplay, FreeMode, Navigation, Pagination } from "swiper/modules";
 import "../css/home/testimonial.css";
 import FaqArrow from "../assets/images/icons/faq-arrow.svg";
 import FaqStart from "../assets/images/icons/faq-star.svg";
 import SvgIcon from "../assets/images/icons/home-about-right.svg";
-import circle from "../assets/images/icons/service-home.svg";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import CaseStudyCard from "../components/CaseStudy/CaseStudyCard";
+import "../css/casestudy.css";
+import "../css/home/industry.css";
 
 export default function Industries() {
   const { pathname } = useLocation();
@@ -78,18 +79,119 @@ export default function Industries() {
                 </p>
               </div>
 
-              <div className="logo-list mt-20">
-                <div className="logo-scroll">
-                  {data?.clients?.list?.map((val, index) => (
-                    <img key={index} src={val} />
+              <Swiper
+                slidesPerView={7}
+                spaceBetween={30}
+                freeMode={true}
+                autoplay={true}
+                loop={true}
+                modules={[FreeMode, Autoplay]}
+                className="mt-30"
+              >
+                {data?.clients?.list?.map((val, index) => (
+                  <SwiperSlide className="h-full">
+                    <div className="logo-list">
+                      <img key={index} src={val} />
+                    </div>
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+          </section>
+        )}
+        {data.whychoose && (
+          <section
+            className={`relative section-${data?.whychoose?.mode}`}
+            style={{ paddingBottom: "100px" }}
+          >
+            <div className="container mx-auto">
+              <div className="section-detail mt-20">
+                <div className="grid grid-cols-3 gap-10">
+                  {data?.whychoose?.whychoosepoints?.map((val, index) => (
+                    <WhyChooseCard detail={val} index={index} key={index} />
                   ))}
                 </div>
               </div>
             </div>
           </section>
         )}
+        {data?.casestudy && (
+          <section className={"section section-" + data?.casestudy?.mode}>
+            <div className="container mx-auto">
+              <div className="grid grid-cols-12">
+                <div className="col-span-4">
+                  <div className="section-body">
+                    <h2 className="section-title">Our Success Stories</h2>
+                    <p className="section-content">
+                      Explore how we’ve helped businesses achieve remarkable
+                      results.
+                    </p>
+                    <Button
+                      className="comman-button mt-5"
+                      style={{ color: "#fff", borderColor: "#fff" }}
+                    >
+                      View All Stories <HiOutlineArrowLongRight />
+                    </Button>
+                  </div>
+                </div>
+                <div className="col-span-8">
+                  <Swiper
+                    navigation={true}
+                    breakpoints={{
+                      640: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                      768: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                      1024: {
+                        slidesPerView: 2,
+                        spaceBetween: 20,
+                      },
+                    }}
+                    modules={[Navigation]}
+                    className="industry-swiper"
+                  >
+                    {data?.casestudy?.list?.map((val) => (
+                      <SwiperSlide>
+                        <CaseStudyCard data={val} />
+                      </SwiperSlide>
+                    ))}
+                  </Swiper>
+                </div>
+              </div>
+            </div>
+          </section>
+        )}
 
-       
+        {data?.ourworks && (
+          <section className={`section section-${data?.ourworks?.mode}`}>
+            <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title text-center">
+                  {data?.ourworks?.title}
+                </h2>
+                <p className="section-content text-center max-w-200">
+                  {data?.ourworks?.shortdesc}
+                </p>
+              </div>
+              <Swiper
+                navigation={true}
+                spaceBetween={20}
+                modules={[Navigation]}
+                className="industry-swiper mt-20"
+              >
+                {data?.ourworks?.worklist?.map((val, index) => (
+                  <SwiperSlide>
+                    <OurWork data={val} key={index} />
+                  </SwiperSlide>
+                ))}
+              </Swiper>
+            </div>
+          </section>
+        )}
 
         {data.testimonial && (
           <section className="section section-dark mb-110 relative">
@@ -141,87 +243,6 @@ export default function Industries() {
                 </Swiper>
               </div>
             </div>
-          </section>
-        )}
-        
-         {data?.casestudy && (
-          <section className={"section section-"+ data?.casestudy?.mode}>
-            <div className="container mx-auto">
-              <div className="grid grid-cols-12">
-                <div className="col-span-4">
-                  <div className="section-body">
-                    <h2 className="section-title">Our Success Stories</h2>
-                    <p className="section-content">
-                      Explore how we’ve helped businesses achieve remarkable
-                      results.
-                    </p>
-                    <Button
-                      className="comman-button mt-5"
-                      style={{ color: "#fff", borderColor: "#fff" }}
-                    >
-                      View All Stories <HiOutlineArrowLongRight />
-                    </Button>
-                  </div>
-                </div>
-                <div className="col-span-8">
-                  <Swiper
-                    navigation={true}
-                    breakpoints={{
-                      640: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                      },
-                      768: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                      },
-                      1024: {
-                        slidesPerView: 2,
-                        spaceBetween: 20,
-                      },
-                    }}
-                    modules={[Navigation]}
-                    className="case-study"
-                  >
-                    {data?.casestudy?.list?.map((val) => (
-                      <SwiperSlide>
-                        <CaseStudyCard data={val} />
-                      </SwiperSlide>
-                    ))}
-                  </Swiper>
-                </div>
-              </div>
-            </div>
-          </section>
-        )}
-        {data.whychoose && (
-          <section
-            className={`section relative section-${data?.whychoose?.mode}`}
-          >
-            <img src={FaqArrow} className="absolute -top-10 left-0" />
-            <img src={FaqStart} className="absolute top-0 right-0" />
-            <div className="container mx-auto">
-              <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
-                  {data?.whychoose?.title}
-                </h2>
-                <p className="section-content text-center max-w-200">
-                  {data?.whychoose?.shortdesc}
-                </p>
-              </div>
-
-              <div className="section-detail mt-20">
-                {data?.whychoose?.whychoosepoints?.map((val, index) => (
-                  <WhyChooseSection detail={val} index={index} key={index} />
-                ))}
-              </div>
-            </div>
-
-            <img
-              src={circle}
-              alt="circle"
-              className="absolute bottom-10 right-20"
-            />
           </section>
         )}
 
@@ -366,42 +387,18 @@ const FAQ = ({ detail }: any) => (
   </div>
 );
 
-const WhyChooseSection = ({ detail, index }: any) => (
-  <div className="grid grid-cols-3 gap-10 mb-15">
-    {index % 2 === 0 ? (
-      <div className="descption-image">
-        <img
-          className="rounded-2xl"
-          style={{
-            width: "100%",
-            height: "100%",
-            maxHeight: 250,
-            objectFit: "cover",
-          }}
-          src={detail?.image}
-        />
-      </div>
-    ) : null}
-
-    <div className="section-detail-content col-span-2">
-      <h5 className="text-white text-3xl mb-3">{detail?.title}</h5>
-      <p className="mb-5 text-white font-extralight">{detail?.desc}</p>
+const WhyChooseCard = ({ detail, index }: any) => (
+  <div className="whychoosecard flex flex-col items-start" key={index}>
+    <div className="image-list w-full h-[250px] object-cover rounded-xl overflow-hidden">
+      <img
+        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        src={detail?.image}
+      />
     </div>
-
-    {index % 2 !== 0 ? (
-      <div className="descption-image">
-        <img
-          className="rounded-2xl"
-          style={{
-            width: "100%",
-            height: "100%",
-            maxHeight: 250,
-            objectFit: "cover",
-          }}
-          src={detail?.image}
-        />
-      </div>
-    ) : null}
+    <h5 className="py-2" style={{ fontSize: "1.4rem" }}>
+      {detail?.title}
+    </h5>
+    <p>{detail?.desc}</p>
   </div>
 );
 
@@ -411,11 +408,56 @@ const TestimonialCard = ({ review, name, company }: any) => (
       <BsQuote />
       <p>{review}</p>
     </div>
-    <div className="writer-detail">
+    <div className="writer-detail pt-10">
       <Avatar size={50} shape="circle" icon={<FaUser />} />
-      <div className="contact-detail">
+      <div className="contact-details pl-5">
         <h5>{name}</h5>
         <p>{company}</p>
+      </div>
+    </div>
+  </div>
+);
+
+const OurWork = ({ data }: any) => (
+  <div className="work-section">
+    <div className="grid grid-cols-7 gap-15">
+      <div className="col-span-4">
+        <div className="videoFrame">
+          <iframe
+            width={"100%"}
+            height={400}
+            src={data?.link}
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerPolicy="strict-origin-when-cross-origin"
+          />
+        </div>
+      </div>
+      <div className="col-span-3">
+        <strong>SEO Enhance</strong>
+        <h3>{data?.title}</h3>
+        <p>{data?.desc?.para}</p>
+        <Collapse
+          bordered={false}
+          expandIconPosition="right"
+          defaultActiveKey={["1"]}
+          style={{ background: "transparent", padding: 0 }}
+          items={[
+            {
+              key: "1",
+              label: <h5>Rank Keywords</h5>,
+              children: (
+                <div className="flex flex-col">
+                  {data?.desc?.keywords?.map((val: string, index: number) => (
+                    <NavLink key={index} to="#">
+                      {index + 1})&nbsp;{val}
+                    </NavLink>
+                  ))}
+                </div>
+              ),
+            },
+          ]}
+        />
       </div>
     </div>
   </div>

@@ -174,7 +174,8 @@ section.secton-center p {
 }
 
 .get-in-touch-section {
-  background: #594d69;
+  background: var(--section-background-dark);
+  opacity: 0.9;
 }
 
 @media (max-width: 768px) {

@@ -1,101 +1,149 @@
+// ================== SEO Icons =================
+
+import seoIconIndia from "../../assets/images/icons/services/seo/1.png";
+import seoIconDubai from "../../assets/images/icons/services/seo/2.png";
+import seoIconAustralia from "../../assets/images/icons/services/seo/3.png";
+import seoIconUsa from "../../assets/images/icons/services/seo/4.png";
+import seoIconCanada from "../../assets/images/icons/services/seo/5.png";
+import seoIconNepal from "../../assets/images/icons/services/seo/6.png";
+import seoIconMaldives from "../../assets/images/icons/services/seo/7.png";
+import seoIconUnitedKingdom from "../../assets/images/icons/services/seo/8.png";
+import seoIconMalasia from "../../assets/images/icons/services/seo/9.png";
+
+// ====================== Social Media =======================
+import socialIconIndia from "../../assets/images/icons/services/socialmedia/1.png";
+import socialIconDubai from "../../assets/images/icons/services/socialmedia/2.png";
+import socialIconAustralia from "../../assets/images/icons/services/socialmedia/3.png";
+import socialIconUsa from "../../assets/images/icons/services/socialmedia/4.png";
+import socialIconCanada from "../../assets/images/icons/services/socialmedia/5.png";
+import socialIconNepal from "../../assets/images/icons/services/socialmedia/6.png";
+import socialIconMaldives from "../../assets/images/icons/services/socialmedia/7.png";
+import socialIconUnitedKingdom from "../../assets/images/icons/services/socialmedia/8.png";
+import socialIconMalasia from "../../assets/images/icons/services/socialmedia/9.png";
+
+// ====================== GMB =======================
+import gmbIconIndia from "../../assets/images/icons/services/gmb/1.png";
+import gmbIconDubai from "../../assets/images/icons/services/gmb/2.png";
+import gmbIconAustralia from "../../assets/images/icons/services/gmb/3.png";
+import gmbIconUsa from "../../assets/images/icons/services/gmb/4.png";
+import gmbIconCanada from "../../assets/images/icons/services/gmb/5.png";
+import gmbIconNepal from "../../assets/images/icons/services/gmb/6.png";
+import gmbIconMaldives from "../../assets/images/icons/services/gmb/7.png";
+import gmbIconUnitedKingdom from "../../assets/images/icons/services/gmb/8.png";
+import gmbIconMalasia from "../../assets/images/icons/services/gmb/9.png";
+
+// ====================== Pay Per Click =======================
+import payIconIndia from "../../assets/images/icons/services/payperclick/1.png";
+import payIconDubai from "../../assets/images/icons/services/payperclick/2.png";
+import payIconAustralia from "../../assets/images/icons/services/payperclick/3.png";
+import payIconUsa from "../../assets/images/icons/services/payperclick/4.png";
+import payIconCanada from "../../assets/images/icons/services/payperclick/5.png";
+import payIconNepal from "../../assets/images/icons/services/payperclick/6.png";
+import payIconMaldives from "../../assets/images/icons/services/payperclick/7.png";
+import payIconUnitedKingdom from "../../assets/images/icons/services/payperclick/8.png";
+import payIconMalasia from "../../assets/images/icons/services/payperclick/9.png";
+
+// ====================== Web Application =======================
+import webIconIndia from "../../assets/images/icons/services/webdevelopment/1.png";
+import webIconDubai from "../../assets/images/icons/services/webdevelopment/2.png";
+import webIconAustralia from "../../assets/images/icons/services/webdevelopment/3.png";
+import webIconUsa from "../../assets/images/icons/services/webdevelopment/4.png";
+import webIconCanada from "../../assets/images/icons/services/webdevelopment/5.png";
+import webIconNepal from "../../assets/images/icons/services/webdevelopment/6.png";
+import webIconMaldives from "../../assets/images/icons/services/webdevelopment/7.png";
+import webIconUnitedKingdom from "../../assets/images/icons/services/webdevelopment/8.png";
+import webIconMalasia from "../../assets/images/icons/services/webdevelopment/9.png";
+
+// ====================== Application Development =======================
+import appIconIndia from "../../assets/images/icons/services/applicationdevelopment/1.png";
+import appIconDubai from "../../assets/images/icons/services/applicationdevelopment/2.png";
+import appIconAustralia from "../../assets/images/icons/services/applicationdevelopment/3.png";
+import appIconUsa from "../../assets/images/icons/services/applicationdevelopment/4.png";
+import appIconCanada from "../../assets/images/icons/services/applicationdevelopment/5.png";
+import appIconNepal from "../../assets/images/icons/services/applicationdevelopment/6.png";
+import appIconMaldives from "../../assets/images/icons/services/applicationdevelopment/7.png";
+import appIconUnitedKingdom from "../../assets/images/icons/services/applicationdevelopment/8.png";
+import appIconMalasia from "../../assets/images/icons/services/applicationdevelopment/9.png";
+
 const countries = [
   {
     title: "India",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/india",
+    type: "india",
     banner:
       "https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg",
     services: [
       {
-        banner:
-          "https://t4.ftcdn.net/jpg/04/55/43/71/360_F_455437122_zHBpoIMWuVbvIvqc0fff0L4qG9E0n2K3.jpg",
-        title: "Search Engine Optimization In India",
-        url: "/search-engine-optimization-in-india",
+        icon: seoIconIndia,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-india",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        banner:
-          "https://www.promotedge.com/wp-content/uploads/2024/09/social-media-tips-blog-header-no-logo.webp",
-        title: "Social Media Marketing In India",
-        url: "/social-media-marketing-in-india",
+        icon: socialIconIndia,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-india",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        banner:
-          "https://www.squareonemedia.com.au/workshops/wp-content/uploads/2024/06/Why-google-my-business-profiles-are-important.png",
-        title: "Google My Business In India",
-        url: "/google-my-business-in-india",
+        icon: gmbIconIndia,
+        title: "Google My Business",
+        link: "/google-my-business-in-india",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        banner:
-          "https://618media.com/wp-content/uploads/2023/12/shopping-ads-expansion-2023-growth-and-opportunities-1.webp",
-        title: "Ads Marketing In India",
-        url: "/ads-marketing-in-india",
+        icon: payIconIndia,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-india",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        banner:
-          "https://stocksaim.com/wp-content/uploads/2024/02/Web-Development.jpg",
-        title: "Website Development In India",
-        url: "/web-development-in-india",
+        icon: webIconIndia,
+        title: "Web Developement",
+        link: "/web-devlopement-in-india",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
       },
       {
-        banner:
-          "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg",
-        title: "Application Development In India",
-        url: "/application-development-in-india",
+        icon: appIconIndia,
+        title: "Application Development",
+        link: "/application-development-in-india",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
-      },
-      {
-        banner:
-          "https://waysandmeanstechnology.com/Content/assets/images/inner-banner/crm-banner-graphic.png",
-        title: "CRM Development In India",
-        url: "/crm-development-in-india",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
       },
     ],
   },
@@ -103,99 +151,80 @@ const countries = [
     title: "Dubai",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/dubai",
+    type: "dubai",
     banner:
-      "https://www.visitdubai.com/-/media/gathercontent/poi/b/burj-khalifa/fallback-image/poi-burj-khalifa-3-dtcm-jun-2023.jpg",
+      "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_4:3,w_3840,g_auto/f_auto/q_auto/v1/shutterstock_2414539851_ss_non-editorial_dcx0bm?_a=BAVAZGE70",
     services: [
       {
-        banner:
-          "https://t4.ftcdn.net/jpg/04/55/43/71/360_F_455437122_zHBpoIMWuVbvIvqc0fff0L4qG9E0n2K3.jpg",
-        title: "Search Engine Optimization In India",
-        url: "/search-engine-optimization-in-dubai",
+        icon: seoIconDubai,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-dubai",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        banner:
-          "https://www.promotedge.com/wp-content/uploads/2024/09/social-media-tips-blog-header-no-logo.webp",
-        title: "Social Media Marketing In India",
-        url: "/social-media-marketing-in-dubai",
+        icon: socialIconDubai,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-dubai",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        banner:
-          "https://www.squareonemedia.com.au/workshops/wp-content/uploads/2024/06/Why-google-my-business-profiles-are-important.png",
-        title: "Google My Business In India",
-        url: "/google-my-business-in-dubai",
+        icon: gmbIconDubai,
+        title: "Google My Business",
+        link: "/google-my-business-in-dubai",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        banner:
-          "https://618media.com/wp-content/uploads/2023/12/shopping-ads-expansion-2023-growth-and-opportunities-1.webp",
-        title: "Ads Marketing In India",
-        url: "/ads-marketing-in-dubai",
+        icon: payIconDubai,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-dubai",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        banner:
-          "https://stocksaim.com/wp-content/uploads/2024/02/Web-Development.jpg",
-        title: "Website Development In India",
-        url: "/web-development-in-dubai",
+        icon: webIconDubai,
+        title: "Web Developement",
+        link: "/web-devlopement-in-dubai",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
       },
       {
-        banner:
-          "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg",
-        title: "Application Development In India",
-        url: "/application-development-in-dubai",
+        icon: appIconDubai,
+        title: "Application Development",
+        link: "/application-development-in-dubai",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
-      },
-      {
-        banner:
-          "https://waysandmeanstechnology.com/Content/assets/images/inner-banner/crm-banner-graphic.png",
-        title: "CRM Development In India",
-        url: "/crm-development-in-dubai",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
       },
     ],
   },
@@ -203,99 +232,80 @@ const countries = [
     title: "Australia",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/australia",
+    type: "australia",
     banner:
-      "https://media.cnn.com/api/v1/images/stellar/prod/191011110307-02-australia-beautiful-places.jpg?q=w_1110,c_fill",
+      "https://essentialhome.eu/blog/wp-content/uploads/2018/05/Australian-Architecture-10-Memorable-Buildings_2.jpg",
     services: [
       {
-        banner:
-          "https://t4.ftcdn.net/jpg/04/55/43/71/360_F_455437122_zHBpoIMWuVbvIvqc0fff0L4qG9E0n2K3.jpg",
-        title: "Search Engine Optimization In India",
-        url: "/search-engine-optimization-in-australia",
+        icon: seoIconAustralia,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-australia",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        banner:
-          "https://www.promotedge.com/wp-content/uploads/2024/09/social-media-tips-blog-header-no-logo.webp",
-        title: "Social Media Marketing In India",
-        url: "/social-media-marketing-in-australia",
+        icon: socialIconAustralia,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-australia",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        banner:
-          "https://www.squareonemedia.com.au/workshops/wp-content/uploads/2024/06/Why-google-my-business-profiles-are-important.png",
-        title: "Google My Business In India",
-        url: "/google-my-business-in-australia",
+        icon: gmbIconAustralia,
+        title: "Google My Business",
+        link: "/google-my-business-in-australia",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        banner:
-          "https://618media.com/wp-content/uploads/2023/12/shopping-ads-expansion-2023-growth-and-opportunities-1.webp",
-        title: "Ads Marketing In India",
-        url: "/ads-marketing-in-australia",
+        icon: payIconAustralia,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-australia",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        banner:
-          "https://stocksaim.com/wp-content/uploads/2024/02/Web-Development.jpg",
-        title: "Website Development In India",
-        url: "/web-development-in-australia",
+        icon: webIconAustralia,
+        title: "Web Developement",
+        link: "/web-devlopement-in-australia",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
       },
       {
-        banner:
-          "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg",
-        title: "Application Development In India",
-        url: "/application-development-in-australia",
+        icon: appIconAustralia,
+        title: "Application Development",
+        link: "/application-development-in-australia",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
-      },
-      {
-        banner:
-          "https://waysandmeanstechnology.com/Content/assets/images/inner-banner/crm-banner-graphic.png",
-        title: "CRM Development In India",
-        url: "/crm-development-in-australia",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
       },
     ],
   },
@@ -303,99 +313,80 @@ const countries = [
     title: "USA",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/usa",
+    type: "usa",
     banner:
-      "https://assets.weforum.org/article/image/large_M3YI_BXWSz3rQspGCag8y1AkHHXsxaSBcQalYpZYwQE.jpg",
+      "https://assets-news.housing.com/news/wp-content/uploads/2022/10/25160359/Places-to-Visit-in-America.jpg",
     services: [
       {
-        banner:
-          "https://t4.ftcdn.net/jpg/04/55/43/71/360_F_455437122_zHBpoIMWuVbvIvqc0fff0L4qG9E0n2K3.jpg",
-        title: "Search Engine Optimization In India",
-        url: "/search-engine-optimization-in-usa",
+        icon: seoIconUsa,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-usa",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        banner:
-          "https://www.promotedge.com/wp-content/uploads/2024/09/social-media-tips-blog-header-no-logo.webp",
-        title: "Social Media Marketing In India",
-        url: "/social-media-marketing-in-usa",
+        icon: socialIconUsa,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-usa",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        banner:
-          "https://www.squareonemedia.com.au/workshops/wp-content/uploads/2024/06/Why-google-my-business-profiles-are-important.png",
-        title: "Google My Business In India",
-        url: "/google-my-business-in-usa",
+        icon: gmbIconUsa,
+        title: "Google My Business",
+        link: "/google-my-business-in-usa",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        banner:
-          "https://618media.com/wp-content/uploads/2023/12/shopping-ads-expansion-2023-growth-and-opportunities-1.webp",
-        title: "Ads Marketing In India",
-        url: "/ads-marketing-in-usa",
+        icon: payIconUsa,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-usa",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        banner:
-          "https://stocksaim.com/wp-content/uploads/2024/02/Web-Development.jpg",
-        title: "Website Development In India",
-        url: "/web-development-in-usa",
+        icon: webIconUsa,
+        title: "Web Developement",
+        link: "/web-devlopement-in-usa",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
       },
       {
-        banner:
-          "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg",
-        title: "Application Development In India",
-        url: "/application-development-in-usa",
+        icon: appIconUsa,
+        title: "Application Development",
+        link: "/application-development-in-usa",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
-      },
-      {
-        banner:
-          "https://waysandmeanstechnology.com/Content/assets/images/inner-banner/crm-banner-graphic.png",
-        title: "CRM Development In India",
-        url: "/crm-development-in-usa",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
       },
     ],
   },
@@ -403,297 +394,80 @@ const countries = [
     title: "Canada",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/canada",
+    type: "canada",
     banner:
-      "https://imgcld.yatra.com/ytimages/image/upload/v1396184548/International%20Holidays/Canada/Vancouver/shutterstock_38020621.jpg",
+      "https://i.natgeofe.com/k/e2ffc795-8b1f-4479-8c95-b6497e5ca4f2/canada-vancouver.jpg",
     services: [
       {
-        banner:
-          "https://t4.ftcdn.net/jpg/04/55/43/71/360_F_455437122_zHBpoIMWuVbvIvqc0fff0L4qG9E0n2K3.jpg",
-        title: "Search Engine Optimization In India",
-        url: "/search-engine-optimization-in-canada",
+        icon: seoIconCanada,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-canada",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        banner:
-          "https://www.promotedge.com/wp-content/uploads/2024/09/social-media-tips-blog-header-no-logo.webp",
-        title: "Social Media Marketing In India",
-        url: "/social-media-marketing-in-canada",
+        icon: socialIconCanada,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-canada",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        banner:
-          "https://www.squareonemedia.com.au/workshops/wp-content/uploads/2024/06/Why-google-my-business-profiles-are-important.png",
-        title: "Google My Business In India",
-        url: "/google-my-business-in-canada",
+        icon: gmbIconCanada,
+        title: "Google My Business",
+        link: "/google-my-business-in-canada",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        banner:
-          "https://618media.com/wp-content/uploads/2023/12/shopping-ads-expansion-2023-growth-and-opportunities-1.webp",
-        title: "Ads Marketing In India",
-        url: "/ads-marketing-in-canada",
+        icon: payIconCanada,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-canada",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        banner:
-          "https://stocksaim.com/wp-content/uploads/2024/02/Web-Development.jpg",
-        title: "Website Development In India",
-        url: "/web-development-in-canada",
+        icon: webIconCanada,
+        title: "Web Developement",
+        link: "/web-devlopement-in-Canada",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
       },
       {
-        banner:
-          "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg",
-        title: "Application Development In India",
-        url: "/application-development-in-canada",
+        icon: appIconCanada,
+        title: "Application Development",
+        link: "/application-development-in-canada",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
-      },
-      {
-        banner:
-          "https://waysandmeanstechnology.com/Content/assets/images/inner-banner/crm-banner-graphic.png",
-        title: "CRM Development In India",
-        url: "/crm-development-in-canada",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Nepal",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-    url: "/malasia",
-    banner: "https://images6.alphacoders.com/893/893707.jpg",
-    services: [
-      {
-        banner:
-          "https://t4.ftcdn.net/jpg/04/55/43/71/360_F_455437122_zHBpoIMWuVbvIvqc0fff0L4qG9E0n2K3.jpg",
-        title: "Search Engine Optimization In India",
-        url: "/search-engine-optimization-in-malasia",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://www.promotedge.com/wp-content/uploads/2024/09/social-media-tips-blog-header-no-logo.webp",
-        title: "Social Media Marketing In India",
-        url: "/social-media-marketing-in-malasia",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://www.squareonemedia.com.au/workshops/wp-content/uploads/2024/06/Why-google-my-business-profiles-are-important.png",
-        title: "Google My Business In India",
-        url: "/google-my-business-in-malasia",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://618media.com/wp-content/uploads/2023/12/shopping-ads-expansion-2023-growth-and-opportunities-1.webp",
-        title: "Ads Marketing In India",
-        url: "/ads-marketing-in-malasia",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://stocksaim.com/wp-content/uploads/2024/02/Web-Development.jpg",
-        title: "Website Development In India",
-        url: "/web-development-in-malasia",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg",
-        title: "Application Development In India",
-        url: "/application-development-in-malasia",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://waysandmeanstechnology.com/Content/assets/images/inner-banner/crm-banner-graphic.png",
-        title: "CRM Development In India",
-        url: "/crm-development-in-malasia",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-    ],
-  },
-  {
-    title: "Maldives",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-    url: "/maldives",
-    banner: "https://images6.alphacoders.com/893/893707.jpg",
-    services: [
-      {
-        banner:
-          "https://t4.ftcdn.net/jpg/04/55/43/71/360_F_455437122_zHBpoIMWuVbvIvqc0fff0L4qG9E0n2K3.jpg",
-        title: "Search Engine Optimization In Maldives",
-        url: "/search-engine-optimization-in-maldives",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://www.promotedge.com/wp-content/uploads/2024/09/social-media-tips-blog-header-no-logo.webp",
-        title: "Social Media Marketing In Maldives",
-        url: "/social-media-marketing-in-maldives",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://www.squareonemedia.com.au/workshops/wp-content/uploads/2024/06/Why-google-my-business-profiles-are-important.png",
-        title: "Google My Business In Maldives",
-        url: "/google-my-business-in-maldives",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://618media.com/wp-content/uploads/2023/12/shopping-ads-expansion-2023-growth-and-opportunities-1.webp",
-        title: "Ads Marketing In Maldives",
-        url: "/ads-marketing-in-maldives",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://stocksaim.com/wp-content/uploads/2024/02/Web-Development.jpg",
-        title: "Website Development In Maldives",
-        url: "/web-development-in-maldives",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg",
-        title: "Application Development In Maldives",
-        url: "/application-development-in-maldives",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
-      },
-      {
-        banner:
-          "https://waysandmeanstechnology.com/Content/assets/images/inner-banner/crm-banner-graphic.png",
-        title: "CRM Development In Maldives",
-        url: "/crm-development-in-maldives",
-        shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
       },
     ],
   },
@@ -701,98 +475,323 @@ const countries = [
     title: "United Kingdom",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/united-kingdom",
-    banner: "https://images6.alphacoders.com/893/893707.jpg",
+    type: "united-kingdom",
+    banner:
+      "https://aaroverseas.com/API/Uploads/BlogMedia/Aar-UK-Banner-637935015583498260.webp",
     services: [
       {
-        banner:
-          "https://t4.ftcdn.net/jpg/04/55/43/71/360_F_455437122_zHBpoIMWuVbvIvqc0fff0L4qG9E0n2K3.jpg",
-        title: "Search Engine Optimization In United Kingdom",
-        url: "/search-engine-optimization-in-united-kingdom",
+        icon: seoIconUnitedKingdom,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-united-kingdom",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        banner:
-          "https://www.promotedge.com/wp-content/uploads/2024/09/social-media-tips-blog-header-no-logo.webp",
-        title: "Social Media Marketing In United Kingdom",
-        url: "/social-media-marketing-in-united-kingdom",
+        icon: socialIconUnitedKingdom,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-united-kingdom",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        banner:
-          "https://www.squareonemedia.com.au/workshops/wp-content/uploads/2024/06/Why-google-my-business-profiles-are-important.png",
-        title: "Google My Business In United Kingdom",
-        url: "/google-my-business-in-united-kingdom",
+        icon: gmbIconUnitedKingdom,
+        title: "Google My Business",
+        link: "/google-my-business-in-united-kingdom",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        banner:
-          "https://618media.com/wp-content/uploads/2023/12/shopping-ads-expansion-2023-growth-and-opportunities-1.webp",
-        title: "Ads Marketing In United Kingdom",
-        url: "/ads-marketing-in-united-kingdom",
+        icon: payIconUnitedKingdom,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-united-kingdom",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        banner:
-          "https://stocksaim.com/wp-content/uploads/2024/02/Web-Development.jpg",
-        title: "Website Development In United Kingdom",
-        url: "/web-development-in-united-kingdom",
+        icon: webIconUnitedKingdom,
+        title: "Web Developement",
+        link: "/web-devlopement-in-united-kingdom",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
       },
       {
-        banner:
-          "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg",
-        title: "Application Development In United Kingdom",
-        url: "/application-development-in-united-kingdom",
+        icon: appIconUnitedKingdom,
+        title: "Application Development",
+        link: "/application-development-in-united-kingdom",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+      },
+    ],
+  },
+  {
+    title: "Malasia",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+    url: "/malasia",
+    type: "malasia",
+    banner:
+      "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsYXNpYXxlbnwwfHwwfHx8MA%3D%3D",
+    services: [
+      {
+        icon: seoIconMalasia,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-malasia",
+        shortdesc:
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        banner:
-          "https://waysandmeanstechnology.com/Content/assets/images/inner-banner/crm-banner-graphic.png",
-        title: "CRM Development In United Kingdom",
-        url: "/crm-development-in-united-kingdom",
+        icon: socialIconMalasia,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-malasia",
         shortdesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
         desc: [
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+      },
+      {
+        icon: gmbIconMalasia,
+        title: "Google My Business",
+        link: "/google-my-business-in-malasia",
+        shortdesc:
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+      },
+      {
+        icon: payIconMalasia,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-malasia",
+        shortdesc:
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+      },
+      {
+        icon: webIconMalasia,
+        title: "Web Developement",
+        link: "/web-devlopement-in-malasia",
+        shortdesc:
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+      },
+      {
+        icon: appIconMalasia,
+        title: "Application Development",
+        link: "/application-development-in-malasia",
+        shortdesc:
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+      },
+    ],
+  },
+  {
+    title: "Maldives",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+    url: "/maldives",
+    type: "maldives",
+    banner:
+      "https://cms.accuweather.com/wp-content/uploads/2023/05/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbGhzeXQybHcwMDI2MjZxaDhoZjk1MjMx-L19wYWdlcy9jbGhzeXQybDIwMDFsMjZxaGR2cG84d3Q0.jpg",
+    services: [
+      {
+        icon: seoIconMaldives,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-maldives",
+        shortdesc:
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+      },
+      {
+        icon: socialIconMaldives,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-maldives",
+        shortdesc:
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+      },
+      {
+        icon: gmbIconMaldives,
+        title: "Google My Business",
+        link: "/google-my-business-in-maldives",
+        shortdesc:
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+      },
+      {
+        icon: payIconMaldives,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-maldives",
+        shortdesc:
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+      },
+      {
+        icon: webIconMaldives,
+        title: "Web Developement",
+        link: "/web-devlopement-in-maldives",
+        shortdesc:
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+      },
+      {
+        icon: appIconMaldives,
+        title: "Application Development",
+        link: "/application-development-in-maldives",
+        shortdesc:
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+      },
+    ],
+  },
+  {
+    title: "Nepal",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
+    url: "/nepal",
+    type: "nepal",
+    banner:
+      "https://cms.accuweather.com/wp-content/uploads/2023/05/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbGhzeXQybHcwMDI2MjZxaDhoZjk1MjMx-L19wYWdlcy9jbGhzeXQybDIwMDFsMjZxaGR2cG84d3Q0.jpg",
+    services: [
+      {
+        icon: seoIconNepal,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-nepal",
+        shortdesc:
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+      },
+      {
+        icon: socialIconNepal,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-nepal",
+        shortdesc:
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+      },
+      {
+        icon: gmbIconNepal,
+        title: "Google My Business",
+        link: "/google-my-business-in-nepal",
+        shortdesc:
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+      },
+      {
+        icon: payIconNepal,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-nepal",
+        shortdesc:
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+      },
+      {
+        icon: webIconNepal,
+        title: "Web Developement",
+        link: "/web-devlopement-in-nepal",
+        shortdesc:
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+      },
+      {
+        icon: appIconNepal,
+        title: "Application Development",
+        link: "/application-development-in-nepal",
+        shortdesc:
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+        desc: [
+          "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
       },
     ],
   },

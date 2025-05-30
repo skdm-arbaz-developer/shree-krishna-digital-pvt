@@ -52,7 +52,7 @@ const industries = [
       ],
     },
     casestudy: {
-      mode: "gray",
+      mode: "dark",
       title: "See our case study of our clients doctor or hospital",
       shortdesc:
         "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo, error. Impedit, sunt corporis, doloremque nostrum vel eum a dolorum quibusdam incidunt nemo temporibus illo nam fugiat laborum maiores quae quas.",
@@ -96,7 +96,7 @@ const industries = [
       ],
     },
     whychoose: {
-      mode: "dark",
+      mode: "light",
       title: "Why We Are The Perfect Fit For Your Needs",
       shortdesc:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ipsa quisquam ex dolorum ut quam quaerat iure exercitationem deleniti minima reiciendis magnam, quas doloremque repudiandae ad asperiores eligendi architecto itaque!",
@@ -130,6 +130,50 @@ const industries = [
             "https://www.monkeydigital.org/wp-content/uploads/2023/08/Onpage-SEO-300x217-1-280x217-1.jpg",
           title: "On-Page Optimization and Technical Optimization",
           desc: "Optimizing on-page elements as well as technological aspects on your site is essential for higher ranking in search engines. Our SEO experts examine and optimize key elements like title tags, meta descriptions headers images, and URL structure. We ensure that your site is secure, fast, and mobile-friendly. We also make sure your website is accessible improving the user experience overall and the crawlability of your website.",
+        },
+      ],
+    },
+    ourworks: {
+      mode: "image",
+      title: "Services which helps your business grow",
+      shortdesc:
+        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+      worklist: [
+        {
+          link: "https://www.youtube-nocookie.com/embed/4YqmxZhQS0A?si=GcIpAI10vWbDHclG",
+          title: "Sejal Exports",
+          desc: {
+            para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+            keywords: [
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+            ],
+          },
+        },
+        {
+          link: "https://www.youtube-nocookie.com/embed/4YqmxZhQS0A?si=GcIpAI10vWbDHclG",
+          title: "Indian Delight",
+          desc: {
+            para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+            keywords: [
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+            ],
+          },
+        },
+        {
+          link: "https://www.youtube-nocookie.com/embed/4YqmxZhQS0A?si=GcIpAI10vWbDHclG",
+          title: "De Grandier",
+          desc: {
+            para: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe ratione at nobis eius reprehenderit vitae mollitia libero fugit odit, earum dolorem eos quod, tempora rerum atque, harum voluptatum tenetur ipsam.",
+            keywords: [
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+              "Best Digital Marketing Company in Andheri West",
+            ],
+          },
         },
       ],
     },

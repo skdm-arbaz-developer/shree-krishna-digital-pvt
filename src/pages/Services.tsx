@@ -437,7 +437,7 @@ export default function Services() {
                     <ul>
                       {data?.benefitsSecond?.points.map((val, index) => (
                         <li className="my-3" key={index}>
-                          - {val}
+                          {val}
                         </li>
                       ))}
                     </ul>

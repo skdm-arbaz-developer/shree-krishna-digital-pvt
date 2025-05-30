@@ -1,20 +1,30 @@
-import { NavLink, useLocation } from "react-router-dom";
-import CommanBanner from "../components/support/CommanBanner";
+import { useLocation } from "react-router-dom";
 import countries from "../components/support/Countries";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
+import BannerPage from "../components/CountryLandingPage/BannerPage";
+import Header from "../components/CountryLandingPage/Header";
+import Services from "../components/CountryLandingPage/Services";
+import AboutUs from "../components/CountryLandingPage/AboutUs";
+import WhyChooseUs from "../components/CountryLandingPage/WhyChooseUs";
+import FAQ from "../components/CountryLandingPage/FAQ";
+import Promotion from "../components/CountryLandingPage/Promotion";
+import Testimonial from "../components/CountryLandingPage/Testimonial";
+import GetInTouch from "../components/CountryLandingPage/GetInTouch";
 
 interface Service {
-  banner: string;
+  icon: string;
   title: string;
-  url: string;
+  link: string;
   shortdesc: string;
   desc: string[];
+  bannerImage: string;
 }
 
 interface Country {
   title: string;
   desc: string;
   url: string;
+  type: string;
   banner: string; // assuming it's a URL or image path
   services: Service[]; // array of service objects
 }
@@ -22,6 +32,13 @@ interface Country {
 export default function CountryServices() {
   const location = useLocation();
   const [service, setService] = useState<Country | undefined>();
+  const [activeSection, setActiveSection] = useState("home");
+  const homeRef = useRef<HTMLDivElement>(null);
+  const aboutRef = useRef<HTMLDivElement>(null);
+  const serviceRef = useRef<HTMLDivElement>(null);
+  const testimonialRef = useRef<HTMLDivElement>(null);
+  const faqRef = useRef<HTMLDivElement>(null);
+  const contactRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const url = location?.pathname;
@@ -29,56 +46,59 @@ export default function CountryServices() {
     setService(data);
   }, [location]);
 
+  useEffect(() => {
+    if (activeSection === "home" && homeRef.current) {
+      homeRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    } else if (activeSection === "services" && serviceRef.current) {
+      serviceRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    } else if (activeSection === "about-us" && aboutRef.current) {
+      aboutRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    } else if (activeSection === "testimonial" && testimonialRef.current) {
+      testimonialRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    } else if (activeSection === "faq" && faqRef.current) {
+      faqRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    } else if (activeSection === "get-in-touch" && contactRef.current) {
+      contactRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    } else {
+      console.log("no data");
+    }
+  }, [activeSection]);
+
   return (
     service && (
-      <>
-        <CommanBanner
-          image={service?.banner}
-          title={service?.title}
-          desc={service?.desc}
+      <div className={`relative ${service?.type}`}>
+        <Header
+          setActiveSection={setActiveSection}
+          activeSection={activeSection}
+          service={service}
         />
-
-        <section className="section">
-          <div className="container mx-auto">
-            <div className="section-body flex justify-center flex-col items-center">
-              <h2 className="section-title">
-                Services We Served At {service?.title}
-              </h2>
-              <p className="section-content text-center max-w-lvh">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatum eveniet in deserunt. Non ratione vitae earum eaque
-                impedit aspernatur similique! Pariatur, consectetur totam quas
-                exercitationem et placeat voluptas omnis commodi?
-              </p>
-            </div>
-
-            <div className="service-list mt-10">
-              <div className="grid grid-cols-3 gap-10">
-                {service?.services?.map((val, index) => (
-                  <ServiceCard data={val} key={index} />
-                ))}
-              </div>
-            </div>
-          </div>
-        </section>
-      </>
+        <BannerPage homeRef={homeRef} service={service} />
+        <Services data={service} serviceRef={serviceRef} />
+        <AboutUs aboutRef={aboutRef} />
+        <WhyChooseUs />
+        <FAQ faqRef={faqRef} />
+        <Promotion />
+        <Testimonial testimonialRef={testimonialRef} />
+        <GetInTouch contactRef={contactRef} />
+      </div>
     )
   );
 }
-
-const ServiceCard = ({ data }: any) => (
-  <NavLink to={data?.url} className="country-services">
-    <img
-      style={{
-        width: "100%",
-        maxHeight: 220,
-        objectFit: "cover",
-        objectPosition: "center",
-        borderRadius:10
-      }}
-      src={data?.banner}
-    />
-    <h5 style={{ fontSize: "1.2rem", fontWeight: "bold", marginTop:10 }}>{data?.title}</h5>
-    <p style={{ fontSize: ".9rem" }}>{data?.shortdesc}</p>
-  </NavLink>
-);

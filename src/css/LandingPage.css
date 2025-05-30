@@ -1,0 +1,2280 @@
+.landng-page-header {
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.header-second .landng-page-header {
+  position: fixed;
+  z-index: 100000000;
+  background-color: #150e1d;
+  transform: translateY(-100%);
+  transition: 0.5s ease-in-out;
+}
+
+.header-second.active .landng-page-header {
+  transform: translateY(0%);
+}
+
+.landng-page-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.landng-page-header .logo {
+  width: 120px;
+}
+
+.landng-page-header ul {
+  display: flex;
+  align-items: center;
+  list-style: none !important;
+}
+
+.landng-page-header ul li {
+  margin: 0 10px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+
+.callbutton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.callbutton .phone {
+  font-size: 0.9rem;
+  margin-left: 15px;
+}
+
+.landing-banner {
+  background-image: url("https://linoor-nuxt.netlify.app/images/main-slider/1.jpg");
+  height: 120vh;
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transform: scale(1.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  overflow: hidden;
+}
+
+.landing-banner:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #222429;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.landing-banner .container {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  z-index: 10;
+}
+
+.landing-banner-content {
+  width: 100%;
+  color: #fff;
+  max-width: 1200px;
+  margin: auto;
+  z-index: 10000;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  left: 0;
+}
+
+.landing-banner-content h1 {
+  display: block;
+  font-size: 1rem;
+  line-height: 1.5em;
+  color: #ffffff;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 20px;
+  opacity: 1;
+  z-index: 10000;
+}
+
+.landing-banner-content h2 {
+  display: block;
+  font-size: 6rem;
+  line-height: 1em;
+  color: #ffffff;
+  font-weight: 900;
+  opacity: 1;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  margin-bottom: 30px;
+  z-index: 10000;
+}
+
+.landing-banner-content button {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #222429;
+  border-radius: 5px;
+  overflow: hidden;
+  z-index: 100000;
+}
+
+.india .landing-banner-content button {
+  background: var(--india-color);
+}
+
+.dubai .landing-banner-content button {
+  background: var(--dubai-color);
+}
+
+.australia .landing-banner-content button {
+  background: var(--australia-color);
+}
+
+.usa .landing-banner-content button {
+  background: var(--usa-color);
+}
+
+.canada .landing-banner-content button {
+  background: var(--canada-color);
+}
+
+.malasia .landing-banner-content button {
+  background: var(--malasia-color);
+}
+
+.maldives .landing-banner-content button {
+  background: var(--maldives-color);
+}
+
+.united-kingdom .landing-banner-content button {
+  background: var(--united-kingdom-color);
+}
+
+.nepal .landing-banner-content button {
+  background: var(--nepal-color);
+}
+
+.landing-banner-content button i {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  width: 26px;
+  height: 100%;
+  background-color: #222429;
+  opacity: 0.2;
+  z-index: 0;
+  transform: skewX(-22deg);
+  transition: all 0.5s ease;
+}
+
+.landing-banner-content button span {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 19px 50px 16px;
+  z-index: 1;
+}
+
+.socil-details {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+  bottom: 50px;
+  color: #ffffff;
+  font-size: 16px;
+  text-transform: uppercase;
+  line-height: 24px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  z-index: 10;
+}
+
+.socil-details .base-inner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 768px;
+  height: 24px;
+  transform-origin: left bottom;
+  transform: rotate(-90deg);
+}
+
+.socil-details .socila-links {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.socil-details .opening-list {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.socil-details .socila-links ul li {
+  float: left;
+  margin-left: 35px;
+  font-size: 0.8rem;
+}
+
+.socil-details .opening-list ul li {
+  float: right;
+  margin-left: 35px;
+  font-size: 0.8rem;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
+
+/* ================================ Serices ======================== */
+
+.services-section {
+  position: relative;
+  padding: 120px 0px 90px;
+  background: #222429
+    url("https://linoor-nuxt.netlify.app/images/background/pattern-1.png")
+    center top repeat;
+  color: #ffffff;
+}
+
+.services-section .sec-title {
+  margin-bottom: 30px;
+}
+
+.sec-title {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.services-section .sec-title h2 {
+  color: #ffffff;
+}
+
+.sec-title h2 {
+  position: relative;
+  display: block;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: #222429;
+  font-weight: 400;
+  margin-bottom: 0px;
+}
+
+.sec-title h2 .dot {
+  padding-left: 7px;
+}
+
+.india .sec-title h2 .dot {
+  color: var(--india-color);
+}
+
+.dubai .sec-title h2 .dot {
+  color: var(--dubai-color);
+}
+
+.australia .sec-title h2 .dot {
+  color: var(--australia-color);
+}
+
+.canada .sec-title h2 .dot {
+  color: var(--canada-color);
+}
+
+.malasia .sec-title h2 .dot {
+  color: var(--malasia-color);
+}
+
+.maldives .sec-title h2 .dot {
+  color: var(--maldives-color);
+}
+
+.united-kingdom .sec-title h2 .dot {
+  color: var(--united-kingdom-color);
+}
+
+.usa .sec-title h2 .dot {
+  color: var(--usa-color);
+}
+
+.nepal .sec-title h2 .dot {
+  color: var(--nepal-color);
+}
+
+.services-section .sec-title .lower-text {
+  color: #fff;
+}
+
+.sec-title .lower-text {
+  position: relative;
+  display: block;
+  font-size: 16px;
+  line-height: 1.7em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: var(--thm-text);
+  padding: 30px 0px 0px;
+}
+
+.service-block .inner-box {
+  position: relative;
+  display: block;
+  padding: 50px 45px;
+  background: #1c1e22;
+  min-height: 100%;
+  border-radius: 7px;
+  overflow: hidden;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.services-section .row .service-block .inner-box:before {
+  content: "0" counter(slides-num) "";
+  position: absolute;
+  left: 45px;
+  top: 50px;
+  font-size: 50px;
+  line-height: 1em;
+  color: #ffffff;
+  opacity: 0.07;
+}
+
+.service-block .inner-box .bottom-curve {
+  position: absolute;
+  right: -70px;
+  bottom: 0;
+  width: 100px;
+  height: 80%;
+  background: #222429;
+  opacity: 0.2;
+  z-index: 0;
+  transform: skewX(0deg) scaleX(0);
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.service-block .inner-box .icon-box {
+  position: absolute;
+  right: 45px;
+  top: 50px;
+  font-size: 64px;
+  line-height: 1em;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.india .service-block .inner-box .icon-box {
+  color: var(--india-color);
+}
+
+.dubai .service-block .inner-box .icon-box {
+  color: var(--dubai-color);
+}
+
+.australia .service-block .inner-box .icon-box {
+  color: var(--australia-color);
+}
+
+.canada .service-block .inner-box .icon-box {
+  color: var(--canada-color);
+}
+
+.malasia .service-block .inner-box .icon-box {
+  color: var(--malasia-color);
+}
+
+.maldives .service-block .inner-box .icon-box {
+  color: var(--maldives-color);
+}
+
+.united-kingdom .service-block .inner-box .icon-box {
+  color: var(--united-kingdom-color);
+}
+
+.usa .service-block .inner-box .icon-box {
+  color: var(--usa-color);
+}
+
+.nepal .service-block .inner-box .icon-box {
+  color: var(--nepal-color);
+}
+
+.service-block .inner-box h6 {
+  position: relative;
+  margin: 0;
+  margin-top: 90px;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.1em;
+}
+
+.service-block .inner-box h6 a {
+  color: #ffffff;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.services-section {
+  counter-reset: slides-num; /* 1. Reset counter at the container */
+}
+
+.services-section .service-block {
+  counter-increment: slides-num; /* 2. Increment on each block */
+}
+
+.services-section .service-block .inner-box::before {
+  content: "0" counter(slides-num) "";
+  position: absolute;
+  left: 45px;
+  top: 50px;
+  font-size: 50px;
+  line-height: 1em;
+  color: rgb(255, 255, 255);
+  opacity: 0.07;
+}
+
+.service-block .inner-box .bottom-curve {
+  position: absolute;
+  right: -70px;
+  bottom: 0px;
+  width: 100px;
+  height: 80%;
+  opacity: 0.2;
+  z-index: 0;
+  transform: skewX(0deg) scaleX(0);
+  background: #222429;
+  transition: 0.5s;
+}
+
+/* ======================== About Us ========================= */
+
+.about-section .text-column .inner {
+  position: relative;
+  display: block;
+  padding-left: 60px;
+}
+
+.about-section .text-column .sec-title {
+  margin-bottom: 35px;
+}
+
+.sec-title h2 {
+  position: relative;
+  display: block;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  color: #222429;
+  font-weight: 700;
+  margin-bottom: 0px;
+}
+
+.about-section .text-column .sec-title .lower-text {
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-weight: 300;
+  letter-spacing: 0;
+  color: var(--thm-base);
+}
+
+.india .about-section .text-column .sec-title .lower-text {
+  color: var(--india-color);
+}
+
+.dubai .about-section .text-column .sec-title .lower-text {
+  color: var(--dubai-color);
+}
+
+.australia .about-section .text-column .sec-title .lower-text {
+  color: var(--australia-color);
+}
+
+.canada .about-section .text-column .sec-title .lower-text {
+  color: var(--canada-color);
+}
+
+.malasia .about-section .text-column .sec-title .lower-text {
+  color: var(--malasia-color);
+}
+
+.maldives .about-section .text-column .sec-title .lower-text {
+  color: var(--maldives-color);
+}
+
+.united-kingdom .about-section .text-column .sec-title .lower-text {
+  color: var(--united-kingdom-color);
+}
+
+.usa .about-section .text-column .sec-title .lower-text {
+  color: var(--usa-color);
+}
+
+.nepal .about-section .text-column .sec-title .lower-text {
+  color: var(--nepal-color);
+}
+
+.about-section .text-column .text {
+  position: relative;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.7em;
+  letter-spacing: 0.02em;
+}
+
+.about-section .text-column .text p {
+  line-height: 1.7em;
+  letter-spacing: 0.1em;
+  margin-bottom: 32px;
+  font-size: 0.9rem;
+}
+
+.about-section .text-column .text ul {
+  position: relative;
+  float: left;
+  list-style: none !important;
+}
+
+.about-section .text-column .text ul li {
+  position: relative;
+  line-height: 1.7em;
+  letter-spacing: 0.1em;
+  margin-bottom: 10px;
+  padding-left: 35px;
+  font-size: 0.9rem;
+}
+
+.about-section .text-column .text ul li:before {
+  content: "\f107";
+  font-family: "Flaticon";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-weight: 400;
+}
+
+.india .about-section .text-column .text ul li:before {
+  color: var(--india-color);
+}
+
+.dubai .about-section .text-column .text ul li:before {
+  color: var(--dubai-color);
+}
+
+.australia .about-section .text-column .text ul li:before {
+  color: var(--australia-color);
+}
+
+.canada .about-section .text-column .text ul li:before {
+  color: var(--canada-color);
+}
+
+.malasia .about-section .text-column .text ul li:before {
+  color: var(--malasia-color);
+}
+
+.maldives .about-section .text-column .text ul li:before {
+  color: var(--maldives-color);
+}
+
+.united-kingdom .about-section .text-column .text ul li:before {
+  color: var(--united-kingdom-color);
+}
+
+.usa .about-section .text-column .text ul li:before {
+  color: var(--usa-color);
+}
+
+.nepal .about-section .text-column .text ul li:before {
+  color: var(--nepal-color);
+}
+
+.about-section .text-column .text .since {
+  position: relative;
+  float: left;
+  margin-left: 82px;
+  margin-top: 10px;
+}
+
+.about-section .text-column .text .since:before {
+  content: "";
+  position: absolute;
+  left: -10px;
+  top: 0px;
+  width: 80px;
+  height: 80px;
+  background: #e8e9e9;
+  border-radius: 50%;
+}
+
+.about-section .text-column .text .since .txt {
+  position: relative;
+  display: block;
+  padding: 21px 5px;
+  width: 90px;
+  height: 90px;
+  line-height: 24px;
+  text-align: center;
+  background: #222429;
+  text-transform: uppercase;
+  color: #ffffff;
+  border-radius: 50%;
+}
+
+.about-section .text-column .text .since:after {
+  content: "";
+  position: absolute;
+  left: -42px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.india .about-section .text-column .text .since:after {
+  border-left: 2px solid var(--india-color);
+}
+
+.dubai .about-section .text-column .text .since:after {
+  border-left: 2px solid var(--dubai-color);
+}
+
+.australia .about-section .text-column .text .since:after {
+  border-left: 2px solid var(--australia-color);
+}
+
+.canada .about-section .text-column .text .since:after {
+  border-left: 2px solid var(--canada-color);
+}
+
+.malasia .about-section .text-column .text .since:after {
+  border-left: 2px solid var(--malasia-color);
+}
+
+.maldives .about-section .text-column .text .since:after {
+  border-left: 2px solid var(--maldives-color);
+}
+
+.united-kingdom .about-section .text-column .text .since:after {
+  border-left: 2px solid var(--united-kingdom-color);
+}
+
+.usa .about-section .text-column .text .since:after {
+  border-left: 2px solid var(--usa-color);
+}
+
+.nepal .about-section .text-column .text .since:after {
+  border-left: 2px solid var(--nepal-color);
+}
+
+.btn-style-one {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #222429;
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.india .btn-style-one {
+  background: var(--india-color);
+}
+
+.dubai .btn-style-one {
+  background: var(--dubai-color);
+}
+
+.australia .btn-style-one {
+  background: var(--australia-color);
+}
+
+.canada .btn-style-one {
+  background: var(--canada-color);
+}
+
+.malasia .btn-style-one {
+  background: var(--malasia-color);
+}
+
+.maldives .btn-style-one {
+  background: var(--maldives-color);
+}
+
+.united-kingdom .btn-style-one {
+  background: var(--united-kingdom-color);
+}
+
+.usa .btn-style-one {
+  background: var(--usa-color);
+}
+
+.nepal .btn-style-one {
+  background: var(--nepal-color);
+}
+
+.india .btn-style-one:hover {
+  color: var(--india-color) !important;
+  border-color: var(--india-color) !important;
+}
+
+.dubai .btn-style-one:hover {
+  color: var(--dubai-color) !important;
+  border-color: var(--dubai-color) !important;
+}
+
+.australia .btn-style-one:hover {
+  color: var(--australia-color) !important;
+  border-color: var(--australia-color) !important;
+}
+
+.canada .btn-style-one:hover {
+  color: var(--canada-color) !important;
+  border-color: var(--canada-color) !important;
+}
+
+.malasia .btn-style-one:hover {
+  color: var(--malasia-color) !important;
+  border-color: var(--malasia-color) !important;
+}
+
+.maldives .btn-style-one:hover {
+  color: var(--maldives-color) !important;
+  border-color: var(--maldives-color) !important;
+}
+
+.united-kingdom .btn-style-one:hover {
+  color: var(--united-kingdom-color) !important;
+  border-color: var(--united-kingdom-color) !important;
+}
+
+.usa .btn-style-one:hover {
+  color: var(--usa-color) !important;
+  border-color: var(--usa-color) !important;
+}
+
+.nepal .btn-style-one:hover {
+  color: var(--nepal-color) !important;
+  border-color: var(--nepal-color) !important;
+}
+
+.btn-style-one .btn-curve {
+  position: absolute;
+  right: -15px;
+  top: 0;
+  width: 26px;
+  height: 100%;
+  background: #222429;
+  opacity: 0.2;
+  z-index: 0;
+  transform: skewX(-22deg);
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+.btn-style-one .btn-title {
+  position: relative;
+  display: block;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  padding: 19px 50px 16px;
+  z-index: 1;
+}
+
+.facts-section {
+  position: relative;
+  padding: 0px 0px 290px;
+  background: #1c1e22;
+  color: #ffffff;
+  z-index: 2;
+}
+
+.facts-section.alternate {
+  background: #222429;
+  padding-bottom: 50px;
+}
+
+.facts-section .image-layer {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+.facts-section.alternate .image-layer {
+  display: none;
+}
+
+.fact-counter {
+  position: relative;
+}
+
+.fact-counter .column {
+  position: relative;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.fact-counter .column .inner {
+  position: relative;
+  padding: 120px 0px 0px;
+}
+
+.fact-counter .column .inner:before {
+  position: absolute;
+  content: "";
+  left: -15px;
+  right: -15px;
+  top: 0;
+  min-width: 100%;
+  transform: scaleX(0);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.india .fact-counter .column .inner:before {
+  border-top: 4px solid var(--india-color);
+}
+
+.dubai .fact-counter .column .inner:before {
+  border-top: 4px solid var(--dubai-color);
+}
+
+.australia .fact-counter .column .inner:before {
+  border-top: 4px solid var(--australia-color);
+}
+
+.canada .fact-counter .column .inner:before {
+  border-top: 4px solid var(--canada-color);
+}
+
+.malasia .fact-counter .column .inner:before {
+  border-top: 4px solid var(--malasia-color);
+}
+
+.maldives .fact-counter .column .inner:before {
+  border-top: 4px solid var(--maldives-color);
+}
+
+.united-kingdom .fact-counter .column .inner:before {
+  border-top: 4px solid var(--united-kingdom-color);
+}
+
+.usa .fact-counter .column .inner:before {
+  border-top: 4px solid var(--usa-color);
+}
+
+.nepal .fact-counter .column .inner:before {
+  border-top: 4px solid var(--nepal-color);
+}
+
+.fact-counter .column:hover .inner:before {
+  transform: scaleX(1);
+}
+
+.fact-counter .column .inner:after {
+  position: absolute;
+  content: "";
+  right: -15px;
+  top: 0;
+  bottom: 7px;
+  border-right: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.fact-counter .column:last-child .inner:after {
+  display: none;
+}
+
+.fact-counter .column .inner .content {
+  position: relative;
+  text-align: center;
+}
+
+.fact-counter .column .inner .count-outer {
+  position: relative;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 1em;
+  letter-spacing: 0px;
+  display: block;
+}
+
+.fact-counter .column .inner .counter-title {
+  position: relative;
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.trusted-section {
+  position: relative;
+  padding: 0px 0px 70px;
+  background: none;
+  z-index: 2;
+}
+
+.trusted-section .outer-container {
+  position: relative;
+  margin-top: -240px;
+}
+
+.trusted-section .row {
+  margin: 0 -4px;
+}
+
+.trusted-section .left-col {
+  position: relative;
+  padding: 0 4px;
+  margin-bottom: 30px;
+}
+
+.trusted-section .left-col .inner {
+  position: relative;
+  display: block;
+}
+
+.trusted-section .col-header {
+  position: relative;
+  text-align: center;
+}
+
+.trusted-section .col-header .header-inner {
+  position: relative;
+  padding: 75px 50px 20px;
+  min-height: 240px;
+  font-weight: 500;
+  line-height: 1.2em;
+  text-transform: uppercase;
+  letter-spacing: 0px;
+  color: #222429;
+  border-radius: 7px 7px 0px 0px;
+  font-size: 1.8rem;
+}
+
+.india .trusted-section .col-header .header-inner {
+  background: var(--india-color);
+}
+
+.dubai .trusted-section .col-header .header-inner {
+  background: var(--dubai-color);
+}
+
+.australia .trusted-section .col-header .header-inner {
+  background: var(--australia-color);
+}
+
+.canada .trusted-section .col-header .header-inner {
+  background: var(--canada-color);
+}
+
+.malasia .trusted-section .col-header .header-inner {
+  background: var(--malasia-color);
+}
+
+.maldives .trusted-section .col-header .header-inner {
+  background: var(--maldives-color);
+}
+
+.united-kingdom .trusted-section .col-header .header-inner {
+  background: var(--united-kingdom-color);
+}
+
+.usa .trusted-section .col-header .header-inner {
+  background: var(--usa-color);
+}
+
+.nepal .trusted-section .col-header .header-inner {
+  background: var(--nepal-color);
+}
+
+.trusted-section .col-header .header-inner:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -39px;
+  width: 50px;
+  height: 40px;
+}
+
+.india .trusted-section .col-header .header-inner:before {
+  background: url(../assets/images/icons/AfterCurve/1.png) left top no-repeat;
+}
+
+.dubai .trusted-section .col-header .header-inner:before {
+  background: url(../assets/images/icons/AfterCurve/2.png) left top no-repeat;
+}
+
+.australia .trusted-section .col-header .header-inner:before {
+  background: url(../assets/images/icons/AfterCurve/3.png) left top no-repeat;
+}
+
+.canada .trusted-section .col-header .header-inner:before {
+  background: url(../assets/images/icons/AfterCurve/4.png) left top no-repeat;
+}
+
+.malasia .trusted-section .col-header .header-inner:before {
+  background: url(../assets/images/icons/AfterCurve/9.png) left top no-repeat;
+}
+
+.maldives .trusted-section .col-header .header-inner:before {
+  background: url(../assets/images/icons/AfterCurve/7.png) left top no-repeat;
+}
+
+.united-kingdom .trusted-section .col-header .header-inner:before {
+  background: url(../assets/images/icons/AfterCurve/8.png) left top no-repeat;
+}
+
+.usa .trusted-section .col-header .header-inner:before {
+  background: url(../assets/images/icons/AfterCurve/5.png) left top no-repeat;
+}
+
+.nepal .trusted-section .col-header .header-inner:before {
+  background: url(../assets/images/icons/AfterCurve/6.png) left top no-repeat;
+}
+
+.trusted-section .features {
+  position: relative;
+}
+
+.trusted-section .feature {
+  position: relative;
+  display: block;
+  padding: 55px 0px;
+  padding-left: 90px;
+  min-height: 170px;
+  border-bottom: 1px solid #e9ebee;
+}
+
+.trusted-section .feature .count {
+  position: absolute;
+  left: 0;
+  top: 55px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  /* background: rgba(var(--thm-base-rgb), 0.2); */
+  padding: 10px;
+  line-height: 40px;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  color: var(--thm-base);
+  text-transform: uppercase;
+  border-radius: 50%;
+  transition: all 500ms ease;
+  font-weight: 500;
+}
+
+.india .trusted-section .feature .count {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    var(--india-color);
+  color: var(--india-color);
+}
+
+.dubai .trusted-section .feature .count {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    var(--dubai-color);
+  color: var(--dubai-color);
+}
+
+.australia .trusted-section .feature .count {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    var(--australia-color);
+  color: var(--australia-color);
+}
+
+.canada .trusted-section .feature .count {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    var(--canada-color);
+  color: var(--canada-color);
+}
+
+.malasia .trusted-section .feature .count {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    var(--malasia-color);
+  color: var(--malasia-color);
+}
+
+.maldives .trusted-section .feature .count {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    var(--maldives-color);
+  color: var(--maldives-color);
+}
+
+.united-kingdom .trusted-section .feature .count {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    var(--united-kingdom-color);
+  color: var(--united-kingdom-color);
+}
+
+.usa .trusted-section .feature .count {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    var(--usa-color);
+  color: var(--usa-color);
+}
+
+.nepal .trusted-section .feature .count {
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    var(--nepal-color);
+  color: var(--usa-color);
+}
+
+.trusted-section .feature:hover .count {
+  background-color: #222429;
+  color: #fff;
+}
+
+.trusted-section .feature h5 {
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.15em;
+  color: #222429;
+  margin-bottom: 10px;
+}
+
+.trusted-section .feature .sub-text {
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  color: var(--thm-text);
+  text-transform: uppercase;
+  line-height: 1.25em;
+}
+
+.trusted-section .right-col {
+  position: relative;
+  padding: 0px 4px;
+  margin-bottom: 30px;
+  z-index: 3;
+}
+
+.trusted-section .right-col .inner {
+  position: relative;
+  display: block;
+  min-height: 260px;
+  padding: 115px 0px 0px 110px;
+  background: #ffffff;
+  border-radius: 7px 0px 0px 0px;
+}
+
+.trusted-section .right-col .inner:before {
+  content: "";
+  position: absolute;
+  left: 100%;
+  top: 0;
+  margin-left: -1px;
+  width: 2000px;
+  height: 100%;
+  background: #ffffff;
+}
+
+.trusted-section .featured-block-two {
+  position: relative;
+  display: block;
+  padding-left: 280px;
+  min-height: 170px;
+}
+
+.trusted-section .featured-block-two .image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 250px;
+}
+
+.trusted-section .featured-block-two .image img {
+  display: block;
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  border-radius: 7px;
+}
+
+.trusted-section .featured-block-two .text {
+  position: relative;
+  top: -5px;
+  display: block;
+  font-weight: 300;
+  line-height: 1.5em;
+  letter-spacing: 0.1em;
+}
+
+.trusted-section .featured-block-two .text ul {
+  position: relative;
+  list-style: none !important;
+}
+
+.trusted-section .featured-block-two .text ul li {
+  position: relative;
+  line-height: 1.7em;
+  margin-bottom: 12px;
+  padding-left: 30px;
+  font-weight: 300;
+}
+
+.trusted-section .featured-block-two .text ul li:before {
+  content: "\f107";
+  font-family: "Flaticon";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.india .trusted-section .featured-block-two .text ul li:before {
+  color: var(--india-color);
+}
+
+.dubai .trusted-section .featured-block-two .text ul li:before {
+  color: var(--dubai-color);
+}
+
+.australia .trusted-section .featured-block-two .text ul li:before {
+  color: var(--australia-color);
+}
+
+.canada .trusted-section .featured-block-two .text ul li:before {
+  color: var(--canada-color);
+}
+
+.malasia .trusted-section .featured-block-two .text ul li:before {
+  color: var(--malasia-color);
+}
+
+.maldives .trusted-section .featured-block-two .text ul li:before {
+  color: var(--maldives-color);
+}
+
+.united-kingdom .trusted-section .featured-block-two .text ul li:before {
+  color: var(--united-kingdom-color);
+}
+
+.usa .trusted-section .featured-block-two .text ul li:before {
+  color: var(--usa-color);
+}
+
+.nepal .trusted-section .featured-block-two .text ul li:before {
+  color: var(--nepal-color);
+}
+
+/* =================================== FAQ ================================ */
+
+.we-do-section {
+  position: relative;
+  padding: 90px 0px 90px;
+  background: #ffffff
+    url(https://linoor-nuxt.netlify.app/images/background/pattern-2.png) left
+    top repeat;
+}
+
+.we-do-section .sec-title {
+  margin-bottom: 40px;
+}
+
+.we-do-section .featured-block {
+  position: relative;
+  display: block;
+  padding-left: 230px;
+  min-height: 117px;
+  margin-bottom: 40px;
+}
+
+.we-do-section .featured-block .image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200px;
+}
+
+.we-do-section .featured-block .image img {
+  display: block;
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  border-radius: 7px;
+}
+
+.we-do-section .featured-block .text {
+  position: relative;
+  top: -5px;
+  display: block;
+  line-height: 1.7em;
+  letter-spacing: 0.1em;
+  margin-bottom: 32px;
+}
+
+.we-do-section .left-col {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.we-do-section .left-col .inner {
+  position: relative;
+  display: block;
+  padding-right: 70px;
+}
+
+.we-do-section .right-col {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.we-do-section .right-col .inner {
+  position: relative;
+  display: block;
+}
+
+.we-do-section .progress-box {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+
+.we-do-section .progress-box .bar-title {
+  position: relative;
+  font-size: 20px;
+  line-height: 1.1em;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.we-do-section .progress-box .bar {
+  position: relative;
+  width: 100%;
+  height: 7px;
+  background: #ffffff;
+  border-radius: 4px;
+}
+
+.we-do-section .progress-box .bar-inner {
+  position: relative;
+  display: block;
+  width: 0px;
+  height: 7px;
+  background: var(--thm-base);
+  border-radius: 4px;
+  -webkit-transition: all 1500ms ease;
+  -ms-transition: all 1500ms ease;
+  -o-transition: all 1500ms ease;
+  -moz-transition: all 1500ms ease;
+  transition: all 1500ms ease;
+}
+
+.we-do-section .progress-box .count-box {
+  position: absolute;
+  right: 0px;
+  margin-right: -40px;
+  bottom: 18px;
+  width: 40px;
+  height: 22px;
+  background: #222429;
+  color: #ffffff;
+  line-height: 22px;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  text-align: center;
+  opacity: 0;
+  -webkit-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.we-do-section .progress-box .counted .count-box {
+  opacity: 1;
+}
+
+.we-do-section .progress-box .count-box:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 100%;
+  margin-top: -5px;
+  border: 5px solid transparent;
+  border-top: 5px solid #222429;
+  border-left: 5px solid #222429;
+}
+
+.accordion-box {
+  position: relative;
+}
+
+.accordion-box .block {
+  position: relative;
+  background: #ffffff;
+  border-radius: 7px;
+  overflow: hidden;
+  margin-bottom: 16px;
+  -webkit-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.03);
+  -ms-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.03);
+  box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.03);
+}
+
+.accordion-box .block.active-block {
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 40px 5px rgba(0, 0, 0, 0.05);
+}
+
+.accordion-box .block:last-child {
+  margin-bottom: 0;
+}
+
+.accordion-box .block .acc-btn {
+  position: relative;
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 400;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding: 20px 40px;
+  padding-right: 60px;
+  color: #222429;
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.accordion-box .block .acc-btn .count {
+  color: var(--thm-base);
+  padding-right: 3px;
+}
+
+.accordion-box .block .acc-btn:before {
+  position: absolute;
+  right: 35px;
+  top: 20px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--thm-base);
+  line-height: 30px;
+  content: "\f116";
+  font-family: "Flaticon";
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.accordion-box .block .acc-btn.active {
+  background-color: #ffffff;
+}
+
+.accordion-box .block .acc-btn.active:before {
+  color: #222429;
+  content: "\f104";
+}
+
+.accordion-box .block .acc-content {
+  position: relative;
+  display: none;
+}
+
+.accordion-box .block .content {
+  position: relative;
+  padding: 0px 40px 30px;
+}
+
+.accordion-box .block .acc-content.current {
+  display: block;
+}
+
+.accordion-box .block .content .text {
+  display: block;
+  position: relative;
+  top: 0px;
+  display: block;
+  line-height: 1.7em;
+  letter-spacing: 0.1em;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  padding: 3px;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progress-bar-fill {
+  display: block;
+  height: 7px;
+  border-radius: 3px;
+  transition: width 0.5s ease-in-out;
+}
+
+.india .progress-bar-fill {
+  background-color: var(--india-color);
+}
+
+.dubai .progress-bar-fill {
+  background-color: var(--dubai-color);
+}
+
+.australia .progress-bar-fill {
+  background-color: var(--australia-color);
+}
+
+.canada .progress-bar-fill {
+  background-color: var(--canada-color);
+}
+
+.malasia .progress-bar-fill {
+  background-color: var(--malasia-color);
+}
+
+.maldives .progress-bar-fill {
+  background-color: var(--maldives-color);
+}
+
+.united-kingdom .progress-bar-fill {
+  background-color: var(--united-kingdom-color);
+}
+
+.usa .progress-bar-fill {
+  background-color: var(--usa-color);
+}
+
+.nepal .progress-bar-fill {
+  background-color: var(--nepal-color);
+}
+
+.faq-box .ant-collapse-header-text {
+  color: #000 !important;
+}
+
+.faq-box .ant-collapse-arrow {
+  color: #000 !important;
+}
+
+/* ================================= Promotion ===================== */
+
+.parallax-section {
+  position: relative;
+  padding: 120px 0px;
+  background: #1c1e22;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.parallax-section .image-layer {
+  position: absolute;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  opacity: 0.3;
+}
+
+.parallax-section .content-box {
+  position: relative;
+  max-width: 870px;
+  margin: 0 auto;
+}
+
+.parallax-section .content-box .icon-box {
+  position: relative;
+  display: block;
+  width: 114px;
+  height: 114px;
+  line-height: 114px;
+  text-align: center;
+  color: #222429;
+  font-size: 2rem;
+  border-radius: 50%;
+  margin: 0 auto 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax-section .content-box .icon-box:before {
+  content: "";
+  position: absolute;
+  left: -7px;
+  top: 0;
+  display: block;
+  width: 80px;
+  height: 80px;
+  background: #ffffff;
+  opacity: 0.3;
+  border-radius: 50%;
+}
+
+.parallax-section .content-box .icon-box:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.india .parallax-section .content-box .icon-box:after {
+  background: var(--india-color);
+}
+
+.dubai .parallax-section .content-box .icon-box:after {
+  background: var(--dubai-color);
+}
+
+.australia .parallax-section .content-box .icon-box:after {
+  background: var(--australia-color);
+}
+
+.canada .parallax-section .content-box .icon-box:after {
+  background: var(--canada-color);
+}
+
+.malasia .parallax-section .content-box .icon-box:after {
+  background: var(--malasia-color);
+}
+
+.maldives .parallax-section .content-box .icon-box:after {
+  background: var(--maldives-color);
+}
+
+.united-kingdom .parallax-section .content-box .icon-box:after {
+  background: var(--united-kingdom-color);
+}
+
+.usa .parallax-section .content-box .icon-box:after {
+  background: var(--usa-color);
+}
+
+.nepal .parallax-section .content-box .icon-box:after {
+  background: var(--nepal-color);
+}
+
+.parallax-section .content-box .icon-box svg {
+  position: relative;
+  z-index: 2;
+  width: 2em;
+  height: 2em;
+}
+
+.parallax-section .content-box h2 {
+  position: relative;
+  display: block;
+  font-size: 3.5rem;
+  line-height: 1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+.india .parallax-section .content-box h2 span {
+  color: var(--india-color);
+}
+
+.dubai .parallax-section .content-box h2 span {
+  color: var(--dubai-color);
+}
+
+.australia .parallax-section .content-box h2 span {
+  color: var(--australia-color);
+}
+
+.canada .parallax-section .content-box h2 span {
+  color: var(--canada-color);
+}
+
+.malasia .parallax-section .content-box h2 span {
+  color: var(--malasia-color);
+}
+
+.maldives .parallax-section .content-box h2 span {
+  color: var(--maldives-color);
+}
+
+.united-kingdom .parallax-section .content-box h2 span {
+  color: var(--united-kingdom-color);
+}
+
+.usa .parallax-section .content-box h2 span {
+  color: var(--usa-color);
+}
+
+.nepal .parallax-section .content-box h2 span {
+  color: var(--nepal-color);
+}
+
+/* ============================ Testimonial =============================== */
+
+.testimonials-section {
+  position: relative;
+  padding: 120px 0px;
+  background: #eee;
+  overflow: hidden;
+}
+
+.testimonials-page {
+  padding-bottom: 90px;
+}
+
+.testimonials-section .sec-title {
+  margin-bottom: 40px;
+}
+
+.testimonials-section .carousel-box {
+  position: relative;
+  margin: 0px 0px;
+}
+
+.testimonials-section .carousel-box .owl-stage-outer {
+  overflow: visible;
+}
+
+.testi-block {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.owl-theme .testi-block {
+  margin: 0;
+}
+
+.testi-block .inner {
+  position: relative;
+  display: block;
+  padding: 60px 60px 50px;
+  background: #ffffff;
+  border-radius: 7px;
+  box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.04);
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+}
+
+.india .testi-block:hover .inner {
+  background-color: var(--india-color);
+}
+
+.dubai .testi-block:hover .inner {
+  background-color: var(--dubai-color);
+}
+
+.australia .testi-block:hover .inner {
+  background-color: var(--australia-color);
+}
+
+.canada .testi-block:hover .inner {
+  background-color: var(--canada-color);
+}
+
+.malasia .testi-block:hover .inner {
+  background-color: var(--malasia-color);
+}
+
+.maldives .testi-block:hover .inner {
+  background-color: var(--maldives-color);
+}
+
+.united-kingdom .testi-block:hover .inner {
+  background-color: var(--united-kingdom-color);
+}
+
+.usa .testi-block:hover .inner {
+  background-color: var(--usa-color);
+}
+
+.nepal .testi-block:hover .inner {
+  background-color: var(--nepal-color);
+}
+
+.testimonials-page .testi-block .inner {
+  -webkit-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  -ms-box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.owl-theme .testi-block .inner {
+  margin: 7px 0px;
+}
+
+.testi-block .icon-test {
+  position: absolute;
+  right: 50px;
+  top: 60px;
+  font-weight: 700;
+  font-size: 100px;
+  line-height: 1em;
+  transition: all 500ms ease;
+}
+
+.india .testi-block .icon-test {
+  color: var(--india-color);
+}
+
+.dubai .testi-block .icon-test {
+  color: var(--dubai-color);
+}
+
+.australia .testi-block .icon-test {
+  color: var(--australia-color);
+}
+
+.canada .testi-block .icon-test {
+  color: var(--canada-color);
+}
+
+.malasia .testi-block .icon-test {
+  color: var(--malasia-color);
+}
+
+.maldives .testi-block .icon-test {
+  color: var(--maldives-color);
+}
+
+.united-kingdom .testi-block .icon-test {
+  color: var(--united-kingdom-color);
+}
+
+.usa .testi-block .icon-test {
+  color: var(--usa-color);
+}
+
+.nepal .testi-block .icon-test {
+  color: var(--nepal-color);
+}
+
+.testi-block:hover .icon-test {
+  color: #222429;
+}
+
+.testi-block .info {
+  position: relative;
+  padding-left: 100px;
+  padding-top: 16px;
+  min-height: 70px;
+  margin-bottom: 35px;
+}
+
+.testi-block .info .image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testi-block .info .image img {
+  display: block;
+  width: 100%;
+  -webkit-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  border-radius: 7px;
+  transition: all 500ms ease;
+}
+
+.testi-block:hover .info .image img {
+  -webkit-filter: grayscale(0%);
+  -ms-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+.testi-block .info .name {
+  display: block;
+  font-size: 24px;
+  line-height: 1.2em;
+  color: #222429;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.testi-block .info .designation {
+  display: block;
+  font-size: 16px;
+  line-height: 1.2em;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  transition: all 500ms ease;
+}
+
+.india .testi-block .info .designation {
+  color: var(--india-color);
+}
+
+.dubai .testi-block .info .designation {
+  color: var(--dubai-color);
+}
+
+.australia .testi-block .info .designation {
+  color: var(--australia-color);
+}
+
+.canada .testi-block .info .designation {
+  color: var(--canada-color);
+}
+
+.malasia .testi-block .info .designation {
+  color: var(--malasia-color);
+}
+
+.maldives .testi-block .info .designation {
+  color: var(--maldives-color);
+}
+
+.united-kingdom .testi-block .info .designation {
+  color: var(--united-kingdom-color);
+}
+
+.usa .testi-block .info .designation {
+  color: var(--usa-color);
+}
+
+.nepal .testi-block .info .designation {
+  color: var(--nepal-color);
+}
+
+.testi-block:hover .info .designation {
+  color: #222429;
+}
+
+.testi-block .text {
+  position: relative;
+  display: block;
+  font-size: 1rem;
+  line-height: 1.7em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  color: #808080;
+  transition: all 500ms ease;
+  padding: 0px 0px;
+}
+.testi-block:hover .text {
+  color: #222429;
+}
+
+.testimonials-section .owl-theme .owl-nav {
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+  display: none;
+}
+
+.testimonials-section .owl-theme .owl-dots {
+  position: absolute;
+  top: -70px;
+  width: 1170px;
+  left: 50%;
+  margin-left: -585px;
+  text-align: right;
+}
+
+.testimonials-section .owl-theme .owl-dots .owl-dot {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 0px 0px 6px;
+}
+
+.testimonials-section .owl-theme .owl-dots .owl-dot span {
+  position: relative;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background: #d3d3d4;
+  border: 2px solid #d3d3d4;
+  border-radius: 50%;
+}
+
+.testimonials-section .owl-theme .owl-dots .owl-dot.active span {
+  background: #ffffff;
+  border-color: var(--thm-base);
+}
+
+.testimonials-section .swiper-pagination-fraction,
+.testimonials-section .swiper-pagination-custom,
+.testimonials-section .swiper-horizontal > .swiper-pagination-bullets,
+.testimonials-section .swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: var(--swiper-pagination-bottom, -5px);
+}
+
+.india .testimonials-section .swiper-pagination-bullet-active {
+  background-color: var(--india-color) !important;
+}
+
+.dubai .testimonials-section .swiper-pagination-bullet-active {
+  background-color: var(--dubai-color) !important;
+}
+
+.australia .testimonials-section .swiper-pagination-bullet-active {
+  background-color: var(--australia-color) !important;
+}
+
+.canada .testimonials-section .swiper-pagination-bullet-active {
+  background-color: var(--canada-color) !important;
+}
+
+.malasia .testimonials-section .swiper-pagination-bullet-active {
+  background-color: var(--malasia-color) !important;
+}
+
+.maldives .testimonials-section .swiper-pagination-bullet-active {
+  background-color: var(--maldives-color) !important;
+}
+
+.united-kingdom .testimonials-section .swiper-pagination-bullet-active {
+  background-color: var(--united-kingdom-color) !important;
+}
+
+.usa .testimonials-section .swiper-pagination-bullet-active {
+  background-color: var(--usa-color) !important;
+}
+
+.nepal .testimonials-section .swiper-pagination-bullet-active {
+  background-color: var(--nepal-color) !important;
+}
+
+/* =============================== Contact Us ======================== */
+
+.contain-info .sec-title p {
+  color: #808080;
+  font-size: 0.9rem;
+}
+
+.get-in-touch-list ul {
+  list-style: none !important;
+}
+
+.get-in-touch-list ul li a {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.get-in-touch-list ul li {
+  margin-bottom: 10px;
+}
+
+.get-in-touch-list ul li a .get-in-touch-icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  color: #000;
+  border: 2px solid;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  transition: 0.5s ease-in-out;
+}
+
+.india .get-in-touch-list ul li a .get-in-touch-icon {
+  color: var(--india-color);
+  border-color: var(--india-color);
+}
+
+.dubai .get-in-touch-list ul li a .get-in-touch-icon {
+  color: var(--dubai-color);
+  border-color: var(--dubai-color);
+}
+
+.australia .get-in-touch-list ul li a .get-in-touch-icon {
+  color: var(--australia-color);
+  border-color: var(--australia-color);
+}
+
+.canada .get-in-touch-list ul li a .get-in-touch-icon {
+  color: var(--canada-color);
+  border-color: var(--canada-color);
+}
+
+.malasia .get-in-touch-list ul li a .get-in-touch-icon {
+  color: var(--malasia-color);
+  border-color: var(--malasia-color);
+}
+
+.maldives .get-in-touch-list ul li a .get-in-touch-icon {
+  color: var(--maldives-color);
+  border-color: var(--maldives-color);
+}
+
+.united-kingdom .get-in-touch-list ul li a .get-in-touch-icon {
+  color: var(--united-kingdom-color);
+  border-color: var(--united-kingdom-color);
+}
+
+.usa .get-in-touch-list ul li a .get-in-touch-icon {
+  color: var(--usa-color);
+  border-color: var(--usa-color);
+}
+
+.nepal .get-in-touch-list ul li a .get-in-touch-icon {
+  color: var(--nepal-color);
+  border-color: var(--nepal-color);
+}
+
+.get-in-touch-list ul li:hover a .get-in-touch-icon {
+  color: #000;
+}
+
+.india .get-in-touch-list ul li:hover a .get-in-touch-icon {
+  background-color: var(--india-color);
+  border-color: var(--india-color);
+}
+
+.dubai .get-in-touch-list ul li:hover a .get-in-touch-icon {
+  background-color: var(--dubai-color);
+  border-color: var(--dubai-color);
+}
+
+.australia .get-in-touch-list ul li:hover a .get-in-touch-icon {
+  background-color: var(--australia-color);
+  border-color: var(--australia-color);
+}
+
+.canada .get-in-touch-list ul li:hover a .get-in-touch-icon {
+  background-color: var(--canada-color);
+  border-color: var(--canada-color);
+}
+
+.malasia .get-in-touch-list ul li:hover a .get-in-touch-icon {
+  background-color: var(--malasia-color);
+  border-color: var(--malasia-color);
+}
+
+.maldives .get-in-touch-list ul li:hover a .get-in-touch-icon {
+  background-color: var(--maldives-color);
+  border-color: var(--maldives-color);
+}
+
+.united-kingdom .get-in-touch-list ul li:hover a .get-in-touch-icon {
+  background-color: var(--united-kingdom-color);
+  border-color: var(--united-kingdom-color);
+}
+
+.usa .get-in-touch-list ul li:hover a .get-in-touch-icon {
+  background-color: var(--usa-color);
+  border-color: var(--usa-color);
+}
+
+.nepal .get-in-touch-list ul li:hover a .get-in-touch-icon {
+  background-color: var(--nepal-color);
+  border-color: var(--nepal-color);
+}

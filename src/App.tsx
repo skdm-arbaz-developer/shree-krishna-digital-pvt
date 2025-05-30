@@ -18,10 +18,10 @@ import countries from "./components/support/Countries";
 // import CountryServices from "./pages/CountryServices";
 // import CountryServiceView from "./pages/CountryServiceView";
 import ComingSoon from "./pages/ComingSoon";
+import CountryServices from "./pages/CountryServices";
+import CountryServiceView from "./pages/CountryServiceView";
 
 function App() {
-
-
   return (
     <BrowserRouter>
       <Routes>
@@ -88,12 +88,12 @@ function App() {
         {countries?.map((val) =>
           val?.services?.map((val, index) => (
             <Route
-              path={val.url}
+              path={val.link}
               key={index}
               element={
                 <>
                   {/* <Header /> */}
-                  <ComingSoon />
+                  <CountryServiceView />
                   {/* <Footer /> */}
                 </>
               }
@@ -107,9 +107,8 @@ function App() {
             key={index}
             element={
               <>
-                {/* <Header /> */}
-                <ComingSoon />
-                {/* <Footer /> */}
+                <CountryServices />
+                <Footer />
               </>
             }
           />
