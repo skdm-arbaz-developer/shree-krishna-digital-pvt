@@ -53,8 +53,8 @@ const NavigationLinks = [
       {
         name: "Case Study",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        // link: "/case-study",
-        link: "/coming-soon",
+        link: "/case-study",
+        // link: "/coming-soon",
       },
       {
         name: "Privacy Policy",
@@ -185,14 +185,14 @@ const NavigationLinks = [
       {
         name: "Who We Are",
         desc: "Get to know our team of seasoned PR professionals who craft compelling narratives and build brand reputation.",
-        // link: "/who-we-are-pr-advertising",
-        link: "/coming-soon",
+        link: "/who-we-are-pr-advertising",
+        // link: "/coming-soon",
       },
       {
         name: "Our Portfolio",
         desc: "Explore our past PR and advertising campaigns that have successfully elevated brands and driven engagement.",
-        // link: "/our-portfolio",
-        link: "/coming-soon",
+        link: "/our-portfolio",
+        // link: "/coming-soon",
       },
     ],
   },

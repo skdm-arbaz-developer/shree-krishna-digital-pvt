@@ -21,7 +21,11 @@ import maldivesSideCurve from "../../assets/images/icons/SideCurve/7.png";
 import unitedkingdomSideCurve from "../../assets/images/icons/SideCurve/8.png";
 import malasiaSideCurve from "../../assets/images/icons/SideCurve/9.png";
 
-export default function BannerPage({ service, homeRef }: any) {
+export default function BannerPage({
+  service,
+  homeRef,
+  setActiveSection,
+}: any) {
   const getIcons = (country: string, type: string) => {
     let icons;
     let curles;
@@ -76,33 +80,33 @@ export default function BannerPage({ service, homeRef }: any) {
   return (
     <div className="relative overflow-hidden" ref={homeRef}>
       <img
-        className="absolute z-1 top-0 left-0"
+        className="absolute z-1 top-0 left-0 hidden md:block"
         src={getIcons(service?.type, "curles")}
       />
       <img
-        className="absolute z-1 right-0 top-0 bottom-0"
+        className="absolute z-1 right-0 top-0 bottom-0 hidden md:block"
         src="https://linoor-nuxt.netlify.app/images/main-slider/right-white-curve.png"
       />
       <img
-        className="absolute z-1 right-0 bottom-0"
+        className="absolute z-1 right-0 bottom-0 hidden md:block"
         src={getIcons(service?.type, "curves")}
       />
       <div
         className="landing-banner"
         style={{ backgroundImage: `url(${service?.banner})` }}
       ></div>
-      <div className="landing-banner-content z-20">
+      <div className="landing-banner-content z-20 px-5">
         <h1>Digital Marketing Compnay in {service?.title}</h1>
         <h2>
           Smart Web <br />
           Design Agency
         </h2>
-        <button>
+        <button onClick={() => setActiveSection("services")}>
           <i className="btn-curve"></i> <span>Discover More</span>
         </button>
       </div>
 
-      <div className="socil-details">
+      <div className="socil-details hidden md:block">
         <div className="base-inner">
           <div className="socila-links">
             <ul>

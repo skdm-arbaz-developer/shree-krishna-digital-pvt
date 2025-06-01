@@ -20,7 +20,6 @@ interface CardProps {
   children?: ReactNode; // Allow children
 }
 
-
 export default function BlogView() {
   const { id } = useParams();
 
@@ -31,7 +30,7 @@ export default function BlogView() {
         <section className="section">
           <div className="container mx-auto">
             <div className="grid grid-cols-12 gap-10">
-              <div className="col-span-7">
+              <div className="col-span-12 lg:col-span-7">
                 <div className="section-body">
                   <div className="section-tags">
                     {data?.tags?.map((val, index) => (
@@ -58,9 +57,9 @@ export default function BlogView() {
                   ></div>
                 </div>
 
-                <Divider />
+                {/* <Divider /> */}
 
-                <div className="next-previous-button flex justify-between">
+                {/* <div className="next-previous-button flex justify-between">
                   <Button className="comman-button">
                     <BiLeftArrowAlt />
                     Previous
@@ -69,10 +68,10 @@ export default function BlogView() {
                     Next
                     <BiRightArrowAlt />
                   </Button>
-                </div>
+                </div> */}
               </div>
 
-              <div className="col-span-5">
+              <div className="col-span-12 lg:col-span-5">
                 <div className="sticky top-25">
                   <h2 style={{ fontSize: "1.8rem" }}>Related Blogs</h2>
                   <Divider />
@@ -92,9 +91,9 @@ export default function BlogView() {
 }
 
 const BlogCard = ({ type, data }: CardProps) => (
-  <NavLink to={`/blog-view/${data?.slug}`} className={"blog-card " + type}>
+  <NavLink to={`/view/${data?.slug}`} className={"blog-card " + type}>
     <div className="blog-card-image">
-      <img src={data?.image} alt={data?.slug} />
+      <img className="min-h-[250px] lg:min-h-auto" src={data?.image} alt={data?.slug} />
     </div>
     <div className="blog-card-body">
       {type === "grid-card" ? (

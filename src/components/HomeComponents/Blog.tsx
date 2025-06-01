@@ -61,7 +61,7 @@ export default function Blog() {
 
 const BlogCard = ({ type, data, hideStyle }: CardProps) => (
   <NavLink
-    to={`/blog-view/${data?.slug}`}
+    to={`/view/${data?.slug}`}
     className={"blog-card cursor-pointer " + type}
   >
     <div className="blog-card-image">

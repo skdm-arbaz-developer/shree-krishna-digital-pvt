@@ -131,7 +131,7 @@ const countries = [
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
         bannerImage:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
         icon: appIconIndia,
@@ -212,7 +212,7 @@ const countries = [
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
         bannerImage:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
         icon: appIconDubai,
@@ -293,7 +293,7 @@ const countries = [
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
         bannerImage:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
         icon: appIconAustralia,
@@ -374,7 +374,7 @@ const countries = [
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
         bannerImage:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
         icon: appIconUsa,
@@ -455,7 +455,7 @@ const countries = [
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
         bannerImage:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
         icon: appIconCanada,
@@ -536,7 +536,7 @@ const countries = [
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
         bannerImage:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
         icon: appIconUnitedKingdom,
@@ -617,7 +617,7 @@ const countries = [
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
         bannerImage:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
         icon: appIconMalasia,
@@ -698,7 +698,7 @@ const countries = [
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
         bannerImage:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
         icon: appIconMaldives,
@@ -779,7 +779,7 @@ const countries = [
           "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
         ],
         bannerImage:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0CmBHYg-l4XOrI0V2bNf5MyWPRQhCTqp-2Q&s",
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
         icon: appIconNepal,

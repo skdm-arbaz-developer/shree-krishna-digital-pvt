@@ -3,11 +3,11 @@ import CommanBanner from "../components/support/CommanBanner";
 import industries from "../components/support/IndustryArrayList";
 import { Avatar, Button, Collapse, Form, Input } from "antd";
 import TextArea from "antd/es/input/TextArea";
-import { FaMinus, FaPlus, FaUser } from "react-icons/fa6";
+import { FaAngleRight, FaMinus, FaPlus, FaUser } from "react-icons/fa6";
 import "../css/home/logoscroll.css";
 import { BsQuote } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, FreeMode, Navigation, Pagination } from "swiper/modules";
+import { Navigation, Pagination } from "swiper/modules";
 import "../css/home/testimonial.css";
 import FaqArrow from "../assets/images/icons/faq-arrow.svg";
 import FaqStart from "../assets/images/icons/faq-star.svg";
@@ -34,16 +34,16 @@ export default function Industries() {
           <section className={`section section-${data?.description?.mode}`}>
             <div className="container mx-auto">
               <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
+                <h2 className="section-title md:text-center">
                   {data?.description?.title}
                 </h2>
-                <p className="section-content text-center ">
+                <p className="section-content md:text-center ">
                   {data?.description?.shortdesc}
                 </p>
               </div>
 
               <div className="section-details mt-10">
-                <div className="grid grid-cols-2 gap-10">
+                <div className="grid lg:grid-cols-2 gap-10">
                   <div className="descption-image">
                     <img
                       style={{ width: "100%", height: "100%" }}
@@ -64,15 +64,15 @@ export default function Industries() {
           </section>
         )}
 
-        {data?.clients && (
+        {/* {data?.clients && (
           <section className="section section-gray">
             <div className="container mx-auto">
               <div className="section-body flex justify-center items-center flex-col">
-                <h2 className="section-title text-center">
+                <h2 className="section-title md:text-center">
                   {data?.clients?.title}
                 </h2>
                 <p
-                  className="section-content text-center"
+                  className="section-content md:text-center"
                   style={{ maxWidth: 900 }}
                 >
                   {data?.clients?.shortdesc}
@@ -98,15 +98,23 @@ export default function Industries() {
               </Swiper>
             </div>
           </section>
-        )}
+        )} */}
         {data.whychoose && (
           <section
-            className={`relative section-${data?.whychoose?.mode}`}
+            className={`relative section section-${data?.whychoose?.mode}`}
             style={{ paddingBottom: "100px" }}
           >
             <div className="container mx-auto">
+              <div className="section-body flex flex-col items-center">
+                <h2 className="section-title md:text-center">
+                  {data?.whychoose?.title}
+                </h2>
+                <p className="section-content md:text-center ">
+                  {data?.whychoose?.shortdesc}
+                </p>
+              </div>
               <div className="section-detail mt-20">
-                <div className="grid grid-cols-3 gap-10">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
                   {data?.whychoose?.whychoosepoints?.map((val, index) => (
                     <WhyChooseCard detail={val} index={index} key={index} />
                   ))}
@@ -119,31 +127,39 @@ export default function Industries() {
           <section className={"section section-" + data?.casestudy?.mode}>
             <div className="container mx-auto">
               <div className="grid grid-cols-12">
-                <div className="col-span-4">
+                <div className="col-span-12 md:col-span-6 lg:col-span-4">
                   <div className="section-body">
                     <h2 className="section-title">Our Success Stories</h2>
                     <p className="section-content">
                       Explore how we’ve helped businesses achieve remarkable
                       results.
                     </p>
-                    <Button
-                      className="comman-button mt-5"
-                      style={{ color: "#fff", borderColor: "#fff" }}
-                    >
-                      View All Stories <HiOutlineArrowLongRight />
-                    </Button>
+                    <NavLink to="/case-study">
+                      {" "}
+                      <Button
+                        className="comman-button mt-5"
+                        style={{ color: "#fff", borderColor: "#fff" }}
+                      >
+                        View All Stories <HiOutlineArrowLongRight />
+                      </Button>
+                    </NavLink>
                   </div>
                 </div>
-                <div className="col-span-8">
+                <div className="col-span-12 md:col-span-6 lg:col-span-8">
                   <Swiper
                     navigation={true}
+                    spaceBetween={20}
                     breakpoints={{
                       640: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         spaceBetween: 20,
                       },
                       768: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
+                        spaceBetween: 20,
+                      },
+                      990: {
+                        slidesPerView: 1,
                         spaceBetween: 20,
                       },
                       1024: {
@@ -152,7 +168,7 @@ export default function Industries() {
                       },
                     }}
                     modules={[Navigation]}
-                    className="industry-swiper"
+                    className="industry-swiper mt-10 md:mt-0"
                   >
                     {data?.casestudy?.list?.map((val) => (
                       <SwiperSlide>
@@ -170,10 +186,10 @@ export default function Industries() {
           <section className={`section section-${data?.ourworks?.mode}`}>
             <div className="container mx-auto">
               <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
+                <h2 className="section-title md:text-center">
                   {data?.ourworks?.title}
                 </h2>
-                <p className="section-content text-center max-w-200">
+                <p className="section-content md:text-center max-w-200">
                   {data?.ourworks?.shortdesc}
                 </p>
               </div>
@@ -199,27 +215,32 @@ export default function Industries() {
             <img src={FaqStart} className="absolute top-0 right-0" />
 
             <div className="container mx-auto relative">
-              <div className="section-body flex flex-col items-center pb-50">
-                <h2 className="section-title text-center">
+              <div className="section-body pb-50">
+                <h2 className="section-title md:text-center">
                   {data?.testimonial?.title}
                 </h2>
-                <p className="section-content text-center ">
+                <p className="section-content md:text-center ">
                   {data?.testimonial?.shortdesc}
                 </p>
               </div>
 
               <div className="testimonial-list mt-40">
                 <Swiper
+                spaceBetween={20}
                   breakpoints={{
                     640: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                       spaceBetween: 20,
                     },
                     768: {
-                      slidesPerView: 2,
+                      slidesPerView: 1,
                       spaceBetween: 25,
                     },
                     1024: {
+                      slidesPerView: 2,
+                      spaceBetween: 25,
+                    },
+                     1224: {
                       slidesPerView: 3,
                       spaceBetween: 25,
                     },
@@ -249,11 +270,11 @@ export default function Industries() {
         {data.faq && (
           <section className={`section section-${data?.faq?.mode}`}>
             <div className="container mx-auto">
-              <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
+              <div className="section-body">
+                <h2 className="section-title md:text-center">
                   {data?.faq?.title}
                 </h2>
-                <p className="section-content text-center max-w-200">
+                <p className="section-content md:text-center max-w-200">
                   {data?.faq?.shortdesc}
                 </p>
               </div>
@@ -270,18 +291,26 @@ export default function Industries() {
             className={`section relative section-${data?.contact?.mode}`}
           >
             <div className="container mx-auto">
-              <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
+              <div className="section-body">
+                <h2 className="section-title md:text-center">
                   {data?.contact?.title}
                 </h2>
-                <p className="section-content text-center max-w-200">
+                <p className="section-content md:text-center max-w-200">
                   {data?.contact?.shortdesc}
                 </p>
               </div>
 
               <div className="section-detail mt-15">
                 <div className="grid grid-cols-12">
-                  <div className="col-span-6">
+                  <div className="col-span-12 lg:col-span-6 block lg:hidden">
+                    <div className="image-detail">
+                      <img
+                        className="w-full h-full"
+                        src={data?.contact?.image}
+                      />
+                    </div>
+                  </div>
+                  <div className="col-span-12 lg:col-span-6">
                     <Form layout="vertical" form={form}>
                       <div className="grid grid-cols-12">
                         {data?.contact?.form?.map(
@@ -323,7 +352,8 @@ export default function Industries() {
                       </div>
                     </Form>
                   </div>
-                  <div className="col-span-6">
+
+                  <div className="col-span-12 lg:col-span-6 hidden lg:block">
                     <div className="image-detail">
                       <img
                         className="w-full h-full"
@@ -345,10 +375,10 @@ export default function Industries() {
 const FAQ = ({ detail }: any) => (
   <div className="faq-list mt-15">
     <div className="grid grid-cols-12">
-      <div className="faq-image col-span-7">
+      <div className="faq-image col-span-12 lg:col-span-7">
         <img src={detail?.image} />
       </div>
-      <div className="faq-content col-span-5 flex items-start justify-start">
+      <div className="faq-content mt-5 lg:mt-0 col-span-12 lg:col-span-5 flex items-start justify-start">
         <Collapse
           accordion
           style={{ width: "100%", border: "unset", background: "transparent" }}
@@ -403,7 +433,7 @@ const WhyChooseCard = ({ detail, index }: any) => (
 );
 
 const TestimonialCard = ({ review, name, company }: any) => (
-  <div className="testimonial-card">
+  <div className="testimonial-card h-100">
     <div className="review">
       <BsQuote />
       <p>{review}</p>
@@ -420,44 +450,22 @@ const TestimonialCard = ({ review, name, company }: any) => (
 
 const OurWork = ({ data }: any) => (
   <div className="work-section">
-    <div className="grid grid-cols-7 gap-15">
-      <div className="col-span-4">
-        <div className="videoFrame">
-          <iframe
-            width={"100%"}
-            height={400}
-            src={data?.link}
-            title="YouTube video player"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerPolicy="strict-origin-when-cross-origin"
-          />
+    <div className="grid grid-cols-7 lg:gap-15">
+      <div className="col-span-12 lg:col-span-4">
+        <div className="videoFrame mb-5 lg:mb-0">
+          <img src={data?.image} />
         </div>
       </div>
-      <div className="col-span-3">
-        <strong>SEO Enhance</strong>
+      <div className="col-span-12 lg:col-span-3">
+        <strong>Service</strong>
         <h3>{data?.title}</h3>
         <p>{data?.desc?.para}</p>
-        <Collapse
-          bordered={false}
-          expandIconPosition="right"
-          defaultActiveKey={["1"]}
-          style={{ background: "transparent", padding: 0 }}
-          items={[
-            {
-              key: "1",
-              label: <h5>Rank Keywords</h5>,
-              children: (
-                <div className="flex flex-col">
-                  {data?.desc?.keywords?.map((val: string, index: number) => (
-                    <NavLink key={index} to="#">
-                      {index + 1})&nbsp;{val}
-                    </NavLink>
-                  ))}
-                </div>
-              ),
-            },
-          ]}
-        />
+
+        <NavLink to={data?.link} className="mt-10">
+          <Button className="comman-button" icon={<FaAngleRight />}>
+            Know More
+          </Button>
+        </NavLink>
       </div>
     </div>
   </div>

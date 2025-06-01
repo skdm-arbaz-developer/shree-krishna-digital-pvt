@@ -90,7 +90,7 @@ export default function Blog() {
 
 const BlogCard = ({ type, data, hideStyle }: CardProps) => (
   <NavLink
-    to={`/blog-view/${data?.slug}`}
+    to={`/view/${data?.slug}`}
     className={"blog-card cursor-pointer " + type}
   >
     <div className="blog-card-image">
@@ -99,6 +99,7 @@ const BlogCard = ({ type, data, hideStyle }: CardProps) => (
           maxHeight: hideStyle ? "230px" : "unset",
           minHeight: hideStyle ? "230px" : "unset",
         }}
+        className="min-h-[250px] lg:min-h-auto"
         src={data?.image}
         alt={data?.slug}
       />

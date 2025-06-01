@@ -4,9 +4,9 @@ export default function AboutUs({ aboutRef }: any) {
   return (
     <section className="section about-section" ref={aboutRef}>
       <div className="container mx-auto">
-        <div className="grid grid-cols-2">
+        <div className="md:grid md:grid-cols-2">
           <div className="about-image">
-            <img className="grayscale-100" src={aboutus} />
+            <img className="grayscale-100 hover:grayscale-0" src={aboutus} />
           </div>
           <div className="text-column">
             <div className="inner">

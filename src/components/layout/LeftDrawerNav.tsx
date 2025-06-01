@@ -13,7 +13,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa6";
 import { useTheme } from "../../context/ThemeContext";
-import { BsYoutube } from "react-icons/bs";
+import { BsWhatsapp, BsYoutube } from "react-icons/bs";
 import "../../css/contactus.css";
 
 export default function LeftDrawerNav() {
@@ -75,7 +75,7 @@ export default function LeftDrawerNav() {
                   Shree Krishna Digital
                 </h2>
                 <p className="header-drawer-nav-link">
-                  Solution Private Limited
+                  Solutions Private Limited
                 </p>
               </div>
             </div>
@@ -164,23 +164,39 @@ export default function LeftDrawerNav() {
             <h5 className="header-drawer-nav-link">Follow Us</h5>
             <ul>
               <li>
-                <NavLink to="#" className="icon">
+                <NavLink
+                  target="_blank"
+                  to="https://www.facebook.com/shree.krishnadigitalsolutions/"
+                  className="icon"
+                >
                   <FaFacebook />
                 </NavLink>
               </li>
               <li>
-                <NavLink to="#" className="icon">
+                <NavLink
+                  target="_blank"
+                  to="https://www.linkedin.com/company/shree-krishna-digital-marketing/?originalSubdomain=in"
+                  className="icon"
+                >
                   <FaLinkedin />
                 </NavLink>
               </li>
               <li>
-                <NavLink to="#" className="icon">
+                <NavLink
+                  target="_blank"
+                  to="https://www.instagram.com/shreekrishna_digitalsolutions/"
+                  className="icon"
+                >
                   <FaInstagram />
                 </NavLink>
               </li>
               <li>
-                <NavLink to="#" className="icon">
-                  <BsYoutube />
+                <NavLink
+                  target="_blank"
+                  to="https://api.whatsapp.com/send/?phone=%2B917021390953&text=Hello%2C%20I%27m%20interested%20in%20your%20digital%20marketing%20services.%20Please%20share%20more%20details%20about%20how%20you%20can%20help%20grow%20my%20business%20online.&type=phone_number&app_absent=0"
+                  className="icon"
+                >
+                  <BsWhatsapp />
                 </NavLink>
               </li>
             </ul>

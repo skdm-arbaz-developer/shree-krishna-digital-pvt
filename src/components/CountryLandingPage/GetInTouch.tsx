@@ -14,7 +14,7 @@ export default function GetInTouch({ contactRef }: any) {
   return (
     <section className="section get-in-touch-country" ref={contactRef}>
       <div className="container mx-auto">
-        <div className="grid grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 gap-10">
           <div className="contain-info">
             <div className="sec-title">
               <h2>
@@ -65,19 +65,19 @@ export default function GetInTouch({ contactRef }: any) {
           <Form form={enquiryForm} onFinish={handleSubmit} layout="vertical">
             <div className="grid grid-cols-2 gap-x-5">
               <div className="col-span-2">
-                <Form.Item label="Name Name">
+                <Form.Item rules={[{ required: true }]} label="Name Name">
                   <Input className="formInput" placeholder="Name" />
                 </Form.Item>
               </div>
               <div className="col-span-2">
-                <Form.Item label="Business Name">
+                <Form.Item rules={[{ required: true }]} label="Business Name">
                   <Input className="formInput" placeholder="Business Name" />
                 </Form.Item>
               </div>
-              <Form.Item label="Phone">
+              <Form.Item rules={[{ required: true }]} label="Phone">
                 <Input className="formInput" placeholder="Phone" />
               </Form.Item>
-              <Form.Item label="Email">
+              <Form.Item rules={[{ required: true }]} label="Email">
                 <Input className="formInput" placeholder="Email" />
               </Form.Item>
               <div className="col-span-2">

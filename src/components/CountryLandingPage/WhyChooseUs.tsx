@@ -12,8 +12,8 @@ export default function WhyChooseUs() {
         <div className="auto-container">
           <div className="inner-container">
             <div className="fact-counter">
-              <div className="grid grid-cols-4 clearfix">
-                <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 clearfix">
+                <div className="column counter-column">
                   <div className="inner">
                     <div className="content">
                       <div className="count-outer count-box">
@@ -25,7 +25,7 @@ export default function WhyChooseUs() {
                     </div>
                   </div>
                 </div>
-                <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                <div className="column counter-column">
                   <div className="inner">
                     <div className="content">
                       <div className="count-outer count-box alternate">
@@ -37,7 +37,7 @@ export default function WhyChooseUs() {
                     </div>
                   </div>
                 </div>
-                <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                <div className="column counter-column">
                   <div className="inner">
                     <div className="content">
                       <div className="count-outer count-box">
@@ -49,7 +49,7 @@ export default function WhyChooseUs() {
                     </div>
                   </div>
                 </div>
-                <div className="column counter-column col-lg-3 col-md-6 col-sm-12">
+                <div className="column counter-column">
                   <div className="inner">
                     <div className="content">
                       <div className="count-outer count-box">

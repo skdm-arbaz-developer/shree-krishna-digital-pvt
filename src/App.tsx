@@ -49,7 +49,7 @@ function App() {
           }
         />
         <Route
-          path="/blog-view/:id"
+          path="/view/:id"
           element={
             <>
               <Header />
@@ -92,9 +92,8 @@ function App() {
               key={index}
               element={
                 <>
-                  {/* <Header /> */}
                   <CountryServiceView />
-                  {/* <Footer /> */}
+                  <Footer />
                 </>
               }
             />

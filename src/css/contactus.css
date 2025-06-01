@@ -40,6 +40,7 @@
 .social-media ul {
   display: flex;
   align-items: center;
+  list-style: none !important;
 }
 
 .social-media svg{

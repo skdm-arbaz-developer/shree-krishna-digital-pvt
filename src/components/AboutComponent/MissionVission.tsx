@@ -5,14 +5,14 @@ export default function MissionVission() {
         "https://images.pexels.com/photos/8866736/pexels-photo-8866736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Vision",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, doloribus?",
+        "We aim to provide businesses with effective digital solutions for your business growth heigh't. Our dedicated team is committed to providing quality services in the areas of SEO, web development and online marketing through smart new ideas combined with effective strategies for your business plans.. Our approach will result in tangible growth for clients across all channels.'...",
     },
     {
       image:
         "https://images.pexels.com/photos/6147381/pexels-photo-6147381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Mission",
       content:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, doloribus?",
+        "With a focus on innovation, transparency, and providing top-notch customer service, we aim to become the most prominent Digital Marketing Company In Mumbai. We are experienced in the different categories of business with smart strategies and solutions that take your work to great heights.",
     },
   ];
 
@@ -40,16 +40,7 @@ export default function MissionVission() {
             >
               <div className="mission-vision-details">
                 <h2>{item.title}</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Expedita hic, ut perferendis esse molestias explicabo sed
-                  corrupti quae tenetur quo reiciendis? Nam corporis quos nihil
-                  voluptatem ullam dolore modi nemo. Lorem ipsum dolor, sit amet
-                  consectetur adipisicing elit. Voluptas, magnam pariatur
-                  dolores ut neque labore officiis sed assumenda in suscipit
-                  quibusdam expedita fuga! Perspiciatis aliquid quo a quaerat.
-                  Architecto, dolore.
-                </p>
+                <p>{item?.content}</p>
               </div>
             </div>
           ))}

@@ -8,7 +8,7 @@ import {
   FaLinkedin,
   FaLocationDot,
 } from "react-icons/fa6";
-import { BsYoutube } from "react-icons/bs";
+import { BsWhatsapp, BsYoutube } from "react-icons/bs";
 import { Button, Form, Input, Select } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import "../css/contactus.css";
@@ -101,23 +101,35 @@ export default function ContactUs() {
                     <h5>Follow us</h5>
                     <ul>
                       <li>
-                        <NavLink to="#" className="icon">
+                        <NavLink target="_blank" to="https://www.facebook.com/shree.krishnadigitalsolutions/" className="icon">
                           <FaFacebook />
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink to="#" className="icon">
+                        <NavLink
+                          target="_blank"
+                          to="https://www.linkedin.com/company/shree-krishna-digital-marketing/?originalSubdomain=in"
+                          className="icon"
+                        >
                           <FaLinkedin />
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink to="#" className="icon">
+                        <NavLink
+                          target="_blank"
+                          to="https://www.instagram.com/shreekrishna_digitalsolutions/"
+                          className="icon"
+                        >
                           <FaInstagram />
                         </NavLink>
                       </li>
                       <li>
-                        <NavLink to="#" className="icon">
-                          <BsYoutube />
+                        <NavLink
+                          target="_blank"
+                          to="https://api.whatsapp.com/send/?phone=%2B917021390953&text=Hello%2C%20I%27m%20interested%20in%20your%20digital%20marketing%20services.%20Please%20share%20more%20details%20about%20how%20you%20can%20help%20grow%20my%20business%20online.&type=phone_number&app_absent=0"
+                          className="icon"
+                        >
+                          <BsWhatsapp />
                         </NavLink>
                       </li>
                     </ul>
@@ -204,7 +216,7 @@ export default function ContactUs() {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.3910469743914!2d72.82395517544265!3d19.134352582082332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c946e4282bd9%3A0x2781c048e4376933!2sShree%20Krishna%20Digital%20Marketing%20Services%20%7C%20Best%20Digital%20Marketing%20Company%20in%20Andheri%20%7C%20Digital%20Marketing%20Agency%20in%20Andheri!5e0!3m2!1sen!2sin!4v1746181540949!5m2!1sen!2sin"
             width={"100%"}
             height={450}
-            style={{ border: 0, borderRadius:30 }}
+            style={{ border: 0, borderRadius: 30 }}
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
           />

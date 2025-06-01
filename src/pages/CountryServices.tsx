@@ -90,7 +90,7 @@ export default function CountryServices() {
           activeSection={activeSection}
           service={service}
         />
-        <BannerPage homeRef={homeRef} service={service} />
+        <BannerPage homeRef={homeRef} setActiveSection={setActiveSection} service={service} />
         <Services data={service} serviceRef={serviceRef} />
         <AboutUs aboutRef={aboutRef} />
         <WhyChooseUs />
