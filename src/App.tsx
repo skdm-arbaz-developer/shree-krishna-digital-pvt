@@ -20,10 +20,13 @@ import countries from "./components/support/Countries";
 import ComingSoon from "./pages/ComingSoon";
 import CountryServices from "./pages/CountryServices";
 import CountryServiceView from "./pages/CountryServiceView";
+import LogoScrolling from "./components/HomeComponents/LogoScrolling";
 
 function App() {
   return (
     <BrowserRouter>
+      <LogoScrolling />
+
       <Routes>
         {dynamicRoutes.map((route, idx) => (
           <Route

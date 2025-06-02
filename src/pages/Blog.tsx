@@ -35,7 +35,7 @@ export default function Blog() {
       />
 
       <section className="section section-gray">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body">
             <h1 className="section-title">Recent Blogs</h1>
           </div>
@@ -63,7 +63,7 @@ export default function Blog() {
       </section>
 
       <section className="section">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body">
             <h1 className="section-title">All Blogs</h1>
           </div>

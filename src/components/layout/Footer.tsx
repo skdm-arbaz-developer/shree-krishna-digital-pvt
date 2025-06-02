@@ -68,9 +68,9 @@ export default function Footer() {
     <>
       <GetInTouch />
       <footer>
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="md:grid md:grid-cols-3 gap-20">
-            <div className="footer-brand">
+            <NavLink to="/" className="footer-brand">
               <img src={logo} />
               <p>
                 Shree Marketing is a leading digital marketing agency
@@ -78,7 +78,7 @@ export default function Footer() {
                 online presence. Our expert team is dedicated to delivering
                 results-driven solutions tailored to your unique business needs.
               </p>
-            </div>
+            </NavLink>
             {/* <div className="footer-growth">
               <div className="grid grid-cols-2">
                 {counts.map((count, index) => (
@@ -96,7 +96,12 @@ export default function Footer() {
                   {countries?.map((val, index) => (
                     <div key={index} className="contact flex items-center">
                       <FaAngleDoubleRight />
-                      <NavLink to={val?.url}>{val?.title}</NavLink>
+                      <NavLink
+                        style={{ textTransform: "capitalize" }}
+                        to={val?.url}
+                      >
+                        {val?.title}
+                      </NavLink>
                     </div>
                   ))}
                 </div>
@@ -111,7 +116,7 @@ export default function Footer() {
                       <LuPhone />
                     </div>
                     <div className="col-span-9">
-                      <p>+91 70213 90958</p>
+                      <p>+91 70213 90953</p>
                     </div>
                   </div>
                 </div>
@@ -121,7 +126,7 @@ export default function Footer() {
                       <FaRegEnvelope />
                     </div>
                     <div className="col-span-9">
-                      <p>shreemarketing09@gmail.com</p>
+                      <p>shreekrishnadigital09@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -180,25 +185,29 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="footer-links flex justify-center items-center flex-col px-4 py-6">
+          <div className="footer-links flex-col px-4 py-6">
             <div className="devider w-full h-px bg-gray-300" />
-
-            <div className="flex flex-wrap justify-center items-center gap-3 mt-4 text-center">
-              {links.map((link, index) => (
-                <div key={index} className="flex items-center">
-                  <NavLink
-                    className="footer-link text-sm md:text-base text-white hover:text-gray-400 transition"
-                    to={link.link}
-                  >
-                    {link.title}
-                  </NavLink>
-                  {index !== links.length - 1 && (
-                    <span className="footer-line mx-2 text-white hidden sm:inline">
-                      |
-                    </span>
-                  )}
-                </div>
-              ))}
+            <div className="flex justify-between items-center flex-col lg:flex-row mt-4">
+              <div className="flex flex-wrap justify-center items-center gap-3 text-center">
+                {links.map((link, index) => (
+                  <div key={index} className="flex items-center">
+                    <NavLink
+                      className="footer-link text-sm md:text-base text-white hover:text-gray-400 transition"
+                      to={link.link}
+                    >
+                      {link.title}
+                    </NavLink>
+                    {index !== links.length - 1 && (
+                      <span className="footer-line mx-2 text-white hidden sm:inline">
+                        |
+                      </span>
+                    )}
+                  </div>
+                ))}
+              </div>
+              <div className="company mt-5 lg:mt-0 text-center">
+                Reserved By &copy;&nbsp;Shree Krishna Digital Solutions Pvt Ltd
+              </div>
             </div>
           </div>
         </div>

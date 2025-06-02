@@ -11,7 +11,7 @@ export default function ServiceViewBanner({ data, aboutCountry }: any) {
       <div className="banner-inner">
         <div className="auto-container">
           <div className="inner-container clearfix">
-            <h1>{data?.title}</h1>
+            <h1 className="lg:text-2xl">{data?.title} In {aboutCountry?.title}</h1>
             <div className="page-nav-country mt-10">
               <ul className="bread-crumb clearfix">
                 <li>

@@ -5,7 +5,7 @@ import { LuPhoneCall } from "react-icons/lu";
 import { MdOutlineMail } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 
-export default function GetInTouch({ contactRef }: any) {
+export default function GetInTouch({ data, contactRef }: any) {
   const [enquiryForm] = Form.useForm();
 
   const handleSubmit = (value: any) => {
@@ -13,24 +13,19 @@ export default function GetInTouch({ contactRef }: any) {
   };
   return (
     <section className="section get-in-touch-country" ref={contactRef}>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="grid md:grid-cols-2 gap-10">
           <div className="contain-info">
             <div className="sec-title">
               <h2>
                 Get In Touch <br /> With Us <span className="dot">.</span>
               </h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
-                voluptatibus veritatis eos enim, dolorum nostrum exercitationem
-                doloremque illo cumque nam non, asperiores velit maiores. Maxime
-                vero adipisci ducimus veniam enim.
-              </p>
+              <p>{data?.getintouchSection}</p>
             </div>
             <div className="get-in-touch-list">
               <ul>
                 <li>
-                  <NavLink to="+917021390958">
+                  <NavLink to="+917021390953">
                     <div className="get-in-touch-icon">
                       <LuPhoneCall />
                     </div>

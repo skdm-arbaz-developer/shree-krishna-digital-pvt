@@ -93,7 +93,7 @@ export default function Header({
   return (
     <>
       <header className="landng-page-header">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="logo" onClick={() => setActiveSection("home")}>
             <img src={logo} />
           </div>
@@ -122,7 +122,7 @@ export default function Header({
               <div className="phone">
                 <span>CALL ANYTIME</span>
                 <br />
-                <NavLink to={"tel:+917021390958"}>
+                <NavLink to={"tel:+917021390953"}>
                   +91&nbsp;702&nbsp;139&nbsp;0958
                 </NavLink>
               </div>
@@ -144,7 +144,7 @@ export default function Header({
 
       <div className={`header-second ${active ? "active" : ""}`}>
         <header className="landng-page-header">
-          <div className="container mx-auto">
+          <div className="container mx-auto px-0 sm:px-5 xl:px-0">
             <div className="logo" onClick={() => setActiveSection("home")}>
               <img src={logo} />
             </div>
@@ -173,7 +173,7 @@ export default function Header({
                 <div className="phone">
                   <span>CALL ANYTIME</span>
                   <br />
-                  <NavLink to={"tel:+917021390958"}>
+                  <NavLink to={"tel:+917021390953"}>
                     +91&nbsp;702&nbsp;139&nbsp;0958
                   </NavLink>
                 </div>

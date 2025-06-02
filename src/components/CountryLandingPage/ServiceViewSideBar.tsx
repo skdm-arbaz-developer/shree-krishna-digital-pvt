@@ -40,11 +40,11 @@ export default function ServiceViewSideBar({ aboutCountry, data }: any) {
             </div>
             <div className="phone">
               <NavLink
-                to="tel:+917021390958"
+                to="tel:+917021390953"
                 className="flex items-center text-xl"
               >
                 <IoCall style={{ marginRight: 10 }} />
-                +91 70213 90958
+                +91 70213 90953
               </NavLink>
             </div>
           </div>

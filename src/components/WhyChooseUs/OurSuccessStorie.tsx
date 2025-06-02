@@ -77,7 +77,7 @@ export default function OurSuccessStorie() {
       <img src={FaqArrow} className="absolute -top-10 left-0" />
       <img src={FaqStart} className="absolute top-0 right-0" />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="lg:grid lg:grid-cols-12">
           <div className="lg:col-span-4 mb-10 lg:mb-0">
             <div className="section-body">

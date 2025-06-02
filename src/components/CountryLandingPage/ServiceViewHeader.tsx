@@ -85,7 +85,7 @@ export default function ServiceViewHeader({ service }: any) {
   return (
     <>
       <header className="landng-page-header">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <NavLink to={"/" + service?.type} className="logo">
             <img src={logo} />
           </NavLink>
@@ -105,7 +105,7 @@ export default function ServiceViewHeader({ service }: any) {
             <div className="phone">
               <span>CALL ANYTIME</span>
               <br />
-              <NavLink to={"tel:+917021390958"}>
+              <NavLink to={"tel:+917021390953"}>
                 +91&nbsp;702&nbsp;139&nbsp;0958
               </NavLink>
             </div>
@@ -115,7 +115,7 @@ export default function ServiceViewHeader({ service }: any) {
 
       <div className={`header-second ${active ? "active" : ""}`}>
         <header className="landng-page-header">
-          <div className="container mx-auto">
+          <div className="container mx-auto px-0 sm:px-5 xl:px-0">
             <NavLink to={"/" + service?.type} className="logo">
               <img src={logo} />
             </NavLink>
@@ -135,7 +135,7 @@ export default function ServiceViewHeader({ service }: any) {
               <div className="phone">
                 <span>CALL ANYTIME</span>
                 <br />
-                <NavLink to={"tel:+917021390958"}>
+                <NavLink to={"tel:+917021390953"}>
                   +91&nbsp;702&nbsp;139&nbsp;0958
                 </NavLink>
               </div>

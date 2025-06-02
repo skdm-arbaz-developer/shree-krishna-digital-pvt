@@ -5,12 +5,12 @@ import { MdPhone } from "react-icons/md";
 import { NavLink } from "react-router-dom";
 import "../css/team.css";
 import "../css/home/logoscroll.css";
-import image1 from "../assets/images/partners/Google.png";
-import image2 from "../assets/images/partners/GoogleAds.png";
-import image3 from "../assets/images/partners/Meta.png";
-import image4 from "../assets/images/partners/PhonePe.png";
-import image5 from "../assets/images/partners/Rayzorpay.png";
-import { BsArrowRight } from "react-icons/bs";
+// import image1 from "../assets/images/partners/Google.png";
+// import image2 from "../assets/images/partners/GoogleAds.png";
+// import image3 from "../assets/images/partners/Meta.png";
+// import image4 from "../assets/images/partners/PhonePe.png";
+// import image5 from "../assets/images/partners/Rayzorpay.png";
+// import { BsArrowRight } from "react-icons/bs";
 import PortfolioSectionCard from "../components/AdsAndPR/PortfolioSectionCard";
 import SvgIcon from "../assets/images/icons/home-about-right.svg";
 import FaqArrow from "../assets/images/icons/faq-arrow.svg";
@@ -18,16 +18,16 @@ import FaqStart from "../assets/images/icons/faq-star.svg";
 
 export default function WhoWeArePrAdd() {
   const teamlist = [
+    // {
+    //   image:
+    //     "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/idh8kcnm6i6sipzztpfo",
+    //   name: "Ambrish Kumar",
+    //   designation: "Line Producer",
+    //   desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel ?",
+    // },
     {
       image:
-        "https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/idh8kcnm6i6sipzztpfo",
-      name: "Ambrish Kumar",
-      designation: "Line Producer",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel ?",
-    },
-    {
-      image:
-        "https://media.licdn.com/dms/image/v2/C4D03AQEeEyYzNtDq7g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1524234561685?e=2147483647&v=beta&t=uHzeaBv3V2z6Tp6wvhzGABlTs9HR-SP-tEX1UbYNn4Q",
+        "https://scontent.fbom3-3.fna.fbcdn.net/v/t39.30808-6/476838022_8919786721482577_4604308827657792290_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qBw4VSXnPyIQ7kNvwHn1eW1&_nc_oc=AdnDfucp4KTbkvaxOouE-HTE_gGezA6-tszeN4eoWDQsUCoi1eQt-0ryRwratRHvqtA2eWt2ksyhuBpgCiCn7IbA&_nc_zt=23&_nc_ht=scontent.fbom3-3.fna&_nc_gid=_BlEZyOVMZd6o57CruYJ_g&oh=00_AfIAsVZKWOl2f_F5QPu6YAxlOrUdd13VIHIxrw2_xSQFtw&oe=6843904E",
       name: "Vinay Mishra",
       designation: "Line Producer & Director",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
@@ -39,125 +39,45 @@ export default function WhoWeArePrAdd() {
       designation: "Director of Photography",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
     },
-    {
-      image:
-        "https://images.pexels.com/photos/8528852/pexels-photo-8528852.jpeg?auto=compress&cs=tinysrgb&w=1200",
-      name: "Priyanka Salvi",
-      designation: "Director",
-      desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
-    },
+    // {
+    //   image:
+    //     "https://images.pexels.com/photos/8528852/pexels-photo-8528852.jpeg?auto=compress&cs=tinysrgb&w=1200",
+    //   name: "Priyanka Salvi",
+    //   designation: "Director",
+    //   desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
+    // },
   ];
 
-  const brandslogo = [
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-    image1,
-    image2,
-    image3,
-    image4,
-    image5,
-  ];
+  // const brandslogo = [
+  //   image1,
+  //   image2,
+  //   image3,
+  //   image4,
+  //   image5,
+  //   image1,
+  //   image2,
+  //   image3,
+  //   image4,
+  //   image5,
+  //   image1,
+  //   image2,
+  //   image3,
+  //   image4,
+  //   image5,
+  // ];
 
   const portfolio = [
-    {
-      client: "TechNova Solutions",
-      type: "Public Relations",
-      category: "Technology",
-      desc: `We led the public relations campaign for TechNova Solutions during their flagship product launch. Our team coordinated press releases, managed interviews, and ensured strategic media placements in leading tech publications across India and international platforms.
-  
-      This campaign resulted in significant brand visibility, with a 40% increase in media mentions and strong engagement from tech bloggers and influencers. We positioned TechNova as an emerging leader in cloud-based software, gaining them traction in B2B and investor networks.`,
-      video: "https://www.pexels.com/video/3184292/",
-    },
-    {
-      client: "UrbanStyle Apparel",
-      type: "Advertisment",
-      category: "Fashion",
-      desc: `We conceptualized and executed a dynamic summer campaign for UrbanStyle Apparel, blending fashion film, influencer content, and high-impact ads across Instagram, YouTube, and digital magazines. The shoot captured bold, youth-centric aesthetics with vibrant visuals.
-  
-      The campaign saw a 120% jump in web traffic and contributed to a 25% increase in sales during the season. Our creative direction aligned closely with UrbanStyle's brand image, helping them stand out in a saturated fashion market.`,
-      video: "https://www.pexels.com/video/856192/",
-    },
-    {
-      client: "GreenLeaf Organics",
-      type: "Public Relations",
-      category: "Sustainability",
-      desc: `Our PR team worked closely with GreenLeaf Organics to craft a media narrative around their eco-conscious packaging solutions. We arranged press coverage, brand stories, and partnered with environmental forums and podcasts to showcase their sustainability efforts.
-  
-      As a result, the brand was featured in over 30 media outlets including GreenBiz and EcoIndia. This not only enhanced their market position but also attracted investor interest aligned with ESG goals.`,
-      video: "https://www.pexels.com/video/3184291/",
-    },
-    {
-      client: "Velocity Auto",
-      type: "Advertisment",
-      category: "Automotive",
-      desc: `We produced a high-octane advertisement for Velocity Auto’s latest electric vehicle. The shoot involved drone footage, urban landscapes, and 3D motion graphics to emphasize both performance and sustainability.
-  
-      The ad aired on national television and was also distributed on YouTube and OTT platforms. It resulted in a 30% uplift in showroom visits and positioned the EV model as a lifestyle product rather than just a vehicle.`,
-      video: "https://www.pexels.com/video/854190/",
-    },
-    {
-      client: "AeroFly Drones",
-      type: "Advertisment",
-      category: "Aerial Services",
-      desc: `For AeroFly Drones, we delivered an impactful visual advertising campaign targeting the real estate and events sectors. Our concept highlighted the range and precision of their drone capabilities using real-client case studies.
-  
-      The campaign helped AeroFly secure multiple long-term contracts. The visuals were also repurposed for their website and pitch decks, adding long-term brand value and professional appeal.`,
-      video: "https://www.pexels.com/video/3184293/",
-    },
-    {
-      client: "Glow Cosmetics",
-      type: "Public Relations",
-      category: "Beauty",
-      desc: `Our PR efforts for Glow Cosmetics focused on their new vegan skincare line. We launched a blogger outreach initiative, sent curated PR boxes, and facilitated reviews with dermatologists and influencers.
-  
-      Media placements in health and wellness magazines further amplified the campaign. The launch received viral traction on Instagram, and the brand trended on beauty forums for over two weeks.`,
-      video: "https://www.pexels.com/video/854192/",
-    },
-    {
-      client: "FitFlex Gyms",
-      type: "Advertisment",
-      category: "Fitness",
-      desc: `We designed a digital-first ad campaign for FitFlex Gyms to boost gym signups in Tier-1 cities. The video ad showcased real client transformations and 24x7 fitness access using upbeat, energetic visuals.
-  
-      Our performance marketing team targeted the campaign to fitness-conscious millennials, leading to a 3X return on ad spend (ROAS) and a 150% increase in new user registrations.`,
-      video: "https://www.pexels.com/video/3184294/",
-    },
-    {
-      client: "EduSpark Academy",
-      type: "Public Relations",
-      category: "Education",
-      desc: `We positioned EduSpark Academy as an innovation leader in AI-based education through strategic storytelling. Our PR team arranged interviews with the founders and collaborated with edtech bloggers to run in-depth features.
-  
-      The campaign elevated EduSpark’s brand credibility, attracting over 10,000 new users to their platform and securing a strategic partnership with a national curriculum board.`,
-      video: "https://www.pexels.com/video/854193/",
-    },
-    {
-      client: "The Brew House",
-      type: "Advertisment",
-      category: "Food & Beverage",
-      desc: `To launch their seasonal menu, we created a heartwarming brand video for The Brew House capturing the aroma, craftsmanship, and community spirit of their coffee culture. The ad included cozy café settings and close-up shots of their brews.
-  
-      This emotional appeal struck a chord with urban coffee lovers, resulting in a 70% increase in in-store visits during weekends and a strong social media presence through customer-shared content.`,
-      video: "https://www.pexels.com/video/3184295/",
-    },
-    {
-      client: "NeoTech Devices",
-      type: "Public Relations",
-      category: "Consumer Electronics",
-      desc: `We rolled out a comprehensive PR campaign for NeoTech Devices around their smart wearables launch. It included a keynote event, product seeding to tech reviewers, and press briefings with hands-on demos.
-  
-      Coverage spanned across TechCrunch India, Digit Magazine, and 15+ influencer tech YouTube channels. The earned media helped them outperform competitors during launch week on e-commerce portals.`,
-      video: "https://www.pexels.com/video/854194/",
-    },
+    "712504241",
+    "710620003",
+    "847300024",
+    "907197645",
+    "712504197",
+    "937415805",
+    "874282187",
+    "211531746",
+    "760366144",
   ];
+
 
   return (
     <>
@@ -168,18 +88,18 @@ export default function WhoWeArePrAdd() {
       />
       <section className="section relative">
         <img src={SvgIcon} className="absolute top-0 right-0" />
-        <div className="container mx-auto">
-          <div className="grid grid-cols-12 gap-10">
-            <div className="col-span-5">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
+          <div className="md:grid grid-cols-12 gap-10">
+            <div className="col-span-12 md:col-span-5">
               <iframe
                 title="vimeo-player"
                 src="https://player.vimeo.com/video/1037736318?h=8fa5d2c1e9"
                 width={"100%"}
-                height={"100%"}
+                className="min-h-[250px] h-full"
                 frameBorder={0}
               />
             </div>
-            <div className="col-span-7">
+            <div className="col-span-12 md:col-span-7">
               <div className="section-body">
                 <h2 className="section-title">We are as Advertising Company</h2>
                 <p className="section-content">
@@ -209,9 +129,9 @@ export default function WhoWeArePrAdd() {
       </section>
 
       <section className="section section-gray">
-        <div className="container mx-auto">
-          <div className="grid grid-cols-12 gap-10">
-            <div className="col-span-7">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
+          <div className="md:grid grid-cols-12 gap-10">
+            <div className="col-span-12 md:col-span-7">
               <div className="section-body">
                 <h2 className="section-title">
                   We are as In PR Marketing Support
@@ -238,7 +158,7 @@ export default function WhoWeArePrAdd() {
                 </p>
               </div>
             </div>
-            <div className="col-span-5">
+            <div className="col-span-12 md:col-span-5">
               <video controls>
                 <source src="https://videos.pexels.com/video-files/6878737/6878737-uhd_2732_1440_25fps.mp4"></source>
               </video>
@@ -264,9 +184,9 @@ export default function WhoWeArePrAdd() {
         </div>
       </div>
       <section className="section relative section-dark">
-      <img src={FaqArrow} className="absolute -top-10 left-0" />
-      <img src={FaqStart} className="absolute top-0 right-0" />
-        <div className="container mx-auto">
+        <img src={FaqArrow} className="absolute -top-10 left-0" />
+        <img src={FaqStart} className="absolute top-0 right-0" />
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body flex justify-center items-center flex-col">
             <h2 className="section-title text-center">Team Behind the Ads</h2>
             <p
@@ -281,7 +201,7 @@ export default function WhoWeArePrAdd() {
           </div>
 
           <div className="team-list mt-20">
-            <div className="grid grid-cols-4 gap-8">
+            <div className="sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
               {teamlist.map((val, index) => (
                 <TeamCard data={val} key={index} />
               ))}
@@ -290,8 +210,8 @@ export default function WhoWeArePrAdd() {
         </div>
       </section>
 
-      <section className="section section-gray">
-        <div className="container mx-auto">
+      {/* <section className="section section-gray">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body flex justify-center items-center flex-col">
             <h2 className="section-title text-center">
               Our Associate partners for PR
@@ -312,18 +232,18 @@ export default function WhoWeArePrAdd() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className="section" style={{ paddingBottom: "0px" }}>
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body">
             <div className="flex justify-between">
               <h2 className="section-title">Our Portfolio</h2>
-              <NavLink to="/our-portfolio">
+              {/* <NavLink to="/our-portfolio">
                 <Button className="comman-button mt-5">
                   Know More <BsArrowRight />
                 </Button>
-              </NavLink>
+              </NavLink> */}
             </div>
             <p className="section-content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
@@ -333,12 +253,14 @@ export default function WhoWeArePrAdd() {
               elit.
             </p>
           </div>
+
+          <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
+            {portfolio.map((val, index) => (
+              <PortfolioSectionCard key={index} index={index} portfolio={val} />
+            ))}
+          </div>
         </div>
       </section>
-
-      {portfolio.splice(0, 5).map((val, index) => (
-        <PortfolioSectionCard key={index} index={index} portfolio={val} />
-      ))}
     </>
   );
 }
@@ -349,7 +271,7 @@ const TeamCard = ({ data }: any) => (
       <img src={data?.image} alt={data?.name} />
     </div>
     <div className="team-detail">
-      <p className="team-content">{data?.desc}</p>
+      {/* <p className="team-content">{data?.desc}</p> */}
 
       <div className="team-title">
         <h3>{data?.name}</h3>

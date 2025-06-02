@@ -9,12 +9,14 @@ import interior from "../../assets/images/resources/industry/interior-design.jpe
 import resort from "../../assets/images/resources/industry/resort-villa.jpeg";
 import salon from "../../assets/images/resources/industry/spa-salon.jpg";
 import "../../css/home/industry.css";
+import { NavLink } from "react-router-dom";
 
 interface CardProps {
   img: string;
   title: string;
   desc: string;
   children?: ReactNode;
+  link: string;
 }
 
 export default function Industries() {
@@ -23,41 +25,48 @@ export default function Industries() {
       title: "Healthcare",
       img: doctor,
       desc: "We provide innovative healthcare solutions to enhance patient care and streamline operations.",
+      link: "/healthcare",
     },
     {
       title: "Education",
       img: education,
       desc: "Empowering educational institutions with technology to enhance learning experiences and administrative efficiency.",
+      link: "/education",
     },
     {
       title: "Resorts & Villa",
       img: resort,
       desc: "Transforming hospitality experiences with cutting-edge solutions for resorts and villas.",
+      link: "/resort-&-villa",
     },
     {
       title: "Hospitality & Catering",
       img: hospitality,
       desc: "Revolutionizing the hospitality and catering industry with tailored solutions for seamless operations.",
+      link: "/hospitality",
     },
     {
       title: "Interior Designs",
       img: interior,
       desc: "Crafting stunning interior designs with innovative solutions that elevate spaces.",
+      link: "/interior-design",
     },
     {
       title: "Real Estate",
       img: realestate,
       desc: "Empowering real estate businesses with technology to streamline processes and enhance customer experiences.",
+      link: "/real-estate",
     },
     {
       title: "Spa & Salon",
       img: salon,
       desc: "Enhancing spa and salon experiences with innovative solutions for better customer engagement and management.",
+      link: "/spa-&-salon",
     },
   ];
   return (
     <section className="section">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body flex justify-center flex-col items-center">
           <h2 className="section-title">Indusries, We Serve</h2>
           <p className="section-content">
@@ -88,7 +97,12 @@ export default function Industries() {
           >
             {industryList.map((val, index) => (
               <SwiperSlide key={index}>
-                <InductryCard img={val.img} title={val.title} desc={val.desc} />
+                <InductryCard
+                  link={val?.link}
+                  img={val.img}
+                  title={val.title}
+                  desc={val.desc}
+                />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -98,12 +112,12 @@ export default function Industries() {
   );
 }
 
-const InductryCard = ({ img, title, desc }: CardProps) => (
+const InductryCard = ({ img, title, desc, link }: CardProps) => (
   <div className="industry-card">
     <img src={img} />
-    <div className="content">
+    <NavLink to={link} className="content">
       <h3>{title}</h3>
       <p>{desc}</p>
-    </div>
+    </NavLink>
   </div>
 );

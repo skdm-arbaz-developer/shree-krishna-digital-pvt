@@ -6,11 +6,11 @@ import { NavLink } from "react-router-dom";
 export default function PrAndAds() {
   return (
     <section className="section section-gray">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body">
           <div className="lg:flex justify-between">
             <h2 className="section-title">We Help to, Make PR & Ads</h2>
-            <NavLink to="/who-we-are-pr-advertising">
+            <NavLink to="/pr-advertising-company">
               <Button className="comman-button mt-5">
                 Know More <BsArrowRight />
               </Button>
@@ -42,7 +42,7 @@ export default function PrAndAds() {
                 height="250"
               />
               <iframe
-                src="https://player.vimeo.com/video/755873578?h=6fddfdfe2b"
+                src="https://player.vimeo.com/video/768409096?h=6fddfdfe2b"
                 width="100%"
                 height="250"
               />

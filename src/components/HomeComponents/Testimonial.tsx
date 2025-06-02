@@ -107,7 +107,7 @@ export default function Testimonial() {
       <img src={FaqArrow} className="absolute -top-10 left-0" />
       <img src={FaqStart} className="absolute top-0 right-0" />
 
-      <div className="container mx-auto relative">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0 relative">
         <div className="section-body flex justify-center pb-20">
           <h2 className="section-title">What our clients, Say</h2>
         </div>

@@ -18,7 +18,7 @@ export default function MissionVission() {
 
   return (
     <section className="section section-gray">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body md:flex flex-row items-center justify-between">
           <h2 className="section-title" style={{ maxWidth: "600px" }}>
             Making Life Smoother and Easier Every Day

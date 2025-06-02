@@ -19,7 +19,7 @@ export default function Header() {
 
   return (
     <header className="header-css">
-      <div className="container mx-auto flex flex-row items-center justify-between">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0 flex flex-row items-center justify-between">
         <LeftDrawerNav />
         <NavLink to="/" className="logo">
           <img alt="Shree Krishna Digital" src={logo} />

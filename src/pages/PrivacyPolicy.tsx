@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
         {
           title: "",
           points: [],
-          note: "At Shree Krishna Digital Marketing, we value the privacy of our clients and website visitors. We are committed to safeguarding any personal information shared with us and ensuring it is handled responsibly. As a forward-thinking digital marketing and IT services provider, we prioritize confidentiality and adhere to industry-standard privacy practices.",
+          note: "At Shree Krishna Digital Solutions Pvt Ltd, we value the privacy of our clients and website visitors. We are committed to safeguarding any personal information shared with us and ensuring it is handled responsibly. As a forward-thinking digital marketing and IT services provider, we prioritize confidentiality and adhere to industry-standard privacy practices.",
           desc: "This policy outlines how we collect, use, protect, and share your data when you engage with our services or visit our website.",
         },
       ],
@@ -100,7 +100,7 @@ export default function PrivacyPolicy() {
             "Inquire about how your information is used.",
           ],
           desc: "",
-          note: "To exercise your rights, contact us at +91 70213 90958.",
+          note: "To exercise your rights, contact us at +91 70213 90953.",
         },
       ],
     },
@@ -153,10 +153,10 @@ export default function PrivacyPolicy() {
             "If you have any questions about this Privacy Policy or how we handle your data, please reach out to us:",
 
           points: [
-            "Shree Krishna Digital Marketing",
+            "Shree Krishna Digital Solutions Pvt Ltd",
             "Number 102/B, Office, MOHID HEIGHTS 1st, Andheri, Mumbai, Maharashtra 400053",
-            "Email: shreemarketing09@gmail.com",
-            "Phone: +91 70213 90958",
+            "Email: shreekrishnadigital09@gmail.com",
+            "Phone: +91 70213 90953",
           ],
           desc: "",
           note: "",
@@ -169,7 +169,7 @@ export default function PrivacyPolicy() {
     <section className="section relative">
       <img src={SvgIcon} className="absolute top-0 right-0" />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body pb-20 flex flex-col justify-center items-center">
           <h2 className="section-title">Privacy Policy</h2>
           <p className="section-content">Your Privacy, Our Commitment</p>

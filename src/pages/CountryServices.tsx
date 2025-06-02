@@ -6,7 +6,7 @@ import Header from "../components/CountryLandingPage/Header";
 import Services from "../components/CountryLandingPage/Services";
 import AboutUs from "../components/CountryLandingPage/AboutUs";
 import WhyChooseUs from "../components/CountryLandingPage/WhyChooseUs";
-import FAQ from "../components/CountryLandingPage/FAQ";
+// import FAQ from "../components/CountryLandingPage/FAQ";
 import Promotion from "../components/CountryLandingPage/Promotion";
 import Testimonial from "../components/CountryLandingPage/Testimonial";
 import GetInTouch from "../components/CountryLandingPage/GetInTouch";
@@ -92,12 +92,12 @@ export default function CountryServices() {
         />
         <BannerPage homeRef={homeRef} setActiveSection={setActiveSection} service={service} />
         <Services data={service} serviceRef={serviceRef} />
-        <AboutUs aboutRef={aboutRef} />
-        <WhyChooseUs />
-        <FAQ faqRef={faqRef} />
-        <Promotion />
-        <Testimonial testimonialRef={testimonialRef} />
-        <GetInTouch contactRef={contactRef} />
+        <AboutUs data={service} aboutRef={aboutRef} />
+        <WhyChooseUs data={service} />
+        {/* <FAQ faqRef={faqRef} /> */}
+        <Promotion data={service} />
+        <Testimonial data={service} testimonialRef={testimonialRef} />
+        <GetInTouch data={service} contactRef={contactRef} />
       </div>
     )
   );

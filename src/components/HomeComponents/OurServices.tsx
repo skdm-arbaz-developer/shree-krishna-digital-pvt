@@ -33,12 +33,12 @@ export default function OurServices() {
     },
     {
       title: "PR and Ads Marketing",
-      link: "/pr-and-ads-marketing",
+      link: "/pr-advertising-company",
     },
   ];
   return (
     <section className="section section-dark">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="grid lg:grid-cols-2">
           <div className="section-body lg:px-10">
             <h2 className="section-title">The Services, We Provide</h2>

@@ -48,7 +48,7 @@ export default function CountryServiceView() {
         <ServiceViewHeader service={aboutCountry} />
         <ServiceViewBanner aboutCountry={aboutCountry} data={data} />
         <div className="sidebar-page-container">
-          <div className="container mx-auto">
+          <div className="container mx-auto px-0 sm:px-5 xl:px-0">
             <div className="sm:grid grid-cols-12 gap-10">
               <div className="lg:col-span-7 col-span-12">
                 <div className="service-details">
@@ -57,38 +57,9 @@ export default function CountryServiceView() {
                   </div>
                   <div className="text-content">
                     <h3>{data?.title}</h3>
-                    <p>
-                      Need something changed or is there something not quite
-                      working the way you envisaged? Is your van a little old
-                      and tired and need refreshing? Lorem Ipsum is simply dummy
-                      text of the printing and typesetting industry. Lorem Ipsum
-                      has been the industry's standard dummy text ever since the
-                      1500s, when an unknown printer took a galley of type and
-                      scrambled it to make a type specimen book. It has survived
-                      not only five centuries, but also the leap into electronic
-                      typesetting, remaining essentially unchanged.
-                    </p>
-
-                    <p>
-                      Need something changed or is there something not quite
-                      working the way you envisaged? Is your van a little old
-                      and tired and need refreshing? Lorem Ipsum is simply dummy
-                      text of the printing and typesetting industry. Lorem Ipsum
-                      has been the industry's standard dummy text ever since the
-                      1500s, when an unknown printer took a galley of type and
-                      scrambled it to make a type specimen book. It has survived
-                      not only five centuries, but also the leap into electronic
-                      typesetting, remaining essentially unchanged.
-                    </p>
-                    <p className="last">
-                      Lorem Ipsum is simply dummy text of the printing and
-                      typesetting industry. Lorem Ipsum has been the industry's
-                      standard dummy text ever since the 1500s, when an unknown
-                      printer took a galley of type and scrambled it to make a
-                      type specimen book. It has survived not only five
-                      centuries, but also the leap into electronic typesetting,
-                      remaining essentially unchanged.
-                    </p>
+                    {data?.desc?.map((val: string, index: number) => (
+                      <p key={index}>{val}</p>
+                    ))}
                   </div>
                 </div>
               </div>

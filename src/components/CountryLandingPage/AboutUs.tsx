@@ -1,9 +1,9 @@
 import aboutus from "../../assets/images/resources/about-us-country.png";
 
-export default function AboutUs({ aboutRef }: any) {
+export default function AboutUs({ data, aboutRef }: any) {
   return (
     <section className="section about-section" ref={aboutRef}>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="md:grid md:grid-cols-2">
           <div className="about-image">
             <img className="grayscale-100 hover:grayscale-0" src={aboutus} />
@@ -12,31 +12,33 @@ export default function AboutUs({ aboutRef }: any) {
             <div className="inner">
               <div className="sec-title">
                 <h2>
-                  We’re the best agency <br />
-                  in downtown <span className="dot">.</span>
+                  {data?.aboutSection?.title} <span className="dot">.</span>
                 </h2>
                 <div className="lower-text">
-                  We are committed to providing our customers with exceptional
-                  service while offering our employees the best training.
+                  {data?.aboutSection?.desc?.map((val: any, index: number) => (
+                    <p key={index}>{val}</p>
+                  ))}
                 </div>
               </div>
               <div className="text">
-                <p>
-                  Lorem Ipsum is simply dummy text of free available in market
-                  the printing and typesetting industry has been the industry's
-                  standard dummy text ever.
-                </p>
+                {data?.aboutSection?.descSecond?.map(
+                  (val: any, index: number) => (
+                    <p key={index}>{val}</p>
+                  )
+                )}
               </div>
               <div className="text clearfix">
                 <ul>
-                  <li>Suspe ndisse suscipit sagittis leo.</li>
-                  <li>Entum estibulum dignissim posuere.</li>
-                  <li>If you are going to use a passage.</li>
+                  {data?.aboutSection?.points?.map(
+                    (val: any, index: number) => (
+                      <li key={index}>{val}</li>
+                    )
+                  )}
                 </ul>
                 <div className="since">
                   <span className="txt">
                     Since <br />
-                    2008
+                    2018
                   </span>
                 </div>
               </div>

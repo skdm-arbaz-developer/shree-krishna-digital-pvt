@@ -16,7 +16,7 @@ export default function Comopnay({ links }: DropDownProps) {
   const thirdRow = ["Partnership"];
 
   return (
-    <div className="container mx-auto dropdown-style">
+    <div className="container mx-auto px-0 sm:px-5 xl:px-0 dropdown-style">
       <div className="grid grid-flow-col gap-4">
         <div className="row-span-3">
           <ul style={{ maxWidth: 300 }}>

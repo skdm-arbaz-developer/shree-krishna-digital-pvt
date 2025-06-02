@@ -36,9 +36,9 @@ const services = [
       shortdesc:
         "Increase Your Organic Traffic By Ranking Your Website On First Page In SERPs",
       desc: [
-        "Boost your online visibility with Shree Krishna Digital Solution Pvt Ltd Pvt. Ltd. Solution Company’s affordable monthly SEO packages. As the Best SEO Company In Mumbai, our passionate and experienced team brings over 17 years of expertise, having successfully handled 100+ SEO projects that consistently deliver strong organic results. We at Shree Krishna Digital Solution Pvt Ltd are committed to building long-term business relationships through our high-quality SEO services that drive growth. Why Choose Us Over This? We use SEO to increase your search engine visibility, generate qualified leads, drive sales and ultimately revenue. Why? Because we do!",
+        "Boost your online visibility with Shree Krishna Digital Solutions Pvt Ltd Pvt. Ltd. Solution Company’s affordable monthly SEO packages. As the Best SEO Company In Mumbai, our passionate and experienced team brings over 17 years of expertise, having successfully handled 100+ SEO projects that consistently deliver strong organic results. We at Shree Krishna Digital Solutions Pvt Ltd are committed to building long-term business relationships through our high-quality SEO services that drive growth. Why Choose Us Over This? We use SEO to increase your search engine visibility, generate qualified leads, drive sales and ultimately revenue. Why? Because we do!",
         "We prioritize on-page and off-site SEO to generate genuine interest and encourage those who want to buy your products or services. Our expert SEO team implements proven marketing funnels to attract and convert the right customers into leads. ",
-        "Choose from flexible SEO plans tailored to your budget. As the best SEO company in Mumbai, Shree Krishna Digital Solution Pvt Ltd Pvt. Ltd. is here to help your business grow and succeed online. Let’s connect to explore what an ideal SEO package should include.",
+        "Choose from flexible SEO plans tailored to your budget. As the best SEO company in Mumbai, Shree Krishna Digital Solutions Pvt Ltd Pvt. Ltd. is here to help your business grow and succeed online. Let’s connect to explore what an ideal SEO package should include.",
       ],
       subtitle: null,
       subdesc: [],
@@ -118,8 +118,8 @@ const services = [
       title: "Enhance your Online Presence",
       image: "",
       shortdesc:
-        "Online visibility is a must for you. Internet fame determines your level of visibility, popularity, and reputation as an entrepreneur or startup. Why is this important? Not only the online presence of Shree Krishna Digital Solution Pvt Ltd, but also other factors will be monitored at the appropriate time. By utilizing SEO strategies, designing user-friendly and mobile-responsive websites for clients, and creating compelling content that appeals to your target audience, we aim to earn an online reputation.",
-      desc: "We offer services such as SEO, website traffic generation, and lead generation. Our services cover all of the brands we serve. With the latest tools and best practices, our experts will enhance every aspect of your online identity. We continuously assess and perfect your digital strategy to ensure you remain ahead of the competition. With a strong presence in digital marketing, strategic partnerships, and diverse customer bases across multiple industries, Shree Krishna Digital Solution Pvt Ltd has become the go-to best SEO company in Mumbai",
+        "Online visibility is a must for you. Internet fame determines your level of visibility, popularity, and reputation as an entrepreneur or startup. Why is this important? Not only the online presence of Shree Krishna Digital Solutions Pvt Ltd, but also other factors will be monitored at the appropriate time. By utilizing SEO strategies, designing user-friendly and mobile-responsive websites for clients, and creating compelling content that appeals to your target audience, we aim to earn an online reputation.",
+      desc: "We offer services such as SEO, website traffic generation, and lead generation. Our services cover all of the brands we serve. With the latest tools and best practices, our experts will enhance every aspect of your online identity. We continuously assess and perfect your digital strategy to ensure you remain ahead of the competition. With a strong presence in digital marketing, strategic partnerships, and diverse customer bases across multiple industries, Shree Krishna Digital Solutions Pvt Ltd has become the go-to best SEO company in Mumbai",
     },
     whychoose: {
       mode: "dark",
@@ -312,7 +312,7 @@ const services = [
         {
           question: "Can I do SEO myself or should I hire an agency?",
           answer: {
-            para: "While basic SEO can be done with some research, hiring an experienced SEO agency (like Shree Krishna Digital Solution PVT. LTD) ensures better strategy, results, and return on investment.",
+            para: "While basic SEO can be done with some research, hiring an experienced SEO agency (like Shree Krishna Digital Solutions PVT. LTD) ensures better strategy, results, and return on investment.",
             list: [],
             note: "",
           },

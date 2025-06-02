@@ -32,7 +32,7 @@ export default function Industries() {
         />
         {data.description && (
           <section className={`section section-${data?.description?.mode}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title md:text-center">
                   {data?.description?.title}
@@ -66,7 +66,7 @@ export default function Industries() {
 
         {/* {data?.clients && (
           <section className="section section-gray">
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex justify-center items-center flex-col">
                 <h2 className="section-title md:text-center">
                   {data?.clients?.title}
@@ -104,7 +104,7 @@ export default function Industries() {
             className={`relative section section-${data?.whychoose?.mode}`}
             style={{ paddingBottom: "100px" }}
           >
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title md:text-center">
                   {data?.whychoose?.title}
@@ -125,7 +125,7 @@ export default function Industries() {
         )}
         {/* {data?.casestudy && (
           <section className={"section section-" + data?.casestudy?.mode}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="grid grid-cols-12">
                 <div className="col-span-12 md:col-span-6 lg:col-span-4">
                   <div className="section-body">
@@ -184,7 +184,7 @@ export default function Industries() {
 
         {data?.ourworks && (
           <section className={`section section-${data?.ourworks?.mode}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title md:text-center">
                   {data?.ourworks?.title}
@@ -214,7 +214,7 @@ export default function Industries() {
             <img src={FaqArrow} className="absolute -top-10 left-0" />
             <img src={FaqStart} className="absolute top-0 right-0" />
 
-            <div className="container mx-auto relative">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0 relative">
               <div className="section-body pb-50">
                 <h2 className="section-title md:text-center">
                   {data?.testimonial?.title}
@@ -269,7 +269,7 @@ export default function Industries() {
 
         {/* {data.faq && (
           <section className={`section section-${data?.faq?.mode}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body">
                 <h2 className="section-title md:text-center">
                   {data?.faq?.title}
@@ -290,7 +290,7 @@ export default function Industries() {
           <section
             className={`section relative section-${data?.contact?.mode}`}
           >
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body">
                 <h2 className="section-title md:text-center">
                   {data?.contact?.title}

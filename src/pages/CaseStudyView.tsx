@@ -142,7 +142,7 @@ export default function CaseStudyView() {
   return selectedCaseStudy ? (
     <section className="section relative">
 
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body">
           <Tag color="black">{selectedCaseStudy?.type}</Tag>
           <h1 className="section-title">{selectedCaseStudy?.title}</h1>
@@ -198,7 +198,7 @@ export default function CaseStudyView() {
   ) : (
     <Empty
       description={
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <h2>Sorry Case Study Not Found</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia

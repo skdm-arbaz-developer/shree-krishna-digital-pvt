@@ -25,7 +25,7 @@ export default function Brands() {
 
   return (
     <section className="section section-gray">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body flex justify-center items-center flex-col">
           <h2 className="section-title">Chosen by top brands for results</h2>
           <p className="section-content md:text-center mx-w-[900px]">

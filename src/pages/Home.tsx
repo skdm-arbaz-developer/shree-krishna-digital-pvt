@@ -5,7 +5,7 @@ import CompanyVideo from "../components/HomeComponents/CompanyVideo";
 import Counter from "../components/HomeComponents/Counter";
 import FrequentylAskQ from "../components/HomeComponents/FrequentylAskQ";
 import Industries from "../components/HomeComponents/Industries";
-import LogoScrolling from "../components/HomeComponents/LogoScrolling";
+// import LogoScrolling from "../components/HomeComponents/LogoScrolling";
 import OurServices from "../components/HomeComponents/OurServices";
 import PrAndAds from "../components/HomeComponents/PrAndAds";
 import Testimonial from "../components/HomeComponents/Testimonial";
@@ -15,7 +15,6 @@ export default function Home() {
     <>
       <Banner />
       <CompanyVideo />
-      <LogoScrolling />
       <AboutUs />
       <Counter />
       <OurServices />

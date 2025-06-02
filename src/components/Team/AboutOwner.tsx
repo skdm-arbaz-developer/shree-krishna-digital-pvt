@@ -88,7 +88,7 @@ export default function AboutOwner() {
     <section className="section relative section-gray">
       <img src={SvgIcon} className="absolute top-0 right-0" />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body flex justify-center flex-col items-center">
           <h2 className="section-title">Our Leadership & Team</h2>
           <p className="section-content lg:text-center max-w-[900px]">

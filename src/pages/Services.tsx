@@ -36,7 +36,7 @@ export default function Services() {
               className="absolute top-0 right-0"
             />
 
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title max-w-[900px] md:text-center">
                   {data?.description?.title}
@@ -153,7 +153,7 @@ export default function Services() {
               className="absolute top-0 right-0"
             />
 
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title max-w-[900px] md:text-center">
                   {data?.descriptionSecond?.title}
@@ -252,7 +252,7 @@ export default function Services() {
 
         {data?.workimages && (
           <section className={`section section-${data?.workimages?.mode}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title md:text-center max-w-[900px]">
                   {data?.workimages?.title}
@@ -282,7 +282,7 @@ export default function Services() {
 
         {data?.services && (
           <section className={`section section-${data?.services?.mode}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title text">{data?.services?.title}</h2>
                 <p className="section-content md:text-center max-w-200">
@@ -322,7 +322,7 @@ export default function Services() {
 
         {data.package && (
           <section className={`section section-${data?.package?.mode}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title">{data?.package?.title}</h2>
                 <p className="section-content max-w-200">
@@ -343,7 +343,7 @@ export default function Services() {
 
         {data?.platform && (
           <section className={`section section-${data?.platform?.mode}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title text-center">
                   {data?.platform?.title}
@@ -401,7 +401,7 @@ export default function Services() {
               className="absolute top-0 right-0"
             />
 
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title">{data?.benefitsSecond?.title}</h2>
                 <p className="section-content">
@@ -471,7 +471,7 @@ export default function Services() {
               className="absolute bottom-10 right-20"
             />
 
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title">{data?.whychoose?.title}</h2>
                 <p className="section-content max-w-200">
@@ -490,7 +490,7 @@ export default function Services() {
 
         {data.enhance && (
           <section className={`section section-${data?.enhance?.mode}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title text-center">
                   {data?.enhance?.title}
@@ -511,7 +511,7 @@ export default function Services() {
 
         {/* {data?.ourworks && (
           <section className={`section section-${data?.ourworks?.mode}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title text-center">
                   {data?.ourworks?.title}
@@ -543,7 +543,7 @@ export default function Services() {
               className="absolute bottom-10 right-20"
             />
 
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title">{data?.benefits?.title}</h2>
                 <p className="section-content max-w-200">
@@ -562,7 +562,7 @@ export default function Services() {
 
         {data.faq && (
           <section className={`section section-${data?.faq?.mode}`}>
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title text-center">
                   {data?.faq?.title}
@@ -584,7 +584,7 @@ export default function Services() {
             className={`section relative section-${data?.contact?.mode}`}
           >
             <img src={SvgIcon} className="absolute top-0 right-0" />
-            <div className="container mx-auto">
+            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title text-center">
                   {data?.contact?.title}

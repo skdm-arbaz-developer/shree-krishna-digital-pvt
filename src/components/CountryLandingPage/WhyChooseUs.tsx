@@ -1,4 +1,25 @@
-export default function WhyChooseUs() {
+import CountUp from "react-countup";
+
+export default function WhyChooseUs({ data }: any) {
+  const counters = [
+    {
+      digit: 500,
+      title: "Satisfied Clients",
+    },
+    {
+      digit: 6,
+      title: "Years Experience",
+    },
+    {
+      digit: 500,
+      title: "Project Completed",
+    },
+    {
+      digit: 10000,
+      title: "Paid Leads Generated",
+    },
+  ];
+
   return (
     <>
       <section className="facts-section">
@@ -13,54 +34,30 @@ export default function WhyChooseUs() {
           <div className="inner-container">
             <div className="fact-counter">
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 clearfix">
-                <div className="column counter-column">
-                  <div className="inner">
-                    <div className="content">
-                      <div className="count-outer count-box">
-                        <span className="count-text">
-                          <span>8,705</span>
-                        </span>
-                      </div>
-                      <div className="counter-title">Projects Completed</div>
-                    </div>
+                {counters.map((val: any, index: number) => (
+                  <div className="column counter-column" key={index}>
+                    <CountUp
+                      enableScrollSpy
+                      start={0}
+                      end={val.digit}
+                      scrollSpyDelay={1000}
+                      delay={10000}
+                    >
+                      {({ countUpRef }) => (
+                        <div className="inner">
+                          <div className="content">
+                            <div className="count-outer count-box">
+                              <span className="count-text">
+                                <span ref={countUpRef} />+
+                              </span>
+                            </div>
+                            <div className="counter-title">{val?.title}</div>
+                          </div>
+                        </div>
+                      )}
+                    </CountUp>
                   </div>
-                </div>
-                <div className="column counter-column">
-                  <div className="inner">
-                    <div className="content">
-                      <div className="count-outer count-box alternate">
-                        <span className="count-text">
-                          <span>480</span>
-                        </span>
-                      </div>
-                      <div className="counter-title">Active clients</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="column counter-column">
-                  <div className="inner">
-                    <div className="content">
-                      <div className="count-outer count-box">
-                        <span className="count-text">
-                          <span>626</span>
-                        </span>
-                      </div>
-                      <div className="counter-title">cups of coffee</div>
-                    </div>
-                  </div>
-                </div>
-                <div className="column counter-column">
-                  <div className="inner">
-                    <div className="content">
-                      <div className="count-outer count-box">
-                        <span className="count-text">
-                          <span>9,704</span>
-                        </span>
-                      </div>
-                      <div className="counter-title">happy clients</div>
-                    </div>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>
@@ -68,33 +65,28 @@ export default function WhyChooseUs() {
       </section>
 
       <section className="trusted-section">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="outer-container">
             <div className="grid grid-cols-12 clearfix">
               <div className="left-col xl:col-span-5 lg:col-span-6 col-span-12">
                 <div className="inner">
                   <div className="col-header">
                     <div className="header-inner">
-                      <span>
-                        We’re Committed To Deliver High Quality Projects .
-                      </span>
+                      <span>{data?.whychooseSection?.titleLeft}</span>
                     </div>
                   </div>
                   <div className="features">
-                    <div className="feature">
-                      <div className="count">
-                        <span>01</span>
-                      </div>
-                      <h5>TOTAL DESIGN FREEDOM FOR EVERYONE</h5>
-                      <div className="sub-text">core features</div>
-                    </div>
-                    <div className="feature">
-                      <div className="count">
-                        <span>02</span>
-                      </div>
-                      <h5>BASIC RULES OF RUNNING WEB AGENCY</h5>
-                      <div className="sub-text">core features</div>
-                    </div>
+                    {data?.whychooseSection?.pointLeft?.map(
+                      (val: any, index: number) => (
+                        <div className="feature" key={index}>
+                          <div className="count">
+                            <span>0{index + 1}</span>
+                          </div>
+                          <h5>{val?.subtitle}</h5>
+                          <div className="sub-text">{val?.title}</div>
+                        </div>
+                      )
+                    )}
                   </div>
                 </div>
               </div>
@@ -102,27 +94,27 @@ export default function WhyChooseUs() {
                 <div className="inner">
                   <div className="sec-title">
                     <h2>
-                      We’re trusted by more <br />
-                      than 6260 clients
+                      {data?.whychooseSection?.titleRight}
                       <span className="dot">.</span>
                     </h2>
                     <div className="lower-text">
-                      There are many variations of passages of Lorem Ipsum
-                      available, but the majority have suffered alteration in
-                      some form, simply free text by injected humour, or
-                      randomised.
+                      {data?.whychooseSection?.desc}
                     </div>
                   </div>
                   <div className="featured-block-two clearfix">
                     <div className="image">
-                      <img src="https://linoor-nuxt.netlify.app/images/resource/featured-image-5.jpg" alt="" />
+                      <img
+                        src="https://linoor-nuxt.netlify.app/images/resource/featured-image-5.jpg"
+                        alt=""
+                      />
                     </div>
                     <div className="text">
                       <ul>
-                        <li> Suspe ndisse sagittis leo.</li>
-                        <li>Entum estibulum is posuere.</li>
-                        <li>If you are going to use passage.</li>
-                        <li>Lorem Ipsum on the tend to repeat.</li>
+                        {data?.whychooseSection?.pointsRight?.map(
+                          (val: string, index: number) => (
+                            <li key={index}> {val}</li>
+                          )
+                        )}
                       </ul>
                     </div>
                   </div>

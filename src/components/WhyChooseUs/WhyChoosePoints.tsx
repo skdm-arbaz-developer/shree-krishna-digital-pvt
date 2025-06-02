@@ -83,7 +83,7 @@ export default function WhyChoosePoints() {
     <section className="section relative">
       <img src={SvgIcon} className="absolute top-0 right-0" />
 
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body flex flex-col justify-center items-center">
           <h2 className="section-title">Why you Need Us</h2>
           <p className="section-content">

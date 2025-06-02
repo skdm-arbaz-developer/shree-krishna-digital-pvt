@@ -41,7 +41,7 @@ export default function FrequentylAskQ() {
 
   return (
     <section className="section section-dark">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body flex flex-col justify-center items-center">
           <h2 className="section-title">
             Frequently Asked Questions

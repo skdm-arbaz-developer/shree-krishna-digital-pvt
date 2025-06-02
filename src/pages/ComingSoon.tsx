@@ -141,9 +141,9 @@ export default function ComingSoon() {
                   <a href="#register">Available here soon</a>
                 </h4>
                 <p>
-                  +91 70213 90958
+                  +91 70213 90953
                   <br />
-                  shreemarketing09@gmail.com
+                  shreekrishnadigital09@gmail.com
                   <br />
                   <span>
                     Number 102/B, Office, MOHID HEIGHTS 1st, Andheri, Mumbai,

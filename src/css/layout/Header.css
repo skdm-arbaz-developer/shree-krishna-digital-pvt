@@ -169,6 +169,7 @@
     left: -2px;
     bottom: -50px;
     border-radius: 15px;
+    box-shadow: unset;
   }
 
   .header-css .logo img {

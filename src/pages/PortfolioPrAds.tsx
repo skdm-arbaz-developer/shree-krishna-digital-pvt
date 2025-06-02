@@ -101,7 +101,7 @@ export default function PortfolioPrAds() {
   return (
     <>
       <section className="section">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body flex justify-center items-center flex-col">
             <h2 className="section-title">Our Portfolio</h2>
             <p

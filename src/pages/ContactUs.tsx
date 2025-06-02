@@ -23,7 +23,7 @@ export default function ContactUs() {
       />
 
       <section className="section">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body flex justify-center items-center flex-col">
             <h2 className="section-title">Contact Us</h2>
             <p
@@ -41,7 +41,7 @@ export default function ContactUs() {
               <div className="col-span-2">
                 <div className="contact-us-left">
                   <div className="contact-detail-list">
-                    <NavLink to="tel:+917021390958" className="contact-detail">
+                    <NavLink to="tel:+917021390953" className="contact-detail">
                       <div className="grid grid-cols-12 pb-10">
                         <div className="col-span-3">
                           <div className="icon">
@@ -51,13 +51,13 @@ export default function ContactUs() {
                         <div className="col-span-9">
                           <div className="detail">
                             <h5>Phone</h5>
-                            <p>+91 70213 90958</p>
+                            <p>+91 70213 90953</p>
                           </div>
                         </div>
                       </div>
                     </NavLink>
                     <NavLink
-                      to="mailto:shreemarketing09@gmail.com"
+                      to="mailto:shreekrishnadigital09@gmail.com"
                       className="contact-detail"
                     >
                       <div className="grid grid-cols-12 pb-10">
@@ -69,7 +69,7 @@ export default function ContactUs() {
                         <div className="col-span-9">
                           <div className="detail">
                             <h5>Email</h5>
-                            <p>shreemarketing09@gmail.com</p>
+                            <p>shreekrishnadigital09@gmail.com</p>
                           </div>
                         </div>
                       </div>
@@ -88,8 +88,9 @@ export default function ContactUs() {
                           <div className="detail">
                             <h5>Office Address</h5>
                             <p>
-                              Number 102/B, Office, MOHID HEIGHTS 1st, Andheri,
-                              Mumbai, Maharashtra 400053
+                              102 B Mohid heights, suresh nagar, rto road,
+                              opposite madha signal, near Kokilaben hospital,
+                              andheri west-400053
                             </p>
                           </div>
                         </div>
@@ -101,7 +102,11 @@ export default function ContactUs() {
                     <h5>Follow us</h5>
                     <ul>
                       <li>
-                        <NavLink target="_blank" to="https://www.facebook.com/shree.krishnadigitalsolutions/" className="icon">
+                        <NavLink
+                          target="_blank"
+                          to="https://www.facebook.com/shree.krishnadigitalsolutions/"
+                          className="icon"
+                        >
                           <FaFacebook />
                         </NavLink>
                       </li>
@@ -211,7 +216,7 @@ export default function ContactUs() {
       </section>
 
       <section className="mb-20">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3769.3910469743914!2d72.82395517544265!3d19.134352582082332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c946e4282bd9%3A0x2781c048e4376933!2sShree%20Krishna%20Digital%20Marketing%20Services%20%7C%20Best%20Digital%20Marketing%20Company%20in%20Andheri%20%7C%20Digital%20Marketing%20Agency%20in%20Andheri!5e0!3m2!1sen!2sin!4v1746181540949!5m2!1sen!2sin"
             width={"100%"}

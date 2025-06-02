@@ -1,6 +1,6 @@
 export default function CompanyVideo() {
   return (
-    <div className="container mx-auto mt-15 mb-15">
+    <div className="container mx-auto px-0 sm:px-5 xl:px-0 mt-15 mb-15">
       <iframe
         width={"100%"}
         className="h-[300px] lg:h-[700px] rounded-lg"

@@ -43,7 +43,7 @@ const componentMap: RouteMap = {
   whychooseus: <WhyChooseUs />,
   casestudy: <CaseStudy />,
   privacypolicy: <PrivacyPolicy />,
-  whowearepradvertising: <WhoWeArePrAdd />,
+  pradvertisingcompany: <WhoWeArePrAdd />,
   ourportfolio: <PortfolioPrAds />,
   contactus: <ContactUs />,
   career: <Career />,

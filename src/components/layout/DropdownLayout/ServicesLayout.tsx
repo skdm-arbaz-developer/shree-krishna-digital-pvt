@@ -16,7 +16,7 @@ interface DropDownProps {
 
 export default function ServicesLayout({ name, desc, links }: DropDownProps) {
   return (
-    <div className="container mx-auto dropdown-style">
+    <div className="container mx-auto px-0 sm:px-5 xl:px-0 dropdown-style">
       <div className="service_desc flex">
         {name === "Services" ? (
           <GrServices style={{ color: "#fff" }} />

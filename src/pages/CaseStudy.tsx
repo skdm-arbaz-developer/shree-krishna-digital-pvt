@@ -82,7 +82,7 @@ export default function CaseStudy() {
       <section className="section relative">
         <img src={SvgIcon} className="absolute top-0 right-0" />
 
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="grid grid-cols-12 gap-7">
             <div className="col-span-3">
               <FilterSection

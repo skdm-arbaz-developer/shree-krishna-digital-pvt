@@ -48,7 +48,7 @@ export default function FAQ({ faqRef }: any) {
 
   return (
     <section className="we-do-section" ref={faqRef}>
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="grid grid-cols-12">
           <div className="left-col lg:col-span-6 col-span-12">
             <div className="inner">

@@ -22,7 +22,7 @@ export default function Counter() {
   ];
   return (
     <section className="section">
-      <div className="container mx-auto">
+      <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {counters.map((val, index) => (
             <div key={index}>

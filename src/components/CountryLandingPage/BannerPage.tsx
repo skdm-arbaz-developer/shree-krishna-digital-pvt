@@ -96,11 +96,8 @@ export default function BannerPage({
         style={{ backgroundImage: `url(${service?.banner})` }}
       ></div>
       <div className="landing-banner-content z-20 px-5">
-        <h1>Digital Marketing Compnay in {service?.title}</h1>
-        <h2>
-          Smart Web <br />
-          Design Agency
-        </h2>
+        <h1>Best Digital Marketing Compnay in {service?.title}</h1>
+        <h2 style={{maxWidth:700}}>{service?.bannerTitle}</h2>
         <button onClick={() => setActiveSection("services")}>
           <i className="btn-curve"></i> <span>Discover More</span>
         </button>
@@ -130,7 +127,7 @@ export default function BannerPage({
           <div className="opening-list">
             <ul>
               <li>Mon - Fri</li>
-              <li>9AM - 7PM</li>
+              <li>10AM - 7PM</li>
             </ul>
           </div>
         </div>

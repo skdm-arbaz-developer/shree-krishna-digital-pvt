@@ -199,12 +199,12 @@ export default function LifeAtSkd() {
     <>
       <CommanBanner
         image={banner}
-        title="Life At Shree Krishna Digital Solution Pvt Ltd"
-        desc="Experience the vibrant culture and dynamic work environment at Shree Krishna Digital Solution Pvt Ltd, where innovation meets creativity. Join us in our journey of digital excellence."
+        title="Life At Shree Krishna Digital Solutions Pvt Ltd"
+        desc="Experience the vibrant culture and dynamic work environment at Shree Krishna Digital Solutions Pvt Ltd, where innovation meets creativity. Join us in our journey of digital excellence."
       />
 
       <section className="section">
-        <div className="container mx-auto">
+        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body flex flex-col justify-center items-center mb-15">
             <h2 className="section-title">
               Memories with Shree Krishna Digital
