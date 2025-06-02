@@ -1,9 +1,9 @@
 import { NavLink, useLocation } from "react-router-dom";
 import CommanBanner from "../components/support/CommanBanner";
 import industries from "../components/support/IndustryArrayList";
-import { Avatar, Button, Collapse, Form, Input } from "antd";
+import { Avatar, Button, Form, Input } from "antd";
 import TextArea from "antd/es/input/TextArea";
-import { FaAngleRight, FaMinus, FaPlus, FaUser } from "react-icons/fa6";
+import { FaAngleRight, FaUser } from "react-icons/fa6";
 import "../css/home/logoscroll.css";
 import { BsQuote } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -12,8 +12,8 @@ import "../css/home/testimonial.css";
 import FaqArrow from "../assets/images/icons/faq-arrow.svg";
 import FaqStart from "../assets/images/icons/faq-star.svg";
 import SvgIcon from "../assets/images/icons/home-about-right.svg";
-import { HiOutlineArrowLongRight } from "react-icons/hi2";
-import CaseStudyCard from "../components/CaseStudy/CaseStudyCard";
+// import { HiOutlineArrowLongRight } from "react-icons/hi2";
+// import CaseStudyCard from "../components/CaseStudy/CaseStudyCard";
 import "../css/casestudy.css";
 import "../css/home/industry.css";
 
@@ -123,7 +123,7 @@ export default function Industries() {
             </div>
           </section>
         )}
-        {data?.casestudy && (
+        {/* {data?.casestudy && (
           <section className={"section section-" + data?.casestudy?.mode}>
             <div className="container mx-auto">
               <div className="grid grid-cols-12">
@@ -180,7 +180,7 @@ export default function Industries() {
               </div>
             </div>
           </section>
-        )}
+        )} */}
 
         {data?.ourworks && (
           <section className={`section section-${data?.ourworks?.mode}`}>
@@ -267,7 +267,7 @@ export default function Industries() {
           </section>
         )}
 
-        {data.faq && (
+        {/* {data.faq && (
           <section className={`section section-${data?.faq?.mode}`}>
             <div className="container mx-auto">
               <div className="section-body">
@@ -284,7 +284,7 @@ export default function Industries() {
               </div>
             </div>
           </section>
-        )}
+        )} */}
 
         {data.contact && (
           <section
@@ -372,50 +372,50 @@ export default function Industries() {
   );
 }
 
-const FAQ = ({ detail }: any) => (
-  <div className="faq-list mt-15">
-    <div className="grid grid-cols-12">
-      <div className="faq-image col-span-12 lg:col-span-7">
-        <img src={detail?.image} />
-      </div>
-      <div className="faq-content mt-5 lg:mt-0 col-span-12 lg:col-span-5 flex items-start justify-start">
-        <Collapse
-          accordion
-          style={{ width: "100%", border: "unset", background: "transparent" }}
-          expandIcon={({ isActive }) => (isActive ? <FaMinus /> : <FaPlus />)}
-          expandIconPosition="end"
-          items={detail?.list?.map(
-            (
-              val: {
-                question: string;
-                answer: { para: string; list: []; note: string };
-              },
-              index: number
-            ) => ({
-              label: (
-                <h4 className="text-gray-950" style={{ fontSize: "1rem" }}>
-                  {index + 1}) {val.question}
-                </h4>
-              ),
-              key: `${index + 1}`,
-              children: (
-                <div>
-                  <p className="mb-2">{val?.answer?.para}</p>
-                  <ul style={{ listStyle: "initial", paddingLeft: 30 }}>
-                    {val?.answer?.list?.map((val, index) => (
-                      <li key={index}>{val}</li>
-                    ))}
-                  </ul>
-                  <strong>{val?.answer?.note}</strong>
-                </div>
-              ),
-            })
-          )}
-        />
-      </div>
-    </div>
-  </div>
-);
+// const FAQ = ({ detail }: any) => (
+//   <div className="faq-list mt-15">
+//     <div className="grid grid-cols-12">
+//       <div className="faq-image col-span-12 lg:col-span-7">
+//         <img src={detail?.image} />
+//       </div>
+//       <div className="faq-content mt-5 lg:mt-0 col-span-12 lg:col-span-5 flex items-start justify-start">
+//         <Collapse
+//           accordion
+//           style={{ width: "100%", border: "unset", background: "transparent" }}
+//           expandIcon={({ isActive }) => (isActive ? <FaMinus /> : <FaPlus />)}
+//           expandIconPosition="end"
+//           items={detail?.list?.map(
+//             (
+//               val: {
+//                 question: string;
+//                 answer: { para: string; list: []; note: string };
+//               },
+//               index: number
+//             ) => ({
+//               label: (
+//                 <h4 className="text-gray-950" style={{ fontSize: "1rem" }}>
+//                   {index + 1}) {val.question}
+//                 </h4>
+//               ),
+//               key: `${index + 1}`,
+//               children: (
+//                 <div>
+//                   <p className="mb-2">{val?.answer?.para}</p>
+//                   <ul style={{ listStyle: "initial", paddingLeft: 30 }}>
+//                     {val?.answer?.list?.map((val, index) => (
+//                       <li key={index}>{val}</li>
+//                     ))}
+//                   </ul>
+//                   <strong>{val?.answer?.note}</strong>
+//                 </div>
+//               ),
+//             })
+//           )}
+//         />
+//       </div>
+//     </div>
+//   </div>
+// );
 
 const WhyChooseCard = ({ detail, index }: any) => (
   <div className="whychoosecard flex flex-col items-start" key={index}>

@@ -8,7 +8,7 @@ import {
   FaLinkedin,
   FaLocationDot,
 } from "react-icons/fa6";
-import { BsWhatsapp, BsYoutube } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 import { Button, Form, Input, Select } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import "../css/contactus.css";

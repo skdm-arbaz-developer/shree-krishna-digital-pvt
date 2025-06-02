@@ -1,6 +1,6 @@
 import { NavLink, useParams } from "react-router-dom";
-import { Button, Divider, Tag } from "antd";
-import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
+import { Divider, Tag } from "antd";
+// import { BiLeftArrowAlt, BiRightArrowAlt } from "react-icons/bi";
 import "../css/home/blogs.css";
 import { ReactNode } from "react";
 import blogsdata from "../components/support/BlogsArrayList";

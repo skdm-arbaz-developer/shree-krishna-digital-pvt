@@ -13,7 +13,7 @@ import {
   FaLinkedin,
 } from "react-icons/fa6";
 import { useTheme } from "../../context/ThemeContext";
-import { BsWhatsapp, BsYoutube } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
 import "../../css/contactus.css";
 
 export default function LeftDrawerNav() {
