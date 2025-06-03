@@ -1792,7 +1792,7 @@ const countries = [
       "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/1200px-Sydney_Opera_House_-_Dec_2008.jpg",
     services: [
       {
-        icon: seoIconNepal,
+        icon: seoIconAustralia,
         title: "Search Engine Optimization",
         link: "/search-engine-optimization-in-sydney",
         shortdesc:
@@ -1809,7 +1809,7 @@ const countries = [
           "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        icon: socialIconNepal,
+        icon: socialIconAustralia,
         title: "Social Media Marketing",
         link: "/social-media-marketing-in-sydney",
         shortdesc:
@@ -1826,7 +1826,7 @@ const countries = [
           "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        icon: gmbIconNepal,
+        icon: gmbIconAustralia,
         title: "Google My Business",
         link: "/google-my-business-in-sydney",
         shortdesc:
@@ -1842,7 +1842,7 @@ const countries = [
         bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        icon: payIconNepal,
+        icon: payIconAustralia,
         title: "Pay Per Click Marketing",
         link: "/pay-per-click-in-sydney",
         shortdesc:
@@ -1858,7 +1858,7 @@ const countries = [
           "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        icon: webIconNepal,
+        icon: webIconAustralia,
         title: "Web Developement",
         link: "/web-devlopement-in-sydney",
         shortdesc:
@@ -1876,7 +1876,7 @@ const countries = [
           "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
-        icon: appIconNepal,
+        icon: appIconAustralia,
         title: "Application Development",
         link: "/application-development-in-sydney",
         shortdesc:
@@ -1903,7 +1903,7 @@ const countries = [
       "https://luxuryescapes.com/inspiration/wp-content/uploads/2024/08/Shutterstock_2340366363.jpg",
     services: [
       {
-        icon: seoIconNepal,
+        icon: seoIconAustralia,
         title: "Search Engine Optimization",
         link: "/search-engine-optimization-in-adelaide",
         shortdesc:
@@ -1920,7 +1920,7 @@ const countries = [
           "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        icon: socialIconNepal,
+        icon: socialIconAustralia,
         title: "Social Media Marketing",
         link: "/social-media-marketing-in-adelaide",
         shortdesc:
@@ -1937,7 +1937,7 @@ const countries = [
           "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        icon: gmbIconNepal,
+        icon: gmbIconAustralia,
         title: "Google My Business",
         link: "/google-my-business-in-adelaide",
         shortdesc:
@@ -1953,7 +1953,7 @@ const countries = [
         bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        icon: payIconNepal,
+        icon: payIconAustralia,
         title: "Pay Per Click Marketing",
         link: "/pay-per-click-in-adelaide",
         shortdesc:
@@ -1969,7 +1969,7 @@ const countries = [
           "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        icon: webIconNepal,
+        icon: webIconAustralia,
         title: "Web Developement",
         link: "/web-devlopement-in-adelaide",
         shortdesc:
@@ -1987,7 +1987,7 @@ const countries = [
           "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
-        icon: appIconNepal,
+        icon: appIconAustralia,
         title: "Application Development",
         link: "/application-development-in-adelaide",
         shortdesc:
@@ -2015,7 +2015,7 @@ const countries = [
       "https://content.r9cdn.net/rimg/dimg/ba/de/deacb4c5-city-11563-17a3ef27550.jpg?width=1200&height=630&xhint=4145&yhint=2485&crop=true",
     services: [
       {
-        icon: seoIconNepal,
+        icon: seoIconAustralia,
         title: "Search Engine Optimization",
         link: "/search-engine-optimization-in-perth",
         shortdesc:
@@ -2032,7 +2032,7 @@ const countries = [
           "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        icon: socialIconNepal,
+        icon: socialIconAustralia,
         title: "Social Media Marketing",
         link: "/social-media-marketing-in-perth",
         shortdesc:
@@ -2049,7 +2049,7 @@ const countries = [
           "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        icon: gmbIconNepal,
+        icon: gmbIconAustralia,
         title: "Google My Business",
         link: "/google-my-business-in-perth",
         shortdesc:
@@ -2065,7 +2065,7 @@ const countries = [
         bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        icon: payIconNepal,
+        icon: payIconAustralia,
         title: "Pay Per Click Marketing",
         link: "/pay-per-click-in-perth",
         shortdesc:
@@ -2081,7 +2081,7 @@ const countries = [
           "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        icon: webIconNepal,
+        icon: webIconAustralia,
         title: "Web Developement",
         link: "/web-devlopement-in-perth",
         shortdesc:
@@ -2099,7 +2099,7 @@ const countries = [
           "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
-        icon: appIconNepal,
+        icon: appIconAustralia,
         title: "Application Development",
         link: "/application-development-in-perth",
         shortdesc:
@@ -2126,7 +2126,7 @@ const countries = [
       "https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/New_York_1.jpg",
     services: [
       {
-        icon: seoIconNepal,
+        icon: seoIconUsa,
         title: "Search Engine Optimization",
         link: "/search-engine-optimization-in-new-york",
         shortdesc:
@@ -2143,7 +2143,7 @@ const countries = [
           "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        icon: socialIconNepal,
+        icon: socialIconUsa,
         title: "Social Media Marketing",
         link: "/social-media-marketing-in-new-york",
         shortdesc:
@@ -2160,7 +2160,7 @@ const countries = [
           "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        icon: gmbIconNepal,
+        icon: gmbIconUsa,
         title: "Google My Business",
         link: "/google-my-business-in-new-york",
         shortdesc:
@@ -2176,7 +2176,7 @@ const countries = [
         bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        icon: payIconNepal,
+        icon: payIconUsa,
         title: "Pay Per Click Marketing",
         link: "/pay-per-click-in-new-york",
         shortdesc:
@@ -2192,7 +2192,7 @@ const countries = [
           "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        icon: webIconNepal,
+        icon: webIconUsa,
         title: "Web Developement",
         link: "/web-devlopement-in-new-york",
         shortdesc:
@@ -2210,7 +2210,7 @@ const countries = [
           "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
-        icon: appIconNepal,
+        icon: appIconUsa,
         title: "Application Development",
         link: "/application-development-in-new-york",
         shortdesc:
@@ -2237,7 +2237,7 @@ const countries = [
       "https://media-cdn.tripadvisor.com/media/photo-s/1d/e5/40/12/caption.jpg",
     services: [
       {
-        icon: seoIconNepal,
+        icon: seoIconUsa,
         title: "Search Engine Optimization",
         link: "/search-engine-optimization-in-chicago",
         shortdesc:
@@ -2254,7 +2254,7 @@ const countries = [
           "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        icon: socialIconNepal,
+        icon: socialIconUsa,
         title: "Social Media Marketing",
         link: "/social-media-marketing-in-chicago",
         shortdesc:
@@ -2271,7 +2271,7 @@ const countries = [
           "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        icon: gmbIconNepal,
+        icon: gmbIconUsa,
         title: "Google My Business",
         link: "/google-my-business-in-chicago",
         shortdesc:
@@ -2287,7 +2287,7 @@ const countries = [
         bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        icon: payIconNepal,
+        icon: payIconUsa,
         title: "Pay Per Click Marketing",
         link: "/pay-per-click-in-chicago",
         shortdesc:
@@ -2303,7 +2303,7 @@ const countries = [
           "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        icon: webIconNepal,
+        icon: webIconUsa,
         title: "Web Developement",
         link: "/web-devlopement-in-chicago",
         shortdesc:
@@ -2321,7 +2321,7 @@ const countries = [
           "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
-        icon: appIconNepal,
+        icon: appIconUsa,
         title: "Application Development",
         link: "/application-development-in-chicago",
         shortdesc:
@@ -2348,7 +2348,7 @@ const countries = [
       "https://cdn.craft.cloud/101e4579-0e19-46b6-95c6-7eb27e4afc41/assets/uploads/Guides/san-francisco-california-frommers.jpg",
     services: [
       {
-        icon: seoIconNepal,
+        icon: seoIconUsa,
         title: "Search Engine Optimization",
         link: "/search-engine-optimization-in-san-francisco",
         shortdesc:
@@ -2365,7 +2365,7 @@ const countries = [
           "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
       },
       {
-        icon: socialIconNepal,
+        icon: socialIconUsa,
         title: "Social Media Marketing",
         link: "/social-media-marketing-in-san-francisco",
         shortdesc:
@@ -2382,7 +2382,7 @@ const countries = [
           "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
       },
       {
-        icon: gmbIconNepal,
+        icon: gmbIconUsa,
         title: "Google My Business",
         link: "/google-my-business-in-san-francisco",
         shortdesc:
@@ -2398,7 +2398,7 @@ const countries = [
         bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
       },
       {
-        icon: payIconNepal,
+        icon: payIconUsa,
         title: "Pay Per Click Marketing",
         link: "/pay-per-click-in-san-francisco",
         shortdesc:
@@ -2414,7 +2414,7 @@ const countries = [
           "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
       },
       {
-        icon: webIconNepal,
+        icon: webIconUsa,
         title: "Web Developement",
         link: "/web-devlopement-in-san-francisco",
         shortdesc:
@@ -2432,7 +2432,7 @@ const countries = [
           "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
       },
       {
-        icon: appIconNepal,
+        icon: appIconUsa,
         title: "Application Development",
         link: "/application-development-in-san-francisco",
         shortdesc:
