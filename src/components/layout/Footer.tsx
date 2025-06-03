@@ -64,6 +64,16 @@ export default function Footer() {
       link: "/contact-us",
     },
   ];
+
+  const hideCity = [
+    "Sydney",
+    "Adelaide",
+    "Perth",
+    "New York",
+    "Chicago",
+    "San Francisco",
+  ];
+
   return (
     <>
       <GetInTouch />
@@ -93,17 +103,23 @@ export default function Footer() {
               <h3>Countries</h3>
               <div className="contact-list">
                 <div className="grid grid-cols-2">
-                  {countries?.map((val, index) => (
-                    <div key={index} className="contact flex items-center">
-                      <FaAngleDoubleRight />
-                      <NavLink
-                        style={{ textTransform: "capitalize" }}
-                        to={val?.url}
-                      >
-                        {val?.title}
-                      </NavLink>
-                    </div>
-                  ))}
+                  {countries
+                    ?.filter(
+                      (val) =>
+                        typeof val?.title === "string" &&
+                        !hideCity.includes(val.title)
+                    )
+                    .map((val, index) => (
+                      <div key={index} className="contact flex items-center">
+                        <FaAngleDoubleRight />
+                        <NavLink
+                          style={{ textTransform: "capitalize" }}
+                          to={val?.url}
+                        >
+                          {val?.title}
+                        </NavLink>
+                      </div>
+                    ))}
                 </div>
               </div>
             </div>

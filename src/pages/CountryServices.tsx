@@ -10,6 +10,7 @@ import WhyChooseUs from "../components/CountryLandingPage/WhyChooseUs";
 import Promotion from "../components/CountryLandingPage/Promotion";
 import Testimonial from "../components/CountryLandingPage/Testimonial";
 import GetInTouch from "../components/CountryLandingPage/GetInTouch";
+import Cities from "../components/CountryLandingPage/Cities";
 
 interface Service {
   icon: string;
@@ -90,7 +91,11 @@ export default function CountryServices() {
           activeSection={activeSection}
           service={service}
         />
-        <BannerPage homeRef={homeRef} setActiveSection={setActiveSection} service={service} />
+        <BannerPage
+          homeRef={homeRef}
+          setActiveSection={setActiveSection}
+          service={service}
+        />
         <Services data={service} serviceRef={serviceRef} />
         <AboutUs data={service} aboutRef={aboutRef} />
         <WhyChooseUs data={service} />
@@ -98,6 +103,9 @@ export default function CountryServices() {
         <Promotion data={service} />
         <Testimonial data={service} testimonialRef={testimonialRef} />
         <GetInTouch data={service} contactRef={contactRef} />
+        {(service?.type === "australia" || service?.type === "usa") && (
+          <Cities data={service} />
+        )}
       </div>
     )
   );

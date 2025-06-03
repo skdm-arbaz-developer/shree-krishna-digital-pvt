@@ -1783,6 +1783,660 @@ const countries = [
       },
     ],
   },
+  {
+    title: "Sydney",
+    url: "",
+    type: "australia",
+    banner:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/1200px-Sydney_Opera_House_-_Dec_2008.jpg",
+    services: [
+      {
+        icon: seoIconNepal,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-sydney",
+        shortdesc:
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
+        desc: [
+          "Having a solid online presence is essential for any business hoping to expand and thrive in the modern digital marketplace. At Shree Krishna Digital Solutions Pvt Ltd, we provide top-notch SEO optimization services in Nepal designed to help your website rank higher on search engines, attract more organic traffic, and convert visitors into loyal customers.",
+          "Our team of SEO experts uses proven strategies and the latest tools to optimize your website thoroughly. From keyword research and on-page optimization to technical SEO and link building, we cover every aspect to ensure your site meets search engine guidelines and outperforms competitors.",
+          "With our SEO optimization services in Nepal, we focus on creating tailored strategies that align with your business goals. We analyze your industry, competitors, and target audience to identify the most effective keywords that will drive qualified traffic to your site. This targeted approach helps improve your website’s visibility on Google, Bing, and other search engines, increasing your chances of reaching potential customers.",
+          "We also prioritize improving your website’s user experience by optimizing site speed, mobile responsiveness, and navigation. These factors not only enhance SEO but also ensure visitors have a smooth and engaging experience, reducing bounce rates and boosting conversions.",
+          "Our comprehensive reporting system keeps you informed about your SEO campaign’s progress, including keyword rankings, traffic growth, and other key metrics. This transparency allows us to continually refine strategies and maximize your return on investment.",
+          "Partnering with Shree Krishna Digital Solutions Pvt Ltd means you get reliable, effective, and affordable SEO optimization services in Nepal that help your business stand out online. Whether you’re a small startup or an established enterprise, our dedicated team is here to support your digital growth every step of the way.",
+        ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+      },
+      {
+        icon: socialIconNepal,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-sydney",
+        shortdesc:
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
+        desc: [
+          "In today’s digital age, social media has become an indispensable platform for businesses to connect with their audience, build brand awareness, and drive sales. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in providing effective social media marketing services in Nepal that help your business thrive in the competitive online landscape.",
+          "Our team of social media experts develops customized strategies tailored to your business goals and target audience. Whether you want to increase brand visibility, engage with customers, or generate leads, our comprehensive approach ensures your social media presence delivers measurable results.",
+          "With our social media marketing services in Nepal, we manage your profiles across major platforms like Facebook, Instagram, LinkedIn, Twitter, and TikTok. From creating engaging content and running targeted ad campaigns to monitoring performance and responding to customer interactions, we handle every aspect of your social media marketing.",
+          "We focus on crafting compelling stories and visuals that resonate with your audience, helping to build a loyal community around your brand. Our data-driven techniques allow us to optimize campaigns continuously, maximizing your return on investment and ensuring you reach the right people at the right time.",
+          "In addition to organic growth strategies, we offer paid advertising services to boost your reach and accelerate business growth. Our targeted social media ads are designed to drive traffic, increase conversions, and generate quality leads that turn into long-term customers.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a team dedicated to your success. Our expert social media marketing services in Nepal empower your business to stay ahead of trends, connect authentically with customers, and achieve sustained growth in the digital world.",
+        ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+      },
+      {
+        icon: gmbIconNepal,
+        title: "Google My Business",
+        link: "/google-my-business-in-sydney",
+        shortdesc:
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
+        desc: [
+          "A solid online presence is essential for every organization to succeed in the digital age. Shree Krishna Digital Solutions Pvt Ltd provides professional Google My Business services in Nepal to make your company more visible on Google Maps and Search, increasing more local traffic and increasing your brand’s online presence.",
+          "You can control how your company looks on all Google platforms with the help of Google My Business (GMB), a robust free tool. Our team specializes in setting up, optimizing, and managing your GMB profile to ensure it accurately represents your business and reaches the right audience.",
+          "With our Google My Business services in Nepal, we focus on enhancing your profile by adding essential details such as business hours, contact information, photos, and customer reviews. We also optimize your listing with relevant keywords to improve your ranking in local searches, making it easier for customers to find you when they need your products or services.",
+          "Regular updates and engagement are key to maintaining a strong GMB presence. Our team helps you post updates, offers, and announcements, keeping your audience informed and engaged. We also monitor and respond to customer reviews, which builds trust and encourages positive interactions.",
+          "By leveraging Google My Business services in Nepal, your business can gain a competitive edge in local search results, boost foot traffic, and increase online conversions. Whether you are a small local shop or a growing enterprise, optimizing your GMB listing is essential to attracting nearby customers and driving sales.",
+          "Partner with Shree Krishna Digital Solutions Pvt Ltd to make the most of your Google My Business profile. Our dedicated experts ensure your business shines online, helping you grow with confidence in today’s digital marketplace.",
+        ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+      },
+      {
+        icon: payIconNepal,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-sydney",
+        shortdesc:
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
+        desc: [
+          "In today’s fast-paced digital world, businesses need instant visibility to stay ahead of the competition. Pay-per-click advertising offers a powerful solution by placing your brand directly in front of potential customers actively searching for your products or services. At Shree Krishna Digital Solutions Pvt Ltd, we provide expert pay-per-click (PPC) services in Nepal designed to deliver immediate results and maximize your advertising budget.",
+          "Our group specializes in developing PPC campaigns that are specifically targeted to the appropriate audience at the right moment. Whether you want to increase website traffic, generate qualified leads, or boost sales, our customized approach ensures your ads perform effectively on platforms like Google Ads, Bing Ads, and social media networks.",
+          "With our pay-per-click (PPC) services in Nepal, we handle every aspect of your campaign,  from keyword research and ad creation to bid management and performance analysis. We focus on selecting high-converting keywords and crafting compelling ad copy that drives clicks and encourages conversions, helping you get the most out of your investment.",
+          "Transparency and continuous optimization are key elements of our PPC management strategy. We monitor your campaigns closely, analyzing data to improve targeting, reduce costs, and enhance ad performance. Regular reporting keeps you informed about how your ads are performing, allowing you to make data-driven decisions for your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a trusted agency committed to growing your business through effective pay-per-click (PPC) services in Nepal. Our goal is to deliver measurable results that help you reach your marketing objectives quickly and efficiently.",
+        ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+      },
+      {
+        icon: webIconNepal,
+        title: "Web Developement",
+        link: "/web-devlopement-in-sydney",
+        shortdesc:
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+        desc: [
+          "In the digital era, a strong online presence is vital for any business to thrive. At Shree Krishna Digital Solutions Pvt Ltd, we provide professional web development services in Nepal that are tailored to meet your unique business needs. Whether you’re a startup or an established company, our expert developers create websites that are not only visually appealing but also highly functional and user-friendly.",
+          "From responsive website design to sophisticated e-commerce solutions, we offer a wide range of web development services in Nepal. We understand that every business has different goals, so we work closely with you to build a website that reflects your brand identity and delivers an exceptional user experience.",
+          "Using the latest technologies and industry best practices, our skilled team develops websites optimized for speed, security, and search engine rankings. This ensures your website performs flawlessly across all devices and helps you attract and retain customers effectively.",
+          "We offer continuing support and maintenance in addition to design and development to keep your website current and functional. Whether you need to add new features, update content, or troubleshoot technical issues, our team is here to assist you every step of the way.",
+          "With our web development services in Nepal, you can expect custom solutions that drive engagement, increase conversions, and boost your online visibility. We focus on creating scalable and flexible websites that grow alongside your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a reliable and innovative web development agency committed to your success. We pride ourselves on delivering projects on time and within budget while exceeding client expectations.",
+          "Are you ready to expand your digital reach with experienced web development services in Nepal? Contact us today to discuss your project and let us help you build a powerful online presence that sets you apart from the competition.",
+        ],
+        bannerImage:
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+      },
+      {
+        icon: appIconNepal,
+        title: "Application Development",
+        link: "/application-development-in-sydney",
+        shortdesc:
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+        desc: [
+          "In today’s fast-paced digital world, mobile and web applications have become essential tools for businesses to connect with customers, streamline operations, and boost productivity. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in delivering customized application development services in Nepal that cater to your specific business needs and goals.",
+          "Our experienced development team excels in building scalable, user-friendly applications across various platforms, including iOS, Android, and the web. Whether you require a sleek mobile app for customer engagement or a robust enterprise application to manage internal processes, our application development services in Nepal are designed to help you stay competitive and innovative.",
+          "We follow a comprehensive development process starting from understanding your requirements and designing intuitive interfaces to coding and rigorous testing. Our priority is to deliver high-quality applications that offer seamless performance, security, and excellent user experience.",
+          "By leveraging the latest technologies and industry best practices, our developers create solutions that integrate smoothly with your existing systems and can be easily updated as your business grows. We also provide post-launch support and maintenance to ensure your application remains up-to-date and efficient.",
+          "At Shree Krishna Digital Solutions Pvt Ltd, we understand that each business is unique, which is why our application development services in Nepal are highly customizable. From startups to established enterprises, we work closely with you to build applications that align perfectly with your brand and operational requirements.",
+          "Partnering with us means gaining access to a reliable, innovative, and dedicated team focused on delivering timely and cost-effective application development solutions.",
+        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+      },
+    ],
+  },
+  {
+    title: "Adelaide",
+    url: "",
+    type: "australia",
+    banner:"https://luxuryescapes.com/inspiration/wp-content/uploads/2024/08/Shutterstock_2340366363.jpg",
+    services: [
+      {
+        icon: seoIconNepal,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-adelaide",
+        shortdesc:
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
+        desc: [
+          "Having a solid online presence is essential for any business hoping to expand and thrive in the modern digital marketplace. At Shree Krishna Digital Solutions Pvt Ltd, we provide top-notch SEO optimization services in Nepal designed to help your website rank higher on search engines, attract more organic traffic, and convert visitors into loyal customers.",
+          "Our team of SEO experts uses proven strategies and the latest tools to optimize your website thoroughly. From keyword research and on-page optimization to technical SEO and link building, we cover every aspect to ensure your site meets search engine guidelines and outperforms competitors.",
+          "With our SEO optimization services in Nepal, we focus on creating tailored strategies that align with your business goals. We analyze your industry, competitors, and target audience to identify the most effective keywords that will drive qualified traffic to your site. This targeted approach helps improve your website’s visibility on Google, Bing, and other search engines, increasing your chances of reaching potential customers.",
+          "We also prioritize improving your website’s user experience by optimizing site speed, mobile responsiveness, and navigation. These factors not only enhance SEO but also ensure visitors have a smooth and engaging experience, reducing bounce rates and boosting conversions.",
+          "Our comprehensive reporting system keeps you informed about your SEO campaign’s progress, including keyword rankings, traffic growth, and other key metrics. This transparency allows us to continually refine strategies and maximize your return on investment.",
+          "Partnering with Shree Krishna Digital Solutions Pvt Ltd means you get reliable, effective, and affordable SEO optimization services in Nepal that help your business stand out online. Whether you’re a small startup or an established enterprise, our dedicated team is here to support your digital growth every step of the way.",
+        ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+      },
+      {
+        icon: socialIconNepal,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-adelaide",
+        shortdesc:
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
+        desc: [
+          "In today’s digital age, social media has become an indispensable platform for businesses to connect with their audience, build brand awareness, and drive sales. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in providing effective social media marketing services in Nepal that help your business thrive in the competitive online landscape.",
+          "Our team of social media experts develops customized strategies tailored to your business goals and target audience. Whether you want to increase brand visibility, engage with customers, or generate leads, our comprehensive approach ensures your social media presence delivers measurable results.",
+          "With our social media marketing services in Nepal, we manage your profiles across major platforms like Facebook, Instagram, LinkedIn, Twitter, and TikTok. From creating engaging content and running targeted ad campaigns to monitoring performance and responding to customer interactions, we handle every aspect of your social media marketing.",
+          "We focus on crafting compelling stories and visuals that resonate with your audience, helping to build a loyal community around your brand. Our data-driven techniques allow us to optimize campaigns continuously, maximizing your return on investment and ensuring you reach the right people at the right time.",
+          "In addition to organic growth strategies, we offer paid advertising services to boost your reach and accelerate business growth. Our targeted social media ads are designed to drive traffic, increase conversions, and generate quality leads that turn into long-term customers.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a team dedicated to your success. Our expert social media marketing services in Nepal empower your business to stay ahead of trends, connect authentically with customers, and achieve sustained growth in the digital world.",
+        ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+      },
+      {
+        icon: gmbIconNepal,
+        title: "Google My Business",
+        link: "/google-my-business-in-adelaide",
+        shortdesc:
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
+        desc: [
+          "A solid online presence is essential for every organization to succeed in the digital age. Shree Krishna Digital Solutions Pvt Ltd provides professional Google My Business services in Nepal to make your company more visible on Google Maps and Search, increasing more local traffic and increasing your brand’s online presence.",
+          "You can control how your company looks on all Google platforms with the help of Google My Business (GMB), a robust free tool. Our team specializes in setting up, optimizing, and managing your GMB profile to ensure it accurately represents your business and reaches the right audience.",
+          "With our Google My Business services in Nepal, we focus on enhancing your profile by adding essential details such as business hours, contact information, photos, and customer reviews. We also optimize your listing with relevant keywords to improve your ranking in local searches, making it easier for customers to find you when they need your products or services.",
+          "Regular updates and engagement are key to maintaining a strong GMB presence. Our team helps you post updates, offers, and announcements, keeping your audience informed and engaged. We also monitor and respond to customer reviews, which builds trust and encourages positive interactions.",
+          "By leveraging Google My Business services in Nepal, your business can gain a competitive edge in local search results, boost foot traffic, and increase online conversions. Whether you are a small local shop or a growing enterprise, optimizing your GMB listing is essential to attracting nearby customers and driving sales.",
+          "Partner with Shree Krishna Digital Solutions Pvt Ltd to make the most of your Google My Business profile. Our dedicated experts ensure your business shines online, helping you grow with confidence in today’s digital marketplace.",
+        ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+      },
+      {
+        icon: payIconNepal,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-adelaide",
+        shortdesc:
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
+        desc: [
+          "In today’s fast-paced digital world, businesses need instant visibility to stay ahead of the competition. Pay-per-click advertising offers a powerful solution by placing your brand directly in front of potential customers actively searching for your products or services. At Shree Krishna Digital Solutions Pvt Ltd, we provide expert pay-per-click (PPC) services in Nepal designed to deliver immediate results and maximize your advertising budget.",
+          "Our group specializes in developing PPC campaigns that are specifically targeted to the appropriate audience at the right moment. Whether you want to increase website traffic, generate qualified leads, or boost sales, our customized approach ensures your ads perform effectively on platforms like Google Ads, Bing Ads, and social media networks.",
+          "With our pay-per-click (PPC) services in Nepal, we handle every aspect of your campaign,  from keyword research and ad creation to bid management and performance analysis. We focus on selecting high-converting keywords and crafting compelling ad copy that drives clicks and encourages conversions, helping you get the most out of your investment.",
+          "Transparency and continuous optimization are key elements of our PPC management strategy. We monitor your campaigns closely, analyzing data to improve targeting, reduce costs, and enhance ad performance. Regular reporting keeps you informed about how your ads are performing, allowing you to make data-driven decisions for your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a trusted agency committed to growing your business through effective pay-per-click (PPC) services in Nepal. Our goal is to deliver measurable results that help you reach your marketing objectives quickly and efficiently.",
+        ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+      },
+      {
+        icon: webIconNepal,
+        title: "Web Developement",
+        link: "/web-devlopement-in-adelaide",
+        shortdesc:
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+        desc: [
+          "In the digital era, a strong online presence is vital for any business to thrive. At Shree Krishna Digital Solutions Pvt Ltd, we provide professional web development services in Nepal that are tailored to meet your unique business needs. Whether you’re a startup or an established company, our expert developers create websites that are not only visually appealing but also highly functional and user-friendly.",
+          "From responsive website design to sophisticated e-commerce solutions, we offer a wide range of web development services in Nepal. We understand that every business has different goals, so we work closely with you to build a website that reflects your brand identity and delivers an exceptional user experience.",
+          "Using the latest technologies and industry best practices, our skilled team develops websites optimized for speed, security, and search engine rankings. This ensures your website performs flawlessly across all devices and helps you attract and retain customers effectively.",
+          "We offer continuing support and maintenance in addition to design and development to keep your website current and functional. Whether you need to add new features, update content, or troubleshoot technical issues, our team is here to assist you every step of the way.",
+          "With our web development services in Nepal, you can expect custom solutions that drive engagement, increase conversions, and boost your online visibility. We focus on creating scalable and flexible websites that grow alongside your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a reliable and innovative web development agency committed to your success. We pride ourselves on delivering projects on time and within budget while exceeding client expectations.",
+          "Are you ready to expand your digital reach with experienced web development services in Nepal? Contact us today to discuss your project and let us help you build a powerful online presence that sets you apart from the competition.",
+        ],
+        bannerImage:
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+      },
+      {
+        icon: appIconNepal,
+        title: "Application Development",
+        link: "/application-development-in-adelaide",
+        shortdesc:
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+        desc: [
+          "In today’s fast-paced digital world, mobile and web applications have become essential tools for businesses to connect with customers, streamline operations, and boost productivity. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in delivering customized application development services in Nepal that cater to your specific business needs and goals.",
+          "Our experienced development team excels in building scalable, user-friendly applications across various platforms, including iOS, Android, and the web. Whether you require a sleek mobile app for customer engagement or a robust enterprise application to manage internal processes, our application development services in Nepal are designed to help you stay competitive and innovative.",
+          "We follow a comprehensive development process starting from understanding your requirements and designing intuitive interfaces to coding and rigorous testing. Our priority is to deliver high-quality applications that offer seamless performance, security, and excellent user experience.",
+          "By leveraging the latest technologies and industry best practices, our developers create solutions that integrate smoothly with your existing systems and can be easily updated as your business grows. We also provide post-launch support and maintenance to ensure your application remains up-to-date and efficient.",
+          "At Shree Krishna Digital Solutions Pvt Ltd, we understand that each business is unique, which is why our application development services in Nepal are highly customizable. From startups to established enterprises, we work closely with you to build applications that align perfectly with your brand and operational requirements.",
+          "Partnering with us means gaining access to a reliable, innovative, and dedicated team focused on delivering timely and cost-effective application development solutions.",
+        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+      },
+    ],
+  },
+  {
+    title: "Perth",
+    url: "",
+    type: "australia",
+    banner:"https://content.r9cdn.net/rimg/dimg/ba/de/deacb4c5-city-11563-17a3ef27550.jpg?width=1200&height=630&xhint=4145&yhint=2485&crop=true",
+    services: [
+      {
+        icon: seoIconNepal,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-perth",
+        shortdesc:
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
+        desc: [
+          "Having a solid online presence is essential for any business hoping to expand and thrive in the modern digital marketplace. At Shree Krishna Digital Solutions Pvt Ltd, we provide top-notch SEO optimization services in Nepal designed to help your website rank higher on search engines, attract more organic traffic, and convert visitors into loyal customers.",
+          "Our team of SEO experts uses proven strategies and the latest tools to optimize your website thoroughly. From keyword research and on-page optimization to technical SEO and link building, we cover every aspect to ensure your site meets search engine guidelines and outperforms competitors.",
+          "With our SEO optimization services in Nepal, we focus on creating tailored strategies that align with your business goals. We analyze your industry, competitors, and target audience to identify the most effective keywords that will drive qualified traffic to your site. This targeted approach helps improve your website’s visibility on Google, Bing, and other search engines, increasing your chances of reaching potential customers.",
+          "We also prioritize improving your website’s user experience by optimizing site speed, mobile responsiveness, and navigation. These factors not only enhance SEO but also ensure visitors have a smooth and engaging experience, reducing bounce rates and boosting conversions.",
+          "Our comprehensive reporting system keeps you informed about your SEO campaign’s progress, including keyword rankings, traffic growth, and other key metrics. This transparency allows us to continually refine strategies and maximize your return on investment.",
+          "Partnering with Shree Krishna Digital Solutions Pvt Ltd means you get reliable, effective, and affordable SEO optimization services in Nepal that help your business stand out online. Whether you’re a small startup or an established enterprise, our dedicated team is here to support your digital growth every step of the way.",
+        ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+      },
+      {
+        icon: socialIconNepal,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-perth",
+        shortdesc:
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
+        desc: [
+          "In today’s digital age, social media has become an indispensable platform for businesses to connect with their audience, build brand awareness, and drive sales. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in providing effective social media marketing services in Nepal that help your business thrive in the competitive online landscape.",
+          "Our team of social media experts develops customized strategies tailored to your business goals and target audience. Whether you want to increase brand visibility, engage with customers, or generate leads, our comprehensive approach ensures your social media presence delivers measurable results.",
+          "With our social media marketing services in Nepal, we manage your profiles across major platforms like Facebook, Instagram, LinkedIn, Twitter, and TikTok. From creating engaging content and running targeted ad campaigns to monitoring performance and responding to customer interactions, we handle every aspect of your social media marketing.",
+          "We focus on crafting compelling stories and visuals that resonate with your audience, helping to build a loyal community around your brand. Our data-driven techniques allow us to optimize campaigns continuously, maximizing your return on investment and ensuring you reach the right people at the right time.",
+          "In addition to organic growth strategies, we offer paid advertising services to boost your reach and accelerate business growth. Our targeted social media ads are designed to drive traffic, increase conversions, and generate quality leads that turn into long-term customers.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a team dedicated to your success. Our expert social media marketing services in Nepal empower your business to stay ahead of trends, connect authentically with customers, and achieve sustained growth in the digital world.",
+        ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+      },
+      {
+        icon: gmbIconNepal,
+        title: "Google My Business",
+        link: "/google-my-business-in-perth",
+        shortdesc:
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
+        desc: [
+          "A solid online presence is essential for every organization to succeed in the digital age. Shree Krishna Digital Solutions Pvt Ltd provides professional Google My Business services in Nepal to make your company more visible on Google Maps and Search, increasing more local traffic and increasing your brand’s online presence.",
+          "You can control how your company looks on all Google platforms with the help of Google My Business (GMB), a robust free tool. Our team specializes in setting up, optimizing, and managing your GMB profile to ensure it accurately represents your business and reaches the right audience.",
+          "With our Google My Business services in Nepal, we focus on enhancing your profile by adding essential details such as business hours, contact information, photos, and customer reviews. We also optimize your listing with relevant keywords to improve your ranking in local searches, making it easier for customers to find you when they need your products or services.",
+          "Regular updates and engagement are key to maintaining a strong GMB presence. Our team helps you post updates, offers, and announcements, keeping your audience informed and engaged. We also monitor and respond to customer reviews, which builds trust and encourages positive interactions.",
+          "By leveraging Google My Business services in Nepal, your business can gain a competitive edge in local search results, boost foot traffic, and increase online conversions. Whether you are a small local shop or a growing enterprise, optimizing your GMB listing is essential to attracting nearby customers and driving sales.",
+          "Partner with Shree Krishna Digital Solutions Pvt Ltd to make the most of your Google My Business profile. Our dedicated experts ensure your business shines online, helping you grow with confidence in today’s digital marketplace.",
+        ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+      },
+      {
+        icon: payIconNepal,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-perth",
+        shortdesc:
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
+        desc: [
+          "In today’s fast-paced digital world, businesses need instant visibility to stay ahead of the competition. Pay-per-click advertising offers a powerful solution by placing your brand directly in front of potential customers actively searching for your products or services. At Shree Krishna Digital Solutions Pvt Ltd, we provide expert pay-per-click (PPC) services in Nepal designed to deliver immediate results and maximize your advertising budget.",
+          "Our group specializes in developing PPC campaigns that are specifically targeted to the appropriate audience at the right moment. Whether you want to increase website traffic, generate qualified leads, or boost sales, our customized approach ensures your ads perform effectively on platforms like Google Ads, Bing Ads, and social media networks.",
+          "With our pay-per-click (PPC) services in Nepal, we handle every aspect of your campaign,  from keyword research and ad creation to bid management and performance analysis. We focus on selecting high-converting keywords and crafting compelling ad copy that drives clicks and encourages conversions, helping you get the most out of your investment.",
+          "Transparency and continuous optimization are key elements of our PPC management strategy. We monitor your campaigns closely, analyzing data to improve targeting, reduce costs, and enhance ad performance. Regular reporting keeps you informed about how your ads are performing, allowing you to make data-driven decisions for your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a trusted agency committed to growing your business through effective pay-per-click (PPC) services in Nepal. Our goal is to deliver measurable results that help you reach your marketing objectives quickly and efficiently.",
+        ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+      },
+      {
+        icon: webIconNepal,
+        title: "Web Developement",
+        link: "/web-devlopement-in-perth",
+        shortdesc:
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+        desc: [
+          "In the digital era, a strong online presence is vital for any business to thrive. At Shree Krishna Digital Solutions Pvt Ltd, we provide professional web development services in Nepal that are tailored to meet your unique business needs. Whether you’re a startup or an established company, our expert developers create websites that are not only visually appealing but also highly functional and user-friendly.",
+          "From responsive website design to sophisticated e-commerce solutions, we offer a wide range of web development services in Nepal. We understand that every business has different goals, so we work closely with you to build a website that reflects your brand identity and delivers an exceptional user experience.",
+          "Using the latest technologies and industry best practices, our skilled team develops websites optimized for speed, security, and search engine rankings. This ensures your website performs flawlessly across all devices and helps you attract and retain customers effectively.",
+          "We offer continuing support and maintenance in addition to design and development to keep your website current and functional. Whether you need to add new features, update content, or troubleshoot technical issues, our team is here to assist you every step of the way.",
+          "With our web development services in Nepal, you can expect custom solutions that drive engagement, increase conversions, and boost your online visibility. We focus on creating scalable and flexible websites that grow alongside your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a reliable and innovative web development agency committed to your success. We pride ourselves on delivering projects on time and within budget while exceeding client expectations.",
+          "Are you ready to expand your digital reach with experienced web development services in Nepal? Contact us today to discuss your project and let us help you build a powerful online presence that sets you apart from the competition.",
+        ],
+        bannerImage:
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+      },
+      {
+        icon: appIconNepal,
+        title: "Application Development",
+        link: "/application-development-in-perth",
+        shortdesc:
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+        desc: [
+          "In today’s fast-paced digital world, mobile and web applications have become essential tools for businesses to connect with customers, streamline operations, and boost productivity. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in delivering customized application development services in Nepal that cater to your specific business needs and goals.",
+          "Our experienced development team excels in building scalable, user-friendly applications across various platforms, including iOS, Android, and the web. Whether you require a sleek mobile app for customer engagement or a robust enterprise application to manage internal processes, our application development services in Nepal are designed to help you stay competitive and innovative.",
+          "We follow a comprehensive development process starting from understanding your requirements and designing intuitive interfaces to coding and rigorous testing. Our priority is to deliver high-quality applications that offer seamless performance, security, and excellent user experience.",
+          "By leveraging the latest technologies and industry best practices, our developers create solutions that integrate smoothly with your existing systems and can be easily updated as your business grows. We also provide post-launch support and maintenance to ensure your application remains up-to-date and efficient.",
+          "At Shree Krishna Digital Solutions Pvt Ltd, we understand that each business is unique, which is why our application development services in Nepal are highly customizable. From startups to established enterprises, we work closely with you to build applications that align perfectly with your brand and operational requirements.",
+          "Partnering with us means gaining access to a reliable, innovative, and dedicated team focused on delivering timely and cost-effective application development solutions.",
+        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+      },
+    ],
+  },
+  {
+    title: "New York",
+    url: "",
+    type: "usa",
+    banner:"https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/New_York_1.jpg",
+    services: [
+      {
+        icon: seoIconNepal,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-new-york",
+        shortdesc:
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
+        desc: [
+          "Having a solid online presence is essential for any business hoping to expand and thrive in the modern digital marketplace. At Shree Krishna Digital Solutions Pvt Ltd, we provide top-notch SEO optimization services in Nepal designed to help your website rank higher on search engines, attract more organic traffic, and convert visitors into loyal customers.",
+          "Our team of SEO experts uses proven strategies and the latest tools to optimize your website thoroughly. From keyword research and on-page optimization to technical SEO and link building, we cover every aspect to ensure your site meets search engine guidelines and outperforms competitors.",
+          "With our SEO optimization services in Nepal, we focus on creating tailored strategies that align with your business goals. We analyze your industry, competitors, and target audience to identify the most effective keywords that will drive qualified traffic to your site. This targeted approach helps improve your website’s visibility on Google, Bing, and other search engines, increasing your chances of reaching potential customers.",
+          "We also prioritize improving your website’s user experience by optimizing site speed, mobile responsiveness, and navigation. These factors not only enhance SEO but also ensure visitors have a smooth and engaging experience, reducing bounce rates and boosting conversions.",
+          "Our comprehensive reporting system keeps you informed about your SEO campaign’s progress, including keyword rankings, traffic growth, and other key metrics. This transparency allows us to continually refine strategies and maximize your return on investment.",
+          "Partnering with Shree Krishna Digital Solutions Pvt Ltd means you get reliable, effective, and affordable SEO optimization services in Nepal that help your business stand out online. Whether you’re a small startup or an established enterprise, our dedicated team is here to support your digital growth every step of the way.",
+        ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+      },
+      {
+        icon: socialIconNepal,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-new-york",
+        shortdesc:
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
+        desc: [
+          "In today’s digital age, social media has become an indispensable platform for businesses to connect with their audience, build brand awareness, and drive sales. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in providing effective social media marketing services in Nepal that help your business thrive in the competitive online landscape.",
+          "Our team of social media experts develops customized strategies tailored to your business goals and target audience. Whether you want to increase brand visibility, engage with customers, or generate leads, our comprehensive approach ensures your social media presence delivers measurable results.",
+          "With our social media marketing services in Nepal, we manage your profiles across major platforms like Facebook, Instagram, LinkedIn, Twitter, and TikTok. From creating engaging content and running targeted ad campaigns to monitoring performance and responding to customer interactions, we handle every aspect of your social media marketing.",
+          "We focus on crafting compelling stories and visuals that resonate with your audience, helping to build a loyal community around your brand. Our data-driven techniques allow us to optimize campaigns continuously, maximizing your return on investment and ensuring you reach the right people at the right time.",
+          "In addition to organic growth strategies, we offer paid advertising services to boost your reach and accelerate business growth. Our targeted social media ads are designed to drive traffic, increase conversions, and generate quality leads that turn into long-term customers.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a team dedicated to your success. Our expert social media marketing services in Nepal empower your business to stay ahead of trends, connect authentically with customers, and achieve sustained growth in the digital world.",
+        ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+      },
+      {
+        icon: gmbIconNepal,
+        title: "Google My Business",
+        link: "/google-my-business-in-new-york",
+        shortdesc:
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
+        desc: [
+          "A solid online presence is essential for every organization to succeed in the digital age. Shree Krishna Digital Solutions Pvt Ltd provides professional Google My Business services in Nepal to make your company more visible on Google Maps and Search, increasing more local traffic and increasing your brand’s online presence.",
+          "You can control how your company looks on all Google platforms with the help of Google My Business (GMB), a robust free tool. Our team specializes in setting up, optimizing, and managing your GMB profile to ensure it accurately represents your business and reaches the right audience.",
+          "With our Google My Business services in Nepal, we focus on enhancing your profile by adding essential details such as business hours, contact information, photos, and customer reviews. We also optimize your listing with relevant keywords to improve your ranking in local searches, making it easier for customers to find you when they need your products or services.",
+          "Regular updates and engagement are key to maintaining a strong GMB presence. Our team helps you post updates, offers, and announcements, keeping your audience informed and engaged. We also monitor and respond to customer reviews, which builds trust and encourages positive interactions.",
+          "By leveraging Google My Business services in Nepal, your business can gain a competitive edge in local search results, boost foot traffic, and increase online conversions. Whether you are a small local shop or a growing enterprise, optimizing your GMB listing is essential to attracting nearby customers and driving sales.",
+          "Partner with Shree Krishna Digital Solutions Pvt Ltd to make the most of your Google My Business profile. Our dedicated experts ensure your business shines online, helping you grow with confidence in today’s digital marketplace.",
+        ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+      },
+      {
+        icon: payIconNepal,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-new-york",
+        shortdesc:
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
+        desc: [
+          "In today’s fast-paced digital world, businesses need instant visibility to stay ahead of the competition. Pay-per-click advertising offers a powerful solution by placing your brand directly in front of potential customers actively searching for your products or services. At Shree Krishna Digital Solutions Pvt Ltd, we provide expert pay-per-click (PPC) services in Nepal designed to deliver immediate results and maximize your advertising budget.",
+          "Our group specializes in developing PPC campaigns that are specifically targeted to the appropriate audience at the right moment. Whether you want to increase website traffic, generate qualified leads, or boost sales, our customized approach ensures your ads perform effectively on platforms like Google Ads, Bing Ads, and social media networks.",
+          "With our pay-per-click (PPC) services in Nepal, we handle every aspect of your campaign,  from keyword research and ad creation to bid management and performance analysis. We focus on selecting high-converting keywords and crafting compelling ad copy that drives clicks and encourages conversions, helping you get the most out of your investment.",
+          "Transparency and continuous optimization are key elements of our PPC management strategy. We monitor your campaigns closely, analyzing data to improve targeting, reduce costs, and enhance ad performance. Regular reporting keeps you informed about how your ads are performing, allowing you to make data-driven decisions for your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a trusted agency committed to growing your business through effective pay-per-click (PPC) services in Nepal. Our goal is to deliver measurable results that help you reach your marketing objectives quickly and efficiently.",
+        ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+      },
+      {
+        icon: webIconNepal,
+        title: "Web Developement",
+        link: "/web-devlopement-in-new-york",
+        shortdesc:
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+        desc: [
+          "In the digital era, a strong online presence is vital for any business to thrive. At Shree Krishna Digital Solutions Pvt Ltd, we provide professional web development services in Nepal that are tailored to meet your unique business needs. Whether you’re a startup or an established company, our expert developers create websites that are not only visually appealing but also highly functional and user-friendly.",
+          "From responsive website design to sophisticated e-commerce solutions, we offer a wide range of web development services in Nepal. We understand that every business has different goals, so we work closely with you to build a website that reflects your brand identity and delivers an exceptional user experience.",
+          "Using the latest technologies and industry best practices, our skilled team develops websites optimized for speed, security, and search engine rankings. This ensures your website performs flawlessly across all devices and helps you attract and retain customers effectively.",
+          "We offer continuing support and maintenance in addition to design and development to keep your website current and functional. Whether you need to add new features, update content, or troubleshoot technical issues, our team is here to assist you every step of the way.",
+          "With our web development services in Nepal, you can expect custom solutions that drive engagement, increase conversions, and boost your online visibility. We focus on creating scalable and flexible websites that grow alongside your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a reliable and innovative web development agency committed to your success. We pride ourselves on delivering projects on time and within budget while exceeding client expectations.",
+          "Are you ready to expand your digital reach with experienced web development services in Nepal? Contact us today to discuss your project and let us help you build a powerful online presence that sets you apart from the competition.",
+        ],
+        bannerImage:
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+      },
+      {
+        icon: appIconNepal,
+        title: "Application Development",
+        link: "/application-development-in-new-york",
+        shortdesc:
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+        desc: [
+          "In today’s fast-paced digital world, mobile and web applications have become essential tools for businesses to connect with customers, streamline operations, and boost productivity. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in delivering customized application development services in Nepal that cater to your specific business needs and goals.",
+          "Our experienced development team excels in building scalable, user-friendly applications across various platforms, including iOS, Android, and the web. Whether you require a sleek mobile app for customer engagement or a robust enterprise application to manage internal processes, our application development services in Nepal are designed to help you stay competitive and innovative.",
+          "We follow a comprehensive development process starting from understanding your requirements and designing intuitive interfaces to coding and rigorous testing. Our priority is to deliver high-quality applications that offer seamless performance, security, and excellent user experience.",
+          "By leveraging the latest technologies and industry best practices, our developers create solutions that integrate smoothly with your existing systems and can be easily updated as your business grows. We also provide post-launch support and maintenance to ensure your application remains up-to-date and efficient.",
+          "At Shree Krishna Digital Solutions Pvt Ltd, we understand that each business is unique, which is why our application development services in Nepal are highly customizable. From startups to established enterprises, we work closely with you to build applications that align perfectly with your brand and operational requirements.",
+          "Partnering with us means gaining access to a reliable, innovative, and dedicated team focused on delivering timely and cost-effective application development solutions.",
+        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+      },
+    ],
+  },
+  {
+    title: "Chicago",
+    url: "",
+    type: "usa",
+    banner:"https://media-cdn.tripadvisor.com/media/photo-s/1d/e5/40/12/caption.jpg",
+    services: [
+      {
+        icon: seoIconNepal,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-chicago",
+        shortdesc:
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
+        desc: [
+          "Having a solid online presence is essential for any business hoping to expand and thrive in the modern digital marketplace. At Shree Krishna Digital Solutions Pvt Ltd, we provide top-notch SEO optimization services in Nepal designed to help your website rank higher on search engines, attract more organic traffic, and convert visitors into loyal customers.",
+          "Our team of SEO experts uses proven strategies and the latest tools to optimize your website thoroughly. From keyword research and on-page optimization to technical SEO and link building, we cover every aspect to ensure your site meets search engine guidelines and outperforms competitors.",
+          "With our SEO optimization services in Nepal, we focus on creating tailored strategies that align with your business goals. We analyze your industry, competitors, and target audience to identify the most effective keywords that will drive qualified traffic to your site. This targeted approach helps improve your website’s visibility on Google, Bing, and other search engines, increasing your chances of reaching potential customers.",
+          "We also prioritize improving your website’s user experience by optimizing site speed, mobile responsiveness, and navigation. These factors not only enhance SEO but also ensure visitors have a smooth and engaging experience, reducing bounce rates and boosting conversions.",
+          "Our comprehensive reporting system keeps you informed about your SEO campaign’s progress, including keyword rankings, traffic growth, and other key metrics. This transparency allows us to continually refine strategies and maximize your return on investment.",
+          "Partnering with Shree Krishna Digital Solutions Pvt Ltd means you get reliable, effective, and affordable SEO optimization services in Nepal that help your business stand out online. Whether you’re a small startup or an established enterprise, our dedicated team is here to support your digital growth every step of the way.",
+        ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+      },
+      {
+        icon: socialIconNepal,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-chicago",
+        shortdesc:
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
+        desc: [
+          "In today’s digital age, social media has become an indispensable platform for businesses to connect with their audience, build brand awareness, and drive sales. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in providing effective social media marketing services in Nepal that help your business thrive in the competitive online landscape.",
+          "Our team of social media experts develops customized strategies tailored to your business goals and target audience. Whether you want to increase brand visibility, engage with customers, or generate leads, our comprehensive approach ensures your social media presence delivers measurable results.",
+          "With our social media marketing services in Nepal, we manage your profiles across major platforms like Facebook, Instagram, LinkedIn, Twitter, and TikTok. From creating engaging content and running targeted ad campaigns to monitoring performance and responding to customer interactions, we handle every aspect of your social media marketing.",
+          "We focus on crafting compelling stories and visuals that resonate with your audience, helping to build a loyal community around your brand. Our data-driven techniques allow us to optimize campaigns continuously, maximizing your return on investment and ensuring you reach the right people at the right time.",
+          "In addition to organic growth strategies, we offer paid advertising services to boost your reach and accelerate business growth. Our targeted social media ads are designed to drive traffic, increase conversions, and generate quality leads that turn into long-term customers.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a team dedicated to your success. Our expert social media marketing services in Nepal empower your business to stay ahead of trends, connect authentically with customers, and achieve sustained growth in the digital world.",
+        ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+      },
+      {
+        icon: gmbIconNepal,
+        title: "Google My Business",
+        link: "/google-my-business-in-chicago",
+        shortdesc:
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
+        desc: [
+          "A solid online presence is essential for every organization to succeed in the digital age. Shree Krishna Digital Solutions Pvt Ltd provides professional Google My Business services in Nepal to make your company more visible on Google Maps and Search, increasing more local traffic and increasing your brand’s online presence.",
+          "You can control how your company looks on all Google platforms with the help of Google My Business (GMB), a robust free tool. Our team specializes in setting up, optimizing, and managing your GMB profile to ensure it accurately represents your business and reaches the right audience.",
+          "With our Google My Business services in Nepal, we focus on enhancing your profile by adding essential details such as business hours, contact information, photos, and customer reviews. We also optimize your listing with relevant keywords to improve your ranking in local searches, making it easier for customers to find you when they need your products or services.",
+          "Regular updates and engagement are key to maintaining a strong GMB presence. Our team helps you post updates, offers, and announcements, keeping your audience informed and engaged. We also monitor and respond to customer reviews, which builds trust and encourages positive interactions.",
+          "By leveraging Google My Business services in Nepal, your business can gain a competitive edge in local search results, boost foot traffic, and increase online conversions. Whether you are a small local shop or a growing enterprise, optimizing your GMB listing is essential to attracting nearby customers and driving sales.",
+          "Partner with Shree Krishna Digital Solutions Pvt Ltd to make the most of your Google My Business profile. Our dedicated experts ensure your business shines online, helping you grow with confidence in today’s digital marketplace.",
+        ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+      },
+      {
+        icon: payIconNepal,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-chicago",
+        shortdesc:
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
+        desc: [
+          "In today’s fast-paced digital world, businesses need instant visibility to stay ahead of the competition. Pay-per-click advertising offers a powerful solution by placing your brand directly in front of potential customers actively searching for your products or services. At Shree Krishna Digital Solutions Pvt Ltd, we provide expert pay-per-click (PPC) services in Nepal designed to deliver immediate results and maximize your advertising budget.",
+          "Our group specializes in developing PPC campaigns that are specifically targeted to the appropriate audience at the right moment. Whether you want to increase website traffic, generate qualified leads, or boost sales, our customized approach ensures your ads perform effectively on platforms like Google Ads, Bing Ads, and social media networks.",
+          "With our pay-per-click (PPC) services in Nepal, we handle every aspect of your campaign,  from keyword research and ad creation to bid management and performance analysis. We focus on selecting high-converting keywords and crafting compelling ad copy that drives clicks and encourages conversions, helping you get the most out of your investment.",
+          "Transparency and continuous optimization are key elements of our PPC management strategy. We monitor your campaigns closely, analyzing data to improve targeting, reduce costs, and enhance ad performance. Regular reporting keeps you informed about how your ads are performing, allowing you to make data-driven decisions for your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a trusted agency committed to growing your business through effective pay-per-click (PPC) services in Nepal. Our goal is to deliver measurable results that help you reach your marketing objectives quickly and efficiently.",
+        ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+      },
+      {
+        icon: webIconNepal,
+        title: "Web Developement",
+        link: "/web-devlopement-in-chicago",
+        shortdesc:
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+        desc: [
+          "In the digital era, a strong online presence is vital for any business to thrive. At Shree Krishna Digital Solutions Pvt Ltd, we provide professional web development services in Nepal that are tailored to meet your unique business needs. Whether you’re a startup or an established company, our expert developers create websites that are not only visually appealing but also highly functional and user-friendly.",
+          "From responsive website design to sophisticated e-commerce solutions, we offer a wide range of web development services in Nepal. We understand that every business has different goals, so we work closely with you to build a website that reflects your brand identity and delivers an exceptional user experience.",
+          "Using the latest technologies and industry best practices, our skilled team develops websites optimized for speed, security, and search engine rankings. This ensures your website performs flawlessly across all devices and helps you attract and retain customers effectively.",
+          "We offer continuing support and maintenance in addition to design and development to keep your website current and functional. Whether you need to add new features, update content, or troubleshoot technical issues, our team is here to assist you every step of the way.",
+          "With our web development services in Nepal, you can expect custom solutions that drive engagement, increase conversions, and boost your online visibility. We focus on creating scalable and flexible websites that grow alongside your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a reliable and innovative web development agency committed to your success. We pride ourselves on delivering projects on time and within budget while exceeding client expectations.",
+          "Are you ready to expand your digital reach with experienced web development services in Nepal? Contact us today to discuss your project and let us help you build a powerful online presence that sets you apart from the competition.",
+        ],
+        bannerImage:
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+      },
+      {
+        icon: appIconNepal,
+        title: "Application Development",
+        link: "/application-development-in-chicago",
+        shortdesc:
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+        desc: [
+          "In today’s fast-paced digital world, mobile and web applications have become essential tools for businesses to connect with customers, streamline operations, and boost productivity. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in delivering customized application development services in Nepal that cater to your specific business needs and goals.",
+          "Our experienced development team excels in building scalable, user-friendly applications across various platforms, including iOS, Android, and the web. Whether you require a sleek mobile app for customer engagement or a robust enterprise application to manage internal processes, our application development services in Nepal are designed to help you stay competitive and innovative.",
+          "We follow a comprehensive development process starting from understanding your requirements and designing intuitive interfaces to coding and rigorous testing. Our priority is to deliver high-quality applications that offer seamless performance, security, and excellent user experience.",
+          "By leveraging the latest technologies and industry best practices, our developers create solutions that integrate smoothly with your existing systems and can be easily updated as your business grows. We also provide post-launch support and maintenance to ensure your application remains up-to-date and efficient.",
+          "At Shree Krishna Digital Solutions Pvt Ltd, we understand that each business is unique, which is why our application development services in Nepal are highly customizable. From startups to established enterprises, we work closely with you to build applications that align perfectly with your brand and operational requirements.",
+          "Partnering with us means gaining access to a reliable, innovative, and dedicated team focused on delivering timely and cost-effective application development solutions.",
+        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+      },
+    ],
+  },
+  {
+    title: "San Francisco",
+    url: "",
+    type: "usa",
+    banner:"https://cdn.craft.cloud/101e4579-0e19-46b6-95c6-7eb27e4afc41/assets/uploads/Guides/san-francisco-california-frommers.jpg",
+    services: [
+      {
+        icon: seoIconNepal,
+        title: "Search Engine Optimization",
+        link: "/search-engine-optimization-in-san-francisco",
+        shortdesc:
+          "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
+        desc: [
+          "Having a solid online presence is essential for any business hoping to expand and thrive in the modern digital marketplace. At Shree Krishna Digital Solutions Pvt Ltd, we provide top-notch SEO optimization services in Nepal designed to help your website rank higher on search engines, attract more organic traffic, and convert visitors into loyal customers.",
+          "Our team of SEO experts uses proven strategies and the latest tools to optimize your website thoroughly. From keyword research and on-page optimization to technical SEO and link building, we cover every aspect to ensure your site meets search engine guidelines and outperforms competitors.",
+          "With our SEO optimization services in Nepal, we focus on creating tailored strategies that align with your business goals. We analyze your industry, competitors, and target audience to identify the most effective keywords that will drive qualified traffic to your site. This targeted approach helps improve your website’s visibility on Google, Bing, and other search engines, increasing your chances of reaching potential customers.",
+          "We also prioritize improving your website’s user experience by optimizing site speed, mobile responsiveness, and navigation. These factors not only enhance SEO but also ensure visitors have a smooth and engaging experience, reducing bounce rates and boosting conversions.",
+          "Our comprehensive reporting system keeps you informed about your SEO campaign’s progress, including keyword rankings, traffic growth, and other key metrics. This transparency allows us to continually refine strategies and maximize your return on investment.",
+          "Partnering with Shree Krishna Digital Solutions Pvt Ltd means you get reliable, effective, and affordable SEO optimization services in Nepal that help your business stand out online. Whether you’re a small startup or an established enterprise, our dedicated team is here to support your digital growth every step of the way.",
+        ],
+        bannerImage:
+          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+      },
+      {
+        icon: socialIconNepal,
+        title: "Social Media Marketing",
+        link: "/social-media-marketing-in-san-francisco",
+        shortdesc:
+          "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
+        desc: [
+          "In today’s digital age, social media has become an indispensable platform for businesses to connect with their audience, build brand awareness, and drive sales. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in providing effective social media marketing services in Nepal that help your business thrive in the competitive online landscape.",
+          "Our team of social media experts develops customized strategies tailored to your business goals and target audience. Whether you want to increase brand visibility, engage with customers, or generate leads, our comprehensive approach ensures your social media presence delivers measurable results.",
+          "With our social media marketing services in Nepal, we manage your profiles across major platforms like Facebook, Instagram, LinkedIn, Twitter, and TikTok. From creating engaging content and running targeted ad campaigns to monitoring performance and responding to customer interactions, we handle every aspect of your social media marketing.",
+          "We focus on crafting compelling stories and visuals that resonate with your audience, helping to build a loyal community around your brand. Our data-driven techniques allow us to optimize campaigns continuously, maximizing your return on investment and ensuring you reach the right people at the right time.",
+          "In addition to organic growth strategies, we offer paid advertising services to boost your reach and accelerate business growth. Our targeted social media ads are designed to drive traffic, increase conversions, and generate quality leads that turn into long-term customers.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a team dedicated to your success. Our expert social media marketing services in Nepal empower your business to stay ahead of trends, connect authentically with customers, and achieve sustained growth in the digital world.",
+        ],
+        bannerImage:
+          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+      },
+      {
+        icon: gmbIconNepal,
+        title: "Google My Business",
+        link: "/google-my-business-in-san-francisco",
+        shortdesc:
+          "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
+        desc: [
+          "A solid online presence is essential for every organization to succeed in the digital age. Shree Krishna Digital Solutions Pvt Ltd provides professional Google My Business services in Nepal to make your company more visible on Google Maps and Search, increasing more local traffic and increasing your brand’s online presence.",
+          "You can control how your company looks on all Google platforms with the help of Google My Business (GMB), a robust free tool. Our team specializes in setting up, optimizing, and managing your GMB profile to ensure it accurately represents your business and reaches the right audience.",
+          "With our Google My Business services in Nepal, we focus on enhancing your profile by adding essential details such as business hours, contact information, photos, and customer reviews. We also optimize your listing with relevant keywords to improve your ranking in local searches, making it easier for customers to find you when they need your products or services.",
+          "Regular updates and engagement are key to maintaining a strong GMB presence. Our team helps you post updates, offers, and announcements, keeping your audience informed and engaged. We also monitor and respond to customer reviews, which builds trust and encourages positive interactions.",
+          "By leveraging Google My Business services in Nepal, your business can gain a competitive edge in local search results, boost foot traffic, and increase online conversions. Whether you are a small local shop or a growing enterprise, optimizing your GMB listing is essential to attracting nearby customers and driving sales.",
+          "Partner with Shree Krishna Digital Solutions Pvt Ltd to make the most of your Google My Business profile. Our dedicated experts ensure your business shines online, helping you grow with confidence in today’s digital marketplace.",
+        ],
+        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+      },
+      {
+        icon: payIconNepal,
+        title: "Pay Per Click Marketing",
+        link: "/pay-per-click-in-san-francisco",
+        shortdesc:
+          "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
+        desc: [
+          "In today’s fast-paced digital world, businesses need instant visibility to stay ahead of the competition. Pay-per-click advertising offers a powerful solution by placing your brand directly in front of potential customers actively searching for your products or services. At Shree Krishna Digital Solutions Pvt Ltd, we provide expert pay-per-click (PPC) services in Nepal designed to deliver immediate results and maximize your advertising budget.",
+          "Our group specializes in developing PPC campaigns that are specifically targeted to the appropriate audience at the right moment. Whether you want to increase website traffic, generate qualified leads, or boost sales, our customized approach ensures your ads perform effectively on platforms like Google Ads, Bing Ads, and social media networks.",
+          "With our pay-per-click (PPC) services in Nepal, we handle every aspect of your campaign,  from keyword research and ad creation to bid management and performance analysis. We focus on selecting high-converting keywords and crafting compelling ad copy that drives clicks and encourages conversions, helping you get the most out of your investment.",
+          "Transparency and continuous optimization are key elements of our PPC management strategy. We monitor your campaigns closely, analyzing data to improve targeting, reduce costs, and enhance ad performance. Regular reporting keeps you informed about how your ads are performing, allowing you to make data-driven decisions for your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a trusted agency committed to growing your business through effective pay-per-click (PPC) services in Nepal. Our goal is to deliver measurable results that help you reach your marketing objectives quickly and efficiently.",
+        ],
+        bannerImage:
+          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+      },
+      {
+        icon: webIconNepal,
+        title: "Web Developement",
+        link: "/web-devlopement-in-san-francisco",
+        shortdesc:
+          "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+        desc: [
+          "In the digital era, a strong online presence is vital for any business to thrive. At Shree Krishna Digital Solutions Pvt Ltd, we provide professional web development services in Nepal that are tailored to meet your unique business needs. Whether you’re a startup or an established company, our expert developers create websites that are not only visually appealing but also highly functional and user-friendly.",
+          "From responsive website design to sophisticated e-commerce solutions, we offer a wide range of web development services in Nepal. We understand that every business has different goals, so we work closely with you to build a website that reflects your brand identity and delivers an exceptional user experience.",
+          "Using the latest technologies and industry best practices, our skilled team develops websites optimized for speed, security, and search engine rankings. This ensures your website performs flawlessly across all devices and helps you attract and retain customers effectively.",
+          "We offer continuing support and maintenance in addition to design and development to keep your website current and functional. Whether you need to add new features, update content, or troubleshoot technical issues, our team is here to assist you every step of the way.",
+          "With our web development services in Nepal, you can expect custom solutions that drive engagement, increase conversions, and boost your online visibility. We focus on creating scalable and flexible websites that grow alongside your business.",
+          "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a reliable and innovative web development agency committed to your success. We pride ourselves on delivering projects on time and within budget while exceeding client expectations.",
+          "Are you ready to expand your digital reach with experienced web development services in Nepal? Contact us today to discuss your project and let us help you build a powerful online presence that sets you apart from the competition.",
+        ],
+        bannerImage:
+          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+      },
+      {
+        icon: appIconNepal,
+        title: "Application Development",
+        link: "/application-development-in-san-francisco",
+        shortdesc:
+          "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+        desc: [
+          "In today’s fast-paced digital world, mobile and web applications have become essential tools for businesses to connect with customers, streamline operations, and boost productivity. At Shree Krishna Digital Solutions Pvt Ltd, we specialize in delivering customized application development services in Nepal that cater to your specific business needs and goals.",
+          "Our experienced development team excels in building scalable, user-friendly applications across various platforms, including iOS, Android, and the web. Whether you require a sleek mobile app for customer engagement or a robust enterprise application to manage internal processes, our application development services in Nepal are designed to help you stay competitive and innovative.",
+          "We follow a comprehensive development process starting from understanding your requirements and designing intuitive interfaces to coding and rigorous testing. Our priority is to deliver high-quality applications that offer seamless performance, security, and excellent user experience.",
+          "By leveraging the latest technologies and industry best practices, our developers create solutions that integrate smoothly with your existing systems and can be easily updated as your business grows. We also provide post-launch support and maintenance to ensure your application remains up-to-date and efficient.",
+          "At Shree Krishna Digital Solutions Pvt Ltd, we understand that each business is unique, which is why our application development services in Nepal are highly customizable. From startups to established enterprises, we work closely with you to build applications that align perfectly with your brand and operational requirements.",
+          "Partnering with us means gaining access to a reliable, innovative, and dedicated team focused on delivering timely and cost-effective application development solutions.",
+        ],
+        bannerImage:
+          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+      },
+    ],
+  },
 ];
 
 export default countries;
