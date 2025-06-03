@@ -1785,9 +1785,11 @@ const countries = [
   },
   {
     title: "Sydney",
+    desc: "",
     url: "",
     type: "australia",
-    banner:"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/1200px-Sydney_Opera_House_-_Dec_2008.jpg",
+    banner:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Sydney_Opera_House_-_Dec_2008.jpg/1200px-Sydney_Opera_House_-_Dec_2008.jpg",
     services: [
       {
         icon: seoIconNepal,
@@ -1894,9 +1896,11 @@ const countries = [
   },
   {
     title: "Adelaide",
+    desc: "",
     url: "",
     type: "australia",
-    banner:"https://luxuryescapes.com/inspiration/wp-content/uploads/2024/08/Shutterstock_2340366363.jpg",
+    banner:
+      "https://luxuryescapes.com/inspiration/wp-content/uploads/2024/08/Shutterstock_2340366363.jpg",
     services: [
       {
         icon: seoIconNepal,
@@ -2003,9 +2007,12 @@ const countries = [
   },
   {
     title: "Perth",
+    desc: "",
+
     url: "",
     type: "australia",
-    banner:"https://content.r9cdn.net/rimg/dimg/ba/de/deacb4c5-city-11563-17a3ef27550.jpg?width=1200&height=630&xhint=4145&yhint=2485&crop=true",
+    banner:
+      "https://content.r9cdn.net/rimg/dimg/ba/de/deacb4c5-city-11563-17a3ef27550.jpg?width=1200&height=630&xhint=4145&yhint=2485&crop=true",
     services: [
       {
         icon: seoIconNepal,
@@ -2112,9 +2119,11 @@ const countries = [
   },
   {
     title: "New York",
+    desc: "",
     url: "",
     type: "usa",
-    banner:"https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/New_York_1.jpg",
+    banner:
+      "https://pohcdn.com/sites/default/files/styles/paragraph__live_banner__lb_image__1880bp/public/live_banner/New_York_1.jpg",
     services: [
       {
         icon: seoIconNepal,
@@ -2221,9 +2230,11 @@ const countries = [
   },
   {
     title: "Chicago",
+    desc: "",
     url: "",
     type: "usa",
-    banner:"https://media-cdn.tripadvisor.com/media/photo-s/1d/e5/40/12/caption.jpg",
+    banner:
+      "https://media-cdn.tripadvisor.com/media/photo-s/1d/e5/40/12/caption.jpg",
     services: [
       {
         icon: seoIconNepal,
@@ -2330,9 +2341,11 @@ const countries = [
   },
   {
     title: "San Francisco",
+    desc: "",
     url: "",
     type: "usa",
-    banner:"https://cdn.craft.cloud/101e4579-0e19-46b6-95c6-7eb27e4afc41/assets/uploads/Guides/san-francisco-california-frommers.jpg",
+    banner:
+      "https://cdn.craft.cloud/101e4579-0e19-46b6-95c6-7eb27e4afc41/assets/uploads/Guides/san-francisco-california-frommers.jpg",
     services: [
       {
         icon: seoIconNepal,
