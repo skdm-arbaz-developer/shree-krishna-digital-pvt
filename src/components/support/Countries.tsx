@@ -151,6 +151,42 @@ const countries = [
           "Great communication and timely execution. The best digital marketing partner we’ve had!",
       },
     ],
+    faqSection: {
+      title: "Expanding Horizons Across Digital Platforms",
+      desc: "We leverage every opportunity to boost your brand’s presence. As the best digital marketing agency in India, we maximise your reach on diverse platforms for unmatched growth.",
+      faq: [
+        {
+          question: "What is Search Engine Optimization (SEO)?",
+          answer:
+            "SEO is the process of optimizing your website to rank higher on search engines like Google, increasing organic traffic and visibility.",
+        },
+        {
+          question: "What is Social Media Marketing?",
+          answer:
+            "SMM involves promoting your brand and content on social media platforms like Facebook, Instagram, LinkedIn, and Twitter to engage with your audience.",
+        },
+        {
+          question: "What is Google My Business (GMB)?",
+          answer:
+            "GMB is a free Google tool that allows businesses to create and manage their online presence on Google Search and Maps.",
+        },
+        {
+          question: "What is Pay Per Click (PPC) Marketing?",
+          answer:
+            "PPC is an online advertising model where advertisers pay each time their ad is clicked, commonly used on Google Ads and social media.",
+        },
+        {
+          question: "What does web development include?",
+          answer:
+            "It involves building websites, including front-end design, back-end coding, and database management.",
+        },
+        {
+          question: "What is application development?",
+          answer:
+            "It refers to creating software applications for mobile devices, desktops, or web platforms.",
+        },
+      ],
+    },
     getintouchSection:
       "Connect with our expert team for personalised solutions. We're here to answer your inquiries and help your business thrive. Let’s start your digital journey together now!",
 

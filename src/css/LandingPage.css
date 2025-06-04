@@ -137,7 +137,7 @@
   color: #222429;
   border-radius: 5px;
   overflow: hidden;
-  z-index: 100000;
+  z-index: 1;
 }
 
 .india .landing-banner-content button {

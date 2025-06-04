@@ -24,7 +24,7 @@ export default function LogoScrolling() {
     image5,
   ];
   return (
-    <div className="fixed bottom-0 left-0 right-0 p-3 z-10">
+    <div className="fixed bottom-0 left-0 right-0 p-3 z-10000000">
       <div className="scrolling-logo">
         <h5 className="label-style hidden lg:block">
           Our Trusted <br />

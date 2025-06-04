@@ -106,7 +106,7 @@ export default function ServiceViewHeader({ service }: any) {
               <span>CALL ANYTIME</span>
               <br />
               <NavLink to={"tel:+917021390953"}>
-                +91&nbsp;702&nbsp;139&nbsp;0958
+                +91&nbsp;702&nbsp;139&nbsp;0953
               </NavLink>
             </div>
           </div>
@@ -136,7 +136,7 @@ export default function ServiceViewHeader({ service }: any) {
                 <span>CALL ANYTIME</span>
                 <br />
                 <NavLink to={"tel:+917021390953"}>
-                  +91&nbsp;702&nbsp;139&nbsp;0958
+                  +91&nbsp;702&nbsp;139&nbsp;0953
                 </NavLink>
               </div>
             </div>

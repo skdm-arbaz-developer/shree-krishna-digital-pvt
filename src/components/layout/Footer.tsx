@@ -83,10 +83,11 @@ export default function Footer() {
             <NavLink to="/" className="footer-brand">
               <img src={logo} />
               <p>
-                Shree Marketing is a leading digital marketing agency
-                specializing in innovative strategies to elevate your brand's
-                online presence. Our expert team is dedicated to delivering
-                results-driven solutions tailored to your unique business needs.
+                About Us Founded in 2018 in Andheri, Mumbai, Shree Krishna
+                Digital Marketing is dedicated to helping businesses grow
+                through innovative, data-driven strategies. As an award-winning
+                agency, we specialize in digital marketing, logo design, and
+                website development.
               </p>
             </NavLink>
             {/* <div className="footer-growth">

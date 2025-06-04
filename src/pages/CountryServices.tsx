@@ -6,11 +6,11 @@ import Header from "../components/CountryLandingPage/Header";
 import Services from "../components/CountryLandingPage/Services";
 import AboutUs from "../components/CountryLandingPage/AboutUs";
 import WhyChooseUs from "../components/CountryLandingPage/WhyChooseUs";
-// import FAQ from "../components/CountryLandingPage/FAQ";
 import Promotion from "../components/CountryLandingPage/Promotion";
 import Testimonial from "../components/CountryLandingPage/Testimonial";
 import GetInTouch from "../components/CountryLandingPage/GetInTouch";
-import Cities from "../components/CountryLandingPage/Cities";
+// import Cities from "../components/CountryLandingPage/Cities";
+import FAQ from "../components/CountryLandingPage/FAQ";
 
 interface Service {
   icon: string;
@@ -99,13 +99,13 @@ export default function CountryServices() {
         <Services data={service} serviceRef={serviceRef} />
         <AboutUs data={service} aboutRef={aboutRef} />
         <WhyChooseUs data={service} />
-        {/* <FAQ faqRef={faqRef} /> */}
+        <FAQ data={service} faqRef={faqRef} />
         <Promotion data={service} />
         <Testimonial data={service} testimonialRef={testimonialRef} />
         <GetInTouch data={service} contactRef={contactRef} />
-        {(service?.type === "australia" || service?.type === "usa") && (
+        {/* {(service?.type === "australia" || service?.type === "usa") && (
           <Cities data={service} />
-        )}
+        )} */}
       </div>
     )
   );

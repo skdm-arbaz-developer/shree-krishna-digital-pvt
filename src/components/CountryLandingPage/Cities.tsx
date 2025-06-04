@@ -26,7 +26,7 @@ export default function Cities({ data }: any) {
             natus ea delectus quos quaerat esse. Nesciunt?
           </p>
         </div>
-        <div className="grid grid-cols-3 gap-5">
+        <div className="grid lg:grid-cols-3 gap-5">
           {countries
             ?.filter((val) => val?.type === data?.type)
             ?.splice(1, 3)

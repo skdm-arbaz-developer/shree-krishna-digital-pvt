@@ -30,7 +30,7 @@ export default function GetInTouch({ data, contactRef }: any) {
                       <LuPhoneCall />
                     </div>
                     <div className="contact">
-                      +91&nbsp;7021&nbsp;390&nbsp;958
+                      +91&nbsp;7021&nbsp;390&nbsp;953
                     </div>
                   </NavLink>
                 </li>
@@ -40,7 +40,7 @@ export default function GetInTouch({ data, contactRef }: any) {
                       <BsWhatsapp />
                     </div>
                     <div className="contact">
-                      +91&nbsp;7021&nbsp;390&nbsp;958
+                      +91&nbsp;7021&nbsp;390&nbsp;953
                     </div>
                   </NavLink>
                 </li>
