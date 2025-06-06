@@ -11,9 +11,12 @@ import maldivesIcon from "../../assets/images/icons/Icon/7.png";
 import unitedkingdomIcon from "../../assets/images/icons/Icon/8.png";
 import malasiaIcon from "../../assets/images/icons/Icon/9.png";
 import { useEffect, useState } from "react";
+import { IoCloseSharp } from "react-icons/io5";
+import { BsList } from "react-icons/bs";
 
 export default function ServiceViewHeader({ service }: any) {
   const [active, setActive] = useState(false);
+  const [showNavList, setShowNavList] = useState(false);
 
   const navigation = [
     { title: "Home", link: "home" },
@@ -89,45 +92,24 @@ export default function ServiceViewHeader({ service }: any) {
           <NavLink to={"/" + service?.type} className="logo">
             <img src={logo} />
           </NavLink>
-          <div className="navigation">
+          <div className={`navigation ${showNavList ? "active" : ""}`}>
             <ul>
               {navigation.map((val, index) => (
-                <li key={index} style={{ cursor: "pointer" }}>
-                  <NavLink to={"/" + service?.type}>{val?.title}</NavLink>
+                <li
+                  key={index}
+                  onClick={() => {
+                    setShowNavList(false);
+                  }}
+                  style={{ cursor: "pointer" }}
+                >
+                  <NavLink to={"/" + service?.type} className="logo">
+                    {val?.title}
+                  </NavLink>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="callbutton">
-            <div className="call-icon">
-              <img src={getIcons(service?.type)} />
-            </div>
-            <div className="phone">
-              <span>CALL ANYTIME</span>
-              <br />
-              <NavLink to={"tel:+917021390953"}>
-                +91&nbsp;702&nbsp;139&nbsp;0953
-              </NavLink>
-            </div>
-          </div>
-        </div>
-      </header>
-
-      <div className={`header-second ${active ? "active" : ""}`}>
-        <header className="landng-page-header">
-          <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-            <NavLink to={"/" + service?.type} className="logo">
-              <img src={logo} />
-            </NavLink>
-            <div className="navigation">
-              <ul>
-                {navigation.map((val, index) => (
-                  <li key={index} style={{ cursor: "pointer" }}>
-                    <NavLink to={"/" + service?.type}>{val?.title}</NavLink>
-                  </li>
-                ))}
-              </ul>
-            </div>
+          <div className="hidden lg:block">
             <div className="callbutton">
               <div className="call-icon">
                 <img src={getIcons(service?.type)} />
@@ -139,6 +121,63 @@ export default function ServiceViewHeader({ service }: any) {
                   +91&nbsp;702&nbsp;139&nbsp;0953
                 </NavLink>
               </div>
+            </div>
+          </div>
+
+          <div
+            className="toggleButton cursor-pointer"
+            onClick={() => setShowNavList((prev) => !prev)}
+          >
+            {showNavList ? (
+              <IoCloseSharp style={{ fontSize: "2rem" }} />
+            ) : (
+              <BsList style={{ fontSize: "2rem" }} />
+            )}
+          </div>
+        </div>
+      </header>
+
+      <div className={`header-second ${active ? "active" : ""}`}>
+        <header className="landng-page-header">
+          <div className="container mx-auto px-0 sm:px-5 xl:px-0">
+            <NavLink to={"/" + service?.type} className="logo">
+              <img src={logo} />
+            </NavLink>
+            <div className={`navigation ${showNavList ? "active" : ""}`}>
+              <ul>
+                {navigation.map((val, index) => (
+                  <li key={index} style={{ cursor: "pointer" }}>
+                    <NavLink to={"/" + service?.type} className="logo">
+                      <span>{val?.title}</span>
+                    </NavLink>
+                  </li>
+                ))}
+              </ul>
+            </div>
+            <div className="hidden lg:block">
+              <div className="callbutton">
+                <div className="call-icon">
+                  <img src={getIcons(service?.type)} />
+                </div>
+                <div className="phone">
+                  <span>CALL ANYTIME</span>
+                  <br />
+                  <NavLink to={"tel:+917021390953"}>
+                    +91&nbsp;702&nbsp;139&nbsp;0953
+                  </NavLink>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="toggleButton cursor-pointer"
+              onClick={() => setShowNavList((prev) => !prev)}
+            >
+              {showNavList ? (
+                <IoCloseSharp style={{ fontSize: "2rem" }} />
+              ) : (
+                <BsList style={{ fontSize: "2rem" }} />
+              )}
             </div>
           </div>
         </header>

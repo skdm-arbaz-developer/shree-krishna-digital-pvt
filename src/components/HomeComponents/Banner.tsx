@@ -25,7 +25,7 @@ export default function Banner() {
           specializes in creating tailored strategies that drive results and
           elevate your brand's online presence.
         </p>
-        <EnquiryForm />
+        <EnquiryForm text={true} />
       </div>
     </div>
   );

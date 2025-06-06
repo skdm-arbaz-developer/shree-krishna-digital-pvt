@@ -16,7 +16,7 @@ export default function AboutUs() {
           <div className="section-body lg:px-10 flex flex-col justify-center">
             <h2 className="section-title">About Us</h2>
             <p className="section-content">
-              About Us Founded in 2018 in Andheri, Mumbai, Shree Krishna Digital
+             Founded in 2018 in Andheri, Mumbai, Shree Krishna Digital Solutions Pvt. Ltd.
               Marketing is dedicated to helping businesses grow through
               innovative, data-driven strategies. As an award-winning agency, we
               specialize in digital marketing, logo design, and website

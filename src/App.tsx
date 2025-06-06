@@ -21,6 +21,7 @@ import ComingSoon from "./pages/ComingSoon";
 import CountryServices from "./pages/CountryServices";
 import CountryServiceView from "./pages/CountryServiceView";
 import LogoScrolling from "./components/HomeComponents/LogoScrolling";
+import SeoOptimizer from "./pages/SeoOptimizer";
 
 function App() {
   return (
@@ -116,6 +117,16 @@ function App() {
           />
         ))}
         <Route path="/coming-soon" element={<ComingSoon />} />
+        <Route
+          path="/seo-optimizer"
+          element={
+            <>
+              <Header />
+              <SeoOptimizer />
+              <Footer />{" "}
+            </>
+          }
+        />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </BrowserRouter>

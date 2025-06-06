@@ -25,7 +25,7 @@ export default function GetInTouch({ data, contactRef }: any) {
             <div className="get-in-touch-list">
               <ul>
                 <li>
-                  <NavLink to="+917021390953">
+                  <NavLink to="tel:+917021390953">
                     <div className="get-in-touch-icon">
                       <LuPhoneCall />
                     </div>
@@ -86,7 +86,7 @@ export default function GetInTouch({ data, contactRef }: any) {
                   style={{ height: 65 }}
                 >
                   <i className="btn-curve" />
-                  <span className="btn-title">Discover More</span>
+                  <span className="btn-title">Submit Enquiry</span>
                 </Button>
               </Form.Item>
             </div>

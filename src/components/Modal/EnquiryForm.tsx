@@ -24,7 +24,7 @@ interface SelectedData {
   planing: string | null;
 }
 
-export default function EnquiryForm() {
+export default function EnquiryForm({ text }: any) {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [active, setActive] = useState(1);
   const [form] = Form.useForm();
@@ -156,10 +156,17 @@ export default function EnquiryForm() {
 
   return (
     <>
-      <Button onClick={showModal} className="comman-button enquiry-button">
-        <span className="hidden xl:block">Get Quoate</span>
-        <MdOutlineSupportAgent />
-      </Button>
+      {text ? (
+        <Button onClick={showModal} className="comman-button">
+          <span>Get Quote</span>
+          <MdOutlineSupportAgent />
+        </Button>
+      ) : (
+        <Button onClick={showModal} className="comman-button enquiry-button">
+          <span className="hidden xl:block">Get Quote</span>
+          <MdOutlineSupportAgent />
+        </Button>
+      )}
       <Modal
         width={900}
         centered
@@ -203,8 +210,8 @@ export default function EnquiryForm() {
                       style={{ width: "100%" }}
                     >
                       <div className="grid grid-cols-2 gap-5">
-                        {val?.options?.map((val) => (
-                          <Checkbox value={val}>{val}</Checkbox>
+                        {val?.options?.map((val, index) => (
+                          <Checkbox key={index} value={val}>{val}</Checkbox>
                         ))}
                       </div>
                     </Checkbox.Group>

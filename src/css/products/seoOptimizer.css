@@ -1,0 +1,53 @@
+.seo_banner {
+  background-image: url(https://www.opendesignsin.com/blog/wp-content/uploads/2024/04/shutterstock_189399701-scaled.jpg);
+  background-color: rgb(0, 0, 0, 0.4);
+  min-height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: overlay;
+  color: #fff;
+  border-radius: 30px;
+  position: relative;
+}
+
+.seo_banner .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.seo_banner h1 {
+  font-size: 4rem;
+}
+
+.seo_banner p {
+  color: #eee;
+}
+
+.search_panel {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 700px;
+  position: absolute;
+  bottom: -25%;
+  box-shadow: 0 0 3px #808080;
+}
+
+.data_title h2 {
+  font-size: 1.4rem;
+}
+
+.data_title button {
+  background: red;
+  color: #fff;
+  height: 40px;
+}
+
+.data_title button:hover {
+  border-color: red !important;
+  color: red !important;
+}

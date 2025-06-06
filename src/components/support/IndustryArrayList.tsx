@@ -209,110 +209,109 @@ const industries = [
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "gray",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How can digital marketing help hospitals attract more patients?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Digital marketing improves hospital visibility on search engines and social media, bringing in more patient inquiries and bookings.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What role does SEO play for doctors or clinics?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: 'SEO helps clinics rank higher in search results for keywords like "best dentist near me," increasing organic traffic.',
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How can Google Ads benefit healthcare services?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Google Ads show your services at the top of search results, bringing in targeted leads for specific treatments.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "Is social media marketing effective for medical professionals?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, platforms like Instagram and Facebook help build trust, share testimonials, and highlight success stories.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "What kind of content should healthcare providers post online?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Educational blogs, video consultations, patient testimonials, and treatment explanations work well.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How can digital reviews and ratings affect hospital reputation?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Positive online reviews can influence patient trust and decision-making significantly.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "Can digital marketing help in building trust for new healthcare setups?",
+          answer: {
+            para: "Yes, through content marketing, reviews, and professional branding, trust can be built online.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How does local SEO help doctors get more footfall?",
+          answer: {
+            para: "It helps you appear in Google Maps and local search results when users look for healthcare services nearby.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "What are the best platforms for healthcare marketing?",
+          answer: {
+            para: "Google, Facebook, YouTube, and LinkedIn are effective depending on the specialty.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "How can appointment booking be streamlined with digital strategies?",
+          answer: {
+            para: "Integrating booking systems with websites and Google Business Profile allows direct online appointments.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "Does Shree Krishna Digital Solution PVT. LTD offer SEO services in India?",
+          answer: {
+            para: "Yes, Shree Krishna Digital Solution PVT. LTD specializes in providing tailored SEO solutions to boost your online presence across India.",
+            list: [],
             note: "",
           },
         },
       ],
     },
     contact: {
-      mode: "gray",
+      mode: "light",
       title: "Have Any Query! Let's discuss",
       image: contactImage,
       shortdesc:
@@ -580,110 +579,101 @@ const industries = [
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "gray",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How can digital marketing help real estate agents get more leads?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "By targeting users actively searching for properties through ads, SEO, and social media.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Is SEO important for property listings?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, SEO ensures your listings appear when users search for properties online.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How does social media influence real estate buyers?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Platforms like Instagram and Facebook help visualize properties and reach potential buyers.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "Can virtual tours and video marketing improve property interest?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, they offer immersive experiences, increasing trust and conversion.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What role do Google Ads play in real estate marketing?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "They offer quick exposure to a large audience and can target buyers based on location and intent.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How does content marketing build trust for real estate companies?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Blogs and videos that educate buyers help build authority and trust.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "What is the ROI of using digital platforms for property sales?",
+          answer: {
+            para: "High ROI due to measurable results and targeted audience reach.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "How important is it to have a mobile-friendly real estate website?",
+          answer: {
+            para: "Vital. Most users search for properties on mobile devices.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "Can digital marketing reduce dependency on traditional agents?",
+          answer: {
+            para: "Yes. Direct digital campaigns can generate qualified leads.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "What platforms are best for promoting real estate listings?",
+          answer: {
+            para: "Google, Facebook, Instagram, MagicBricks, and 99acres.",
+            list: [],
             note: "",
           },
         },
       ],
     },
     contact: {
-      mode: "gray",
+      mode: "light",
       title: "Have Any Query! Let's discuss",
       image: contactImage,
       shortdesc:
@@ -950,110 +940,98 @@ const industries = [
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "gray",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question: "How can digital marketing increase student enrollments?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "By using targeted ads, SEO, and social content to reach students and parents online.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Is social media effective for promoting courses?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, Instagram, Facebook, and YouTube are powerful tools to share course highlights and testimonials.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How do educational institutions use SEO to gain visibility?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "By optimizing their websites and blogs for relevant course and location-based queries.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What role do paid ads play in student admissions?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "They help reach a larger audience quickly and drive inquiries and registrations.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How to target the right audience for a coaching institute?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Use location, age, education level, and interest-based targeting on ad platforms.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Can email campaigns help retain students?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, email is excellent for keeping students updated on admissions, courses, and exam tips.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "What kind of content works best for educational marketing?",
+          answer: {
+            para: "Tutorials, FAQs, webinar promotions, and success stories are highly effective.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How can YouTube help in student acquisition?",
+          answer: {
+            para: "Educational content and testimonials build trust and attract learners through visual appeal.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "Is mobile marketing effective for colleges and coaching centers?",
+          answer: {
+            para: "Yes, SMS campaigns and mobile-optimized websites are crucial for student engagement.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How to measure ROI in educational digital marketing?",
+          answer: {
+            para: "By tracking leads, enrollments, website visits, and cost per acquisition (CPA).",
+            list: [],
             note: "",
           },
         },
       ],
     },
     contact: {
-      mode: "gray",
+      mode: "light",
       title: "Have Any Query! Let's discuss",
       image: contactImage,
       shortdesc:
@@ -1319,110 +1297,99 @@ const industries = [
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "gray",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How can digital marketing help hotels and caterers get more bookings?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "By increasing online visibility, digital marketing brings targeted traffic from people searching for hospitality services.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What is the role of SEO in hospitality marketing?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: 'SEO helps your hotel or catering business rank higher for keywords like "wedding caterers near me" or "best hotel in [city]."',
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "Are social media platforms effective for catering businesses?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, Instagram and Facebook help showcase events, menus, and client testimonials.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How do online reviews impact the hospitality industry?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Positive reviews on platforms like Google and TripAdvisor can influence booking decisions.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Can Google Ads help generate leads for catering services?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Absolutely. Targeted ads ensure your business appears when someone searches for catering in your location.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How important is mobile optimization for hospitality websites?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Very important. Many users book hotels and catering services via mobile devices.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "What kind of content works best for promoting hospitality services?",
+          answer: {
+            para: "Mouth-watering food photos, customer testimonials, behind-the-scenes videos, and service highlights.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How can email marketing help in customer retention?",
+          answer: {
+            para: "By sending special offers, festive menus, and loyalty discounts to past clients.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "Can influencer marketing be effective for boutique hotels or chefs?",
+          answer: {
+            para: "Yes, collaborations with food bloggers or travel influencers drive high visibility.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How to measure ROI in digital marketing for hospitality?",
+          answer: {
+            para: "By tracking bookings, form fills, calls, and online inquiries through analytics tools.",
+            list: [],
             note: "",
           },
         },
       ],
     },
     contact: {
-      mode: "gray",
+      mode: "light",
       title: "Have Any Query! Let's discuss",
       image: contactImage,
       shortdesc:
@@ -1686,110 +1653,99 @@ const industries = [
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "gray",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How can digital marketing help increase bookings for resorts?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "By targeting travelers with offers and visual content on social media and Google.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "What is the impact of Google Business Profile on resort visibility?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "It enhances local SEO and makes it easy for guests to find and review your resort.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How can Instagram and Facebook help market villas?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Through engaging reels, stories, and testimonials that create a desire to book.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Are influencer collaborations effective for luxury stays?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, influencers drive high engagement and bookings.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "What digital tools can showcase property amenities better?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "360° videos, drone photography, and virtual walkthroughs.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How do online travel platforms integrate with digital marketing?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "They can sync with your website and marketing campaigns to improve reach.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "Can customer reviews on digital platforms attract more guests?",
+          answer: {
+            para: "Absolutely. High ratings improve trust and bookings.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "What SEO practices work for vacation villas and resorts?",
+          answer: {
+            para: "Location-based keywords, optimized listings, and backlinks.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How can retargeting ads bring back website visitors?",
+          answer: {
+            para: "They remind users who visited your site to come back and book.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How to market seasonal offers digitally for resorts?",
+          answer: {
+            para: "Use email campaigns, social media banners, and Google Ads.",
+            list: [],
             note: "",
           },
         },
       ],
     },
     contact: {
-      mode: "gray",
+      mode: "light",
       title: "Have Any Query! Let's discuss",
       image: contactImage,
       shortdesc:
@@ -2052,110 +2008,98 @@ const industries = [
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "gray",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How can interior designers attract high-paying clients online?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Through professional branding, showcasing portfolios, and client testimonials.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "Is Pinterest useful for marketing interior design services?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, it's a top platform for visual discovery and inspiration.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How can a blog improve brand authority for designers?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "By educating users and showing design expertise.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What are the best social platforms for interior projects?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Instagram, Pinterest, and YouTube.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Can digital portfolios help win interior projects?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, clients prefer seeing real projects before contacting.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How does SEO benefit interior design websites?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "It brings organic traffic from users searching for interior services.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Can video testimonials help in building trust?",
+          answer: {
+            para: "Definitely. They offer proof of client satisfaction.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "How to showcase before-and-after transformations effectively?",
+          answer: {
+            para: "Through time-lapse videos or photo sliders on the website and social media.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "How can Google Ads bring in more local interior design inquiries?",
+          answer: {
+            para: 'By targeting users searching for "interior designer near me."',
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How important is website UI/UX for interior firms?",
+          answer: {
+            para: "Very. A well-designed site reflects the firm's aesthetic and builds credibility.",
+            list: [],
             note: "",
           },
         },
       ],
     },
     contact: {
-      mode: "gray",
+      mode: "light",
       title: "Have Any Query! Let's discuss",
       image: contactImage,
       shortdesc:
@@ -2420,110 +2364,98 @@ const industries = [
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "gray",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How does digital marketing increase footfall for spas and salons?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "It promotes your services to local audiences using Google Maps, Instagram, and Facebook, increasing bookings.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What platforms are best for advertising spa services?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Instagram, Facebook, and Google Ads are highly effective for promotions and visibility.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "Can appointment booking systems be integrated into digital marketing?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, platforms like Google My Business, websites, and Facebook can allow direct appointment booking.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How can discounts be promoted digitally to attract new customers?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Use email marketing, SMS campaigns, and social ads with offer-driven messaging.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Are Facebook and Instagram ads effective for salons?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, they allow targeting by location, gender, age, and beauty interests.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How important are online reviews for beauty and wellness brands?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Crucial—they help establish trust and influence customer choices.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "What role do influencers play in spa marketing?",
+          answer: {
+            para: "Local influencers can provide authentic exposure and attract new clients.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "How can content like tips and tutorials help build trust?",
+          answer: {
+            para: "It positions your brand as an expert, attracting followers and potential customers.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "What keywords are important for spa SEO?",
+          answer: {
+            para: "Keywords like “best spa near me” or “bridal makeup in [city]” boost search visibility.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Can customer loyalty programs be marketed digitally?",
+          answer: {
+            para: "Yes, through email and SMS automation, you can retain customers and drive repeat visits.",
+            list: [],
             note: "",
           },
         },
       ],
     },
     contact: {
-      mode: "gray",
+      mode: "light",
       title: "Have Any Query! Let's discuss",
       image: contactImage,
       shortdesc:
@@ -2787,110 +2719,99 @@ const industries = [
     faq: {
       image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
       mode: "gray",
-      title: "Helpfull SEO F.A.Q.",
+      title: "Helpfull F.A.Q.",
       shortdesc:
         "If you can not find any answers here, please feel free to contact us anytime via the chat box or using our contact form.",
       list: [
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "How can digital marketing boost brand awareness for a lifestyle brand?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Digital marketing uses platforms like Instagram, Pinterest, and YouTube to visually promote lifestyle products or services. This helps build brand identity and increase exposure to a wider audience.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "What platforms are best for marketing lifestyle products?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Platforms like Instagram, Facebook, YouTube, and Pinterest are ideal for lifestyle brands because they support rich visuals, influencer partnerships, and storytelling.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question:
+            "Can influencer marketing really help lifestyle businesses?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Yes, influencer marketing is highly effective in the lifestyle niche. Collaborating with relevant influencers can increase credibility, engagement, and drive more traffic to your brand.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How does SEO help lifestyle businesses?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Search Engine Optimization (SEO) helps your website appear in search results when people look for related lifestyle products or tips. This drives organic traffic and leads to more conversions.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "Is social media marketing enough for lifestyle brands?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "While social media is essential, combining it with SEO, email marketing, and paid ads ensures a well-rounded digital presence and better results.",
+            list: [],
             note: "",
           },
         },
         {
-          question: "What are the key component of an SEO Package",
+          question: "How can email marketing support lifestyle businesses?",
           answer: {
-            para: "An SEO package typically includes a range of services such as:",
-            list: [
-              "Keyword research and optimization",
-              "On-page optimization (meta tags, content optimization, URL structure)",
-              "Off-page optimization (link building, social media signals)",
-              "Technical SEO (website structure, site speed, mobile optimization)",
-              "Content creation and optimization",
-              "Competitor analysis",
-              "Performance tracking and reporting",
-            ],
+            para: "Email campaigns keep your audience engaged with updates, product launches, seasonal trends, and personalized recommendations, boosting customer loyalty and repeat purchases.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "What role does content marketing play for lifestyle brands?",
+          answer: {
+            para: "Blogs, videos, and tutorials build authority and trust. For example, a fitness brand might post workout videos or diet plans, driving traffic and establishing brand credibility.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question: "Can paid ads help lifestyle brands grow faster?",
+          answer: {
+            para: "Yes, platforms like Google Ads, Meta Ads, and Instagram Ads allow you to target specific interests, age groups, and locations to quickly reach your ideal customer.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "How do analytics help improve digital marketing efforts for lifestyle businesses?",
+          answer: {
+            para: "Analytics tools show which campaigns perform best, who your audience is, and what they respond to — helping you refine your strategy and boost ROI.",
+            list: [],
+            note: "",
+          },
+        },
+        {
+          question:
+            "What makes digital marketing cost-effective for small lifestyle businesses?",
+          answer: {
+            para: "Unlike traditional ads, digital marketing allows flexible budgets, detailed targeting, and real-time tracking, making it a cost-effective option for small to mid-size lifestyle brands.",
+            list: [],
             note: "",
           },
         },
       ],
     },
     contact: {
-      mode: "gray",
+      mode: "light",
       title: "Have Any Query! Let's discuss",
       image: contactImage,
       shortdesc:

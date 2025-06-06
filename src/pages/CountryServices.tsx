@@ -83,6 +83,15 @@ export default function CountryServices() {
     }
   }, [activeSection]);
 
+  const handleClick = () => {
+    if (serviceRef.current) {
+      serviceRef.current.scrollIntoView({
+        behavior: "smooth",
+        block: "start",
+      });
+    }
+  };
+
   return (
     service && (
       <div className={`relative ${service?.type}`}>
@@ -95,6 +104,7 @@ export default function CountryServices() {
           homeRef={homeRef}
           setActiveSection={setActiveSection}
           service={service}
+          handleClick={handleClick}
         />
         <Services data={service} serviceRef={serviceRef} />
         <AboutUs data={service} aboutRef={aboutRef} />

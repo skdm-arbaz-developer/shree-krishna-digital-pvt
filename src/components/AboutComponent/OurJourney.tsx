@@ -56,12 +56,12 @@ export default function OurJourney() {
         <img src={FaqStart} className="absolute top-0 right-0" />
 
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-          <div className="section-body flex flex-col justify-between items-center">
+          <div className="section-body flex flex-col justify-between lg:items-center">
             <h2
               className="section-title lg:text-center"
               style={{ maxWidth: "900px" }}
             >
-              Where It All Began: Shree Krishna Digital Solutions Pvt Ltd's
+              Where It All Began: Shree Krishna Digital Solutions Pvt Ltd
               Growth Story
             </h2>
             <p

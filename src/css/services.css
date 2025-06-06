@@ -28,3 +28,9 @@
 .work-section a:hover{
     text-decoration: underline;
 }
+
+@media(max-width:767px){
+  .work-section h3{
+    font-size: 1.4rem;
+  }
+}

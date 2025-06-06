@@ -11,6 +11,7 @@ import aayush from "../../assets/images/team/aayush-choubey.jpeg";
 import vaisnavi from "../../assets/images/team/vaishnavi-alhat.jpg";
 import lovkush from "../../assets/images/team/lovkush.jpeg";
 import siddesh from "../../assets/images/team/siddesh.jpeg";
+import { FaPeopleGroup } from "react-icons/fa6";
 
 export default function AboutOwner() {
   const teamlist = [
@@ -89,16 +90,16 @@ export default function AboutOwner() {
       <img src={SvgIcon} className="absolute top-0 right-0" />
 
       <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-        <div className="section-body flex justify-center flex-col items-center">
+        <div className="section-body flex justify-center flex-col lg:items-center">
           <h2 className="section-title">Our Leadership & Team</h2>
           <p className="section-content lg:text-center max-w-[900px]">
             Get a glimpse of the passionate team behind Shree Krishna Digital
-            Solution Pvt Ltd’s exceptional work. With creativity, dedication,
-            and expertise, they work together to craft smart solutions that
-            drive digital success. Every member brings unique value, turning
-            challenges into opportunities. They don’t just complete tasks; they
+            Solution Pvt Ltd exceptional work. With creativity, dedication, and
+            expertise, they work together to craft smart solutions that drive
+            digital success. Every member brings unique value, turning
+            challenges into opportunities. They don’t just complete tasks they
             build results. As the best digital marketing agency in Mumbai, our
-            team’s commitment and energy help take your brand to new heights.
+            team commitment and energy help take your brand to new heights.
           </p>
         </div>
         <div className="about-team mt-20">
@@ -111,20 +112,21 @@ export default function AboutOwner() {
                 <h2>Mr. Ambrish Kumar</h2>
                 <span>Founder & CEO</span>
                 <p style={{ fontSize: "1rem", color: "#000" }}>
-                  Ambrish Kumar is the founder and CEO of Shree Krishna Digital
-                  Solution Pvt Ltd, leading the company’s vision to provide
-                  impactful digital solutions. With deep expertise in business
-                  growth and marketing strategy, he started Shree Krishna
-                  Digital Solution Pvt Ltd to empower ambitious brands. Ambrish
-                  is recognized for his forward-thinking mindset, strategic
-                  planning, and focus on innovation. His leadership has built a
-                  culture that values performance, flexibility, and client
-                  success. Under his direction, it is the best digital marketing
-                  agency in Mumbai. We have earned a solid reputation as a
-                  reliable digital partner, delivering results that matter. Our
-                  drive for creative and effective solutions continues to guide
-                  the team. helping businesses navigate the digital world and
-                  grow confidently in a fast-evolving industry.
+                  Mr. Ambrish Kumar is the founder and CEO of Shree Krishna
+                  Digital Solution Pvt Ltd, leading the company’s vision to
+                  provide impactful digital solutions. With deep expertise in
+                  business growth and marketing strategy, he started Shree
+                  Krishna Digital Solution Pvt Ltd to empower ambitious brands.
+                  Mr. Ambrish Kumar is recognized for his forward-thinking
+                  mindset, strategic planning, and focus on innovation. His
+                  leadership has built a culture that values performance,
+                  flexibility, and client success. Under his direction, it is
+                  the best digital marketing agency in Mumbai. We have earned a
+                  solid reputation as a reliable digital partner, delivering
+                  results that matter. Our drive for creative and effective
+                  solutions continues to guide the team. helping businesses
+                  navigate the digital world and grow confidently in a
+                  fast-evolving industry.
                 </p>
                 <div className="flex justify-between items-center">
                   <div>
@@ -141,10 +143,11 @@ export default function AboutOwner() {
             <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8">
               <div className="team-card-list">
                 <h3>Our Team</h3>
+                <FaPeopleGroup style={{fontSize:"8rem"}} color="var(--primary-color)" />
                 <p>
                   Take a closer look at the professionals driving Shree Krishna
-                  Digital Solution Pvt Ltd’s mission forward. Their expertise
-                  and dedication help clients reach new digital heights.
+                  Digital Solution Pvt Ltd mission forward. Their expertise and
+                  dedication help clients reach new digital heights.
                 </p>
               </div>
               {teamlist.map((val, index) => (

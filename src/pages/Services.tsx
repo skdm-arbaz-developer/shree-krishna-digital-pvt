@@ -323,9 +323,9 @@ export default function Services() {
         {data.package && (
           <section className={`section section-${data?.package?.mode}`}>
             <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-              <div className="section-body flex flex-col items-center">
+              <div className="section-body flex flex-col lg:items-center">
                 <h2 className="section-title">{data?.package?.title}</h2>
-                <p className="section-content max-w-200">
+                <p className="section-content max-w-200 lg:text-center">
                   {data?.package?.shortdesc}
                 </p>
               </div>
@@ -344,11 +344,11 @@ export default function Services() {
         {data?.platform && (
           <section className={`section section-${data?.platform?.mode}`}>
             <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-              <div className="section-body flex flex-col items-center">
-                <h2 className="section-title text-center">
+              <div className="section-body flex flex-col lg:items-center">
+                <h2 className="section-title lg:text-center">
                   {data?.platform?.title}
                 </h2>
-                <p className="section-content text-center max-w-200">
+                <p className="section-content lg:text-center max-w-200">
                   {data?.platform?.shortdesc}
                 </p>
               </div>
@@ -402,9 +402,9 @@ export default function Services() {
             />
 
             <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-              <div className="section-body flex flex-col items-center">
-                <h2 className="section-title">{data?.benefitsSecond?.title}</h2>
-                <p className="section-content">
+              <div className="section-body flex flex-col lg:items-center">
+                <h2 className="section-title lg:text-center">{data?.benefitsSecond?.title}</h2>
+                <p className="section-content lg:text-center">
                   {data?.benefitsSecond?.shortdesc}
                 </p>
               </div>

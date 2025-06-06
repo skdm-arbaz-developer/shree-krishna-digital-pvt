@@ -77,6 +77,15 @@
   transform: translateX(-20%);
 }
 
+@media (max-width:767px){
+  .journey-content h2{
+    font-size: 1.6rem;
+  }
+  .journey-content {
+    padding: 20px !important;
+  }
+}
+
 /* =========================== Mission Vission ====================== */
 
 .mission-vission-card {

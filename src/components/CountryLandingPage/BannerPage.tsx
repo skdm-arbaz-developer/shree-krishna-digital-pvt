@@ -24,7 +24,7 @@ import malasiaSideCurve from "../../assets/images/icons/SideCurve/9.png";
 export default function BannerPage({
   service,
   homeRef,
-  setActiveSection,
+  handleClick
 }: any) {
   const getIcons = (country: string, type: string) => {
     let icons;
@@ -98,7 +98,7 @@ export default function BannerPage({
       <div className="landing-banner-content z-20 px-5">
         <h1>Best Digital Marketing Compnay in {service?.title}</h1>
         <h2 style={{maxWidth:700}}>{service?.bannerTitle}</h2>
-        <button onClick={() => setActiveSection("services")}>
+        <button onClick={handleClick}>
           <i className="btn-curve"></i> <span>Discover More</span>
         </button>
       </div>

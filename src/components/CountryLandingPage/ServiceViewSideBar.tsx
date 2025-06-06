@@ -32,7 +32,7 @@ export default function ServiceViewSideBar({ aboutCountry, data }: any) {
         <div className="sidebar-widget call-up">
           <div className="widget-inner">
             <div className="sidebar-title">
-              <h4>need Linoor help?</h4>
+              <h4>Need help?</h4>
             </div>
             <div className="text">
               Prefer speaking with a human to filling out a form? call corporate

@@ -1,9 +1,9 @@
 import { NavLink, useLocation } from "react-router-dom";
 import CommanBanner from "../components/support/CommanBanner";
 import industries from "../components/support/IndustryArrayList";
-import { Avatar, Button, Form, Input } from "antd";
+import { Avatar, Button, Collapse, Form, Input } from "antd";
 import TextArea from "antd/es/input/TextArea";
-import { FaAngleRight, FaUser } from "react-icons/fa6";
+import { FaAngleRight, FaMinus, FaPlus, FaUser } from "react-icons/fa6";
 import "../css/home/logoscroll.css";
 import { BsQuote } from "react-icons/bs";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -215,7 +215,7 @@ export default function Industries() {
             <img src={FaqStart} className="absolute top-0 right-0" />
 
             <div className="container mx-auto px-0 sm:px-5 xl:px-0 relative">
-              <div className="section-body pb-50">
+              <div className="section-body flex flex-col md:items-center pb-50">
                 <h2 className="section-title md:text-center">
                   {data?.testimonial?.title}
                 </h2>
@@ -267,10 +267,10 @@ export default function Industries() {
           </section>
         )}
 
-        {/* {data.faq && (
+        {data.faq && (
           <section className={`section section-${data?.faq?.mode}`}>
             <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-              <div className="section-body">
+              <div className="section-body flex flex-col md:items-center">
                 <h2 className="section-title md:text-center">
                   {data?.faq?.title}
                 </h2>
@@ -284,7 +284,7 @@ export default function Industries() {
               </div>
             </div>
           </section>
-        )} */}
+        )}
 
         {data.contact && (
           <section
@@ -372,50 +372,50 @@ export default function Industries() {
   );
 }
 
-// const FAQ = ({ detail }: any) => (
-//   <div className="faq-list mt-15">
-//     <div className="grid grid-cols-12">
-//       <div className="faq-image col-span-12 lg:col-span-7">
-//         <img src={detail?.image} />
-//       </div>
-//       <div className="faq-content mt-5 lg:mt-0 col-span-12 lg:col-span-5 flex items-start justify-start">
-//         <Collapse
-//           accordion
-//           style={{ width: "100%", border: "unset", background: "transparent" }}
-//           expandIcon={({ isActive }) => (isActive ? <FaMinus /> : <FaPlus />)}
-//           expandIconPosition="end"
-//           items={detail?.list?.map(
-//             (
-//               val: {
-//                 question: string;
-//                 answer: { para: string; list: []; note: string };
-//               },
-//               index: number
-//             ) => ({
-//               label: (
-//                 <h4 className="text-gray-950" style={{ fontSize: "1rem" }}>
-//                   {index + 1}) {val.question}
-//                 </h4>
-//               ),
-//               key: `${index + 1}`,
-//               children: (
-//                 <div>
-//                   <p className="mb-2">{val?.answer?.para}</p>
-//                   <ul style={{ listStyle: "initial", paddingLeft: 30 }}>
-//                     {val?.answer?.list?.map((val, index) => (
-//                       <li key={index}>{val}</li>
-//                     ))}
-//                   </ul>
-//                   <strong>{val?.answer?.note}</strong>
-//                 </div>
-//               ),
-//             })
-//           )}
-//         />
-//       </div>
-//     </div>
-//   </div>
-// );
+const FAQ = ({ detail }: any) => (
+  <div className="faq-list mt-15">
+    <div className="grid grid-cols-12">
+      <div className="faq-image col-span-12 lg:col-span-7">
+        <img src={detail?.image} />
+      </div>
+      <div className="faq-content mt-5 lg:mt-0 col-span-12 lg:col-span-5 flex items-start justify-start">
+        <Collapse
+          accordion
+          style={{ width: "100%", border: "unset", background: "transparent" }}
+          expandIcon={({ isActive }) => (isActive ? <FaMinus /> : <FaPlus />)}
+          expandIconPosition="end"
+          items={detail?.list?.map(
+            (
+              val: {
+                question: string;
+                answer: { para: string; list: []; note: string };
+              },
+              index: number
+            ) => ({
+              label: (
+                <h4 className="text-gray-950" style={{ fontSize: "1rem" }}>
+                  {index + 1}) {val.question}
+                </h4>
+              ),
+              key: `${index + 1}`,
+              children: (
+                <div>
+                  <p className="mb-2">{val?.answer?.para}</p>
+                  <ul style={{ listStyle: "initial", paddingLeft: 30 }}>
+                    {val?.answer?.list?.map((val, index) => (
+                      <li key={index}>{val}</li>
+                    ))}
+                  </ul>
+                  <strong>{val?.answer?.note}</strong>
+                </div>
+              ),
+            })
+          )}
+        />
+      </div>
+    </div>
+  </div>
+);
 
 const WhyChooseCard = ({ detail, index }: any) => (
   <div className="whychoosecard flex flex-col items-start" key={index}>
@@ -452,18 +452,18 @@ const OurWork = ({ data }: any) => (
   <div className="work-section">
     <div className="grid grid-cols-7 lg:gap-15">
       <div className="col-span-12 lg:col-span-4">
-        <div className="videoFrame mb-5 lg:mb-0">
-          <img src={data?.image} />
+        <div className="videoFrame mb-5 lg:mb-0 flex items-center">
+          <img style={{maxWidth:400, margin:"auto"}} src={data?.image} />
         </div>
       </div>
       <div className="col-span-12 lg:col-span-3">
         <strong>Service</strong>
-        <h3>{data?.title}</h3>
+        <h3 className="mb-5">{data?.title}</h3>
         <p>{data?.desc?.para}</p>
 
         <NavLink to={data?.link} className="mt-10">
-          <Button className="comman-button" icon={<FaAngleRight />}>
-            Know More
+          <Button className="comman-button mt-10">
+            Know More&nbsp;<FaAngleRight />
           </Button>
         </NavLink>
       </div>

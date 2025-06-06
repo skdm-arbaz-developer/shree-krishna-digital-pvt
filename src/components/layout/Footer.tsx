@@ -83,11 +83,11 @@ export default function Footer() {
             <NavLink to="/" className="footer-brand">
               <img src={logo} />
               <p>
-                About Us Founded in 2018 in Andheri, Mumbai, Shree Krishna
-                Digital Marketing is dedicated to helping businesses grow
-                through innovative, data-driven strategies. As an award-winning
-                agency, we specialize in digital marketing, logo design, and
-                website development.
+                Founded in 2018 in Andheri, Mumbai, Shree Krishna Digital
+                Marketing Solutions Pvt. Ltd. is dedicated to helping businesses
+                grow through innovative, data-driven strategies. As an
+                award-winning agency, we specialize in digital marketing, logo
+                design, and website development.
               </p>
             </NavLink>
             {/* <div className="footer-growth">
@@ -155,8 +155,9 @@ export default function Footer() {
                     </div>
                     <div className="col-span-9">
                       <p>
-                        Number 102/B, Office, MOHID HEIGHTS 1st, Andheri,
-                        Mumbai, Maharashtra 400053
+                        102 B Mohid heights, suresh nagar, rto road, opposite
+                        madha signal, near Kokilaben hospital, andheri
+                        west-400053
                       </p>
                     </div>
                   </div>

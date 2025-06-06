@@ -1,5 +1,5 @@
 import OurServiceImage from "../../assets/images/resources/home-our-service.png";
-import arrow from "../../assets/images/icons/service-arrow-home.svg";
+// import arrow from "../../assets/images/icons/service-arrow-home.svg";
 import "../../css/home/ourservices.css";
 import { NavLink } from "react-router-dom";
 import { BsArrowRight } from "react-icons/bs";
@@ -59,19 +59,19 @@ export default function OurServices() {
                 </li>
               ))}
             </ul>
-            <img
+            {/* <img
               src={arrow}
               alt="arrow"
               className="absolute visible lg:invisible w-[100px] top-15 left-0"
-            />
+            /> */}
           </div>
         </div>
       </div>
-      <img
+      {/* <img
         src={arrow}
         alt="arrow"
         className="absolute invisible lg:visible w-[200px] top-1/5 left-1/3"
-      />
+      /> */}
       <img src={circle} alt="circle" className="absolute bottom-10 right-20" />
     </section>
   );

@@ -27,10 +27,7 @@ export default function Blog() {
       <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body">
           <div className="lg:flex justify-between">
-            <h2 className="section-title">
-              Explore Our Blog <br />
-              and Articles
-            </h2>
+            <h2 className="section-title">Explore Our Blog and Articles</h2>
             <NavLink to="/blogs">
               <Button className="comman-button">
                 View all blogs <BsArrowRight />

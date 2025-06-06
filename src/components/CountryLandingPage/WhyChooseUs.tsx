@@ -2,20 +2,21 @@ import CountUp from "react-countup";
 
 export default function WhyChooseUs({ data }: any) {
   const counters = [
-    {
-      digit: 500,
-      title: "Satisfied Clients",
-    },
-    {
+     {
       digit: 6,
       title: "Years Experience",
     },
     {
-      digit: 500,
+      digit: 5000,
       title: "Project Completed",
     },
     {
-      digit: 10000,
+      digit: 3000,
+      title: "Satisfied Clients",
+    },
+
+    {
+      digit: 10,
       title: "Paid Leads Generated",
     },
   ];
@@ -48,7 +49,11 @@ export default function WhyChooseUs({ data }: any) {
                           <div className="content">
                             <div className="count-outer count-box">
                               <span className="count-text">
-                                <span ref={countUpRef} />+
+                                <span ref={countUpRef} />
+                                &nbsp;
+                                {val?.title === "Paid Leads Generated" &&
+                                  "Lakh"}
+                                +
                               </span>
                             </div>
                             <div className="counter-title">{val?.title}</div>

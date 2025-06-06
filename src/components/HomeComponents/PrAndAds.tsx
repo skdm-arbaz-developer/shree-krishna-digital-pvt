@@ -9,7 +9,7 @@ export default function PrAndAds() {
       <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body">
           <div className="lg:flex justify-between">
-            <h2 className="section-title">We Help to, Make PR & Ads</h2>
+            <h2 className="section-title">We Help you to, Make PR & Advertisment</h2>
             <NavLink to="/pr-advertising-company">
               <Button className="comman-button mt-5">
                 Know More <BsArrowRight />

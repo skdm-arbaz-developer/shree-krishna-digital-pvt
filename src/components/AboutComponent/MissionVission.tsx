@@ -5,7 +5,7 @@ export default function MissionVission() {
         "https://images.pexels.com/photos/8866736/pexels-photo-8866736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
       title: "Vision",
       content:
-        "We aim to provide businesses with effective digital solutions for your business growth heigh't. Our dedicated team is committed to providing quality services in the areas of SEO, web development and online marketing through smart new ideas combined with effective strategies for your business plans.. Our approach will result in tangible growth for clients across all channels.'...",
+        "We aim to provide businesses with effective digital solutions for your business growth height. Our dedicated team is committed to providing quality services in the areas of SEO, web development and online marketing through smart new ideas combined with effective strategies for your business plans.. Our approach will result in tangible growth for clients across all channels.'...",
     },
     {
       image:

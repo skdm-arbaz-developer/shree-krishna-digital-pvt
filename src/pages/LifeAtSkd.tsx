@@ -394,12 +394,12 @@ export default function LifeAtSkd() {
 
       <section className="section">
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-          <div className="section-body flex flex-col justify-center items-center mb-15">
+          <div className="section-body flex flex-col justify-center lg:items-center mb-15">
             <h2 className="section-title">
               Memories with Shree Krishna Digital
             </h2>
-            <p className="section-contet text-center" style={{ maxWidth: 750 }}>
-              At Shree Krishna Digital, we believe in creating lasting memories
+            <p className="section-contet lg:text-center" style={{ maxWidth: 750 }}>
+              At Shree Krishna Digital Solutions Pvt Ltd, we believe in creating lasting memories
               that reflect our vibrant culture and team spirit. From festive
               celebrations to team outings, every moment is a testament to our
               commitment to fostering a positive and engaging work environment.

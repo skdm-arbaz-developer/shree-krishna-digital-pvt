@@ -154,7 +154,7 @@ export default function PrivacyPolicy() {
 
           points: [
             "Shree Krishna Digital Solutions Pvt Ltd",
-            "Number 102/B, Office, MOHID HEIGHTS 1st, Andheri, Mumbai, Maharashtra 400053",
+            "102 B Mohid heights, suresh nagar, rto road, opposite madha signal, near Kokilaben hospital, andheri west 400053",
             "Email: shreekrishnadigital09@gmail.com",
             "Phone: +91 70213 90953",
           ],
@@ -177,12 +177,12 @@ export default function PrivacyPolicy() {
 
         {privacyPolicyData.map((val, index) => (
           <div className="policy-content" key={index}>
-            <div className="grid md:grid-cols-12">
-              <div className="col-span-3">
+            <div className="md:grid md:grid-cols-12">
+              <div className="md:col-span-3">
                 <h3>{val.section}</h3>
                 <p>{val.subContent}</p>
               </div>
-              <div className="col-span-9">
+              <div className=" md:col-span-9">
                 {val?.subsections
                   ? val?.subsections.map((valItem, index) => (
                       <div className="my-3">
@@ -195,7 +195,7 @@ export default function PrivacyPolicy() {
                           }}
                         >
                           {valItem?.points?.map((val, index) => (
-                            <li key={index}>-&nbsp;{val}</li>
+                            <li key={index}>&nbsp;{val}</li>
                           ))}
                         </ul>
                         <p
