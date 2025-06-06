@@ -1,4 +1,6 @@
 import CountUp from "react-countup";
+import FeaturedImage5 from "../../assets/images/resources/featured-image-5.jpg"
+import img1 from "../../assets/images/resources/image-1.jpg"
 
 export default function WhyChooseUs({ data }: any) {
   const counters = [
@@ -28,7 +30,7 @@ export default function WhyChooseUs({ data }: any) {
           className="image-layer"
           style={{
             backgroundImage:
-              "url(https://linoor-nuxt.netlify.app/images/background/image-1.jpg)",
+              `url(${img1})`,
           }}
         />
         <div className="auto-container">
@@ -109,7 +111,7 @@ export default function WhyChooseUs({ data }: any) {
                   <div className="featured-block-two clearfix">
                     <div className="image">
                       <img
-                        src="https://linoor-nuxt.netlify.app/images/resource/featured-image-5.jpg"
+                        src={FeaturedImage5}
                         alt=""
                       />
                     </div>

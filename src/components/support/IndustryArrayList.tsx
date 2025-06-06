@@ -1,11 +1,81 @@
 import { FaBriefcase, FaEnvelope, FaUser } from "react-icons/fa6";
 import { MdMessage, MdPhone, MdSend } from "react-icons/md";
 import contactImage from "../../assets/images/contact-us-form.png";
+import industrise from "../../assets/images/banners/industrise-banner.jpg";
+import DigitalGrowth from "../../assets/images/resources/DigitalGrowth.jpg";
+ import RealEstate from "../../assets/images/resources/Real-Estate.jpg";
+ import Hospitality from "../../assets/images/resources/Hospitality.jpeg";
+import ECommerce from "../../assets/images/resources/E-Commerce.jpg";
+import Education from "../../assets/images/resources/Education.jpg";
+ import InteriorDesign from "../../assets/images/resources/Interior-Design.jpg";
+import Logistics from "../../assets/images/resources/Logistics.jpg";
+// import Healthcare from "../../assets/images/resources/Healthcare.jpg";
+// import ITServices from "../../assets/images/resources/IT Services.jpg";
+// import Travel from "../../assets/images/resources/Travel.jpeg";
+// import Fashion from "../../assets/images/resources/Fashion.jpg";
+import industry1 from "../../assets/images/resources/industry1.jpeg";
+import industry2 from "../../assets/images/resources/industry2.jpeg";
+import industry3 from "../../assets/images/resources/industry3.png";
+import industry4 from "../../assets/images/resources/industry4.webp";
+import industry5 from "../../assets/images/resources/industry5.avif";
+import GoogleMyBusiness from "../../assets/images/resources/google-my-business.png";
+import seo from "../../assets/images/resources/seo.webp";
+import ppc from "../../assets/images/resources/PPC.jpg";
+import YouTubeMarketing from "../../assets/images/resources/YouTube Marketing.webp";
+import SocialMedia from "../../assets/images/resources/socialmedia.webp";
+import faq from "../../assets/images/resources/faq.jpg";
+import ResortVilla from "../../assets/images/banners/resort-villa-banner.webp";
+import resort1 from "../../assets/images/resources/resort1.jpeg";
+import villa1 from "../../assets/images/resources/villa1.jpg";
+import villa2 from "../../assets/images/resources/villa2.webp";
+import villa3 from "../../assets/images/resources/villa3.jpg";
+import villa4 from "../../assets/images/resources/villa3.jpg";
+import villa5 from "../../assets/images/resources/villa4.jpg";
+import EducationBanner from "../../assets/images/banners/education-banner.png";
+import education1 from "../../assets/images/resources/education1.jpg";
+import EducationSub1 from "../../assets/images/resources/education-sub1.jpeg";
+import EducationSub2 from "../../assets/images/resources/education-sub2.jpg";
+import EducationSub3 from "../../assets/images/resources/education-sub3.webp";
+import EducationSub4 from "../../assets/images/resources/education-sub4.webp";
+import EducationSub5 from "../../assets/images/resources/education-sub5.webp";
+import HospitalityCatering from "../../assets/images/banners/Hospitality-Catering-banner.webp";
+import HospitalityCatering1 from "../../assets/images/resources/HospitalityCatering1.jpeg";
+import Hospitality1 from "../../assets/images/resources/Hospitality1.jpg";
+import Hospitality2 from "../../assets/images/resources/Hospitality2.webp";
+import Hospitality3 from "../../assets/images/resources/Hospitality3.jpg";
+import Hospitality4 from "../../assets/images/resources/Hospitality4.webp";
+import InteriorBanner from "../../assets/images/banners/interior-design-banner.webp";
+import InteriorDesign1 from "../../assets/images/resources/interior/interior-design1.jpg";
+import interiordesignsub1 from "../../assets/images/resources/interior/interior-design-sub1.jpg";
+import interiordesignsub2 from "../../assets/images/resources/interior/interior-design-sub2.webp";
+import interiordesignsub3 from "../../assets/images/resources/interior/interior-design-sub3.jpg";
+import interiordesignsub4 from "../../assets/images/resources/interior/interior-design-sub4.webp";
+import interiordesignsub5 from "../../assets/images/resources/interior/interior-design-sub5.jpg";
+import LifestyleBanner from "../../assets/images/banners/lifestyle-banner.jpg";
+import Lifestyle1 from "../../assets/images/resources/lifestyle/Lifestyle1.webp";
+import Lifestylesub1 from "../../assets/images/resources/lifestyle/Lifestyle-sub1.jpeg";
+import Lifestylesub2 from "../../assets/images/resources/lifestyle/Lifestyle-sub2.jpeg";
+import Lifestylesub3 from "../../assets/images/resources/lifestyle/Lifestyle-sub3.webp";
+import Lifestylesub4 from "../../assets/images/resources/lifestyle/Lifestyle-sub4.webp";
+import Lifestylesub5 from "../../assets/images/resources/lifestyle/Lifestyle-sub5.jpeg";
+import RealestateBanner from "../../assets/images/banners/real-estate-banner.jpg";
+import Realestate1 from "../../assets/images/resources/realestate/realestate1.png";
+import realestatesub1 from "../../assets/images/resources/realestate/realestate-sub1.jpg";
+import realestatesub2 from "../../assets/images/resources/realestate/realestate-sub2.webp";
+import realestatesub3 from "../../assets/images/resources/realestate/realestate-sub3.jpg";
+import realestatesub4 from "../../assets/images/resources/realestate/realestate-sub4.webp";
+import realestatesub5 from "../../assets/images/resources/realestate/realestate-sub5.jpeg";
+import SpaSalonBanner from "../../assets/images/banners/Spa-Salon-banner.jpg";
+import SpaSalon from "../../assets/images/resources/Spa&Salon/Spa-Salon.avif";
+import SpaSalonSub1 from "../../assets/images/resources/Spa&Salon/SpaSalon-sub1.avif";
+import SpaSalonSub2 from "../../assets/images/resources/Spa&Salon/SpaSalon-sub2.jpg";
+import SpaSalonSub3 from "../../assets/images/resources/Spa&Salon/SpaSalon-sub3.jpeg";
+import SpaSalonSub4 from "../../assets/images/resources/Spa&Salon/SpaSalon-sub4.jpeg";
+import SpaSalonSub5 from "../../assets/images/resources/Spa&Salon/SpaSalon-sub5.jpg";
 
 const industries = [
   {
-    banner:
-      "https://t4.ftcdn.net/jpg/09/42/17/65/360_F_942176592_3E2mJy68yw8KjaOpmomnA87jizwD6WJ7.jpg",
+    banner:industrise,
     title: "Healthcare (Doctor & Hospital)",
     shortdesc:
       "Designed specifically for the healthcare sector, our strategies help increase your reach, improve patient connection, and ensure your medical services are found, valued, and remembered online.",
@@ -18,8 +88,7 @@ const industries = [
       desc: [
         "The healthcare industry is evolving, and so are the ways patients seek medical services. A robust digital presence is no longer optional but essential. Our digital marketing solutions are crafted specifically for healthcare providers, focusing on increasing online visibility and patient trust. We utilize a mix of strategic content creation, search engine optimization, and targeted advertising to position your practice prominently in search results. Understanding the sensitive nature of healthcare, we ensure all marketing efforts are compliant and ethically sound. Our team works closely with you to highlight your specialties and strengths, making it easier for patients to choose your services. With a proven track record in digital marketing for healthcare in Mumbai, we aim to be your partner in achieving sustained growth and patient satisfaction.",
       ],
-      image:
-        "https://www.tagmedstaffing.com/wp-content/uploads/2023/12/shutterstock_786971899-scaled.jpg",
+      image: DigitalGrowth,
     },
 
     clients: {
@@ -84,37 +153,37 @@ const industries = [
         "Empowering brands with results-driven digital marketing success.",
       list: [
         {
-          img: "https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          img: RealEstate,
           type: "Real Estate",
           title: "Luxury Living Realty – SEO Transformation",
           desc: "Implemented a high-impact SEO strategy that boosted organic traffic by 300%.",
         },
         {
-          img: "https://images.pexels.com/photos/4508641/pexels-photo-4508641.jpeg?auto=compress&cs=tinysrgb&w=1200",
+           img: Hospitality,
           type: "Hospitality",
           title: "ResortEase – Application Development",
           desc: "Developed a booking and resort management app used by over 100+ resorts.",
         },
         {
-          img: "https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          img: ECommerce,
           type: "E-Commerce",
           title: "UrbanCart – Digital Marketing Overhaul",
           desc: "Revamped performance marketing and email automation for a 5x ROI.",
         },
         {
-          img: "https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          img: Education,
           type: "Education",
           title: "STEM Boost Academy – Website & CRM",
           desc: "Delivered a custom LMS portal with lead capture and student dashboard.",
         },
         {
-          img: "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          img: InteriorDesign,
           type: "Interior Design",
           title: "DecoraNest – Portfolio Website",
           desc: "Created a stylish web presence and social strategy for luxury interiors.",
         },
         {
-          img: "https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          img: Logistics,
           type: "Logistics",
           title: "FastTrack Movers – Branding & CRM Setup",
           desc: "Launched branding campaign and built CRM for real-time delivery tracking.",
@@ -128,32 +197,27 @@ const industries = [
         "Every industry is unique. With Digital Marketing for Healthcare in Mumbai, we tailor strategies using the right tools, insights, and creativity to meet specific needs and deliver real, measurable results.",
       whychoosepoints: [
         {
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7kQKZDuWqHsgG_VYJBEzR88p9YHBUc77Y6g&s",
+          image:industry1,
           title: "Trusted Experts in Doctor Marketing",
           desc: "We create customized digital marketing strategies tailored for doctors and hospitals, focusing on increasing patient engagement and boosting your online presence. Understanding the unique needs of healthcare providers, we deliver data-driven solutions with transparent reporting. Our digital marketing for healthcare in Mumbai continuous optimization helps grow your practice confidently in a competitive digital space, building trust with patients and ensuring long-term success in your field.",
         },
         {
-          image:
-            "https://methodistmckinneyhospital.com/wp-content/uploads/2017/12/AdobeStock_159229128-4.jpeg",
+          image:industry2,
           title: "Marketing That Connects with Patients",
           desc: "Our team crafts patient-focused campaigns for doctors and hospitals that build credibility and enhance online visibility. We use ethical strategies aligned with industry standards to attract new patients and retain existing ones. Clear communication and regular updates keep you informed on campaign progress, helping your practice grow sustainably while maintaining the trust and satisfaction of your patient community.",
         },
         {
-          image:
-            "https://cdn.physiciansweekly.com/wp-content/uploads/2016/12/hands-patient-doctor-physician.png",
+          image:industry3,
           title: "Your Growth Partners in Healthcare Services",
           desc: "We understand the challenges doctors and hospitals face in attracting patients online. Our tailored digital marketing solutions focus on generating quality leads and strengthening patient relationships. With dedicated support and transparent reporting, you stay informed at every step. Our approach empowers your practice to stand out confidently in a crowded market, allowing you to focus on delivering exceptional care.",
         },
         {
-          image:
-            "https://etimg.etb2bimg.com/thumb/msid-70788518,imgsize-67265,width-1200,height=765,overlay-ethealth/health-it/76-of-healthcare-professionals-in-india-use-digital-health-records-report.jpg",
+          image:industry4,
           title: "Patient-Focused Digital Solutions",
           desc: "To succeed in today’s competitive environment, doctors and hospitals need more than excellent services; they need effective online marketing. We develop campaigns emphasizing trust, accessibility, and reputation building, designed to bring quality patients to your practice. Respecting privacy and compliance, our strategies improve patient acquisition and retention while giving you clear insights and continuous support to help your growth.",
         },
         {
-          image:
-            "https://img.freepik.com/free-photo/medical-banner-with-doctor-working-laptop_23-2149611211.jpg?semt=ais_hybrid&w=740",
+          image:industry5,
           title: "Innovative Growth for Doctors and Hospitals",
           desc: "We combine industry expertise with creative marketing to expand patient reach and enhance the reputations of doctors and hospitals. Our transparent communication and ongoing campaign refinement maximize your investment’s impact. By handling your digital presence strategically and ethically, we enable you to focus on patient care while helping your practice grow steadily in a specialized and competitive sector.",
         },
@@ -166,7 +230,7 @@ const industries = [
       worklist: [
         {
           image:
-            "https://admin.wac.co/uploads/Blog_Cover_2_Page_06_a08af74054.png",
+            GoogleMyBusiness,
           title: "Google My Business (GMB) Optimization",
           desc: {
             para: "Boost your hospital or clinic's local visibility with GMB optimization. Appear in top local searches, build trust through reviews, and make it easy for patients to find and contact you instantly.",
@@ -175,8 +239,7 @@ const industries = [
           link: "/google-my-business",
         },
         {
-          image:
-            "https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp",
+          image: seo,
           title: "SEO (Search Engine Optimization)",
           desc: {
             para: "Rank higher on Google when patients search for healthcare services. Our healthcare-specific SEO strategies help hospitals and doctors attract organic traffic and increase appointment bookings through relevant, high-intent keyword targeting.",
@@ -185,8 +248,7 @@ const industries = [
           link: "/search-engine-optimization",
         },
         {
-          image:
-            "https://www.mindstick.com/MindStickArticle/aa10fba4-254a-42e2-a6ad-54eee2a0f8ed/images/564ca89f-7d03-4d69-b2d3-65e4e8d06899.jpg",
+          image: ppc,
           title: "PPC (Google Ads)",
           desc: {
             para: "Drive instant leads with targeted PPC campaigns for hospitals and clinics. Appear above competitors on Google when potential patients search, ensuring you get clicks, calls, and conversions at the right time.",
@@ -195,8 +257,7 @@ const industries = [
           link: "/pay-per-click",
         },
         {
-          image:
-            "https://298957.fs1.hubspotusercontent-na1.net/hubfs/298957/Imported_Blog_Media/YouTube-Marketing-Strategies-and-Tips.jpg",
+          image: YouTubeMarketing,
           title: "YouTube Marketing",
           desc: {
             para: "Establish authority with YouTube videos showcasing treatments, success stories, and doctor introductions. Build trust, educate viewers, and attract new patients through visual content tailored for the healthcare and wellness audience.",
@@ -207,7 +268,7 @@ const industries = [
       ],
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "gray",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -369,8 +430,7 @@ const industries = [
     },
   },
   {
-    banner:
-      "https://strapi.aurumproptech.in/uploads/Future_of_real_estate_market_933684ecef.webp",
+    banner:RealestateBanner,
     title: "Real Estate",
     shortdesc:
       "Reach potential buyers faster with proven marketing techniques that help real estate brands boost visibility, generate leads, and increase overall property sales online.",
@@ -386,8 +446,7 @@ const industries = [
         "By leveraging the latest tools and technologies, we enhance your brand’s presence across multiple digital touchpoints. From optimizing your online profiles and creating engaging content to managing paid campaigns that deliver real-time results, our focus remains on generating high-quality leads.",
         "Our dedicated team works closely with real estate developers, brokers, and agencies to deliver measurable outcomes that drive growth. Discover the power of digital marketing for real estate in Mumbai and let your business reach new heights.",
       ],
-      image:
-        "https://madeira.estate/wp-content/uploads/2024/02/What-Is-Digital-Real-Estate-and-How-Does-It-Work-Google-Docs-1024x680.png",
+      image:Realestate1,
     },
 
     clients: {
@@ -497,32 +556,27 @@ const industries = [
         "We understand real estate dynamics and create targeted campaigns that increase your property inquiries and accelerate sales, helping your business grow effectively in a competitive market.",
       whychoosepoints: [
         {
-          image:
-            "https://sterlingdevelopers.com/blog/wp-content/uploads/2018/06/The-Future-of-Real-Estate-in-the-Digital-Age.jpg",
+          image:realestatesub1,
           title: "Effective Marketing For Residential Success",
           desc: "Our marketing solutions are crafted to address the unique needs of developers and sellers. By understanding buyer behavior and market trends, we design engaging campaigns that generate qualified leads and make your listings stand out. Through focused digital marketing for real estate in Mumbai, we attract the right audience and accelerate the sales process, ensuring your residential projects achieve maximum visibility and faster conversions.",
         },
         {
-          image:
-            "https://www.pridepurpleproperties.com/blog/wp-content/uploads/2023/07/Pride-purple-blog-banner-12-1.jpg",
+          image:realestatesub2,
           title: "Expert Marketing For Property Success",
           desc: "With extensive experience in the housing market, we provide marketing services designed to maximize the reach and appeal of your listings. Our approach combines digital branding, targeted lead nurturing, and multi-channel advertising focused on attracting motivated buyers. We prioritize delivering measurable results by customizing campaigns to fit your specific goals, ensuring your developments receive the attention they deserve to consistently increase visibility, generate quality leads, and boost sales effectively.",
         },
         {
-          image:
-            "https://www.exoedge.com/wp-content/uploads/2024/05/Untitled-design-7.jpg",
+          image:realestatesub3,
           title: "Enhancing Business Reach Digitally",
           desc: "Our expertise lies in utilizing various digital platforms to increase your market visibility and attract the right customers. By focusing on search engine optimization, paid campaigns, and video promotion, we generate targeted leads and improve engagement. This multi-channel approach helps your developments stand out and accelerates growth. We work closely with you to ensure each campaign aligns perfectly with your business objectives for maximum impact.",
         },
         {
-          image:
-            "https://cdn.hashnode.com/res/hashnode/image/upload/v1699327388447/233d19d4-ba29-4ca6-b005-c1ff504c4586.jpeg",
+          image:realestatesub4,
           title: "Your Real Estate Growth Catalyst",
           desc: "In a competitive real estate market, our personalized marketing methods can help your firm flourish. We focus on enhancing your brand visibility and driving targeted traffic to your listings. Using a combination of content marketing, search optimization, and paid campaigns, we ensure your properties reach the right buyers, helping you close deals faster while building lasting client relationships.",
         },
         {
-          image:
-            "https://media.licdn.com/dms/image/v2/D5612AQGQ-pve0A5LbA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1697844285374?e=2147483647&v=beta&t=RhUITrLRqt2nQNqanwZkQlHaBL3ZDNXHdXKzOvelRbA",
+          image: realestatesub5,
           title: "Strategic Growth For Builders",
           desc: "We work closely with builders and agencies to strengthen their digital footprint through search visibility, ad campaigns, and engaging content. Our strategies are designed to target serious buyers and generate quality inquiries. With a strong focus on lead generation and branding, we use online platforms effectively to expand your audience, boost credibility, and deliver results. To help you succeed in a cutthroat industry, we specialize in digital marketing for real estate in Mumbai ",
         },
@@ -535,8 +589,7 @@ const industries = [
         "Drive measurable growth with our business-centric services that align with your goals and deliver increased brand awareness, lead generation, and online credibility in competitive markets.",
       worklist: [
         {
-          image:
-            "https://admin.wac.co/uploads/Blog_Cover_2_Page_06_a08af74054.png",
+          image:GoogleMyBusiness,
           title: "Google My Business (GMB) Optimization",
           desc: {
             para: "Maximize local reach for your real estate agency with GMB optimization. Get found on Google Maps, showcase property listings, collect reviews, and generate walk-in or call-in leads from serious property seekers near you.",
@@ -545,8 +598,7 @@ const industries = [
           link: "/google-my-business",
         },
         {
-          image:
-            "https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp",
+          image:seo,
           title: "SEO (Search Engine Optimization)",
           desc: {
             para: "Get your real estate website ranked on Google for high-converting keywords. Our SEO strategy attracts quality leads actively searching for properties, helping you sell or rent faster by boosting organic traffic and visibility.",
@@ -555,8 +607,7 @@ const industries = [
           link: "/search-engine-optimization",
         },
         {
-          image:
-            "https://www.mindstick.com/MindStickArticle/aa10fba4-254a-42e2-a6ad-54eee2a0f8ed/images/564ca89f-7d03-4d69-b2d3-65e4e8d06899.jpg",
+          image:ppc,
           title: "PPC (Google Ads)",
           desc: {
             para: "Launch high-intent Google Ads targeting property buyers and renters. Appear at the top when prospects search for homes, offices, or plots, driving quality leads with tailored ad creatives and budget-focused campaign management.",
@@ -565,8 +616,7 @@ const industries = [
           link: "/pay-per-click",
         },
         {
-          image:
-            "https://298957.fs1.hubspotusercontent-na1.net/hubfs/298957/Imported_Blog_Media/YouTube-Marketing-Strategies-and-Tips.jpg",
+          image:YouTubeMarketing,
           title: "YouTube Marketing",
           desc: {
             para: "Showcase property walkthroughs, client testimonials, and investment tips on YouTube. Build trust and attract interested buyers through compelling real estate videos, helping your brand stand out in a highly visual, competitive market.",
@@ -577,7 +627,7 @@ const industries = [
       ],
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "gray",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -731,8 +781,7 @@ const industries = [
     },
   },
   {
-    banner:
-      "https://miro.medium.com/v2/resize:fit:1400/1*Cj619pQGDMDtIxvQi5YQ4g.png",
+    banner: EducationBanner,
     title: "Education",
     shortdesc:
       "Empower your educational brand with proven marketing strategies that boost admissions, increase engagement, and build a strong presence where students and parents search for trusted institutions.",
@@ -747,8 +796,7 @@ const industries = [
         "Our approach includes optimizing your Google Business Profile for maximum local visibility, creating targeted ad campaigns, and producing YouTube content that connects with students. We focus on getting real results, more inquiries, higher engagement, and better admissions. From keyword-rich SEO to conversion-focused landing pages, we help you build a long-term digital presence that stands out in a competitive space.",
         "We understand the education sector’s unique challenges and deliver solutions that reflect your goals. Whether you're launching a new course or expanding your student base, our expertise ensures steady digital growth. Trust us for effective, transparent, and impactful digital marketing for education in Mumbai.",
       ],
-      image:
-        "https://www.skillstork.org/blog/wp-content/uploads/2022/11/modern-education-Skillstork-1568x882.jpg",
+      image: education1,
     },
 
     clients: {
@@ -858,32 +906,27 @@ const industries = [
         "With deep industry insights, we help educational institutions build awareness, reach ideal learners, and generate high-quality leads through carefully structured digital campaigns.",
       whychoosepoints: [
         {
-          image:
-            "https://www.eschoolnews.com/files/2024/12/k-12-tech-innovation-news.jpeg",
+          image:EducationSub1,
           title: "Empowering Educational Brands To Thrive",
           desc: "We specialize in helping educational institutions boost visibility and drive student engagement through smart digital strategies. Our team understands the evolving education landscape and crafts marketing campaigns that align with your admissions goals. From increasing inquiries to enhancing reputation, we provide measurable results. Whether you're a school, college, or edtech platform, our customized approach ensures your institution stands out in today’s digitally competitive learning environment with effective digital marketing for education in Mumbai.",
         },
         {
-          image:
-            "https://www.nimrindia.com/images/courses/bachelor-education.jpg",
+          image:EducationSub2,
           title: "Growth-Focused Solutions For Education",
           desc: "With years of experience working with educational brands, we offer powerful marketing strategies that increase student enrollments and build lasting credibility. We focus on search visibility, engaging ad creatives, and content that speaks to students and parents alike. Our campaigns are driven by data and purposefully optimized for results, making us a trusted partner for education-focused businesses looking to scale their digital reach effectively.",
         },
         {
-          image:
-            "https://sanjeevdatta.com/wp-content/uploads/2022/02/formal-education.jpg",
+          image:EducationSub3,
           title: "Student-Centric Marketing That Performs",
           desc: "Our deep understanding of learner behavior allows us to create digital marketing plans that truly connect. We position your institute where students and parents are looking, through video content, paid ads, and search marketing. Our mission is to help educational brands get discovered, trusted, and chosen by their target audience. Every campaign is designed to increase awareness, generate leads, and contribute directly to enrollment growth.",
         },
         {
-          image:
-            "https://www.csharptek.com/Content/globex/images/resource/Edtech.webp",
+          image:EducationSub4,
           title: "Smart Digital Strategy For Institutions",
           desc: "We bring marketing expertise that aligns with the unique challenges and goals of educational brands. From coaching centers to universities, we create custom solutions that generate inquiries and build trust. Our campaigns span SEO, video promotion, and lead-focused ad funnels. By putting your brand in front of the right audience, we ensure consistent digital growth and improved admissions through thoughtful execution and continual performance tracking.",
         },
         {
-          image:
-            "https://i0.wp.com/daarulmumtaz.com/wp-content/uploads/2023/07/World-Education.jpg?fit=900%2C519&ssl=1",
+          image:EducationSub5,
           title: "Proven Digital Growth For Educators",
           desc: "We’ve helped numerous institutions across the education sector establish a strong online presence. Through detailed market research, compelling content, and targeted campaigns, we ensure that your institute reaches students effectively. Our team focuses on driving quality leads and building long-term digital equity. If your goal is to expand your student base and strengthen your digital identity, we are the strategic marketing partner you've been looking for, specializing in digital marketing for education in Mumbai.",
         },
@@ -896,8 +939,7 @@ const industries = [
         "Whether you're starting out or scaling up, our marketing services are designed to generate leads, drive conversions, and accelerate business growth across multiple online channels.",
       worklist: [
         {
-          image:
-            "https://admin.wac.co/uploads/Blog_Cover_2_Page_06_a08af74054.png",
+          image:GoogleMyBusiness,
           title: "Google My Business (GMB) Optimization",
           desc: {
             para: "Stand out in local searches with an optimized GMB profile. Highlight your courses, timings, reviews, and campus photos. Help parents and students easily find directions, contact you, and read real success stories online.",
@@ -906,8 +948,7 @@ const industries = [
           link: "/google-my-business",
         },
         {
-          image:
-            "https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp",
+          image:seo,
           title: "SEO (Search Engine Optimization)",
           desc: {
             para: "Reach students and parents searching for courses, coaching, or schools online. SEO boosts your website’s visibility on Google, helping you attract more admissions, demo class registrations, and inquiries through organic traffic.",
@@ -916,8 +957,7 @@ const industries = [
           link: "/search-engine-optimization",
         },
         {
-          image:
-            "https://www.mindstick.com/MindStickArticle/aa10fba4-254a-42e2-a6ad-54eee2a0f8ed/images/564ca89f-7d03-4d69-b2d3-65e4e8d06899.jpg",
+          image:ppc,
           title: "PPC (Google Ads)",
           desc: {
             para: "Promote courses, entrance batches, or admission drives using targeted Meta Ads. Capture leads by showcasing testimonials, faculty highlights, and student results to generate high-quality inquiries and grow enrollments quickly.",
@@ -926,8 +966,7 @@ const industries = [
           link: "/pay-per-click",
         },
         {
-          image:
-            "https://298957.fs1.hubspotusercontent-na1.net/hubfs/298957/Imported_Blog_Media/YouTube-Marketing-Strategies-and-Tips.jpg",
+          image:YouTubeMarketing,
           title: "YouTube Marketing",
           desc: {
             para: "Create engaging Reels that showcase student achievements, daily learning moments, faculty intros, and campus life. Build brand trust, attract youth, and increase inquiries by sharing real educational impact in short, powerful videos.",
@@ -938,7 +977,7 @@ const industries = [
       ],
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "gray",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -1089,8 +1128,7 @@ const industries = [
     },
   },
   {
-    banner:
-      "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2024/07/03134004/Jio-World-Convention-Centre-1-1600x900.jpg",
+    banner: HospitalityCatering,
     title: "Hospitality & Catering",
     shortdesc:
       "Grow your event and food services with proven marketing techniques that increase bookings, build audience loyalty, and enhance your visibility through high-impact digital engagement.",
@@ -1106,8 +1144,7 @@ const industries = [
         "We also focus on converting interest into action—driving direct inquiries, event bookings, and customer retention. By analyzing audience behavior and creating campaigns that speak their language, we ensure you stay ahead of the competition.",
         "If you’re looking to grow and scale your business in the right direction, explore the power of digital marketing for hospitality & caterers in Mumbai with our expert team. We’re here to take your brand to the next level.",
       ],
-      image:
-        "https://media.licdn.com/dms/image/v2/D4E12AQHC0xCmqWrS7w/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1688455545979?e=2147483647&v=beta&t=gcIOGNdl49aobS1V7x0TFNq9EhVqegAi3TqZcl5gI4g",
+      image: HospitalityCatering1,
     },
 
     clients: {
@@ -1216,32 +1253,27 @@ const industries = [
         "We understand what your guests seek and craft personalized digital strategies that help you build trust, engage your market, and stay ahead in the competitive hospitality landscape.",
       whychoosepoints: [
         {
-          image:
-            "https://www.weddingsutra.com/images/Vendor_Images/Catering/raksha-hospitality/raksha-hospitality-11.jpg",
+          image: Hospitality1,
           title: "Local Engagement That Drives Bookings",
           desc: "Hospitality and catering thrive on local visibility and customer experience. We help your brand get discovered by optimizing local presence, running geo-targeted campaigns, and creating engaging reels that reflect your service quality. With our industry know-how and expertise in digital marketing for hospitality & Caterers In Mumbai, we align marketing efforts with your business goals, boosting footfall, event inquiries, and customer retention. We’re here to ensure your business stays top-of-mind for diners, event planners, and hospitality seekers.",
         },
         {
-          image:
-            "https://media.licdn.com/dms/image/v2/D4E12AQHC0xCmqWrS7w/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1688455545979?e=2147483647&v=beta&t=gcIOGNdl49aobS1V7x0TFNq9EhVqegAi3TqZcl5gI4g",
+          image:HospitalityCatering1,
           title: "Enhancing Brand Trust Digitally",
           desc: "Trust and presentation are everything in this industry. We help hospitality and catering businesses build strong reputations online through high-impact visuals, consistent branding, and client-focused content. Our digital strategy includes review management, short-form video marketing, and keyword-based ad targeting to keep your brand in front of high-intent customers. From restaurant bookings to wedding catering leads, we deliver growth where it matters most: your bottom line.",
         },
         {
-          image:
-            "https://cdn-dnbcl.nitrocdn.com/vNvhJizKuejBrHskCVwtxpdbMDumHHnq/assets/images/optimized/rev-06c0a79/wp-content/uploads/2022/01/Corporate-Catering-Booking-Events.jpg",
+          image:Hospitality2,
           title: "Consistent Leads Through Smart Marketing",
           desc: "We focus on bringing high-quality leads to your hospitality and catering business by combining creativity with analytics. Whether it’s showcasing dishes through reels or positioning your venue on top of search results, we use every platform to increase bookings and inquiries. Our deep understanding of audience behavior allows us to connect with those actively searching for your services and convert them into loyal customers.",
         },
         {
-          image:
-            "https://tastytablecatering.com/wp-content/uploads/2024/08/Catering-Wayne.jpg",
+          image:Hospitality3,
           title: "Result-Driven Marketing For Caterers",
           desc: "We know how important reputation, visibility, and timely customer engagement are in the catering and hospitality world. Our strategic approach focuses on showcasing your best offerings through reels, customer reviews, and local ads. We help you stand out online, drive meaningful inquiries, and build repeat business. With data-backed campaigns, we bring you measurable results that match your business goals and help you grow consistently in the digital landscape.",
         },
         {
-          image:
-            "https://pearllemoncatering.com/wp-content/uploads/2024/06/Top-10-Best-Corporate-Lunch-Catering-Services-In-The-UK.jpg",
+          image:Hospitality4,
           title: "Digital Success For Hospitality Brands",
           desc: "Hospitality thrives on trust, visibility, and memorable experiences. We translate these qualities into compelling digital campaigns that reflect your brand’s strengths. From GMB optimization to ad campaigns and video storytelling, our expertise in digital marketing for hospitality & caterers in Mumbai helps you engage your audience where they’re already searching. Whether you're promoting a new menu, venue, or event, our solutions are built to convert curiosity into action and drive long-term loyalty across digital platforms.",
         },
@@ -1254,8 +1286,7 @@ const industries = [
         "We focus on performance marketing, branding, and local visibility strategies that align with your business goals and deliver consistent growth through high-quality leads and a strong online presence.",
       worklist: [
         {
-          image:
-            "https://admin.wac.co/uploads/Blog_Cover_2_Page_06_a08af74054.png",
+          image:GoogleMyBusiness,
           title: "Google My Business (GMB) Optimization",
           desc: {
             para: "Maximize your hospitality visibility with GMB optimization. Show up in local searches, gather positive reviews, and attract bookings with an updated profile. Ideal for restaurants, banquets, and catering businesses targeting nearby customers",
@@ -1264,8 +1295,7 @@ const industries = [
           link: "/google-my-business",
         },
         {
-          image:
-            "https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp",
+          image:seo,
           title: "SEO (Search Engine Optimization)",
           desc: {
             para: " Boost your hospitality website’s ranking with strategic SEO. From keyword-rich content to local listings, drive organic traffic and inquiries for your catering and event services. Stay ahead with consistent, long-term lead generation.",
@@ -1274,8 +1304,7 @@ const industries = [
           link: "/search-engine-optimization",
         },
         {
-          image:
-            "https://www.mindstick.com/MindStickArticle/aa10fba4-254a-42e2-a6ad-54eee2a0f8ed/images/564ca89f-7d03-4d69-b2d3-65e4e8d06899.jpg",
+          image:ppc,
           title: "PPC (Google Ads)",
           desc: {
             para: "Target your ideal clients through Meta Ads. Generate direct leads for catering orders, event bookings, or hotel reservations. Fast, cost-effective results to keep your hospitality business at the top of customer minds.",
@@ -1284,7 +1313,7 @@ const industries = [
           link: "/pay-per-click",
         },
         {
-          image: "https://i.cdn.newsbytesapp.com/images/l49520250227113632.png",
+          image: SocialMedia,
           title: "Reels (Instagram/Facebook)",
           desc: {
             para: "Showcase your food, ambiance, and events through engaging Reels. Reach thousands with short, visual stories that highlight your brand’s uniqueness and attract instant attention from event planners, diners, and hospitality seekers.",
@@ -1295,7 +1324,7 @@ const industries = [
       ],
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "gray",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -1447,8 +1476,7 @@ const industries = [
     },
   },
   {
-    banner:
-      "https://www.dellaresorts.com/new-images/della-garden-villa-resort-bnrv1.webp",
+    banner: ResortVilla,
     title: "Resorts & Villas",
     shortdesc:
       "Boost your resort or villa’s visibility with expert digital marketing strategies. Engage more travelers through optimized listings, targeted ads, and captivating reels that showcase your unique hospitality experience.",
@@ -1462,8 +1490,7 @@ const industries = [
         "Resorts and villas thrive when they connect with the right audience at the right time, creating memorable experiences that turn visitors into loyal customers. Our digital marketing strategies are designed to help you build a strong and visible local presence by leveraging the latest tools and techniques. We focus on comprehensive search engine optimization (SEO) to improve your rankings on search results, ensuring travelers find you easily. Alongside SEO, we manage targeted paid campaigns (PPC) that attract qualified leads actively seeking unique accommodations.",
         "To further engage potential guests, we create creative video content and reels that showcase your property’s best features, ambiance, and experiences, capturing attention on social media platforms. Our team optimizes your Google My Business listings to increase visibility and trust in local searches. By analyzing traveler behavior and current market trends, we tailor campaigns that not only increase inquiries and bookings but also maximize your return on investment. Experience the power of digital marketing for resorts & villas in Mumbai, crafted specifically to elevate your hospitality business and drive sustainable growth.",
       ],
-      image:
-        "https://qph.cf2.quoracdn.net/main-qimg-57c180c1fcd8a47b87896fc7015443ca-lq",
+      image: resort1,
     },
 
     clients: {
@@ -1528,37 +1555,37 @@ const industries = [
         "Empowering brands with results-driven digital marketing success.",
       list: [
         {
-          img: "https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          img: RealEstate,
           type: "Real Estate",
           title: "Luxury Living Realty – SEO Transformation",
           desc: "Implemented a high-impact SEO strategy that boosted organic traffic by 300%.",
         },
         {
-          img: "https://images.pexels.com/photos/4508641/pexels-photo-4508641.jpeg?auto=compress&cs=tinysrgb&w=1200",
+          img: Hospitality,
           type: "Hospitality",
           title: "ResortEase – Application Development",
           desc: "Developed a booking and resort management app used by over 100+ resorts.",
         },
         {
-          img: "https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          img: ECommerce,
           type: "E-Commerce",
           title: "UrbanCart – Digital Marketing Overhaul",
           desc: "Revamped performance marketing and email automation for a 5x ROI.",
         },
         {
-          img: "https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          img: Education,
           type: "Education",
           title: "STEM Boost Academy – Website & CRM",
           desc: "Delivered a custom LMS portal with lead capture and student dashboard.",
         },
         {
-          img: "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          img: InteriorDesign,
           type: "Interior Design",
           title: "DecoraNest – Portfolio Website",
           desc: "Created a stylish web presence and social strategy for luxury interiors.",
         },
         {
-          img: "https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+          img: Logistics,
           type: "Logistics",
           title: "FastTrack Movers – Branding & CRM Setup",
           desc: "Launched branding campaign and built CRM for real-time delivery tracking.",
@@ -1572,32 +1599,27 @@ const industries = [
         "We align our marketing efforts with your industry's unique dynamics, ensuring your brand communicates effectively, attracts the right audience, and converts interest into long-term relationships.",
       whychoosepoints: [
         {
-          image:
-            "https://cf.bstatic.com/xdata/images/hotel/max1024x768/288054611.jpg?k=9e8790f843ddb713b2d7183dac78e7109621bfd38fe9d4c315576e960b37efbf&o=&hp=1",
+          image: villa1,
           title: "More Bookings, Less Empty Rooms",
           desc: "We help resorts and villas increase bookings through tailored digital marketing strategies. Using SEO, GMB optimization, paid ads, and engaging reels, we bring you the right guests at the right time. The goals of our campaigns are to fill more rooms, get more direct leads, and create long-term digital value. With our expertise in digital marketing for resorts & villas in Mumbai, we don’t just create visibility; we drive real results that keep your property fully booked and ahead of the competition.",
         },
         {
-          image:
-            "https://luxurystays.in/villas/villa-on-the-hill/on-the-hill-1.jpg",
+          image:villa2,
           title: "Turning Travel Searches into Stays",
           desc: "Travelers are searching; are they finding you? We make sure they do. From GMB optimization to SEO and high-converting Meta ads, we connect your resort or villa with people actively planning their next getaway. With engaging content and video reels, we showcase your space the way it deserves. Our strategies turn curiosity into clicks and clicks into confirmed bookings, giving you better ROI and higher guest inflow.",
         },
         {
-          image:
-            "https://media-cdn.tripadvisor.com/media/photo-s/2d/72/f9/44/caption.jpg",
+          image:villa3,
           title: "Your Resort Deserves to Be Seen",
           desc: "In a market full of beautiful stays, standing out is a must. We specialize in showcasing your resort or villa through stunning visuals, optimized listings, and targeted ads. Whether it's honeymooners, families, or weekend travelers, we tailor campaigns to reach your perfect guest. Using GMB, SEO, and Meta ads, we help build awareness, increase inquiries, and drive direct bookings for long-term business success.",
         },
         {
-          image:
-            "https://channelsay.com/wp-content/uploads/2024/06/TOP-Transforming-Hospitality-Experiences-The-Impact-of-Digital-Signage-in-Hotels-and-Resorts-Banner.jpg",
+          image: villa4,
           title: "Local Reach. Global Attention.",
           desc: "Whether your resort serves locals or tourists, visibility is key. Our marketing approach combines GMB optimization, localized SEO, and eye-catching reels to help your property shine. We focus on attracting guests who are actively looking to book. With strategic targeting and smart content, we turn online interest into real-life visits. Let us assist you in creating a powerful digital brand that is as memorable as your property.",
         },
         {
-          image:
-            "https://channelsay.com/wp-content/uploads/2024/06/Transforming-Hospitality-Experiences-The-Impact-of-Digital-Signage-in-Hotels-and-Resorts-photo-1.jpg",
+          image: villa5,
           title: "Digital Marketing That Fills Rooms",
           desc: "Your property should do more than just look good; it should be booked solid. We create digital strategies that fill your rooms using performance-driven tools like SEO, GMB, Meta ads, and video content. Our team understands traveler behavior and tailors every campaign to maximize occupancy and guest engagement. From boosting seasonal bookings to building your brand online, our expertise in digital marketing for resorts & villas in Mumbai ensures your villa or resort stays in high demand.",
         },
@@ -1610,8 +1632,7 @@ const industries = [
         "We focus on performance marketing, branding, and local visibility strategies that align with your business goals and deliver consistent growth through high-quality leads and a strong online presence.",
       worklist: [
         {
-          image:
-            "https://admin.wac.co/uploads/Blog_Cover_2_Page_06_a08af74054.png",
+          image:GoogleMyBusiness,
           title: "Google My Business (GMB) Optimization",
           desc: {
             para: "Boost direct bookings with a professionally optimized GMB profile. Showcase stunning resort images, collect guest reviews, appear in top local searches, and make it easy for travelers to find, trust, and contact your property.",
@@ -1620,8 +1641,7 @@ const industries = [
           link: "/google-my-business",
         },
         {
-          image:
-            "https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp",
+          image:seo,
           title: "SEO (Search Engine Optimization)",
           desc: {
             para: " Attract travelers searching online for weekend getaways or luxury stays. Our SEO strategy helps your resort or villa rank for high-intent keywords like `best villas near me` or `resort booking.`",
@@ -1630,8 +1650,7 @@ const industries = [
           link: "/search-engine-optimization",
         },
         {
-          image:
-            "https://www.mindstick.com/MindStickArticle/aa10fba4-254a-42e2-a6ad-54eee2a0f8ed/images/564ca89f-7d03-4d69-b2d3-65e4e8d06899.jpg",
+          image:ppc,
           title: "PPC (Google Ads)",
           desc: {
             para: "Drive instant resort bookings with targeted Meta Ads. Reach travelers based on location, interests, and behavior. Showcase your best offers and packages with scroll-stopping creatives that convert viewers into paying guests.",
@@ -1640,7 +1659,7 @@ const industries = [
           link: "/pay-per-click",
         },
         {
-          image: "https://i.cdn.newsbytesapp.com/images/l49520250227113632.png",
+          image: SocialMedia,
           title: "Reels (Instagram/Facebook)",
           desc: {
             para: "Captivate travel lovers with immersive Reels showcasing your property, views, food, and guest experiences. Leverage trending music and storytelling to build engagement, boost shares, and inspire direct bookings via social media.",
@@ -1651,7 +1670,7 @@ const industries = [
       ],
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "gray",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -1803,8 +1822,8 @@ const industries = [
     },
   },
   {
-    banner:
-      "https://chiedesign.in/wp-content/uploads/2022/05/Luxury-Interior-Design-Living-Room.jpg",
+    
+    banner:InteriorBanner,
     title: "Interior Design",
     shortdesc:
       "Showcase your creativity to the right audience. We help interior designers attract more clients through optimized Google listings, targeted ads, SEO, and high-quality visual content that drives inquiries.",
@@ -1817,8 +1836,7 @@ const industries = [
       desc: [
         "Interior design is a visually driven industry, and standing out in a competitive market like Mumbai requires more than just great work; it requires smart marketing. We help interior designers grow their client base by creating a digital presence that reflects their design excellence. From optimizing your Google My Business profile to running targeted Meta Ads and creating captivating Instagram Reels, we help your portfolio reach the right audience. Our SEO strategies make sure you’re visible when potential clients search for services, while PPC campaigns ensure consistent inquiries from those ready to hire. With data-backed targeting and a deep understanding of the interior design market, we focus on increasing your visibility, building credibility, and driving conversions. Whether you’re an independent designer or a full-service studio, we create customized campaigns that align with your goals. Our content strategies highlight your style and projects, building a brand that clients trust. Partner with us to experience the impact of digital marketing for interior designers in Mumbai and turn your creativity into consistent business growth.",
       ],
-      image:
-        "https://www.spectruminteriors.co.in/wp-content/uploads/2020/04/Living-Room-8.jpg",
+      image: InteriorDesign1,
     },
 
     clients: {
@@ -1927,32 +1945,27 @@ const industries = [
         "Our team specializes in promoting interior brands with powerful visuals, optimized listings, and targeted campaigns to increase online visibility and convert views into premium client inquiries.",
       whychoosepoints: [
         {
-          image:
-            "https://images.timesproperty.com/blog/4001/How_Technology_Is_Changing_The_World_Of_Interior_Design.jpg",
+          image:interiordesignsub1,
           title: "Crafting Visibility for Creative Minds",
           desc: "Interior designers thrive on visual appeal and client trust. Our team understands the goals and aesthetics of design businesses, creating tailored digital campaigns using SEO, Meta Ads, GMB, and engaging reels. We highlight your best projects to the right audience, generate quality leads, and position your brand for success. With our expertise in digital marketing for interior designers in Mumbai, we ensure your designs get discovered and appreciated by the right clientele.",
         },
         {
-          image:
-            "https://mediaproxy.salon.com/width/1200/https://media2.salon.com/2020/07/virtual-interior-design-0710201.jpg",
+          image:interiordesignsub2,
           title: "Turning Interior Talent Into Demand",
           desc: "We help interior designers convert their creative potential into consistent business opportunities. Our marketing approach combines performance-focused strategies with your unique design identity, ensuring you get noticed online. From boosting local search visibility to running targeted ad campaigns, we understand how to present your work to high-intent audiences and turn digital engagement into project inquiries.",
         },
         {
-          image:
-            "https://d28pk2nlhhgcne.cloudfront.net/assets/app/uploads/sites/3/2021/08/homebyme-guide-how-to-create-your-home-interior-design-make-your-home-interior-design-project-1200x670p.jpg",
+          image:interiordesignsub3,
           title: "Marketing Designed for Designers",
           desc: "Your creativity deserves the right exposure. We specialize in promoting interior design businesses with a blend of digital storytelling and technical marketing. Whether it’s optimizing your Google presence, running Meta ads, or producing attention-grabbing reels, we ensure your portfolio reaches potential clients, builders, or realtors who matter. Our results-driven approach positions your brand where style meets strategy.",
         },
         {
-          image:
-            "https://www.iiad.edu.in/wp-content/uploads/2024/03/image10-7.webp",
+          image:interiordesignsub4,
           title: "Creative Strategy Meets Design Excellence",
           desc: "We know that design is detail-oriented, and so is our marketing. Our campaigns are tailored to reflect your brand’s elegance, professionalism, and unique style. With a deep understanding of the interior design market, we craft digital solutions that increase online engagement, bring in premium leads, and reinforce your brand as a trusted expert in the design space.",
         },
         {
-          image:
-            "https://dv-si.com/wp-content/uploads/2017/11/designing-for-digital-transformation-and-technical-interiors.jpg",
+          image:interiordesignsub5,
           title: "Your Partner In Design Growth",
           desc: "We don’t just market; we position your design firm as a go-to expert in the interior design industry. By understanding both design trends and buyer psychology, we create campaigns tailored to your niche. Whether your focus is luxury homes or office spaces, our strategies reflect your aesthetic. With Digital Marketing for Interior Designers in Mumbai, we use SEO, Meta Ads, and video content to attract high-value clients and boost your digital presence.",
         },
@@ -1965,8 +1978,7 @@ const industries = [
         "We focus on performance marketing, branding, and local visibility strategies that align with your business goals and deliver consistent growth through high-quality leads and a strong online presence.",
       worklist: [
         {
-          image:
-            "https://admin.wac.co/uploads/Blog_Cover_2_Page_06_a08af74054.png",
+          image:GoogleMyBusiness,
           title: "Google My Business (GMB) Optimization",
           desc: {
             para: "Boost direct bookings with a professionally optimized GMB profile. Showcase stunning resort images, collect guest reviews, appear in top local searches, and make it easy for travelers to find, trust, and contact your property.",
@@ -1975,8 +1987,7 @@ const industries = [
           link: "/google-my-business",
         },
         {
-          image:
-            "https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp",
+          image:seo,
           title: "SEO (Search Engine Optimization)",
           desc: {
             para: " Attract travelers searching online for weekend getaways or luxury stays. Our SEO strategy helps your resort or villa rank for high-intent keywords like `best villas near me` or `resort booking.`",
@@ -1985,8 +1996,7 @@ const industries = [
           link: "/search-engine-optimization",
         },
         {
-          image:
-            "https://www.mindstick.com/MindStickArticle/aa10fba4-254a-42e2-a6ad-54eee2a0f8ed/images/564ca89f-7d03-4d69-b2d3-65e4e8d06899.jpg",
+          image:ppc,
           title: "PPC (Google Ads)",
           desc: {
             para: "Drive instant resort bookings with targeted Meta Ads. Reach travelers based on location, interests, and behavior. Showcase your best offers and packages with scroll-stopping creatives that convert viewers into paying guests.",
@@ -1995,7 +2005,7 @@ const industries = [
           link: "/pay-per-click",
         },
         {
-          image: "https://i.cdn.newsbytesapp.com/images/l49520250227113632.png",
+          image: SocialMedia,
           title: "Reels (Instagram/Facebook)",
           desc: {
             para: "Captivate travel lovers with immersive Reels showcasing your property, views, food, and guest experiences. Leverage trending music and storytelling to build engagement, boost shares, and inspire direct bookings via social media.",
@@ -2006,7 +2016,7 @@ const industries = [
       ],
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "gray",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -2157,8 +2167,7 @@ const industries = [
     },
   },
   {
-    banner:
-      "https://www.bodycraft.co.in/wp-content/uploads/attractive-african-woman-enjoying-face-massage-spa-salon-scaled.jpg",
+    banner:SpaSalonBanner,
     title: "Spa & Salon",
     shortdesc:
       "Showcase your creativity to the right audience. We help interior designers attract more clients through optimized Google listings, targeted ads, SEO, and high-quality visual content that drives inquiries.",
@@ -2173,8 +2182,7 @@ const industries = [
         "Our digital marketing strategies are fully customized for spa and salon businesses, ensuring every campaign reflects your brand’s essence. We begin by understanding your unique services, target market, and growth goals. From there, we craft a comprehensive digital roadmap that includes engaging content creation, visually compelling brand storytelling, and well-targeted outreach efforts that connect you with potential clients.",
         "We focus on building your authority in the market while improving local reach and credibility. Whether you're looking to increase walk-ins, boost appointment bookings, or build a loyal client base, we offer proven methods that generate measurable results. With our expertise in digital marketing for spas & salons, we help you establish a powerful online reputation. Drive consistent bookings and create long-term brand loyalty that positions you as a leader in the beauty and wellness space.",
       ],
-      image:
-        "https://img.freepik.com/premium-photo/beauty-spa-salon-interior_1271673-1408.jpg",
+      image: SpaSalon,
     },
 
     clients: {
@@ -2283,32 +2291,27 @@ const industries = [
         "We understand your customers, competition, and goals. Our marketing blends creativity and analytics to position your brand strongly in the market and bring consistent, long-term results.",
       whychoosepoints: [
         {
-          image:
-            "https://static.wixstatic.com/media/6b0b63_00b2c77b5c9e46f1901c08a99834ef98~mv2.jpg/v1/fill/w_640,h_414,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/6b0b63_00b2c77b5c9e46f1901c08a99834ef98~mv2.jpg",
+          image:SpaSalonSub1,
           title: "Beauty Industry Marketing That Works",
           desc: "We understand the pulse of the spa and salon industry. Our marketing strategies are crafted to reflect your brand’s elegance, attract quality clientele, and build lasting loyalty. From seasonal campaigns to everyday visibility, we ensure your business stands out in a competitive market. Our deep industry insights allow us to position your brand effectively, grow bookings, and make your spa or salon the top choice in your area.",
         },
         {
-          image:
-            "https://anewattitudesalonspa.com/wp-content/uploads/2018/11/cropped-cropped-Header-Flowers-3.jpg",
+          image:SpaSalonSub2,
           title: "Crafted Strategies For Spa Success",
           desc: "We specialize in marketing solutions designed for spas and salons. With a focus on aesthetics, customer experience, and booking behavior, we deliver campaigns that speak your clients’ language. Whether you're targeting walk-ins or premium packages, we create consistent engagement and brand recognition. Our team helps you grow sustainably with campaigns that convert views into visits and visits into repeat clients, keeping your appointment calendar full year-round.",
         },
         {
-          image:
-            "https://static.photodexia.com/largeweb/repository/u-enblog/bd75baef8bb4c01eeaaafc820df1bc8aphoto1616394584738fc6e612e71b9",
+          image:SpaSalonSub3,
           title: "Where Wellness Meets Smart Marketing",
           desc: "The wellness industry demands more than just great services; it requires strong digital visibility. We help spas and salons amplify their brand through visually compelling campaigns, strategic storytelling, and precise audience targeting. By aligning your services with digital trends and client expectations, we generate a steady stream of quality leads. Our approach to digital marketing for spa & salons in Mumbai ensures you attract new clients and retain loyal ones in a competitive market.",
         },
         {
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuHOKtUS-z1YV4LyF3zyxaxCt4urzoz329bcsDFMb05ZUAU-e_Ahw4nWG6rShtml1qOgE&usqp=CAU",
+          image:SpaSalonSub4,
           title: "Designed For The Beauty Business",
           desc: "From bridal makeovers to luxury facials, your services deserve to be seen. We create marketing strategies that highlight your spa or salon's unique offerings and target your intended clientele. With expertise in customer behavior, branding, and digital outreach, we build awareness and trust for your brand. Our solutions are tailored to help you stand out, increase bookings, and position your business as a beauty industry leader.",
         },
         {
-          image:
-            "https://assets.simpleviewcms.com/simpleview/image/fetch/c_limit,h_1200,q_75,w_1200/https://lasvegas.simpleviewcrm.com/images/listings/original_Jean_Jeffrey_Spa0-aa017433b4d4c8a.jpg",
+          image:SpaSalonSub5,
           title: "Spa & Salon Growth Partners",
           desc: "We’re more than marketers; we’re your growth partners in the beauty industry. With deep insight into the spa and salon space, we craft strategies focused on visibility, lead generation, and customer retention. Every campaign conveys your brand's exclusivity and professionalism.. With our expertise in digital marketing for spas & salons in Mumbai, we ensure a strong online presence, consistent bookings, and a loyal clientele that values your services time and again.",
         },
@@ -2321,8 +2324,7 @@ const industries = [
         "We focus on performance marketing, branding, and local visibility strategies that align with your business goals and deliver consistent growth through high-quality leads and a strong online presence.",
       worklist: [
         {
-          image:
-            "https://admin.wac.co/uploads/Blog_Cover_2_Page_06_a08af74054.png",
+          image:GoogleMyBusiness,
           title: "Google My Business (GMB) Optimization",
           desc: {
             para: "Appear in local searches when people look for nearby salons and spas. With an optimized GMB profile, showcase your services, pricing, reviews, and photos, making it easy for clients to book or visit instantly.",
@@ -2331,8 +2333,7 @@ const industries = [
           link: "/google-my-business",
         },
         {
-          image:
-            "https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp",
+          image:seo,
           title: "SEO (Search Engine Optimization)",
           desc: {
             para: "Attract organic traffic from people searching for best salon near me or spa deals in [city] SEO helps your business rank higher on Google and generate appointment-ready leads without paid promotions.",
@@ -2341,8 +2342,7 @@ const industries = [
           link: "/search-engine-optimization",
         },
         {
-          image:
-            "https://www.mindstick.com/MindStickArticle/aa10fba4-254a-42e2-a6ad-54eee2a0f8ed/images/564ca89f-7d03-4d69-b2d3-65e4e8d06899.jpg",
+          image:ppc,
           title: "PPC (Google Ads)",
           desc: {
             para: "Promote special offers, new treatments, or festive packages using targeted Meta Ads. Reach potential customers in your area and convert scrollers into bookings with eye-catching visuals and compelling calls to action.",
@@ -2351,7 +2351,7 @@ const industries = [
           link: "/pay-per-click",
         },
         {
-          image: "https://i.cdn.newsbytesapp.com/images/l49520250227113632.png",
+          image: SocialMedia,
           title: "Reels (Instagram/Facebook)",
           desc: {
             para: "Share mini-makeovers, skincare regimes, client transformations, and behind-the-scenes footage with Mini Reels. Showcase your stylists’ skills and build engagement that turns into foot traffic and online bookings.",
@@ -2362,7 +2362,7 @@ const industries = [
       ],
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image:faq,
       mode: "gray",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -2513,8 +2513,7 @@ const industries = [
     },
   },
   {
-    banner:
-      "https://firstclasse.com.my/wp-content/uploads/2021/01/Fashion-in-a-digital-age-featured.jpg",
+    banner:LifestyleBanner,
     title: "Lifestyle",
     shortdesc:
       "Showcase your creativity to the right audience. We help interior designers attract more clients through optimized Google listings, targeted ads, SEO, and high-quality visual content that drives inquiries.",
@@ -2528,8 +2527,7 @@ const industries = [
         "In today’s competitive lifestyle market, standing out requires more than just great products; it demands strategic digital marketing that connects deeply with your audience. We specialize in creating tailored campaigns that highlight your brand's distinct personality and appeal to lifestyle customers. To attract and convert high-quality leads, we use intriguing storytelling, engaging imagery, and accurate targeting. By optimizing your local presence and leveraging paid ads alongside creative video content, we help you build lasting customer relationships and boost sales.",
         "We continuously analyze market trends and consumer behavior to ensure every campaign is data-driven and results-focused. With our expertise in digital marketing for real-life style in Mumbai, we help your brand achieve measurable growth, enhanced visibility, and a loyal customer base. Whether you’re a fashion, wellness, or home décor brand, our tailored digital strategies ensure your business flourishes in a crowded marketplace. Partner with us to transform your lifestyle brand’s digital presence and drive sustainable success through innovative marketing solutions designed for your unique business needs.",
       ],
-      image:
-        "https://static.fibre2fashion.com//articleresources/images/99/9886/SS39f496_Small.jpg",
+      image:Lifestyle1,
     },
 
     clients: {
@@ -2638,32 +2636,27 @@ const industries = [
         "Our deep industry insights help create impactful strategies that deliver visibility, engagement, and leads, ensuring your brand reaches the right audience and stays ahead of the competition.",
       whychoosepoints: [
         {
-          image:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbyfww1RnzlQs3zoGE2tfrBFZx-j14O_b4eWFnQI3a22VZGUrh1d6v9-1dHx04k_FRP4A&usqp=CAU",
+          image:Lifestylesub1,
           title: "Deep Understanding of Lifestyle Trends",
           desc: "Our team closely follows lifestyle trends, consumer behaviors, and aesthetic shifts to create marketing strategies that resonate. From wellness to fashion, we understand how to position your brand with content that inspires and connects. Our experience in lifestyle campaigns helps you gain visibility, attract the right audience, and convert interest into lasting loyalty—all while maintaining your brand’s unique voice and visual appeal across every digital platform.",
         },
         {
-          image:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEixdE2DZLoRAKHzKkhWnWpkCS3ysdNcZXrluuvOSD_AtsbT15KIxloKMOkDOzmPvtmz8lbJrzPpC8bFNMw945r_54960JksFbdKsR2Bg-R-KcKxiHOuVaToI1HOVnmgkg08nO2DshM-t7ToHXw8FAWXIRBFIe_D85kfsQJ-KZzMYe-OFLWb_e5wm8Wa/s600/Technology%20in%20the%20Fashion%20Industry.jpeg",
+          image:Lifestylesub2,
           title: "Custom Campaigns for Lifestyle Brands",
           desc: "Every lifestyle brand has a story, and we know how to tell it. Our campaigns focus on building brand identity, increasing awareness, and attracting loyal audiences. By blending storytelling, influencer strategy, and targeting, we create meaningful connections. With our expertise in digital marketing for real-life style in Mumbai, we align with your goals to make your brand trusted, admired, and impossible to ignore in the lifestyle space.",
         },
         {
-          image:
-            "https://static.fibre2fashion.com//articleresources/images/100/9984/SS769bce_Small.jpg",
+          image:Lifestylesub3,
           title: "Connecting Brands with Lifestyle Audiences",
           desc: "We specialize in connecting lifestyle brands with audiences that value style, purpose, and authenticity. Through well-planned digital strategies and engaging content, we ensure your brand message stands out. Our goal is to help you build lasting relationships, increase online engagement, and convert traffic into loyal customers. We focus on both aesthetics and performance to create campaigns that reflect your brand’s values and attract the right market segment.",
         },
         {
-          image:
-            "https://www.launchmetrics.com/wp-content/uploads/2014/03/technology-trends-1.jpeg",
+          image:Lifestylesub4,
           title: "Designed for Aspirational Living Brands",
           desc: "Wifestyle is about aspiration, and we make sure your brand reflects that. Whether it’s fashion, wellness, home, or travel, we help you tap into the mindset of your ideal customer. Our strategies create desire and drive action—building emotional connections that foster loyalty. We’re your partner in brand storytelling, online presence, and growth, helping you rise above the noise in a fast-moving lifestyle market.",
         },
         {
-          image:
-            "https://www.lefashionpost.com/wp-content/uploads/2024/10/fashion-tech-future-boutique.jpeg",
+          image:Lifestylesub5,
           title: "Authentic Growth for Lifestyle Businesses",
           desc: "We believe lifestyle marketing must feel authentic, engaging, and relatable. That’s why we tailor strategies that showcase your brand’s uniqueness using strong visuals, consistent messaging, and audience insights. We go beyond views to spark engagement and emotional connection. With our expertise in digital marketing for real-life style in Mumbai, your brand becomes a daily source of inspiration, ensuring visibility, trust, and meaningful presence across all relevant digital channels.",
         },
@@ -2676,8 +2669,7 @@ const industries = [
         "Unlock business growth with services designed to attract customers, boost visibility, and generate consistent leads across digital channels. We create solutions that match your goals and market potential.",
       worklist: [
         {
-          image:
-            "https://admin.wac.co/uploads/Blog_Cover_2_Page_06_a08af74054.png",
+          image:GoogleMyBusiness,
           title: "Google My Business (GMB) Optimization",
           desc: {
             para: "Enhance local visibility with an optimized GMB profile showcasing your lifestyle brand’s services, reviews, and images. Make it easy for customers to find, engage, and visit your store or book consultations instantly.",
@@ -2686,8 +2678,7 @@ const industries = [
           link: "/google-my-business",
         },
         {
-          image:
-            "https://intersmart.ae/wp-content/uploads/2024/08/SEO-for-Small-Business.webp",
+          image:seo,
           title: "SEO (Search Engine Optimization)",
           desc: {
             para: "Drive organic traffic by ranking for lifestyle-related searches like “best wellness coach” or “fashion boutique near me.” SEO helps your brand appear in top search results and attract quality leads interested in your offerings.",
@@ -2696,8 +2687,7 @@ const industries = [
           link: "/search-engine-optimization",
         },
         {
-          image:
-            "https://www.mindstick.com/MindStickArticle/aa10fba4-254a-42e2-a6ad-54eee2a0f8ed/images/564ca89f-7d03-4d69-b2d3-65e4e8d06899.jpg",
+          image:ppc,
           title: "PPC (Google Ads)",
           desc: {
             para: "Target lifestyle enthusiasts with compelling Meta Ads showcasing products, events, or services. Use audience segmentation and eye-catching creatives to convert browsers into loyal customers and increase sales rapidly.",
@@ -2706,7 +2696,7 @@ const industries = [
           link: "/pay-per-click",
         },
         {
-          image: "https://i.cdn.newsbytesapp.com/images/l49520250227113632.png",
+          image: SocialMedia,
           title: "Reels (Instagram/Facebook)",
           desc: {
             para: "Showcase your brand’s vibe through engaging Reels, featuring behind-the-scenes, tips, tutorials, or client stories. Captivate your audience with visual storytelling that builds community and drives bookings or sales.",
@@ -2717,7 +2707,7 @@ const industries = [
       ],
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "gray",
       title: "Helpfull F.A.Q.",
       shortdesc:

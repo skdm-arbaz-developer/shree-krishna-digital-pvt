@@ -12,20 +12,67 @@ import {
 import contactImage from "../../assets/images/contact-us-form.png";
 import { MdMessage, MdPeopleAlt, MdPhone, MdSend } from "react-icons/md";
 import { RiMoneyRupeeCircleFill } from "react-icons/ri";
-import furniture from "../../assets/images/resources/services/furniture.png";
-import doctor from "../../assets/images/resources/services/doctor.png";
-import gmbImage from "../../assets/images/resources/services/gmbWhychoose.png";
-import adsimage from "../../assets/images/resources/services/adsimage.png";
-import addgraph from "../../assets/images/resources/services/addgraph.png";
+
 import { FaPaintBrush } from "react-icons/fa";
 import { SiApachecordova } from "react-icons/si";
 import { IoLogoAndroid, IoLogoIonic } from "react-icons/io5";
 import { TbBrandReactNative } from "react-icons/tb";
 
+////-------- seo --------////
+import SeoBanner from "../../assets/images/banners/seo-banner.jpg";
+import Seo1 from "../../assets/images/resources/seo/seo1.avif";
+import SeoSub1 from "../../assets/images/resources/seo/seo-sub1.png";
+import SeoSub2 from "../../assets/images/resources/seo/seo-sub2.png";
+import SeoSub3 from "../../assets/images/resources/seo/seo-sub3.png";
+import SeoSub4 from "../../assets/images/resources/seo/seo-sub4.png";
+import SeoSub5 from "../../assets/images/resources/seo/seo-sub5.jpg";
+import Benefits1 from "../../assets/images/resources/seo/Benefits1.jpg";
+import Benefits2 from "../../assets/images/resources/seo/Benefits2.jpg";
+import Benefits3 from "../../assets/images/resources/seo/Benefits3.jpg";
+import Benefits4 from "../../assets/images/resources/seo/Benefits4.jpg";
+import Benefits5 from "../../assets/images/resources/seo/Benefits5.jpg";
+import faq from "../../assets/images/resources/faq.jpg";
+
+////-------- Social Media Marketing --------////
+import SocialMediaMarketing from "../../assets/images/banners/Social-Media-Marketing-banner.jpg";
+import smm1 from "../../assets/images/resources/smm/smm1.jpg";
+import SmmSub1 from "../../assets/images/resources/smm/smm-sub1.jpg";
+import SmmSub2 from "../../assets/images/resources/smm/smm-sub2.jpg";
+import Facebook from "../../assets/images/resources/smm/Facebook.png";
+import Instagram from "../../assets/images/resources/smm/Instagram.png";
+import YouTube from "../../assets/images/resources/smm/YouTube.png";
+import LinkedIn from "../../assets/images/resources/smm/linkdin.png";
+
+////-------- Google My Business --------////
+import GmbBanner from "../../assets/images/resources/gmb/gmb-banner.jpg";
+import gmb1 from "../../assets/images/resources/gmb/gmb1.jpg";
+import gmbImage from "../../assets/images/resources/services/gmbWhychoose.png";
+import furniture from "../../assets/images/resources/services/furniture.png";
+import doctor from "../../assets/images/resources/services/doctor.png";
+import gmb5 from "../../assets/images/resources/gmb/gmb5.jpg";
+
+////-------- Pay Per Click --------////
+import PpcBannner from "../../assets/images/banners/ppc-banner.jpg";
+import adsimage from "../../assets/images/resources/services/adsimage.png";
+import addgraph from "../../assets/images/resources/services/addgraph.png";
+import ppc1 from "../../assets/images/resources/ppc/ppc1.jpg";
+import ppc2 from "../../assets/images/resources/ppc/ppc2.jpg";
+
+////--------Website Development --------////
+import WebDevelopmentBanner from "../../assets/images/banners/web-development-banner.jpg";
+import web1 from "../../assets/images/resources/web/web1.jpg";
+import web2 from "../../assets/images/resources/web/web2.jpg";
+import web3 from "../../assets/images/resources/web/web3.jpg";
+
+////--------Application Development --------////
+import AppBanner from "../../assets/images/banners/application-banner.jpg";
+import app1 from "../../assets/images/resources/app/app1.jpg";
+import app2 from "../../assets/images/resources/app/app2.gif";
+
+
 const services = [
   {
-    banner:
-      "https://static.vecteezy.com/system/resources/previews/024/444/363/non_2x/seo-search-engine-optimization-internet-technology-for-business-companies-search-engine-optimization-seo-concept-on-dark-blue-background-vector.jpg",
+    banner:SeoBanner,
     title: "Boost Your Website Ranking with Proven SEO Techniques",
     shortdesc:
       "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
@@ -42,8 +89,7 @@ const services = [
       ],
       subtitle: null,
       subdesc: [],
-      image:
-        "https://img.freepik.com/free-photo/employee-working-marketing-setting_23-2151871171.jpg?semt=ais_hybrid&w=740",
+      image: Seo1,
     },
     package: {
       mode: "gray",
@@ -128,33 +174,28 @@ const services = [
         "We offer customized digital solutions, expert strategy, and dedicated support to ensure your business grows online. Our team works with passion, precision, and performance to meet your unique goals and deliver real results.",
       whychoosepoints: [
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Website-Audit-300x279-1-280x279-1.png",
+          image:SeoSub1,
           title:
             "We provide comprehensive website auditing services that ensure strategic SEO.",
           desc: "The first step in getting started with SEO is analyzing your website extensively. The report covers the design of the site, its user interface and other on-page SEO elements, as well as the technical framework. The in-depth study identifies themes that may affect search engine performance and necessitate further investigation. A customized SEO approach is established based on industry standards and measures the results achieved. The effectiveness of SEO, website traffic generation, and the recruitment of qualified leads.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Keyword_Research-transformed-300x255-1-280x255-1.png",
+          image:SeoSub2,
           title: "Keyword Research and Strategic Optimization",
           desc: "Smart keyword research is the foundation of effective SEO. Advanced tools and proven methods are utilized to identify highly valuable, niche-specific keywords that correspond to user intent. demotics. Keywords can be integrated into website content, meta tags, headings, and URLs to enhance the relevance and readability of each page. The site's search engine optimization leads to increased traffic from specific users through strategic planning.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Content-Creation-300x252-1-280x252-1.png",
+          image:SeoSub3,
           title: "Quality and Engaging Content Development",
           desc: "Effective SEO requires content that is unique, captivating and centred on specific keywords. Through the use of extensive research and audience comprehension, valuable content is created to tackle user issues while emphasizing subject expertise. From blog posts to landing pages, each piece is tailored to attract users and search engine bots alike. The content strategy focuses on offering value, building trust, and improving visibility. Recognized as the best SEO company in Mumbai, the approach ensures that every word published supports long-term SEO success and connects with the right audience.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Link-Building-Service-300x208-1-280x208-1.png",
+          image:SeoSub4,
           title: "Strategic Link Building for Authority.",
           desc: "Quality backlinks are like endorsements from real sources; they increase your website's credibility and domain authority. Link-building strategies are essential in obtaining relevant and credible backlinks that enhance your online brand. Building a strong presence in your industry requires engaging with and benefiting from guest posting opportunities alongside authority sources. Enhanced search engine rankings are achieved through this process, which also drives referral traffic.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Onpage-SEO-300x217-1-280x217-1.jpg",
+          image:SeoSub5,
           title: "On-Page and Technical SEO Enhancement.",
           desc: "The optimization of on-page components and technical elements is crucial for your website's SEO. Experts extensively examine and refine crucial components, such as title tags, meta descriptions, headers, image alt texts, and URL structure. This is all about making sure that your site loads quickly, is mobile-friendly, is secure, and is user-friendly. Your site's smooth user experience and crawlability are enhanced by these enhancements, which make it more search engine-friendly for indexing purposes.",
         },
@@ -167,32 +208,27 @@ const services = [
         "Collaborate with Shree Krishna Digital Solutions Pvt Ltd to unlock powerful SEO tools, industry best practices, and proven digital strategies. We ensure your business reaches the right audience and gets sustainable online visibility.",
       whychoosepoints: [
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Screenshot_5-raOu7uZmi-transformed-606x400-1.jpg",
+          image:Benefits1,
           title: "Customized SEO Strategies.",
           desc: "Knowing that each company possesses its own unique objectives and challenges, an all-in SEO strategy won't be the most effective. Hence, tailored plans are developed to meet specific objectives, needs, and changing industry conditions.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Screenshot-a_A5qIf7b-transformed-601x400-1.jpg",
+          image:Benefits2,
           title: "Proven Track Record.",
           desc: "Boost your website's SEO results through monthly plans. The team, with years of industry experience at their disposal, has consistently achieved measurable success across various industries. This record shows that real growth is achievable by improving search engine rankings and ensuring long-term exposure.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Screenshot_1-HeRF66lAW-transformed-597x400-1.jpg",
+          image:Benefits3,
           title: "Transparent Reporting and Analytics.",
           desc: "Building trust and fostering a positive work environment requires honesty. Why? It provides comprehensive reports and analytics for tracking campaigns on an ongoing basis. Organic traffic, keyword rankings, conversion rates and more informed decision-making are all included in these reports. What is the significance of this information?",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Screenshot_2-HYO2GdcC6-transformed-606x400-1.jpg",
+          image:Benefits4,
           title: "Committed Support and Collaboration",
           desc: "Gain meaningful insights through a thorough SEO performance review. We prioritize open communication and working together. SEO works with you; they always help guide you through the process. By analyzing your specific business objectives, we ensure that our strategies are in line with your expectations and goals. This approach helps build lasting relationships and drives shared success for your business.",
         },
         {
-          image:
-            "https://www.monkeydigital.org/wp-content/uploads/2023/08/Screenshot_3-KlndiIHtuF-transformed-604x400-1.jpg",
+          image:Benefits5,
           title: "Staying Ahead of the Curve.",
           desc: "You must be up-to-date with the ever-changing digital world. We keep up with industry news, algorithm updates and new technological advancements. Let us assist you in accomplishing this.",
         },
@@ -243,7 +279,7 @@ const services = [
       ],
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "light",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -394,8 +430,7 @@ const services = [
     },
   },
   {
-    banner:
-      "https://i.pinimg.com/originals/c5/18/2c/c5182c09b6a831cb9c654362a6aceb20.jpg",
+    banner:SocialMediaMarketing,
     title: "Social Media Marketing",
     shortdesc:
       "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
@@ -411,8 +446,7 @@ const services = [
       subdesc: [
         "Social media marketing encompasses more than simply making posts, it entails the development of a cohesive image which appeals to the audience. A powerful social strategy helps in improving the company image, driving visitors to the business website, and supporting the SEO goals. We assist your brand in building engagement through blogs, communities, and purposeful interactions that capture attention and drive conversions. Brand recall, improved engagement, or increased leads – no matter your goal, our tailored SMM solutions make certain that the message is visible, audible, and unforgettable.",
       ],
-      image:
-        "https://i.pinimg.com/736x/62/0c/91/620c915299d3c0306c5a36254ec5034a.jpg",
+      image:smm1,
       imagePostion: "right",
     },
 
@@ -558,32 +592,31 @@ const services = [
     platform: {
       mode: "light",
       title: "Platform-Specific SMM Services",
-      image:
-        "https://i.pinimg.com/736x/b9/93/5c/b9935cb835561ed50a8b418e4f8f0bb1.jpg",
+      image: SmmSub1,
       shortdesc:
         "We specialize in managing and optimizing your presence on various social media platforms to maximize your brand's reach and engagement.",
       list: [
         {
           name: "Facebook",
-          icon: "https://cdn-icons-png.flaticon.com/128/3670/3670124.png",
+          icon: Facebook,
           desc: "We use targeted ad strategies and engaging content to help your brand reach a broader audience. From awareness campaigns to conversion-focused ads, we manage everything—from planning and execution to analytics and performance tweaks.",
         },
         {
           name: "Instagram",
-          icon: "https://cdn-icons-png.flaticon.com/128/15713/15713420.png",
+          icon: Instagram,
           desc: "With a visually driven approach, we help you build a strong Instagram presence. From curated feeds to strategic hashtags and creative reels, we focus on increasing your visibility and driving leads through engaging and share-worthy content.",
         },
         {},
 
         {
           name: "LinkedIn",
-          icon: "https://cdn-icons-png.flaticon.com/128/2504/2504923.png",
+          icon: LinkedIn,
           desc: "Speak directly to decision-makers and industry professionals. We create high-value content that boosts your credibility, builds authority, and opens the door to B2B opportunities through targeted campaigns and meaningful engagement.",
         },
 
         {
           name: "YouTube",
-          icon: "https://cdn-icons-png.flaticon.com/128/5968/5968852.png",
+          icon: YouTube,
           desc: "Video is king—and YouTube is where it rules. From creating polished, engaging videos to optimizing for search and managing your YouTube ad campaigns, we ensure your content gets discovered and delivers results.",
         },
         {},
@@ -609,13 +642,12 @@ const services = [
         "Better search engine visibility",
         "Stronger online brand credibility",
       ],
-      image:
-        "https://i.pinimg.com/736x/fe/ef/3e/feef3e29c0198fbb5b322ac6867776b8.jpg",
+      image:SmmSub2,
       imagePostion: "left",
     },
 
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "light",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -764,8 +796,7 @@ const services = [
     },
   },
   {
-    banner:
-      "https://i.pinimg.com/1200x/f9/62/83/f9628343b04725da400b8ff31fb789d0.jpg",
+    banner:GmbBanner,
     title: "Google My Business",
     shortdesc:
       "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
@@ -818,8 +849,7 @@ const services = [
           desc: "local business SEO Experts.",
         },
       ],
-      image:
-        "https://i.pinimg.com/736x/fc/2d/b1/fc2db19c99cb9ed764593899b30d28d0.jpg",
+      image:gmb1,
       imagePostion: "left",
     },
 
@@ -859,8 +889,7 @@ const services = [
         "Increasing the number of people who visit your website or store",
         "Building long-term customer trust",
       ],
-      image:
-        "https://i.pinimg.com/736x/57/31/2a/57312a1f57d8ccdd64c44bc36e3ae9e6.jpg",
+      image:gmb5,
       imagePostion: "right",
     },
 
@@ -906,7 +935,7 @@ const services = [
     },
 
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "light",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -1053,8 +1082,7 @@ const services = [
     },
   },
   {
-    banner:
-      "https://i.pinimg.com/1200x/71/58/6a/71586ab3e90e6bd3f157d048c578a809.jpg",
+    banner: PpcBannner,
     title: "Pay Per Click",
     shortdesc:
       "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
@@ -1071,8 +1099,7 @@ const services = [
       ],
       subtitle: "How PPC Works",
       points: [],
-      image:
-        "https://i.pinimg.com/736x/f1/1b/d7/f11bd72266c8b9bddd5d65ad51788a3a.jpg",
+      image:ppc1,
       imagePostion: "right",
     },
 
@@ -1131,8 +1158,7 @@ const services = [
         "Increasing the number of people who visit your website or store",
         "Building long-term customer trust",
       ],
-      image:
-        "https://i.pinimg.com/736x/1b/e7/3a/1be73a6727a8072253c4d9b414253cb0.jpg",
+      image:ppc2,
       imagePostion: "right",
     },
 
@@ -1192,7 +1218,7 @@ const services = [
     },
 
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "light",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -1351,9 +1377,8 @@ const services = [
     },
   },
   {
-    banner:
-      "https://i.pinimg.com/1200x/54/0c/16/540c16fe8d7c4529661b33cb6dedaea7.jpg",
-    title: "Website Development",
+    banner:WebDevelopmentBanner,
+    title: "Website Development",  
     shortdesc:
       "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
     slug: "/web-development",
@@ -1395,8 +1420,7 @@ const services = [
         },
       ],
       pointStyle: "card",
-      image:
-        "https://i.pinimg.com/1200x/54/60/71/5460718577e51bb4f6e9427bd108233a.jpg",
+      image: web1,
       imagePostion: "right",
     },
     descriptionSecond: {
@@ -1438,8 +1462,7 @@ const services = [
           desc: "We design goal-oriented landing pages and microsites that are built to convert. Whether you're launching a campaign or promoting a product, our focused designs eliminate clutter and spotlight your key messages—delivering stronger leads and measurable results.",
         },
       ],
-      image:
-        "https://i.pinimg.com/474x/73/2f/6d/732f6dbac1eadd8c7a3b2d4775344a75.jpg",
+      image: web2,
       imagePostion: "left",
     },
     services: {
@@ -1464,8 +1487,7 @@ const services = [
     platform: {
       mode: "light",
       title: "Our Development Proccess",
-      image:
-        "https://i.pinimg.com/736x/cf/fc/be/cffcbec4c5d20014a18466b1f0c0354d.jpg",
+      image: web3,
       shortdesc: "",
       list: [
         {
@@ -1495,7 +1517,7 @@ const services = [
       ],
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "gray",
       title: "Helpfull F.A.Q.",
       shortdesc:
@@ -1644,8 +1666,7 @@ const services = [
     },
   },
   {
-    banner:
-      "https://i.pinimg.com/1200x/5b/15/29/5b1529a1f734a7d97994ffa928892ccc.jpg",
+    banner:AppBanner,
     title: "Application Development",
     shortdesc:
       "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
@@ -1702,8 +1723,7 @@ const services = [
         },
       ],
       pointStyle: "card",
-      image:
-        "https://i.pinimg.com/736x/b1/d5/5a/b1d55a474870b13245e6ca1bca7d45dc.jpg",
+      image:app1,
       imagePostion: "left",
     },
     services: {
@@ -1753,14 +1773,13 @@ const services = [
     enhance: {
       mode: "light",
       title: "Together, let's create something extraordinary.",
-      image:
-        "https://i.pinimg.com/originals/05/cd/9a/05cd9a0bb4c72e5ba98ece031987955d.gif",
+      image:app2,
       shortdesc:
         "We can assist you if you're prepared to release a mobile application that accurately reflects your company and produces tangible outcomes. Join forces with a Mumbai app development company that is dedicated to your success at every stage.",
       desc: "",
     },
     faq: {
-      image: "https://cdn2.mageplaza.com/media/general2/UBsDQPo.jpg",
+      image: faq,
       mode: "gray",
       title: "Helpfull F.A.Q.",
       shortdesc:

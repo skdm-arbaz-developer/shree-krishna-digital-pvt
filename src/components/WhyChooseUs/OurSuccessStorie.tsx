@@ -7,65 +7,75 @@ import "../../css/casestudy.css";
 import "../../css/home/industry.css";
 import FaqArrow from "../../assets/images/icons/faq-arrow.svg";
 import FaqStart from "../../assets/images/icons/faq-star.svg";
+import RealEstate from "../../assets/images/resources/Real-Estate.jpg";
+import Hospitality from "../../assets/images/resources/Hospitality.jpeg";
+import ECommerce from "../../assets/images/resources/E-Commerce.jpg";
+import Education from "../../assets/images/resources/Education.jpg";
+import InteriorDesign from "../../assets/images/resources/Interior-Design.jpg";
+import Logistics from "../../assets/images/resources/Logistics.jpg";
+import Healthcare from "../../assets/images/resources/Healthcare.jpg";
+import ITServices from "../../assets/images/resources/IT Services.jpg";
+import Travel from "../../assets/images/resources/Travel.jpeg";
+import Fashion from "../../assets/images/resources/Fashion.jpg";
 
 export default function OurSuccessStorie() {
   const casestudy = [
     {
-      img: "https://images.pexels.com/photos/87223/pexels-photo-87223.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: RealEstate,
       type: "Real Estate",
       title: "Luxury Living Realty – SEO Transformation",
       desc: "Implemented a high-impact SEO strategy that boosted organic traffic by 300%.",
     },
     {
-      img: "https://images.pexels.com/photos/4508641/pexels-photo-4508641.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      img: Hospitality,
       type: "Hospitality",
       title: "ResortEase – Application Development",
       desc: "Developed a booking and resort management app used by over 100+ resorts.",
     },
     {
-      img: "https://images.pexels.com/photos/135620/pexels-photo-135620.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: ECommerce,
       type: "E-Commerce",
       title: "UrbanCart – Digital Marketing Overhaul",
       desc: "Revamped performance marketing and email automation for a 5x ROI.",
     },
     {
-      img: "https://images.pexels.com/photos/1205651/pexels-photo-1205651.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: Education,
       type: "Education",
       title: "STEM Boost Academy – Website & CRM",
       desc: "Delivered a custom LMS portal with lead capture and student dashboard.",
     },
     {
-      img: "https://images.pexels.com/photos/1090638/pexels-photo-1090638.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: InteriorDesign,
       type: "Interior Design",
       title: "DecoraNest – Portfolio Website",
       desc: "Created a stylish web presence and social strategy for luxury interiors.",
     },
     {
-      img: "https://images.pexels.com/photos/906494/pexels-photo-906494.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: Logistics,
       type: "Logistics",
       title: "FastTrack Movers – Branding & CRM Setup",
       desc: "Launched branding campaign and built CRM for real-time delivery tracking.",
     },
     {
-      img: "https://images.pexels.com/photos/4033148/pexels-photo-4033148.jpeg?auto=compress&cs=tinysrgb&w=1200",
+      img: Healthcare,
       type: "Healthcare",
       title: "CareWell Clinic – Google Ads & SEO",
       desc: "Scaled online appointments through local SEO and lead-gen landing pages.",
     },
     {
-      img: "https://images.pexels.com/photos/845451/pexels-photo-845451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: ITServices,
       type: "IT Services",
       title: "TechNova – Corporate Website Redesign",
       desc: "Redesigned corporate site with animations, blogs, and case study sections.",
     },
     {
-      img: "https://images.pexels.com/photos/1371360/pexels-photo-1371360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: Travel,
       type: "Travel",
       title: "WanderScape – Social Media Strategy",
       desc: "Built Instagram and YouTube presence from scratch, now at 80K+ followers.",
     },
     {
-      img: "https://images.pexels.com/photos/932401/pexels-photo-932401.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      img: Fashion,
       type: "Fashion",
       title: "StyleLoop – Shopify Store Optimization",
       desc: "Optimized product pages and checkout for a 45% increase in conversions.",
