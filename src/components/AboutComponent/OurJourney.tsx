@@ -2,44 +2,44 @@ import { FaCalendar } from "react-icons/fa6";
 import FaqArrow from "../../assets/images/icons/faq-arrow.svg";
 import FaqStart from "../../assets/images/icons/faq-star.svg";
 import "../../css/aboutpage.css";
+import journey1 from "../../assets/images/resources/journey1.jpg";
+import journey2 from "../../assets/images/resources/journey2.jpg";
+import journey3 from "../../assets/images/resources/journey3.jpg";
+import journey4 from "../../assets/images/resources/journey4.jpg";
+import journey5 from "../../assets/images/resources/journey5.webp";
 
 export default function OurJourney() {
   const jouneyData = [
     {
-      image:
-        "https://cdn.pixabay.com/photo/2016/04/20/08/21/entrepreneur-1340649_1280.jpg",
+      image:journey1,
       year: "2018",
       title: "The Beginning",
       content:
         "Two individuals set out on a journey to enhance online business growth with the launch of Shree Krishna Digital Solutions Pvt Ltd in 2018. With just a single SEO project and a website assignment, our journey began from a small setup. This marked the birth of a future-leading digital marketing company in Mumbai.",
     },
     {
-      image:
-        "https://images.pexels.com/photos/6077983/pexels-photo-6077983.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image:journey2,
       year: "2020",
       title: "Building Our Core Team",
       content:
         "By 2020, we had moved into our first office space and formed a dedicated team of 10 professionals. We successfully completed 64 website development projects and 38 social media campaigns. Our work ethic and results laid the foundation for Shree Krishna Digital Solutions Pvt Ltd as a go-to digital marketing company in Mumbai.",
     },
     {
-      image:
-        "https://images.pexels.com/photos/3183183/pexels-photo-3183183.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image:journey3,
       year: "2021",
       title: "Growth Through Consistency",
       content:
         "We carried our momentum into 2021, crossing the mark of 100+ completed digital projects. With every project, we built more trust and loyalty among clients, growing our influence and reputation across various industries.",
     },
     {
-      image:
-        "https://images.pexels.com/photos/8111895/pexels-photo-8111895.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image:journey4,
       year: "2023",
       title: "A Landmark Year",
       content:
         "2023 was a game-changing year. Shree Krishna Digital Solutions Pvt Ltd achieved its highest revenue, proudly serving over 300+ clients. We delivered 100+ SEO projects and 100+ social media marketing campaigns. This year, we also introduced professional Ads and PR services, expanding our reach and impact.",
     },
     {
-      image:
-        "https://images.pexels.com/photos/8353804/pexels-photo-8353804.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image:journey5,
       year: "2024 & Beyond",
       title: "Scaling New Heights",
       content:

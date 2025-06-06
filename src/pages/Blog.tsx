@@ -4,6 +4,8 @@ import { Tag } from "antd";
 import "../css/home/blogs.css";
 import { NavLink } from "react-router-dom";
 import blogsdata from "../components/support/BlogsArrayList";
+import BlogBanner from "../assets/images/banners/blog-banner.jpeg"
+
 
 interface Data {
   image: string;
@@ -25,9 +27,7 @@ export default function Blog() {
   return (
     <>
       <CommanBanner
-        image={
-          "https://media.licdn.com/dms/image/v2/D4E12AQHuRQYQs_8vvA/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1679471108342?e=2147483647&v=beta&t=jN3Ij1IgujiyMZ5zAJNJWE1l3hzhgWC7mveoYquRp1k"
-        }
+        image={BlogBanner}
         title={"Blogs"}
         desc={
           "Explore our latest blogs to stay updated with the latest trends, insights, and tips in the industry."

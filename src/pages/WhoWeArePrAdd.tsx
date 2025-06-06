@@ -15,6 +15,9 @@ import PortfolioSectionCard from "../components/AdsAndPR/PortfolioSectionCard";
 import SvgIcon from "../assets/images/icons/home-about-right.svg";
 import FaqArrow from "../assets/images/icons/faq-arrow.svg";
 import FaqStart from "../assets/images/icons/faq-star.svg";
+import VinayMishra from "../assets/images/resources/VinayMishra.jpg"
+import KunalKahtoi from "../assets/images/resources/KunalKahtoi.jpeg"
+import PrAd from "../assets/images/banners/pr-ad-banner.webp"
 
 export default function WhoWeArePrAdd() {
   const teamlist = [
@@ -26,15 +29,13 @@ export default function WhoWeArePrAdd() {
     //   desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel ?",
     // },
     {
-      image:
-        "https://scontent.fbom3-3.fna.fbcdn.net/v/t39.30808-6/476838022_8919786721482577_4604308827657792290_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=127cfc&_nc_ohc=qBw4VSXnPyIQ7kNvwHn1eW1&_nc_oc=AdnDfucp4KTbkvaxOouE-HTE_gGezA6-tszeN4eoWDQsUCoi1eQt-0ryRwratRHvqtA2eWt2ksyhuBpgCiCn7IbA&_nc_zt=23&_nc_ht=scontent.fbom3-3.fna&_nc_gid=_BlEZyOVMZd6o57CruYJ_g&oh=00_AfIAsVZKWOl2f_F5QPu6YAxlOrUdd13VIHIxrw2_xSQFtw&oe=6843904E",
+      image:VinayMishra,
       name: "Vinay Mishra",
       designation: "Line Producer & Director",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
     },
     {
-      image:
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsXCZZDzciK3-mZZoILFVCc6IyDLQ7j0GKz_iRmGmD8r0jnDJBSPSSx9spfKu8xy0Ngdk&usqp=CAU",
+      image:KunalKahtoi,
       name: "Kunal Kahtoi",
       designation: "Director of Photography",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
@@ -84,7 +85,7 @@ export default function WhoWeArePrAdd() {
       <CommanBanner
         title="Who We Are - PR & Advertising"
         desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime, porro, quae perferendis odit dolorem eveniet odio saepe inventore repudiandae non repellendus commodi a corporis? Consequuntur aspernatur officia vero dolores!"
-        image="https://images.pexels.com/photos/3045399/pexels-photo-3045399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        image= {PrAd}
       />
       <section className="section relative">
         <img src={SvgIcon} className="absolute top-0 right-0" />

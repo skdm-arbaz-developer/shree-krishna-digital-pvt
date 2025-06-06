@@ -12,6 +12,7 @@ import { BsWhatsapp } from "react-icons/bs";
 import { Button, Form, Input, Select } from "antd";
 import TextArea from "antd/es/input/TextArea";
 import "../css/contactus.css";
+import Contact from "../assets/images/banners/contact-us-banner.jpg";
 
 export default function ContactUs() {
   return (
@@ -19,7 +20,7 @@ export default function ContactUs() {
       <CommanBanner
         title="Contact Us"
         desc="Get in touch with us for any queries or support"
-        image="https://eclipsesol.com/wp-content/uploads/2023/09/contact-us-scaled-1.jpg"
+        image={Contact}
       />
 
       <section className="section">

@@ -1,15 +1,17 @@
+import vision from "../../assets/images/resources/vision.webp";
+import mission from "../../assets/images/resources/mission.webp";
+
+
 export default function MissionVission() {
   const missionVissionContent = [
     {
-      image:
-        "https://images.pexels.com/photos/8866736/pexels-photo-8866736.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image:vision,
       title: "Vision",
       content:
         "We aim to provide businesses with effective digital solutions for your business growth heigh't. Our dedicated team is committed to providing quality services in the areas of SEO, web development and online marketing through smart new ideas combined with effective strategies for your business plans.. Our approach will result in tangible growth for clients across all channels.'...",
     },
     {
-      image:
-        "https://images.pexels.com/photos/6147381/pexels-photo-6147381.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+      image:mission,
       title: "Mission",
       content:
         "With a focus on innovation, transparency, and providing top-notch customer service, we aim to become the most prominent Digital Marketing Company In Mumbai. We are experienced in the different categories of business with smart strategies and solutions that take your work to great heights.",

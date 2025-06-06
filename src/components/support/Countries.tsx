@@ -65,6 +65,34 @@ import appIconMaldives from "../../assets/images/icons/services/applicationdevel
 import appIconUnitedKingdom from "../../assets/images/icons/services/applicationdevelopment/8.png";
 import appIconMalasia from "../../assets/images/icons/services/applicationdevelopment/9.png";
 
+import IndiaSeo from "../../assets/images/resources/india/india-seo-banner.jpg";
+import IndiaSocialBanner from "../../assets/images/resources/india/india-social-banner.jpg";
+import IndiaGmbBanner from "../../assets/images/resources/india/india-gmb-banner.png";
+import IndiaPpcBanner from "../../assets/images/resources/india/IndiaPpcBanner.jpg";
+import IndiaWebBanner from "../../assets/images/resources/india/India-web-Banner.avif";
+import IndiaAppBanner from "../../assets/images/resources/india/India-app-Banner.jpg";
+
+// ====================== India =======================
+import IndiaBanner from "../../assets/images/resources/india/india-banner.webp";
+
+
+// ====================== dubai =======================
+import DubaiBanner from "../../assets/images/resources/dubai-banner.avif";
+// ====================== Australia =======================
+import AustraliaBanner from "../../assets/images/resources/Australia-banner.jpg";
+// ====================== usa =======================
+import UsaBanner from "../../assets/images/resources/usa-banner.jpg";
+// ====================== canada =======================
+import CanadaBanner from "../../assets/images/resources/canada-banner.avif";
+// ====================== uk =======================
+import UkBannner from "../../assets/images/resources/uk-banner.webp";
+// ====================== Malaysia =======================
+import MalaysiaBanner from "../../assets/images/resources/Malaysia-banner.jpeg";
+// ====================== Maldives =======================
+import MaldivesBanner from "../../assets/images/resources/maldives-banner.webp";
+// ====================== Maldives =======================
+import NepalBanner from "../../assets/images/resources/nepal-banner.png";
+
 const countries = [
   {
     title: "India",
@@ -72,8 +100,7 @@ const countries = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/india",
     type: "india",
-    banner:
-      "https://cdn.britannica.com/26/84526-050-45452C37/Gateway-monument-India-entrance-Mumbai-Harbour-coast.jpg",
+    banner:IndiaBanner,
     serviceSection: {
       title: "Solutions That Speak For You",
       desc: "We build digital strategies that echo your brand voice. As the best digital marketing agency in India, we help your message resonate with the right people at the right time.",
@@ -204,8 +231,7 @@ const countries = [
           "With competition increasing across every industry, having a robust SEO strategy is not just a choice; it's a necessity. Partnering with us means you're choosing a dedicated team that understands the dynamics of search engine optimization services in India and the global landscape. We’ve helped numerous businesses grow organically, expand their reach, and establish strong digital foundations.",
           "Whether you aim to rank locally, nationally, or globally, our services for search engine optimization services in India are designed to get you there faster, more effectively, and with lasting results.",
         ],
-        bannerImage:
-          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+        bannerImage:IndiaSeo,
       },
       {
         icon: socialIconIndia,
@@ -222,8 +248,7 @@ const countries = [
           "Choosing us means partnering with a creative team that understands both local nuances and global trends. We deliver result-driven social media marketing services in India that help businesses build credibility, drive engagement, and create a lasting impact online.",
           "Let your brand speak louder, shine brighter, and connect deeper. Begin your social media journey with us today.",
         ],
-        bannerImage:
-          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+        bannerImage:IndiaSocialBanner,
       },
       {
         icon: gmbIconIndia,
@@ -240,7 +265,7 @@ const countries = [
           "Moreover, we integrate GMB insights and data into your broader marketing strategy, helping you understand how users are finding and interacting with your listing. From optimizing for the Local 3-Pack to creating regular GMB posts, we ensure your business stays top-of-mind.",
           "As part of our complete digital offering, our Google My Business services in India are designed to make your local presence powerful, professional, and profitable. Start managing your online reputation and capturing more local leads today with our expert team.",
         ],
-        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+        bannerImage: IndiaGmbBanner,
       },
       {
         icon: payIconIndia,
@@ -257,8 +282,7 @@ const countries = [
           "In today’s competitive digital landscape, standing out requires strategic advertising. Our pay-per-click (PPC) services in India help you do just that by placing your brand in front of the right people at the right time with the right message.",
           "Let us help you unlock the full potential of paid advertising with campaigns that convert. Whether you're looking to increase traffic, launch a product, or generate high-quality leads, our PPC experts are here to turn your goals into measurable success.",
         ],
-        bannerImage:
-          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+        bannerImage: IndiaPpcBanner,
       },
       {
         icon: webIconIndia,
@@ -276,8 +300,7 @@ const countries = [
           "What sets our web development services in India apart is our commitment to quality, innovation, and results. We blend creativity with technical expertise to build digital solutions that stand out and drive measurable outcomes.",
           "Let us help you turn ideas into reality and build a website that becomes a powerful asset to your brand. Whether you're starting fresh or revamping an existing site, we are your trusted partner in digital success.",
         ],
-        bannerImage:
-          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+        bannerImage:IndiaWebBanner,
       },
       {
         icon: appIconIndia,
@@ -295,8 +318,7 @@ const countries = [
           "From internal business tools to customer-facing platforms, we build apps that solve real problems and deliver real value. With our application development services in India, you gain a digital solution that works seamlessly and drives measurable results.",
           "Let’s work together to build innovative applications that transform the way you engage with your audience and manage your business. Your digital success starts here.",
         ],
-        bannerImage:
-          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+        bannerImage:IndiaAppBanner,
       },
     ],
   },
@@ -306,8 +328,7 @@ const countries = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/dubai",
     type: "dubai",
-    banner:
-      "https://res.cloudinary.com/dtljonz0f/image/upload/c_auto,ar_4:3,w_3840,g_auto/f_auto/q_auto/v1/shutterstock_2414539851_ss_non-editorial_dcx0bm?_a=BAVAZGE70",
+    banner: DubaiBanner,
     serviceSection: {
       title: "Drive Measurable Results With Strategy",
       desc: "Focused campaigns help achieve your business goals faster. The best digital marketing agency in Dubai ensures every move is data-backed and result-driven for long-term success.",
@@ -397,8 +418,7 @@ const countries = [
           "At Shree Krishna Digital Solutions, our mission is to empower your business in the digital space. Allow us to simplify SEO so you can concentrate on managing your company, which is your strongest suit.",
           "If you’re looking for trusted, efficient, and growth-driven SEO optimization services in Dubai, connect with us today and take the first step toward a stronger online presence.",
         ],
-        bannerImage:
-          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+        bannerImage:IndiaSeo,
       },
       {
         icon: socialIconDubai,
@@ -416,8 +436,7 @@ const countries = [
           "Whether you're a startup looking to grow your online footprint or an established business aiming to scale your reach, our social media marketing services in Dubai can help you get there. Connect with us today to elevate your digital presence and turn your social channels into powerful marketing engines.",
           "Let Shree Krishna Digital Solutions be your partner in building a social media strategy that works.",
         ],
-        bannerImage:
-          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+        bannerImage:IndiaSocialBanner,
       },
       {
         icon: gmbIconDubai,
@@ -434,7 +453,7 @@ const countries = [
           "Whether you’re a retail store, restaurant, service provider, or professional office, our Google My Business services in Dubai can help you attract more local customers and improve your online reputation.",
           "Allow our team to truly put your company on the map. Contact us today to get started with our expert Google My Business services in Dubai and take control of how your business appears to your local audience.",
         ],
-        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+        bannerImage: IndiaGmbBanner,
       },
       {
         icon: payIconDubai,
@@ -451,8 +470,7 @@ const countries = [
           "With our pay-per-click (PPC) services in Dubai, your business gains a competitive edge in a fast-moving digital environment. From local targeting to international reach, we help you connect with your ideal customers and drive action.",
           "Don’t let your competitors capture all the attention. Partner with Shree Krishna Digital Solutions and take advantage of expertly managed pay-per-click (PPC) services in Dubai today.",
         ],
-        bannerImage:
-          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+        bannerImage:IndiaPpcBanner,
       },
       {
         icon: webIconDubai,
@@ -469,8 +487,7 @@ const countries = [
           "Partnering with Shree Krishna Digital Solutions Pvt Ltd entails joining a team that is enthusiastic about technology and committed to your success.  Our Web Development services in Dubai empower businesses to establish a strong digital footprint and connect with their audience more effectively than ever before.",
           "Let us help you turn your ideas into powerful digital solutions that elevate your brand online.",
         ],
-        bannerImage:
-          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+        bannerImage:IndiaWebBanner,
       },
       {
         icon: appIconDubai,
@@ -487,8 +504,7 @@ const countries = [
           "With our application development services in Dubai, businesses gain a competitive edge by leveraging technology tailored to their operational needs. Whether you're building an app for internal use or reaching out to a global customer base, we are here to bring your ideas to life with unmatched quality and reliability.",
           "Let’s build something great together; your next big app starts here.",
         ],
-        bannerImage:
-          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+        bannerImage:IndiaAppBanner,
       },
     ],
   },
@@ -498,8 +514,7 @@ const countries = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/australia",
     type: "australia",
-    banner:
-      "https://essentialhome.eu/blog/wp-content/uploads/2018/05/Australian-Architecture-10-Memorable-Buildings_2.jpg",
+    banner:AustraliaBanner,
     serviceSection: {
       title: "Online Reputation Management Services Available",
       desc: "Monitor, manage, and improve your brand’s online presence. As the best digital marketing agency in Australia, we help you build trust with positive reviews and consistent brand messaging.",
@@ -595,8 +610,7 @@ const countries = [
           "If you want to expand your reach and grow your online authority, our expert SEO team is ready to help. We tailor each SEO campaign to align with your business goals, maximizing ROI through proven strategies and transparent reporting.",
           "Experience the difference with professional SEO optimization services in Australia that drive traffic, generate leads, and grow your business sustainably. Contact us today to learn how we can help you dominate your niche with SEO that works.",
         ],
-        bannerImage:
-          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+        bannerImage:IndiaSeo,
       },
       {
         icon: socialIconAustralia,
@@ -612,8 +626,7 @@ const countries = [
           "With our proven social media marketing services in Australia, businesses gain the ability to expand their reach, improve customer loyalty, and generate quality leads that drive growth. No matter the size of your business or industry, we tailor every campaign to your unique objectives.",
           "Ready to elevate your social media presence and engage your audience like never before? Contact Shree Krishna Digital Solutions today and discover how our expert social media marketing services in Australia can transform your digital strategy and deliver measurable success.",
         ],
-        bannerImage:
-          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+        bannerImage:IndiaSocialBanner,
       },
       {
         icon: gmbIconAustralia,
@@ -629,7 +642,7 @@ const countries = [
           "Whether you’re a small business, retailer, or service provider, a well-managed GMB profile is essential to driving local traffic and growing your customer base. Our tailored approach ensures your business maximizes every opportunity to attract and convert local leads.",
           "Ready to enhance your local presence with professional Google My Business services in Australia? Contact Shree Krishna Digital Solutions today and let us help you dominate local search results and grow your business with effective GMB management.",
         ],
-        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+        bannerImage: IndiaGmbBanner,
       },
       {
         icon: payIconAustralia,
@@ -645,8 +658,7 @@ const countries = [
           "With PPC advertising, your business can appear at the top of search engine results instantly, a critical advantage over organic SEO, which takes time to build. Our expert team handles every aspect of your campaign, from setup to management, allowing you to focus on running your business while we drive results.",
           "Ready to accelerate your growth with professional pay-per-click (PPC) services in Australia? Contact Shree Krishna Digital Solutions today to start crafting campaigns that deliver fast, measurable, and impactful outcomes.",
         ],
-        bannerImage:
-          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+        bannerImage:IndiaPpcBanner,
       },
       {
         icon: webIconAustralia,
@@ -662,8 +674,7 @@ const countries = [
           "From startups to established enterprises, we provide end-to-end web development solutions that fit your budget and timeline. Our transparent communication and agile development process keep you involved at every stage, ensuring the final product aligns perfectly with your vision and business goals.",
           "Ready to take your online presence to the next level with professional web development services? Contact Shree Krishna Digital Solutions today and let us build a website that not only looks great but drives real results for your business.",
         ],
-        bannerImage:
-          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+        bannerImage:IndiaWebBanner,
       },
       {
         icon: appIconAustralia,
@@ -679,8 +690,7 @@ const countries = [
           "In addition to development, we also offer ongoing support and updates to keep your application secure and compatible with the latest devices and operating systems. This ensures your investment remains valuable long term.",
           "Ready to transform your business with professional application development services? Contact Shree Krishna Digital Solutions today to discuss your project and discover how our expert team can help you create powerful, tailored applications that drive growth and efficiency.",
         ],
-        bannerImage:
-          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+        bannerImage:IndiaAppBanner,
       },
     ],
   },
@@ -690,8 +700,7 @@ const countries = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/usa",
     type: "usa",
-    banner:
-      "https://assets-news.housing.com/news/wp-content/uploads/2022/10/25160359/Places-to-Visit-in-America.jpg",
+    banner:UsaBanner,
     serviceSection: {
       title: "Increase Visibility In Your Market",
       desc: "Stand out from competitors with consistent digital efforts. The best digital marketing agency in USA ensures your brand gains the recognition it deserves in today’s noisy marketplace.",
@@ -782,8 +791,7 @@ const countries = [
           "If you're looking to enhance your brand’s online footprint, our SEO optimization services in USA can provide the expertise and innovation you need. We collaborate closely with customers to create a tailored approach that yields measurable results and produces actual business outcomes.",
           "Partner with us today and take the first step toward digital dominance with proven SEO optimization services in USA tailored to your industry and audience.",
         ],
-        bannerImage:
-          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+        bannerImage:IndiaSeo,
       },
       {
         icon: socialIconUsa,
@@ -800,8 +808,7 @@ const countries = [
           "For small businesses and large enterprises alike, our social media marketing services in USA offer a strategic advantage in a competitive digital world. Let us help you connect with your audience, amplify your message, and grow your business through the power of social media.",
           "Ready to transform your brand’s social media game? Take the first step in creating a vibrant online presence by collaborating with us.",
         ],
-        bannerImage:
-          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+        bannerImage:IndiaSocialBanner,
       },
       {
         icon: gmbIconUsa,
@@ -817,7 +824,7 @@ const countries = [
           "Our team provides detailed analytics to track your GMB performance, including views, searches, and actions taken by potential customers. This data helps us refine your strategy and deliver ongoing improvements.",
           "If you want to dominate local search and attract more customers from your community, our Google My Business services in USA are designed to put your business on the map, literally and figuratively. Let us help you leverage GMB to its fullest potential and grow your local presence effectively.",
         ],
-        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+        bannerImage: IndiaGmbBanner,
       },
       {
         icon: payIconUsa,
@@ -834,8 +841,7 @@ const countries = [
           "Choosing the right partner for pay-per-click (PPC) services in USA can be the difference between a wasted budget and successful advertising. With Shree Krishna Digital Solutions, you get a dedicated team committed to driving quality traffic and increasing your sales pipeline.",
           "Get in touch with us today to launch a PPC campaign that puts your business in front of eager customers and delivers measurable results.",
         ],
-        bannerImage:
-          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+        bannerImage:IndiaPpcBanner,
       },
       {
         icon: webIconUsa,
@@ -852,8 +858,7 @@ const countries = [
           "Partnering with Shree Krishna Digital Solutions means you get reliable, professional web development services in USA that align with your business goals. We work closely with you throughout the development process, ensuring your vision is brought to life with precision and creativity.",
           "Take your online presence to the next level with our comprehensive web development solutions designed to engage visitors and convert them into loyal customers.",
         ],
-        bannerImage:
-          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+        bannerImage:IndiaWebBanner,
       },
       {
         icon: appIconUsa,
@@ -871,8 +876,7 @@ const countries = [
           "By choosing Shree Krishna Digital Solutions, you gain a trusted partner offering comprehensive application development services in USA. We are committed to turning your ideas into powerful applications that drive growth, improve customer satisfaction, and give you a competitive edge.",
           "Let us help you harness the full potential of digital technology with our expert application development solutions tailored to your business success.",
         ],
-        bannerImage:
-          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+        bannerImage:IndiaAppBanner,
       },
     ],
   },
@@ -882,8 +886,7 @@ const countries = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/canada",
     type: "canada",
-    banner:
-      "https://i.natgeofe.com/k/e2ffc795-8b1f-4479-8c95-b6497e5ca4f2/canada-vancouver.jpg",
+    banner:CanadaBanner,
     serviceSection: {
       title: "Creative Branding Solutions That Work",
       desc: "We create logos, taglines, and brand kits to help you stand out. Consistent, memorable, and market-ready branding is guaranteed by best digital marketing agency in Australia.",
@@ -978,8 +981,7 @@ const countries = [
           "Transparency and outcomes are important to us at Shree Krishna Digital Solutions Pvt Ltd. Our monthly reports provide insights into keyword rankings, traffic growth, and campaign performance, so you always know how your SEO investment is paying off.",
           "Are you prepared to increase your internet visibility and promote sustained success? Partner with Shree Krishna Digital Solutions for professional SEO optimization services, and let us help your business rise above the noise and capture the attention it deserves.",
         ],
-        bannerImage:
-          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+        bannerImage:IndiaSeo,
       },
       {
         icon: socialIconCanada,
@@ -995,8 +997,7 @@ const countries = [
           "Choosing our social media marketing services in Canada means working with a partner who understands the local market, trends, and user behaviours. We at Shree Krishna Digital Solutions provide expert Google My Business services in Canada to assist you in successfully claiming, optimizing, and maintaining your local listing.",
           "Social media is a powerful tool not only for promotion but also for building trust and maintaining ongoing customer relationships. Let Shree Krishna Digital Solutions take your brand to the next level with professional, results-driven social media campaigns.",
         ],
-        bannerImage:
-          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+        bannerImage:IndiaSocialBanner,
       },
       {
         icon: gmbIconCanada,
@@ -1012,7 +1013,7 @@ const countries = [
           "At Shree Krishna Digital Solutions, we stay updated with the latest trends and algorithm changes to ensure your listing always remains competitive. Our goal is to help you capture more local leads, increase customer engagement, and grow your business in your community and beyond.",
           "Ready to be discovered by more local customers? For dependable and effective Google My Business services, collaborate with us.",
         ],
-        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+        bannerImage: IndiaGmbBanner
       },
       {
         icon: payIconCanada,
@@ -1029,8 +1030,7 @@ const countries = [
           "At Shree Krishna Digital Solutions, we believe that successful PPC is not just about clicks — it’s about conversions. We focus on quality traffic that turns into real business outcomes.",
           "Ready to boost your online visibility and attract high-intent customers? Contact us today to learn how our pay-per-click (PPC) services can deliver fast, targeted, and cost-effective results for your business.",
         ],
-        bannerImage:
-          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+        bannerImage:IndiaPpcBanner,
       },
       {
         icon: webIconCanada,
@@ -1048,8 +1048,7 @@ const countries = [
           "At Shree Krishna Digital Solutions, we combine creativity, technical expertise, and a results-oriented approach to develop websites that empower your brand. Whether you're starting fresh or revamping your existing site, we’re here to help you succeed online.",
           "Contact us today to learn how our expert web development services can transform your digital presence and support your business goals.",
         ],
-        bannerImage:
-          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+        bannerImage:IndiaWebBanner,
       },
       {
         icon: appIconCanada,
@@ -1072,8 +1071,7 @@ const countries = [
 
           "Ready to bring your app idea to life or improve an existing solution? Let’s collaborate to create innovative digital experiences with our trusted application development services.",
         ],
-        bannerImage:
-          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+        bannerImage:IndiaAppBanner,
       },
     ],
   },
@@ -1083,8 +1081,7 @@ const countries = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/united-kingdom",
     type: "united-kingdom",
-    banner:
-      "https://aaroverseas.com/API/Uploads/BlogMedia/Aar-UK-Banner-637935015583498260.webp",
+    banner:UkBannner,
     serviceSection: {
       title: "Turn Clicks Into Loyal Clients",
       desc: "We optimize every touchpoint in your customer journey. With the best digital marketing agency in United Kingdom, you gain more conversions and long-lasting relationships, not just traffic.",
@@ -1167,8 +1164,7 @@ const countries = [
           "Partnering with Shree Krishna Digital Solutions means you get reliable, ethical, and results-driven SEO optimization services in United Kingdom. Our team stays up to current on industry trends and algorithm changes, so your website stays ahead of the competition.",
           "Investing in professional SEO is one of the smartest moves to grow your online presence and increase sales. Let us help you unlock your website’s full potential with proven SEO techniques tailored specifically for your market.",
         ],
-        bannerImage:
-          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+        bannerImage:IndiaSeo,
       },
       {
         icon: socialIconUnitedKingdom,
@@ -1184,8 +1180,7 @@ const countries = [
           "With our social media marketing services in United Kingdom, your business can tap into new customer bases, stay ahead of competitors, and build a strong online community. We understand the nuances of different platforms and use that expertise to tailor content and ads that resonate with your audience.",
           "Choosing Shree Krishna Digital Solutions means partnering with a dedicated team committed to growing your brand through innovative social media strategies. Let us help you harness the power of social media to connect, engage, and convert.",
         ],
-        bannerImage:
-          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+        bannerImage:IndiaSocialBanner,
       },
       {
         icon: gmbIconUnitedKingdom,
@@ -1201,7 +1196,7 @@ const countries = [
           "By partnering with Shree Krishna Digital Solutions, you get dedicated support to manage your Google My Business listing effectively. Our focus is to help you dominate local search results, improve customer engagement, and ultimately increase conversions.",
           "Let us handle your Google My Business profile so you can focus on running your business, while we help you attract more customers through an optimized local search presence.",
         ],
-        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+        bannerImage: IndiaGmbBanner,
       },
       {
         icon: payIconUnitedKingdom,
@@ -1217,8 +1212,7 @@ const countries = [
           "Partnering with Shree Krishna Digital Solutions means you get a dedicated team focused on maximizing your advertising budget and ensuring your business stands out in the competitive digital landscape. We provide detailed performance reports, transparent communication, and strategic insights to keep you informed every step of the way.",
           "If you’re looking to grow your business online, our tailored Pay-Per-Click ( PPC ) services in United Kingdom are the ideal solution for driving traffic, increasing sales, and enhancing your brand presence.",
         ],
-        bannerImage:
-          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+        bannerImage:IndiaPpcBanner,
       },
       {
         icon: webIconUnitedKingdom,
@@ -1234,8 +1228,7 @@ const countries = [
           "Additionally, we emphasize transparent communication and timely delivery throughout the project lifecycle. Our developers work closely with you to understand your requirements and provide ongoing support post-launch to ensure your website remains updated and performs at its best.",
           "If you are looking for reliable and innovative web solutions, our web development services are tailored to help your business stand out in the digital marketplace and achieve sustained growth.",
         ],
-        bannerImage:
-          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+        bannerImage:IndiaWebBanner,
       },
       {
         icon: appIconUnitedKingdom,
@@ -1251,8 +1244,7 @@ const countries = [
           "The core of everything we do is to ensure that our customers are satisfied. We are committed to providing applications that not only meet but exceed your expectations by focusing on quality, usability, and innovation. With our dedicated team, you can be confident that your application will drive business growth, improve operational efficiency, and deliver a superior user experience.",
           "Choose Shree Krishna Digital Solutions for reliable and innovative application development services and transform your ideas into powerful digital solutions that keep you ahead of the competition.",
         ],
-        bannerImage:
-          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+        bannerImage:IndiaAppBanner,
       },
     ],
   },
@@ -1262,8 +1254,7 @@ const countries = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/malaysia",
     type: "malaysia",
-    banner:
-      "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bWFsYXNpYXxlbnwwfHwwfHx8MA%3D%3D",
+    banner:MalaysiaBanner,
     serviceSection: {
       title: "Grow Your Online Presence Rapidly",
       desc: "Use specialized digital tactics to connect with your target demographic. As the best digital marketing agency in Malaysia, we help you expand visibility and connect with customers across multiple platforms.",
@@ -1359,8 +1350,7 @@ const countries = [
           "By choosing Shree Krishna Digital Solutions Pvt Ltd, for SEO optimization services in Malaysia, you gain a dedicated partner focused on delivering measurable results. We stay updated with the latest algorithm changes and SEO trends to keep your business future-ready.",
           "Are you ready to increase traffic and expand your business organically? Let's create your search engine success story together.",
         ],
-        bannerImage:
-          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+        bannerImage:IndiaSeo,
       },
       {
         icon: socialIconMalasia,
@@ -1378,8 +1368,7 @@ const countries = [
           "At Shree Krishna Digital Solutions Pvt Ltd, we don’t just manage your social presence — we build a community around your brand. Let’s turn followers into loyal customers and conversations into conversions.",
           "Are you ready to elevate your social media strategy to the next level? Let’s get started.",
         ],
-        bannerImage:
-          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+        bannerImage:IndiaSocialBanner,
       },
       {
         icon: gmbIconMalasia,
@@ -1397,7 +1386,7 @@ const countries = [
           "At Shree Krishna Digital Solutions Pvt Ltd,, we make local marketing simple and effective. Let us help you take full advantage of GMB and connect with customers right in your neighborhood.",
           "Ready to grow your local presence? Let’s optimize your Google My Business profile today.",
         ],
-        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+        bannerImage: IndiaGmbBanner,
       },
       {
         icon: payIconMalasia,
@@ -1413,8 +1402,7 @@ const countries = [
           "Choosing Shree Krishna Digital Solutions Pvt Ltd, for pay-per-click (PPC) services in Malaysia means partnering with a team committed to driving measurable growth. Whether you want to increase website traffic, generate leads, or boost sales, our customized PPC campaigns are designed to deliver fast and effective results.",
           "Our experience across various industries ensures that your PPC ads are relevant, engaging, and aligned with your brand identity. We focus on delivering quality traffic that converts, helping your business achieve its digital marketing goals efficiently.",
         ],
-        bannerImage:
-          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+        bannerImage:IndiaPpcBanner,
       },
       {
         icon: webIconMalasia,
@@ -1430,8 +1418,7 @@ const countries = [
           "Beyond just building your website, we offer ongoing support and maintenance services to keep your site updated and performing at its best. We also integrate analytics and tracking tools so you can monitor visitor behavior and make informed decisions to improve your digital presence.",
           "Choosing Shree Krishna Digital Solutions Pvt Ltd, for web development services in Malaysia means partnering with a team committed to quality, innovation, and customer satisfaction. We tailor every project to your unique requirements, delivering solutions that empower your business to grow online.",
         ],
-        bannerImage:
-          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+        bannerImage:IndiaWebBanner,
       },
       {
         icon: appIconMalasia,
@@ -1447,8 +1434,7 @@ const countries = [
           "In addition, our team provides ongoing support and updates, helping your applications evolve with market trends and technological advances. This continuous improvement ensures that your business stays competitive and responsive to customer needs.",
           "Choosing Shree Krishna Digital Solutions Pvt Ltd, for application development services in Malaysia means partnering with a dedicated team committed to innovation, quality, and client success. We pride ourselves on delivering applications that not only meet but exceed expectations, helping you unlock new opportunities and enhance operational efficiency.",
         ],
-        bannerImage:
-          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+        bannerImage:IndiaAppBanner,
       },
     ],
   },
@@ -1458,8 +1444,7 @@ const countries = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/maldives",
     type: "maldives",
-    banner:
-      "https://cms.accuweather.com/wp-content/uploads/2023/05/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbGhzeXQybHcwMDI2MjZxaDhoZjk1MjMx-L19wYWdlcy9jbGhzeXQybDIwMDFsMjZxaGR2cG84d3Q0.jpg",
+    banner:MaldivesBanner,
     serviceSection: {
       title: "Amplify Your Brand With Creativity",
       desc: "Your digital voice matters. As the best digital marketing agency in Maldives, we craft compelling narratives and visuals that connect emotionally and elevate your brand identity.",
@@ -1548,8 +1533,7 @@ const countries = [
           "By choosing Shree Krishna Digital Solutions, you gain a partner committed to elevating your brand through effective SEO optimization services in Maldives. Whether you’re a small local business or a growing enterprise, our customized SEO solutions help you reach your target market and achieve sustainable online growth.",
           "Don’t let your competitors outshine you online. Invest in professional SEO that delivers measurable results and positions your business for long-term success with trusted SEO Optimization services.",
         ],
-        bannerImage:
-          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+        bannerImage:IndiaSeo,
       },
       {
         icon: socialIconMaldives,
@@ -1565,8 +1549,7 @@ const countries = [
           "Choosing Shree Krishna Digital Solutions means partnering with a team that is passionate about growing your online presence. Whether you’re a small business or a large enterprise, our customized social media marketing services in Maldives empower you to stand out in the competitive digital landscape.",
           "Boost your brand’s visibility, increase customer loyalty, and generate quality leads with our professional social media marketing solutions. Let us help you turn social media into a powerful tool for your business growth.",
         ],
-        bannerImage:
-          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+        bannerImage:IndiaSocialBanner,
       },
       {
         icon: gmbIconMaldives,
@@ -1581,7 +1564,7 @@ const countries = [
           "Choosing Shree Krishna Digital Solutions for Google My Business services in Maldives means partnering with a team dedicated to driving local growth. Whether you are a small shop, a restaurant, or a professional service provider, our tailored approach ensures your business stands out on Google and attracts more local customers.",
           "Boost your online presence today with our professional Google My Business solutions and watch your local customer base grow.",
         ],
-        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+        bannerImage: IndiaGmbBanner,
       },
       {
         icon: payIconMaldives,
@@ -1596,8 +1579,7 @@ const countries = [
           "Partnering with Shree Krishna Digital Solutions means gaining access to a team of PPC experts committed to your business growth. Our transparent reporting keeps you informed about your campaign’s progress, helping you understand how your investment is driving results.",
           "If you’re ready to increase your online visibility and attract more customers, our pay-per-click (PPC) services in Maldives are the perfect solution. Let us help you create powerful PPC campaigns that deliver measurable success.",
         ],
-        bannerImage:
-          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+        bannerImage:IndiaPpcBanner,
       },
       {
         icon: webIconMaldives,
@@ -1612,8 +1594,7 @@ const countries = [
           "In addition to building new websites, we also offer website maintenance and optimization services to keep your site updated and running smoothly. Our dedicated support team is always ready to assist you with any technical issues or upgrades needed to stay ahead in the competitive digital world.",
           "Choosing Shree Krishna Digital Solutions means partnering with a trusted provider of web development services in Maldives that values innovation, quality, and customer satisfaction. Allow us to assist you in creating gripping stories that enhance your visibility and propel your company forward.",
         ],
-        bannerImage:
-          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+        bannerImage:IndiaWebBanner,
       },
       {
         icon: appIconMaldives,
@@ -1628,8 +1609,7 @@ const countries = [
           "At Shree Krishna Digital Solutions, quality and security are our priorities. Our development process includes rigorous testing phases to ensure your application is bug-free, secure, and optimized for performance. Additionally, we provide ongoing maintenance and support to keep your application updated and aligned with evolving business needs.",
           "Choosing us for application development services in Maldives means partnering with a trusted team committed to innovation and excellence. Let us help you transform your ideas into powerful applications that drive growth and success.",
         ],
-        bannerImage:
-          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+        bannerImage:IndiaAppBanner,
       },
     ],
   },
@@ -1639,8 +1619,7 @@ const countries = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/nepal",
     type: "nepal",
-    banner:
-      "https://cms.accuweather.com/wp-content/uploads/2023/05/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbGhzeXQybHcwMDI2MjZxaDhoZjk1MjMx-L19wYWdlcy9jbGhzeXQybDIwMDFsMjZxaGR2cG84d3Q0.jpg",
+    banner:NepalBanner,
     serviceSection: {
       title: "Boost Engagement Across All Channels",
       desc: "We create strategies that drive real interaction, building loyalty and customer trust. Put your trust in the best digital marketing agency in Nepal to convert inactive viewers into engaged brand advocates.",
@@ -1730,8 +1709,7 @@ const countries = [
           "Our comprehensive reporting system keeps you informed about your SEO campaign’s progress, including keyword rankings, traffic growth, and other key metrics. This transparency allows us to continually refine strategies and maximize your return on investment.",
           "Partnering with Shree Krishna Digital Solutions Pvt Ltd means you get reliable, effective, and affordable SEO optimization services in Nepal that help your business stand out online. Whether you’re a small startup or an established enterprise, our dedicated team is here to support your digital growth every step of the way.",
         ],
-        bannerImage:
-          "https://www.websightdesign.com/userfiles/cms/pages/images/18/large_search-engine-op-wsd.jpg",
+        bannerImage:IndiaSeo,
       },
       {
         icon: socialIconNepal,
@@ -1747,8 +1725,7 @@ const countries = [
           "In addition to organic growth strategies, we offer paid advertising services to boost your reach and accelerate business growth. Our targeted social media ads are designed to drive traffic, increase conversions, and generate quality leads that turn into long-term customers.",
           "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a team dedicated to your success. Our expert social media marketing services in Nepal empower your business to stay ahead of trends, connect authentically with customers, and achieve sustained growth in the digital world.",
         ],
-        bannerImage:
-          "https://blissful7.com/wp-content/uploads/2024/11/photo-1683721003111-070bcc053d8b.jpg",
+        bannerImage:IndiaSocialBanner,
       },
       {
         icon: gmbIconNepal,
@@ -1764,7 +1741,7 @@ const countries = [
           "By leveraging Google My Business services in Nepal, your business can gain a competitive edge in local search results, boost foot traffic, and increase online conversions. Whether you are a small local shop or a growing enterprise, optimizing your GMB listing is essential to attracting nearby customers and driving sales.",
           "Partner with Shree Krishna Digital Solutions Pvt Ltd to make the most of your Google My Business profile. Our dedicated experts ensure your business shines online, helping you grow with confidence in today’s digital marketplace.",
         ],
-        bannerImage: "https://adcrowd.pk/wp-content/uploads/2025/02/4-4.png",
+        bannerImage: IndiaGmbBanner,
       },
       {
         icon: payIconNepal,
@@ -1779,8 +1756,7 @@ const countries = [
           "Transparency and continuous optimization are key elements of our PPC management strategy. We monitor your campaigns closely, analyzing data to improve targeting, reduce costs, and enhance ad performance. Regular reporting keeps you informed about how your ads are performing, allowing you to make data-driven decisions for your business.",
           "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a trusted agency committed to growing your business through effective pay-per-click (PPC) services in Nepal. Our goal is to deliver measurable results that help you reach your marketing objectives quickly and efficiently.",
         ],
-        bannerImage:
-          "https://digipuush.com/wp-content/uploads/2022/08/pay-per-click-text-keyboard-button-scaled.jpg",
+        bannerImage:IndiaPpcBanner,
       },
       {
         icon: webIconNepal,
@@ -1797,8 +1773,7 @@ const countries = [
           "Choosing Shree Krishna Digital Solutions Pvt Ltd means partnering with a reliable and innovative web development agency committed to your success. We pride ourselves on delivering projects on time and within budget while exceeding client expectations.",
           "Are you ready to expand your digital reach with experienced web development services in Nepal? Contact us today to discuss your project and let us help you build a powerful online presence that sets you apart from the competition.",
         ],
-        bannerImage:
-          "https://images.prismic.io//intuzwebsite/a5aa75f4-eb5b-42b8-ae8d-7c89332549b6_Main.png?w=1200&q=75&auto=format,compress&fm=png8",
+        bannerImage:IndiaWebBanner,
       },
       {
         icon: appIconNepal,
@@ -1814,8 +1789,7 @@ const countries = [
           "At Shree Krishna Digital Solutions Pvt Ltd, we understand that each business is unique, which is why our application development services in Nepal are highly customizable. From startups to established enterprises, we work closely with you to build applications that align perfectly with your brand and operational requirements.",
           "Partnering with us means gaining access to a reliable, innovative, and dedicated team focused on delivering timely and cost-effective application development solutions.",
         ],
-        bannerImage:
-          "https://applandeo.com/app/uploads/2021/03/Application-Development-Life-Cycle-scaled-1.jpg",
+        bannerImage:IndiaAppBanner,
       },
     ],
   },
