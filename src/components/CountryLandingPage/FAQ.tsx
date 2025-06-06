@@ -1,4 +1,5 @@
 import { Collapse } from "antd";
+import FeaturedImage4 from "../../assets/images/resources/featured-image-4.jpg"
 
 export default function FAQ({ data, faqRef }: any) {
 
@@ -24,7 +25,7 @@ export default function FAQ({ data, faqRef }: any) {
                 <div className="featured-block clearfix">
                   <div className="image">
                     <img
-                      src="https://linoor-nuxt.netlify.app/images/resource/featured-image-4.jpg"
+                      src={FeaturedImage4}
                       alt=""
                     />
                   </div>

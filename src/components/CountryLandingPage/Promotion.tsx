@@ -1,4 +1,6 @@
 import { FaBusinessTime } from "react-icons/fa6";
+import img2 from "../../assets/images/resources/image-2.jpg"
+
 
 export default function Promotion({ data }: any) {
   return (
@@ -7,7 +9,7 @@ export default function Promotion({ data }: any) {
         className="image-layer"
         style={{
           backgroundImage:
-            "url(https://linoor-nuxt.netlify.app/images/background/image-2.jpg)",
+            `url(${img2})`,
         }}
       />
       <div className="auto-container">
