@@ -201,7 +201,7 @@ export default function WhoWeArePrAdd() {
         </div>
       </div>
       <section className="section relative section-dark">
-        <img src={FaqArrow} className="absolute -top-10 left-0" alt="PR Agency in Mumbai"/>
+        <img src={FaqArrow} className="absolute -top-10 left-0" alt="PR Top Agency in Mumbai"/>
         <img src={FaqStart} className="absolute top-0 right-0" alt="PR company In Mumbai"/>
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body flex justify-center items-center flex-col">
