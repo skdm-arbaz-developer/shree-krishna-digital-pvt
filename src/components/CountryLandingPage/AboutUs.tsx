@@ -1,12 +1,10 @@
-import React from 'react'; // Import React
 import aboutus from "../../assets/images/resources/about-us-country.png";
-import { Helmet } from 'react-helmet';
 
 export default function AboutUs({ data, aboutRef }: any) {
   
 
   return (
-    <> {/* Use a React Fragment to wrap multiple top-level elements */}
+    <> 
       <section className="section about-section" ref={aboutRef}>
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="md:grid md:grid-cols-2">

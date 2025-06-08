@@ -15,31 +15,7 @@ import "../css/aboutpage.css";
 import { Helmet } from "react-helmet";
 
 export default function AboutUs() {
-  // Define schemaData outside the return statement
-  const schemaData = {
-    "@context": "https://schema.org",
-    "@type": "Product",
-    name: "Super Widget",
-    image: [
-      "https://example.com/image1.jpg",
-      "https://example.com/image2.jpg"
-    ],
-    description: "A super widget that solves all your problems.",
-    sku: "SW12345",
-    brand: {
-      "@type": "Brand",
-      name: "WidgetCo"
-    },
-    offers: {
-      "@type": "Offer",
-      url: "https://example.com/product/super-widget",
-      priceCurrency: "USD",
-      price: "99.99",
-      priceValidUntil: "2025-12-31",
-      itemCondition: "https://schema.org/NewCondition",
-      availability: "https://schema.org/InStock"
-    }
-  };
+
   return (
     <>
       <Helmet>
@@ -69,12 +45,7 @@ export default function AboutUs() {
       <Counter />
       <OurJourney />
       <MissionVission />
-      {/* Script tag for JSON-LD, placed within the fragment */}
-      <Helmet>
-        <script type="application/ld+json">
-          {JSON.stringify(schemaData)}
-        </script>
-      </Helmet>
+    
     </>
   );
 }

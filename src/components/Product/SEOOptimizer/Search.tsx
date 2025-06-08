@@ -1,5 +1,4 @@
 import { Button, ConfigProvider, Form, Input, Radio } from "antd";
-import { useEffect } from "react";
 import { FaDesktop, FaMobileScreenButton } from "react-icons/fa6";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 
