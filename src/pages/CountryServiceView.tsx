@@ -13,6 +13,7 @@ interface Service {
   shortdesc: string;
   desc: string[];
   bannerImage: string;
+  altTag?: string;
 }
 
 interface Country {
@@ -22,6 +23,7 @@ interface Country {
   type: string;
   banner: string; // assuming it's a URL or image path
   services: Service[]; // array of service objects
+  altTag?: string;
 }
 
 export default function CountryServiceView() {
@@ -53,7 +55,7 @@ export default function CountryServiceView() {
               <div className="lg:col-span-7 col-span-12">
                 <div className="service-details">
                   <div className="main-image image">
-                    <img src={data?.bannerImage} alt="" />
+                    <img src={data?.bannerImage} alt={data?.altTag} />
                   </div>
                   <div className="text-content">
                     <h3>{data?.title}</h3>

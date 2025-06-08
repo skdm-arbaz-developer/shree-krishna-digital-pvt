@@ -33,7 +33,7 @@ export default function OurServices() {
     },
     {
       title: "PR and Ads Marketing",
-      link: "/pr-advertising-company",
+      link: "/pr-agency-mumbai",
     },
   ];
   return (

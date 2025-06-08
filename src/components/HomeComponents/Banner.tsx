@@ -17,8 +17,8 @@ export default function Banner() {
       </video>
 
       <div className="video-content">
-        <h2>Digital Innovation for</h2>
-        <h3 className="gradient-text">Bussiness Growth</h3>
+        <h1>Best Digital Marketing <span className="gradient-text">Agency In Mumbai</span></h1>
+        {/* <h3 className="gradient-text"></h3> */}
         <p>
           We are a leading digital marketing agency, dedicated to helping
           businesses thrive in the digital landscape. Our team of experts

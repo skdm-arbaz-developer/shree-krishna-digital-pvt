@@ -19,6 +19,7 @@ interface Service {
   shortdesc: string;
   desc: string[];
   bannerImage: string;
+  altTag?: string;
 }
 
 interface Country {
@@ -28,6 +29,7 @@ interface Country {
   type: string;
   banner: string; // assuming it's a URL or image path
   services: Service[]; // array of service objects
+  altTag?: string;  
 }
 
 export default function CountryServices() {

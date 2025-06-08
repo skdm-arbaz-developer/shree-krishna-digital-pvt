@@ -7,8 +7,8 @@ import blog3 from "../../assets/images/resources/blog/blog3.jpeg";
 const blogsdata = [
   {
     title: "What is Search Engine Optimization (SEO)?",
-    summary:
-      "Search Engine Optimization (SEO) is the practice of increasing both the quality and quantity of traffic that comes to your website from organic (non-paid) search results. By analyzing what people search for, which words they use, and the kinds of content they prefer, marketers can create pages that search engines—and, more importantly, real people—love.",
+    altTag:"Digital Marketing in India",
+    summary:"Search Engine Optimization (SEO) is the practice of increasing both the quality and quantity of traffic that comes to your website from organic (non-paid) search results. By analyzing what people search for, which words they use, and the kinds of content they prefer, marketers can create pages that search engines—and, more importantly, real people—love.",
     image:blog1,
     slug: "what-is-search-engine-optimization-seo",
     tags: ["SEO", "Search Engine Optimization", "Digital Marketing"],
@@ -16,8 +16,8 @@ const blogsdata = [
   },
   {
     title: "How Search Engine Optimization Helps Grow Your Business?",
-    summary:
-      "At Shree Krishna Digital Solutions PVT. LTD, the best SEO agency in Mumbai, India, we are committed to helping businesses of all sizes grow their online presence and attract more customers through strategic and result-driven SEO services.",
+    altTag:"Search Engine Optimization in India",
+    summary:"At Shree Krishna Digital Solutions PVT. LTD, the best SEO agency in Mumbai, India, we are committed to helping businesses of all sizes grow their online presence and attract more customers through strategic and result-driven SEO services.",
     image:blog2,
     tags: ["SEO", "Business Growth", "Digital Marketing"],
     slug: "how-search-engine-optimization-helps-grow-your-business",
@@ -26,8 +26,8 @@ const blogsdata = [
 
   {
     title: "Why Keyword Research Is Crucial for SEO Success?",
-    summary:
-      "At Shree Krishna Digital Solutions PVT. LTD, the leading SEO agency in Mumbai, India, we believe that keyword research is the foundation of every successful digital marketing and SEO strategy. It helps identify the actual terms and phrases your target audience is using when searching for products or services like yours—guiding your content, campaigns, and overall online presence.",
+    altTag:"Social Media Marketing in India",
+    summary:"At Shree Krishna Digital Solutions PVT. LTD, the leading SEO agency in Mumbai, India, we believe that keyword research is the foundation of every successful digital marketing and SEO strategy. It helps identify the actual terms and phrases your target audience is using when searching for products or services like yours—guiding your content, campaigns, and overall online presence.",
     image:blog3,
     tags: ["SEO", "Business Growth", "Digital Marketing"],
     slug: "why-keyword-research-is-crucial-for-seo-success",

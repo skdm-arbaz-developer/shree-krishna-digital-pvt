@@ -82,6 +82,7 @@ export default function BannerPage({
       <img
         className="absolute z-1 top-0 left-0 hidden md:block"
         src={getIcons(service?.type, "curles")}
+        alt={service?.altTag}
       />
       <img
         className="absolute z-1 right-0 top-0 bottom-0 hidden md:block"
@@ -90,14 +91,15 @@ export default function BannerPage({
       <img
         className="absolute z-1 right-0 bottom-0 hidden md:block"
         src={getIcons(service?.type, "curves")}
+        alt={service?.altTag}
       />
       <div
         className="landing-banner"
         style={{ backgroundImage: `url(${service?.banner})` }}
       ></div>
       <div className="landing-banner-content z-20 px-5">
-        <h1>Best Digital Marketing Compnay in {service?.title}</h1>
-        <h2 style={{maxWidth:700}}>{service?.bannerTitle}</h2>
+        <h1 style={{maxWidth:700}}>{service?.mainh1}</h1>
+        {/* <h2 style={{maxWidth:700}}>{service?.bannerTitle}</h2> */}
         <button onClick={handleClick}>
           <i className="btn-curve"></i> <span>Discover More</span>
         </button>

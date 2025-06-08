@@ -10,7 +10,7 @@ export default function PrAndAds() {
         <div className="section-body">
           <div className="lg:flex justify-between">
             <h2 className="section-title">We Help you to, Make PR & Advertisment</h2>
-            <NavLink to="/pr-advertising-company">
+            <NavLink to="/pr-agency-mumbai">
               <Button className="comman-button mt-5">
                 Know More <BsArrowRight />
               </Button>

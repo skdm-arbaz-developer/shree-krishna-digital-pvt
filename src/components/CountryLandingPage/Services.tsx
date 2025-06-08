@@ -25,7 +25,7 @@ export default function Services({ data, serviceRef }: any) {
               <div className="inner-box">
                 <div className="bottom-curve" />
                 <div className="icon-box">
-                  <img className="max-w-[65px]" src={val?.icon} />
+                  <img className="max-w-[65px]" src={val?.icon} alt={val?.altTag}/>
                 </div>
                 <h6>{val?.title}</h6>
               </div>

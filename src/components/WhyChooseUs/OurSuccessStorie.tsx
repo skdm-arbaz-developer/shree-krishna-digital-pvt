@@ -22,60 +22,70 @@ export default function OurSuccessStorie() {
   const casestudy = [
     {
       img: RealEstate,
+      altTag:"Digital Marketing For Real Estate In Mumbai",
       type: "Real Estate",
       title: "Luxury Living Realty – SEO Transformation",
       desc: "Implemented a high-impact SEO strategy that boosted organic traffic by 300%.",
     },
     {
       img: Hospitality,
+      altTag:"Digital Marketing For Hospitility & Caterers In Mumbai",
       type: "Hospitality",
       title: "ResortEase – Application Development",
       desc: "Developed a booking and resort management app used by over 100+ resorts.",
     },
     {
       img: ECommerce,
+      altTag:"Web Developement In India",
       type: "E-Commerce",
       title: "UrbanCart – Digital Marketing Overhaul",
       desc: "Revamped performance marketing and email automation for a 5x ROI.",
     },
     {
       img: Education,
+      altTag:"Digital Marketing For Education In Mumbai",
       type: "Education",
       title: "STEM Boost Academy – Website & CRM",
       desc: "Delivered a custom LMS portal with lead capture and student dashboard.",
     },
     {
       img: InteriorDesign,
+      altTag:"Digital Marketing For Interior Designer In Mumbai",
       type: "Interior Design",
       title: "DecoraNest – Portfolio Website",
       desc: "Created a stylish web presence and social strategy for luxury interiors.",
     },
     {
       img: Logistics,
+      altTag:"CRM Development Company In Mumbai",
       type: "Logistics",
       title: "FastTrack Movers – Branding & CRM Setup",
       desc: "Launched branding campaign and built CRM for real-time delivery tracking.",
     },
     {
       img: Healthcare,
+      altTag:"Digital Marketing For Healthcare In Mumbai",
       type: "Healthcare",
       title: "CareWell Clinic – Google Ads & SEO",
       desc: "Scaled online appointments through local SEO and lead-gen landing pages.",
     },
     {
       img: ITServices,
+      altTag:"Top Digital Marketing Company In Mumbai",
       type: "IT Services",
       title: "TechNova – Corporate Website Redesign",
       desc: "Redesigned corporate site with animations, blogs, and case study sections.",
     },
     {
       img: Travel,
+      altTag:"PR Agency In Mumbai",
       type: "Travel",
       title: "WanderScape – Social Media Strategy",
       desc: "Built Instagram and YouTube presence from scratch, now at 80K+ followers.",
     },
     {
       img: Fashion,
+      altTag:"Digital Marketing For Spa & Salon In Mumbai",
       type: "Fashion",
       title: "StyleLoop – Shopify Store Optimization",
       desc: "Optimized product pages and checkout for a 45% increase in conversions.",
@@ -84,8 +94,8 @@ export default function OurSuccessStorie() {
 
   return (
     <section className="section relative section-dark">
-      <img src={FaqArrow} className="absolute -top-10 left-0" />
-      <img src={FaqStart} className="absolute top-0 right-0" />
+      <img src={FaqArrow} className="absolute -top-10 left-0" alt="Digital Marketing For Spa & Salon"/>
+      <img src={FaqStart} className="absolute top-0 right-0" alt="Best Digital Marketing For Spa & Salon In Mumbai"/>
 
       <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="lg:grid lg:grid-cols-12">

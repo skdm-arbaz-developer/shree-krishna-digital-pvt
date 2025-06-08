@@ -15,7 +15,7 @@ export default function CommanBanner({
       style={{ backgroundImage: "url(" + image + ")" }}
     >
       <div className="banner-content">
-        <h2 className="mb-5">{title}</h2>
+        <h1 className="mb-5">{title}</h1>
         <p>{desc}</p>
       </div>
     </div>

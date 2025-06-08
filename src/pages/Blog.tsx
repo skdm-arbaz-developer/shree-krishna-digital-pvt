@@ -14,6 +14,7 @@ interface Data {
   content: string;
   tags: string[];
   summary: string;
+  altTag:string;
 }
 
 interface CardProps {
@@ -101,7 +102,7 @@ const BlogCard = ({ type, data, hideStyle }: CardProps) => (
         }}
         className="min-h-[250px] lg:min-h-auto"
         src={data?.image}
-        alt={data?.slug}
+        alt={data?.altTag}
       />
     </div>
     <div className="blog-card-body">

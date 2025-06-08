@@ -10,7 +10,7 @@ export default function AboutUsComp() {
       <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="lg:grid lg:grid-cols-2">
           <div className="home-about-image">
-            <img src={AboutUsImage} />
+            <img src={AboutUsImage} alt="Digital Marketing Company In Mumbai"/>
           </div>
           <div className="section-body mt-5 lg:mt-0 lg:px-10 flex flex-col justify-center">
             <h2 className="section-title" style={{ fontSize: "2rem" }}>
@@ -50,7 +50,7 @@ export default function AboutUsComp() {
           </div>
         </div>
       </div>
-      <img src={SvgIcon} className="absolute top-0 right-0" />
+      <img src={SvgIcon} className="absolute top-0 right-0" alt="Best Digital Marketing Company In Mumbai"/>
     </section>
   );
 }

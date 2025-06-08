@@ -76,10 +76,12 @@ import SpaSalonSub5 from "../../assets/images/resources/Spa&Salon/SpaSalon-sub5.
 const industries = [
   {
     banner:industrise,
-    title: "Healthcare (Doctor & Hospital)",
-    shortdesc:
-      "Designed specifically for the healthcare sector, our strategies help increase your reach, improve patient connection, and ensure your medical services are found, valued, and remembered online.",
-    slug: "/healthcare",
+    title: "Digital Marketing For Healthcare In Mumbai",
+    metaTitle:"Digital marketing for healthcare in Mumbai | Shree Krishna Digital",
+    metaDes:"Get expert healthcare digital marketing in Mumbai. We help clinics and hospitals attract more patients via SEO, Google Ads, and social media.",
+    canonical:"https://skdm.in/digital-marketing-for-healthcare-mumbai",
+    shortdesc:"Designed specifically for the healthcare sector, our strategies help increase your reach, improve patient connection, and ensure your medical services are found, valued, and remembered online.",
+    slug: "/digital-marketing-for-healthcare-mumbai",
     description: {
       mode: "light",
       title: "Digital Growth for Healthcare Professionals",
@@ -431,10 +433,12 @@ const industries = [
   },
   {
     banner:RealestateBanner,
-    title: "Real Estate",
-    shortdesc:
-      "Reach potential buyers faster with proven marketing techniques that help real estate brands boost visibility, generate leads, and increase overall property sales online.",
-    slug: "/real-estate",
+    title: "Digital Marketing For Real Estate In Mumbai",
+    metaTitle:"Digital Marketing for real estate in Mumbai | Shree Krishna Digital",
+    metaDes:"Digital Marketing For Real Estate In Mumbai – Boost your property sales with expert SEO, PPC, social media, & lead generation tailored for builders, & brokers.",
+    canonical:"https://skdm.in/digital-marketing-for-real-estate-mumbai",
+    shortdesc:"Reach potential buyers faster with proven marketing techniques that help real estate brands boost visibility, generate leads, and increase overall property sales online.",
+    slug: "/digital-marketing-for-real-estate-mumbai",
     description: {
       mode: "light",
       title: "Digital Solutions For Real Estate",
@@ -782,10 +786,12 @@ const industries = [
   },
   {
     banner: EducationBanner,
-    title: "Education",
-    shortdesc:
-      "Empower your educational brand with proven marketing strategies that boost admissions, increase engagement, and build a strong presence where students and parents search for trusted institutions.",
-    slug: "/education",
+    title: "Digital Marketing For Education In Mumbai",
+    metaTitle:"Digital Marketing for Education in Mumbai | Shree Krishna Digital",
+    metaDes:"Promote your Mumbai school, college, or coaching center with SEO, social media, Google Ads, and content marketing to boost student inquiries.",
+    canonical:"https://skdm.in/digital-marketing-for-education-in-mumbai",
+    shortdesc:"Empower your educational brand with proven marketing strategies that boost admissions, increase engagement, and build a strong presence where students and parents search for trusted institutions.",
+    slug: "/digital-marketing-for-education-in-mumbai",
     description: {
       mode: "light",
       title: "Reach More Students Through Search",
@@ -1129,10 +1135,12 @@ const industries = [
   },
   {
     banner: HospitalityCatering,
-    title: "Hospitality & Catering",
-    shortdesc:
-      "Grow your event and food services with proven marketing techniques that increase bookings, build audience loyalty, and enhance your visibility through high-impact digital engagement.",
-    slug: "/hospitality",
+    title: "Digital Marketing For Hospitility & Caterers In Mumbai",
+    metaTitle:"Digital Marketing For Hospitility & Caterers In Mumbai | SKD",
+    metaDes:"Boost your hospitality or catering business in Mumbai with digital marketing. SEO, social media, and ads drive bookings and engagement.",
+    canonical:"https://skdm.in/digital-marketing-for-hospitality-and-caterers-mumbai",
+    shortdesc:"Grow your event and food services with proven marketing techniques that increase bookings, build audience loyalty, and enhance your visibility through high-impact digital engagement.",
+    slug: "/digital-marketing-for-hospitality-and-caterers-mumbai",
     description: {
       mode: "light",
       title: "Expand Bookings Through Digital Visibility",
@@ -1477,10 +1485,12 @@ const industries = [
   },
   {
     banner: ResortVilla,
-    title: "Resorts & Villas",
-    shortdesc:
-      "Boost your resort or villa’s visibility with expert digital marketing strategies. Engage more travelers through optimized listings, targeted ads, and captivating reels that showcase your unique hospitality experience.",
-    slug: "/resort-&-villa",
+    title: "Digital Marketing For Resort & Villas In Mumbai",
+    metaTitle:"Digital Marketing For Resort & Villas in Mumbai | SKD",
+    metaDes:"Promote your Mumbai resort or villa with expert digital marketing—SEO, social media, Google Ads, and content strategies to boost bookings.",
+    canonical:"https://skdm.in/digital-marketing-for-resorts-and-villas-in-mumbai",
+    shortdesc:"Boost your resort or villa’s visibility with expert digital marketing strategies. Engage more travelers through optimized listings, targeted ads, and captivating reels that showcase your unique hospitality experience.",
+    slug: "/digital-marketing-for-resorts-and-villas-in-mumbai",
     description: {
       mode: "light",
       title: "Boost Your Resort Bookings Fast",
@@ -1822,12 +1832,13 @@ const industries = [
     },
   },
   {
-    
     banner:InteriorBanner,
-    title: "Interior Design",
-    shortdesc:
-      "Showcase your creativity to the right audience. We help interior designers attract more clients through optimized Google listings, targeted ads, SEO, and high-quality visual content that drives inquiries.",
-    slug: "/interior-design",
+    title: "Digital Marketing For Interior Designer In Mumbai",
+    metaTitle:"Digital Marketing for Interior Designer in Mumbai | SKD",
+    metaDes:"Attract high-end clients with tailored digital marketing for Mumbai interior designers—SEO, social media, and ads to grow your business.",
+    canonical:"https://skdm.in/digital-marketing-for-interior-designer-mumbai",
+    shortdesc:"Showcase your creativity to the right audience. We help interior designers attract more clients through optimized Google listings, targeted ads, SEO, and high-quality visual content that drives inquiries.",
+    slug: "/digital-marketing-for-interior-designer-mumbai",
     description: {
       mode: "light",
       title: "More Views, More Design Projects",
@@ -2168,10 +2179,12 @@ const industries = [
   },
   {
     banner:SpaSalonBanner,
-    title: "Spa & Salon",
-    shortdesc:
-      "Showcase your creativity to the right audience. We help interior designers attract more clients through optimized Google listings, targeted ads, SEO, and high-quality visual content that drives inquiries.",
-    slug: "/spa-&-salon",
+    title: "Digital Marketing For Spa & Salon In Mumbai",
+    metaTitle:"Digital Marketing for Spa & Salon in Mumbai | SKD",
+    metaDes:"Boost your Mumbai spa or salon with SEO, social media, and ads to increase visibility, attract clients, and drive bookings.",
+    canonical:"https://skdm.in/digital-marketing-for-spa-and-salon-mumbai",
+    shortdesc:"Showcase your creativity to the right audience. We help interior designers attract more clients through optimized Google listings, targeted ads, SEO, and high-quality visual content that drives inquiries.",
+    slug: "/digital-marketing-for-spa-and-salon-mumbai",
     description: {
       mode: "light",
       title: "Spa Marketing Made Simple",
@@ -2514,10 +2527,12 @@ const industries = [
   },
   {
     banner:LifestyleBanner,
-    title: "Lifestyle",
-    shortdesc:
-      "Showcase your creativity to the right audience. We help interior designers attract more clients through optimized Google listings, targeted ads, SEO, and high-quality visual content that drives inquiries.",
-    slug: "/lifestyle",
+    title: "Digital Marketing For Real Life Style In Mumbai",
+    metaTitle:"Digital Marketing for real life style in Mumbai | SKD",
+    metaDes:"Promote your lifestyle brand in Mumbai with custom digital marketing. We use SEO, social media, and influencer marketing to grow your brand online.",
+    canonical:"https://skdm.in/digital-marketing-for-real-lifestyle-mumbai ",
+    shortdesc:"Showcase your creativity to the right audience. We help interior designers attract more clients through optimized Google listings, targeted ads, SEO, and high-quality visual content that drives inquiries.",
+    slug: "/digital-marketing-for-real-lifestyle-mumbai",
     description: {
       mode: "light",
       title: "Connect With Lifestyle Audience",

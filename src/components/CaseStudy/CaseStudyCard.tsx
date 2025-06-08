@@ -5,7 +5,7 @@ export default function CaseStudyCard({ data }: any) {
     <NavLink to={`/case-study-view/${data?.title}`}>
       <div className="case-study-card h-[100%]">
         <div className="case-study-img">
-          <img src={data?.img} />
+          <img src={data?.img} alt={data?.altTag}/>
         </div>
         <div className="case-study-content-body">
           <span>{data?.type}</span>

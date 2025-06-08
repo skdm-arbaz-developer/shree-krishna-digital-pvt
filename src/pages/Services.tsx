@@ -11,6 +11,7 @@ import SvgIcon from "../assets/images/icons/home-about-right.svg";
 import circle from "../assets/images/icons/service-home.svg";
 // import { Swiper, SwiperSlide } from "swiper/react";
 import "../css/services.css";
+import { Helmet } from "react-helmet";
 
 export default function Services() {
   const [form] = Form.useForm();
@@ -20,6 +21,21 @@ export default function Services() {
   return (
     data && (
       <>
+      <Helmet>
+        <title>{data?.metaTitle}</title>
+        <meta name="description" content={data?.metaDes} />
+        <meta name="keywords" content="Best Digital Marketing Agency In Mumbai,Digital Marketing Company In Mumbai,Digital Marketing Experts In Mumbai,Top Digital Marketing Services In Mumbai,Life At Digital Marketing Agency In Mumbai,Digital Marketing In Mumbai,Top Digital Marketing Company In Mumbai,Internet Marketing Service In Mumbai,Digital Marketing In Mumbai,Best SEO Company In Mumbai,Social Media Marketing Agency In Mumbai,Google My Business listing service,PPC Agency Mumbai,PR Agency In Mumbai,Web Development Company In Mumbai,App Development Company In Mumbai,CRM Development Company In Mumbai,Digital Marketing For Healthcare In Mumbai,Digital Marketing For Hospitility & Caterers In Mumbai,Digital Marketing For Real Estate In Mumbai,Digital Marketing For Resort & Villas In Mumbai,Digital Marketing For Interior Designer In Mumbai,Digital Marketing For Spa & Salon In Mumbai,Digital Marketing For Education In Mumbai,Digital Marketing For Real Life Style In Mumbai,Best Digital Marketing Agency In Mumbai ,Online Marketing Near Mumbai,Search Engine Optimization in India,Social Media Marketing in India,Google My Business in India,Pay Per Click Marketing In India,Web Developement In India,Application Development In India,Search Engine Optimization in Australia,Social Media Marketing in Australia,GMB Optimization Service in Australia,Pay Per Click Marketing in Australia,Web Developement in Australia,Application Development in Australia,Search Engine Optimization in Canada,Social Media Marketing in Canada,GMB Optimization Service in Canada,Pay Per Click Marketing in Canada,Web Developement in Canada,Application Development in Canada,Search Engine Optimization in Malaysia,Social Media Marketing in Malaysia,GMB Optimization Service in Malaysia,Pay Per Click Marketing in Malaysia,Web Developement in Malaysia,Application Development in Malaysia,Search Engine Optimization in Nepal ,Social Media Marketing in Nepal ,GMB Optimization Service in Nepal,Pay Per Click Marketing in Nepal,Web Developement in Nepal,Application Development in Nepal,Search Engine Optimization in Dubai,Social Media Marketing in Dubai,GMB Optimization Service in Dubai ,Pay Per Click Marketing in Dubai,Web Developement in Dubai,Application Development in Dubai,Search Engine Optimization in USA,Social Media Marketing in USA,GMB Optimization Service in USA,Pay Per Click Marketing in USA,Web Developement in USA,Application Development in USA,Search Engine Optimization in United Kingdom,Social Media Marketing in United Kingdom,GMB Optimization Service in United Kingdom ,Pay Per Click Marketing in United Kingdom,Web Developement in United Kingdom,Application Development in United Kingdom,Search Engine Optimization in Maldives,Social Media Marketing in Maldives,GMB Optimization Service in Maldives,Pay Per Click Marketing in Maldives,Web Developement in Maldives,Application Development in Maldives" />
+        <link rel="canonical" href={data?.canonical} />
+        <meta httpEquiv="cache-control" content="no-cache" />
+        <meta httpEquiv="expires" content="0" />
+        <meta httpEquiv="pragma" content="no-cache" />
+        <meta property="og:title" content={data?.title} />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://skdm.in/" />
+        <meta property="og:description" content={data?.metaDes} />
+        <meta property="og:image" content="https://katariashubli.com/static/media/kartaria%20logo.61ab17e04111050f3cc9.png" />
+      </Helmet>
         <CommanBanner
           image={data?.banner}
           title={data?.title}
@@ -27,6 +43,8 @@ export default function Services() {
         />
 
         {data.description && (
+          console.log("data.schemaData",data.schemaData),
+          <>
           <section
             className={`section relative section-${data?.description?.mode}`}
           >
@@ -141,6 +159,11 @@ export default function Services() {
               </div>
             </div>
           </section>
+          <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(data.schemaData) }}
+        />
+        </>
         )}
 
         {data.descriptionSecond && (
@@ -890,47 +913,4 @@ const FAQ = ({ detail }: any) => (
   </div>
 );
 
-// const OurWork = ({ data }: any) => (
-//   <div className="work-section">
-//     <div className="grid grid-cols-7 gap-15">
-//       <div className="col-span-4">
-//         <div className="videoFrame">
-//           <iframe
-//             width={"100%"}
-//             height={400}
-//             src={data?.link}
-//             title="YouTube video player"
-//             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-//             referrerPolicy="strict-origin-when-cross-origin"
-//           />
-//         </div>
-//       </div>
-//       <div className="col-span-3">
-//         <strong>SEO Enhance</strong>
-//         <h3>{data?.title}</h3>
-//         <p>{data?.desc?.para}</p>
-//         <Collapse
-//           bordered={false}
-//           expandIconPosition="right"
-//           defaultActiveKey={["1"]}
-//           style={{ background: "transparent", padding: 0 }}
-//           items={[
-//             {
-//               key: "1",
-//               label: <h5>Rank Keywords</h5>,
-//               children: (
-//                 <div className="flex flex-col">
-//                   {data?.desc?.keywords?.map((val: string, index: number) => (
-//                     <NavLink key={index} to="#">
-//                       {index + 1})&nbsp;{val}
-//                     </NavLink>
-//                   ))}
-//                 </div>
-//               ),
-//             },
-//           ]}
-//         />
-//       </div>
-//     </div>
-//   </div>
-// );
+

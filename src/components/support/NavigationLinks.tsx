@@ -27,22 +27,22 @@ const NavigationLinks = [
       {
         name: "About Us",
         desc: "Shree Krishna Digital Solutions Pvt Ltd stands as a top-tier digital marketing company in Mumbai, offering complete digital services under one roof. We help brands grow online with clarity, innovation, and marketing that brings results.",
-        link: "/about-us",
+        link: "/digital-marketing-company-mumbai",
       },
       {
         name: "Our Team",
         desc: "At Shree Krishna Digital Solutions Pvt Ltd, our team is our biggest strength. We are developers, designers, marketers, and problem-solvers who work with one mission: your success.",
-        link: "/our-team",
+        link: "/digital-marketing-experts-mumbai",
       },
       {
         name: "Why Choose Us",
         desc: "We’ve partnered with trusted brands through dedication and results. Our team works with heart and focus, giving you real value and long-term support in every step.",
-        link: "/why-choose-us",
+        link: "/top-digital-marketing-services-mumbai",
       },
       {
         name: "Life at SKD",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/life-at-skd",
+        link: "/life-at-digital-marketing-agency-mumbai",
       },
       // {
       //   name: "News",
@@ -78,37 +78,37 @@ const NavigationLinks = [
       {
         name: "Search Engine Optimization",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/search-engine-optimization",
+        link: "/best-seo-company-mumbai",
       },
       {
         name: "Social Media Marketing",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/social-media-marketing",
+        link: "/social-media-marketing-agency-mumbai",
         // link: "/coming-soon",
       },
 
       {
         name: "Google My Business",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/google-my-business",
+        link: "/google-my-business-listing-service",
         // link: "/coming-soon",
       },
       {
         name: "Pay Per Click",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/pay-per-click",
+        link: "/ppc-agency-mumbai",
         // link: "/coming-soon",
       },
       {
         name: "Web Development",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/web-development",
+        link: "/web-development-company-in-mumbai",
         // link: "/coming-soon",
       },
       {
         name: "Application Development",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/application-development",
+        link: "/app-development-company-mumbai",
         // link: "/coming-soon",
       },
       // {
@@ -128,50 +128,50 @@ const NavigationLinks = [
       {
         name: "Healthcare (Doctor & Hospital)",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/healthcare",
+        link: "/digital-marketing-for-healthcare-mumbai",
         // link: "/coming-soon",
       },
       {
         name: "Hospitality & Catering",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/hospitality",
+        link: "/digital-marketing-for-hospitality-and-caterers-mumbai",
         // link: "/coming-soon",
       },
       {
         name: "Real Estate",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/real-estate",
+        link: "/digital-marketing-for-real-estate-mumbai",
         // link: "/coming-soon",
       },
       {
         name: "Resorts & Villa",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/resort-&-villa",
+        link: "/digital-marketing-for-resorts-and-villas-in-mumbai",
         // link: "/coming-soon",
       },
 
       {
         name: "Interior Designs",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/interior-design",
+        link: "/digital-marketing-for-interior-designer-mumbai",
         // link: "/coming-soon",
       },
       {
         name: "Spa & Salon",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/spa-&-salon",
+        link: "/digital-marketing-for-spa-and-salon-mumbai",
         // link: "/coming-soon",
       },
       {
         name: "Education",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/education",
+        link: "/digital-marketing-for-education-in-mumbai",
         // link: "/coming-soon",
       },
       {
         name: "Lifestyle",
         desc: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        link: "/lifestyle",
+        link: "/digital-marketing-for-real-lifestyle-mumbai",
         // link: "/coming-soon",
       },
     ],
@@ -181,7 +181,7 @@ const NavigationLinks = [
     name: "PR & Advertising",
     // icon: <FaAngleDown />,
     desc: "",
-    link: "/pr-advertising-company",
+    link: "/pr-agency-mumbai",
 
     // link: [
     //   {
@@ -201,7 +201,7 @@ const NavigationLinks = [
   {
     prefix: <PiOfficeChairFill color="#e98c14" style={{ fontSize: "20px" }} />,
     name: "Career",
-    link: "/career",
+    link: "/best-digital-marketing-agency-mumbai",
     desc: "",
   },
   {
@@ -213,7 +213,7 @@ const NavigationLinks = [
   {
     prefix: <BiSolidPhoneCall color="#e98c14" style={{ fontSize: "20px" }} />,
     name: "Contact Us",
-    link: "/contact-us",
+    link: "/online-marketing-near-mumbai",
     desc: "",
   },
 ];

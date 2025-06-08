@@ -215,6 +215,11 @@ section.secton-center p {
   font-size: var(--banner-title);
   color: #fff;
 }
+.comman-banner h1 {
+  font-size: var(--banner-title);
+  color: #fff;
+  font-family: var(--section-title-font-family);
+}
 
 .comman-banner p {
   color: var(--font-color-paragraph);

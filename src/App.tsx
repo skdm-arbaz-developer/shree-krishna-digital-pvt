@@ -23,6 +23,7 @@ import CountryServiceView from "./pages/CountryServiceView";
 import LogoScrolling from "./components/HomeComponents/LogoScrolling";
 import SeoOptimizer from "./pages/SeoOptimizer";
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -123,7 +124,7 @@ function App() {
             <>
               <Header />
               <SeoOptimizer />
-              <Footer />{" "}
+              <Footer />
             </>
           }
         />

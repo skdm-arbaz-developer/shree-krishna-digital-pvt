@@ -23,6 +23,13 @@
 
 .video-content h2 {
   font-size: var(--banner-title);
+  font-family: var(--section-title-font-family);
+  color: #fff;
+}
+
+.video-content h1 {
+  font-size: var(--banner-title);
+  font-family: var(--section-title-font-family);
   color: #fff;
 }
 

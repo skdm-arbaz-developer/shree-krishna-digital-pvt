@@ -18,6 +18,7 @@ import FaqStart from "../assets/images/icons/faq-star.svg";
 import VinayMishra from "../assets/images/resources/VinayMishra.jpg"
 import KunalKahtoi from "../assets/images/resources/KunalKahtoi.jpeg"
 import PrAd from "../assets/images/banners/pr-ad-banner.webp"
+import { Helmet } from "react-helmet";
 
 export default function WhoWeArePrAdd() {
   const teamlist = [
@@ -29,13 +30,13 @@ export default function WhoWeArePrAdd() {
     //   desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel ?",
     // },
     {
-      image:VinayMishra,
+      image: VinayMishra,
       name: "Vinay Mishra",
       designation: "Line Producer & Director",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
     },
     {
-      image:KunalKahtoi,
+      image: KunalKahtoi,
       name: "Kunal Kahtoi",
       designation: "Director of Photography",
       desc: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem sequi in nam perferendis illum iste laudantium recusandae libero quod. Quam, inventore. In optio porro enim magni quo quas sit vel?",
@@ -82,13 +83,28 @@ export default function WhoWeArePrAdd() {
 
   return (
     <>
+      <Helmet>
+        <title>PR Agency in Mumbai | Shree Krishna Digital</title>
+        <meta name="description" content="Looking for a PR agency in Mumbai? We offer expert media relations, brand strategy & PR services to help build credibility & connect with your audience." />
+        <meta name="keywords" content="Best Digital Marketing Agency In Mumbai,Digital Marketing Company In Mumbai,Digital Marketing Experts In Mumbai,Top Digital Marketing Services In Mumbai,Life At Digital Marketing Agency In Mumbai,Digital Marketing In Mumbai,Top Digital Marketing Company In Mumbai,Internet Marketing Service In Mumbai,Digital Marketing In Mumbai,Best SEO Company In Mumbai,Social Media Marketing Agency In Mumbai,Google My Business listing service,PPC Agency Mumbai,PR Agency In Mumbai,Web Development Company In Mumbai,App Development Company In Mumbai,CRM Development Company In Mumbai,Digital Marketing For Healthcare In Mumbai,Digital Marketing For Hospitility & Caterers In Mumbai,Digital Marketing For Real Estate In Mumbai,Digital Marketing For Resort & Villas In Mumbai,Digital Marketing For Interior Designer In Mumbai,Digital Marketing For Spa & Salon In Mumbai,Digital Marketing For Education In Mumbai,Digital Marketing For Real Life Style In Mumbai,Best Digital Marketing Agency In Mumbai ,Online Marketing Near Mumbai,Search Engine Optimization in India,Social Media Marketing in India,Google My Business in India,Pay Per Click Marketing In India,Web Developement In India,Application Development In India,Search Engine Optimization in Australia,Social Media Marketing in Australia,GMB Optimization Service in Australia,Pay Per Click Marketing in Australia,Web Developement in Australia,Application Development in Australia,Search Engine Optimization in Canada,Social Media Marketing in Canada,GMB Optimization Service in Canada,Pay Per Click Marketing in Canada,Web Developement in Canada,Application Development in Canada,Search Engine Optimization in Malaysia,Social Media Marketing in Malaysia,GMB Optimization Service in Malaysia,Pay Per Click Marketing in Malaysia,Web Developement in Malaysia,Application Development in Malaysia,Search Engine Optimization in Nepal ,Social Media Marketing in Nepal ,GMB Optimization Service in Nepal,Pay Per Click Marketing in Nepal,Web Developement in Nepal,Application Development in Nepal,Search Engine Optimization in Dubai,Social Media Marketing in Dubai,GMB Optimization Service in Dubai ,Pay Per Click Marketing in Dubai,Web Developement in Dubai,Application Development in Dubai,Search Engine Optimization in USA,Social Media Marketing in USA,GMB Optimization Service in USA,Pay Per Click Marketing in USA,Web Developement in USA,Application Development in USA,Search Engine Optimization in United Kingdom,Social Media Marketing in United Kingdom,GMB Optimization Service in United Kingdom ,Pay Per Click Marketing in United Kingdom,Web Developement in United Kingdom,Application Development in United Kingdom,Search Engine Optimization in Maldives,Social Media Marketing in Maldives,GMB Optimization Service in Maldives,Pay Per Click Marketing in Maldives,Web Developement in Maldives,Application Development in Maldives" />
+        <link rel="canonical" href="https://skdm.in/pr-agency-mumbai" />
+        <meta httpEquiv="cache-control" content="no-cache" />
+        <meta httpEquiv="expires" content="0" />
+        <meta httpEquiv="pragma" content="no-cache" />
+        <meta property="og:title" content="PR Agency in Mumbai | Shree Krishna Digital" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://skdm.in/" />
+        <meta property="og:description" content="Looking for a PR agency in Mumbai? We offer expert media relations, brand strategy & PR services to help build credibility & connect with your audience." />
+        <meta property="og:image" content="https://katariashubli.com/static/media/kartaria%20logo.61ab17e04111050f3cc9.png" />
+      </Helmet>
       <CommanBanner
-        title="Who We Are - PR & Advertising"
+        title="PR Agency In Mumbai"
         desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime, porro, quae perferendis odit dolorem eveniet odio saepe inventore repudiandae non repellendus commodi a corporis? Consequuntur aspernatur officia vero dolores!"
-        image= {PrAd}
+        image={PrAd}
       />
       <section className="section relative">
-        <img src={SvgIcon} className="absolute top-0 right-0" />
+        <img src={SvgIcon} className="absolute top-0 right-0" alt="PR Agency in Mumbai"/>
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="md:grid grid-cols-12 gap-10">
             <div className="col-span-12 md:col-span-5">
@@ -185,8 +201,8 @@ export default function WhoWeArePrAdd() {
         </div>
       </div>
       <section className="section relative section-dark">
-        <img src={FaqArrow} className="absolute -top-10 left-0" />
-        <img src={FaqStart} className="absolute top-0 right-0" />
+        <img src={FaqArrow} className="absolute -top-10 left-0" alt="PR Agency in Mumbai"/>
+        <img src={FaqStart} className="absolute top-0 right-0" alt="PR company In Mumbai"/>
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body flex justify-center items-center flex-col">
             <h2 className="section-title text-center">Team Behind the Ads</h2>

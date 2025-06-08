@@ -11,37 +11,42 @@ import journey5 from "../../assets/images/resources/journey5.webp";
 export default function OurJourney() {
   const jouneyData = [
     {
-      image:journey1,
+      image: journey1,
       year: "2018",
       title: "The Beginning",
+      alt: "Digital Marketing Agency In Mumbai",
       content:
         "Two individuals set out on a journey to enhance online business growth with the launch of Shree Krishna Digital Solutions Pvt Ltd in 2018. With just a single SEO project and a website assignment, our journey began from a small setup. This marked the birth of a future-leading digital marketing company in Mumbai.",
     },
     {
-      image:journey2,
+      image: journey2,
       year: "2020",
       title: "Building Our Core Team",
+      alt: "Best Digital Marketing Agency In Mumbai",
       content:
         "By 2020, we had moved into our first office space and formed a dedicated team of 10 professionals. We successfully completed 64 website development projects and 38 social media campaigns. Our work ethic and results laid the foundation for Shree Krishna Digital Solutions Pvt Ltd as a go-to digital marketing company in Mumbai.",
     },
     {
-      image:journey3,
+      image: journey3,
       year: "2021",
       title: "Growth Through Consistency",
+      alt: "Top Digital Marketing Agency In Mumbai",
       content:
         "We carried our momentum into 2021, crossing the mark of 100+ completed digital projects. With every project, we built more trust and loyalty among clients, growing our influence and reputation across various industries.",
     },
     {
-      image:journey4,
+      image: journey4,
       year: "2023",
       title: "A Landmark Year",
+      alt: "Digital Marketing Agency",
       content:
         "2023 was a game-changing year. Shree Krishna Digital Solutions Pvt Ltd achieved its highest revenue, proudly serving over 300+ clients. We delivered 100+ SEO projects and 100+ social media marketing campaigns. This year, we also introduced professional Ads and PR services, expanding our reach and impact.",
     },
     {
-      image:journey5,
+      image: journey5,
       year: "2024 & Beyond",
       title: "Scaling New Heights",
+      alt: "Digital Marketing In Mumbai",
       content:
         "By 2024, our consistent dedication helped us serve over 600+ happy clients. With a growing team and stronger strategies, we continue to deliver end-to-end digital solutions, empowering businesses to thrive online.",
     },
@@ -52,8 +57,8 @@ export default function OurJourney() {
         className="section section-dark"
         style={{ padding: "50px 0 30px 0" }}
       >
-        <img src={FaqArrow} className="absolute -top-10 left-0" />
-        <img src={FaqStart} className="absolute top-0 right-0" />
+        <img src={FaqArrow} className="absolute -top-10 left-0" alt="best digital marketing company" />
+        <img src={FaqStart} className="absolute top-0 right-0" alt="top digital marketing company in mumbai " />
 
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body flex flex-col justify-between lg:items-center">
@@ -89,19 +94,18 @@ export default function OurJourney() {
     </>
   );
 }
-const JourneyCard = ({ year, title, content, image, index }: any) => {
+const JourneyCard = ({ year, title, content, image, index,alt }: any) => {
   return (
     <div className="journey-card">
       <div className="md:grid md:grid-cols-2 relative">
         <div
           className={`journey-image ${index % 2 === 0 ? "order-2" : "order-1"}`}
         >
-          <img src={image} alt={title} />
+          <img src={image} alt={alt} />
         </div>
         <div
-          className={`journey-content-left ${
-            index % 2 === 0 ? "order-1 left-section" : "order-2 right-section"
-          }`}
+          className={`journey-content-left ${index % 2 === 0 ? "order-1 left-section" : "order-2 right-section"
+            }`}
         >
           <section className="section journey-content">
             <span className="journey-icon">

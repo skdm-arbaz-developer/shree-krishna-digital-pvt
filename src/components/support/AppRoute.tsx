@@ -38,16 +38,16 @@ interface NavigationType {
 
 const componentMap: RouteMap = {
   "": <Home />, // 👈 for "/"
-  aboutus: <AboutUs />,
-  ourteam: <OurTeam />,
-  whychooseus: <WhyChooseUs />,
+  digitalmarketingcompanymumbai: <AboutUs />,
+  digitalmarketingexpertsmumbai: <OurTeam />,
+  topdigitalmarketingservicesmumbai: <WhyChooseUs />,
   casestudy: <CaseStudy />,
   privacypolicy: <PrivacyPolicy />,
-  pradvertisingcompany: <WhoWeArePrAdd />,
+  pragencymumbai: <WhoWeArePrAdd />,
   ourportfolio: <PortfolioPrAds />,
-  contactus: <ContactUs />,
-  career: <Career />,
-  lifeatskd: <LifeAtSkd />,
+  onlinemarketingnearmumbai: <ContactUs />,
+  bestdigitalmarketingagencymumbai: <Career />,
+  lifeatdigitalmarketingagencymumbai: <LifeAtSkd />,
   casestudyview: <CaseStudyView />,
   blogs: <Blog />,
 };
@@ -62,7 +62,6 @@ const dynamicRoutes: RouteObject[] = navigations.flatMap(
           const path = item.link.replace(/^\/+/, ""); // remove leading slashes
           const key = path.replace(/[-/]/g, "").toLowerCase();
           const component = componentMap[key];
-
           return component
             ? {
                 path: `/${path}`,

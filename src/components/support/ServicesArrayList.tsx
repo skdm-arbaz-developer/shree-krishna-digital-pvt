@@ -72,11 +72,13 @@ import app2 from "../../assets/images/resources/app/app2.gif";
 
 const services = [
   {
-    banner:SeoBanner,
-    title: "Boost Your Website Ranking with Proven SEO Techniques",
-    shortdesc:
-      "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
-    slug: "/search-engine-optimization",
+    banner: SeoBanner,
+    title: "Best SEO Company In Mumbai",
+    metaTitle: "Best SEO Company in Mumbai | Shree Krishna Digital",
+    metaDes: "Partner with the best SEO company in Mumbai to improve your search rankings, increase organic traffic, and grow your business with proven SEO strategies.",
+    canonical: "https://skdm.in/best-seo-company-mumbai",
+    shortdesc: "Improve your online visibility, drive organic traffic, and rank higher on Google with our tailored SEO strategies designed to deliver real results and long-term growth for your business.",
+    slug: "/best-seo-company-mumbai",
     description: {
       mode: "light",
       title: "Unbeatable SEO Packages & Pricing",
@@ -174,28 +176,28 @@ const services = [
         "We offer customized digital solutions, expert strategy, and dedicated support to ensure your business grows online. Our team works with passion, precision, and performance to meet your unique goals and deliver real results.",
       whychoosepoints: [
         {
-          image:SeoSub1,
+          image: SeoSub1,
           title:
             "We provide comprehensive website auditing services that ensure strategic SEO.",
           desc: "The first step in getting started with SEO is analyzing your website extensively. The report covers the design of the site, its user interface and other on-page SEO elements, as well as the technical framework. The in-depth study identifies themes that may affect search engine performance and necessitate further investigation. A customized SEO approach is established based on industry standards and measures the results achieved. The effectiveness of SEO, website traffic generation, and the recruitment of qualified leads.",
         },
         {
-          image:SeoSub2,
+          image: SeoSub2,
           title: "Keyword Research and Strategic Optimization",
           desc: "Smart keyword research is the foundation of effective SEO. Advanced tools and proven methods are utilized to identify highly valuable, niche-specific keywords that correspond to user intent. demotics. Keywords can be integrated into website content, meta tags, headings, and URLs to enhance the relevance and readability of each page. The site's search engine optimization leads to increased traffic from specific users through strategic planning.",
         },
         {
-          image:SeoSub3,
+          image: SeoSub3,
           title: "Quality and Engaging Content Development",
           desc: "Effective SEO requires content that is unique, captivating and centred on specific keywords. Through the use of extensive research and audience comprehension, valuable content is created to tackle user issues while emphasizing subject expertise. From blog posts to landing pages, each piece is tailored to attract users and search engine bots alike. The content strategy focuses on offering value, building trust, and improving visibility. Recognized as the best SEO company in Mumbai, the approach ensures that every word published supports long-term SEO success and connects with the right audience.",
         },
         {
-          image:SeoSub4,
+          image: SeoSub4,
           title: "Strategic Link Building for Authority.",
           desc: "Quality backlinks are like endorsements from real sources; they increase your website's credibility and domain authority. Link-building strategies are essential in obtaining relevant and credible backlinks that enhance your online brand. Building a strong presence in your industry requires engaging with and benefiting from guest posting opportunities alongside authority sources. Enhanced search engine rankings are achieved through this process, which also drives referral traffic.",
         },
         {
-          image:SeoSub5,
+          image: SeoSub5,
           title: "On-Page and Technical SEO Enhancement.",
           desc: "The optimization of on-page components and technical elements is crucial for your website's SEO. Experts extensively examine and refine crucial components, such as title tags, meta descriptions, headers, image alt texts, and URL structure. This is all about making sure that your site loads quickly, is mobile-friendly, is secure, and is user-friendly. Your site's smooth user experience and crawlability are enhanced by these enhancements, which make it more search engine-friendly for indexing purposes.",
         },
@@ -208,27 +210,27 @@ const services = [
         "Collaborate with Shree Krishna Digital Solutions Pvt Ltd to unlock powerful SEO tools, industry best practices, and proven digital strategies. We ensure your business reaches the right audience and gets sustainable online visibility.",
       whychoosepoints: [
         {
-          image:Benefits1,
+          image: Benefits1,
           title: "Customized SEO Strategies.",
           desc: "Knowing that each company possesses its own unique objectives and challenges, an all-in SEO strategy won't be the most effective. Hence, tailored plans are developed to meet specific objectives, needs, and changing industry conditions.",
         },
         {
-          image:Benefits2,
+          image: Benefits2,
           title: "Proven Track Record.",
           desc: "Boost your website's SEO results through monthly plans. The team, with years of industry experience at their disposal, has consistently achieved measurable success across various industries. This record shows that real growth is achievable by improving search engine rankings and ensuring long-term exposure.",
         },
         {
-          image:Benefits3,
+          image: Benefits3,
           title: "Transparent Reporting and Analytics.",
           desc: "Building trust and fostering a positive work environment requires honesty. Why? It provides comprehensive reports and analytics for tracking campaigns on an ongoing basis. Organic traffic, keyword rankings, conversion rates and more informed decision-making are all included in these reports. What is the significance of this information?",
         },
         {
-          image:Benefits4,
+          image: Benefits4,
           title: "Committed Support and Collaboration",
           desc: "Gain meaningful insights through a thorough SEO performance review. We prioritize open communication and working together. SEO works with you; they always help guide you through the process. By analyzing your specific business objectives, we ensure that our strategies are in line with your expectations and goals. This approach helps build lasting relationships and drives shared success for your business.",
         },
         {
-          image:Benefits5,
+          image: Benefits5,
           title: "Staying Ahead of the Curve.",
           desc: "You must be up-to-date with the ever-changing digital world. We keep up with industry news, algorithm updates and new technological advancements. Let us assist you in accomplishing this.",
         },
@@ -430,11 +432,13 @@ const services = [
     },
   },
   {
-    banner:SocialMediaMarketing,
-    title: "Social Media Marketing",
-    shortdesc:
-      "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
-    slug: "/social-media-marketing",
+    banner: SocialMediaMarketing,
+    title: "Social Media Marketing Agency In Mumbai",
+    metaTitle: "Social Media Marketing agency in Mumbai | Shree Krishna Digital",
+    metaDes: "Hire Mumbai’s leading social media marketing agency to boost your brand online with expert content, paid ads, and community management for real results.",
+    canonical: "https://skdm.in/social-media-marketing-agency-mumbai",
+    shortdesc: "Engage, attract, and grow your audience with impactful social media content, tailored strategies, and targeted campaigns across major social platforms.",
+    slug: "/social-media-marketing-agency-mumbai",
     description: {
       mode: "light",
       title: "SMM Services Company in Mumbai",
@@ -446,7 +450,7 @@ const services = [
       subdesc: [
         "Social media marketing encompasses more than simply making posts, it entails the development of a cohesive image which appeals to the audience. A powerful social strategy helps in improving the company image, driving visitors to the business website, and supporting the SEO goals. We assist your brand in building engagement through blogs, communities, and purposeful interactions that capture attention and drive conversions. Brand recall, improved engagement, or increased leads – no matter your goal, our tailored SMM solutions make certain that the message is visible, audible, and unforgettable.",
       ],
-      image:smm1,
+      image: smm1,
       imagePostion: "right",
     },
 
@@ -642,7 +646,7 @@ const services = [
         "Better search engine visibility",
         "Stronger online brand credibility",
       ],
-      image:SmmSub2,
+      image: SmmSub2,
       imagePostion: "left",
     },
 
@@ -796,11 +800,89 @@ const services = [
     },
   },
   {
-    banner:GmbBanner,
-    title: "Google My Business",
-    shortdesc:
-      "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
-    slug: "/google-my-business",
+    banner: GmbBanner,
+    title: "Google My Business listing service",
+    metaTitle: "Google My Business Listing service | Shree Krishna Digital",
+    metaDes: "Enhance your local visibility with our Google My Business service. Get accurate info, customer reviews, and improved local search rankings to attract more customers.",
+    canonical: "https://skdm.in/google-my-business-listing-service",
+    shortdesc: "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
+    slug: "/google-my-business-listing-service",
+    schemaData:
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is Google My Business (GMB)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Google My Business is a free tool by Google that allows businesses to manage their online presence across Google Search and Google Maps. It helps customers find your business location, contact details, reviews, photos, and more."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Why is Google My Business important for local SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "GMB plays a critical role in local SEO by boosting your visibility in local search results, especially when people search for services “near me” or within a specific location."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How do I create a Google My Business profile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can create a GMB profile by visiting google.com/business, signing in with your Google account, entering your business details, verifying your listing, and optimizing it with relevant information."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What is the verification process for GMB?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most businesses verify their GMB listing through a postcard sent to their business address. Some businesses may also qualify for phone, email, or instant verification options, depending on their category."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How can I optimize my Google My Business profile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can optimize your GMB profile by adding accurate business information, uploading high-quality photos, regularly posting updates, responding to reviews, and using relevant keywords in your description."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How does GMB help bring more customers to my business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A well-optimized GMB profile makes your business more discoverable in local searches, increases trust through reviews and photos, and provides users with quick access to contact or visit you, leading to higher foot traffic and inquiries."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Is Google My Business free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, GMB is completely free to set up and use. However, investing in professional GMB management services can enhance your profile performance significantly."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What are local SEO ranking factors for GMB?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Important ranking factors include proximity to the searcher, relevance of your business category, number and quality of reviews, keyword optimization, consistent NAP (Name, Address, Phone) data, and profile completeness."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Can I manage multiple locations under one Google My Business account?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you can manage multiple business locations from a single GMB dashboard. Each location should have accurate and unique details to maintain authenticity and visibility."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How often should I update my GMB listing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It's recommended to update your GMB profile regularly—post updates weekly, respond to reviews promptly, and ensure all business details (like hours, address, services) are always accurate."
+        }
+      }]
+    },
     description: {
       mode: "light",
       title:
@@ -849,7 +931,7 @@ const services = [
           desc: "local business SEO Experts.",
         },
       ],
-      image:gmb1,
+      image: gmb1,
       imagePostion: "left",
     },
 
@@ -889,7 +971,7 @@ const services = [
         "Increasing the number of people who visit your website or store",
         "Building long-term customer trust",
       ],
-      image:gmb5,
+      image: gmb5,
       imagePostion: "right",
     },
 
@@ -1083,10 +1165,13 @@ const services = [
   },
   {
     banner: PpcBannner,
-    title: "Pay Per Click",
+    title: "PPC Agency Mumbai",
+    metaTitle: "PPC Agency Mumbai | Shree Krishna Digital",
+    metaDes: "Maximize ROI with the leading PPC agency in Mumbai. Experts create high-converting Google Ads and campaigns to drive traffic, leads, and sales.",
+    canonical: "https://skdm.in/ppc-agency-mumbai",
     shortdesc:
       "Gain top search visibility with paid ads that drive traffic, leads, and sales, measurable through real-time PPC analytics.",
-    slug: "/pay-per-click",
+    slug: "/ppc-agency-mumbai",
     description: {
       mode: "light",
       title: "Smart PPC Techniques for Your Business Growth",
@@ -1099,7 +1184,7 @@ const services = [
       ],
       subtitle: "How PPC Works",
       points: [],
-      image:ppc1,
+      image: ppc1,
       imagePostion: "right",
     },
 
@@ -1158,7 +1243,7 @@ const services = [
         "Increasing the number of people who visit your website or store",
         "Building long-term customer trust",
       ],
-      image:ppc2,
+      image: ppc2,
       imagePostion: "right",
     },
 
@@ -1377,11 +1462,13 @@ const services = [
     },
   },
   {
-    banner:WebDevelopmentBanner,
-    title: "Website Development",  
-    shortdesc:
-      "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
-    slug: "/web-development",
+    banner: WebDevelopmentBanner,
+    title: "Web Development Company In Mumbai",
+    metaTitle: "Web Development Company in Mumbai | Shree Krishna Digital",
+    metaDes: "Looking for a professional web development company in Mumbai? We create responsive, user-friendly, SEO-optimized websites tailored to your needs.",
+    canonical: "https://skdm.in/web-development-company-in-mumbai",
+    shortdesc: "From design to deployment, web development turns your ideas into functional, scalable digital platforms that engage users.",
+    slug: "/web-development-company-in-mumbai",
     description: {
       mode: "light",
       title: "Web Development Solutions for Complex Business Needs",
@@ -1666,11 +1753,13 @@ const services = [
     },
   },
   {
-    banner:AppBanner,
-    title: "Application Development",
-    shortdesc:
-      "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
-    slug: "/application-development",
+    banner: AppBanner,
+    title: "App Development Company In Mumbai",
+    metaTitle: "App Development Company in Mumbai | Shree Krishna Digital",
+    metaDes: "Hire the top app development company in Mumbai for innovative, user-friendly mobile solutions. We specialize in Android, iOS, and cross-platform apps.",
+    canonical: "https://skdm.in/app-development-company-mumbai",
+    shortdesc: "Custom mobile app development tailored to your brand, goals, and target audience for lasting impact.",
+    slug: "/app-development-company-mumbai",
     description: {
       mode: "light",
       title: "Custom Mobile App Solutions for Business Growth",
@@ -1723,7 +1812,7 @@ const services = [
         },
       ],
       pointStyle: "card",
-      image:app1,
+      image: app1,
       imagePostion: "left",
     },
     services: {
@@ -1773,7 +1862,7 @@ const services = [
     enhance: {
       mode: "light",
       title: "Together, let's create something extraordinary.",
-      image:app2,
+      image: app2,
       shortdesc:
         "We can assist you if you're prepared to release a mobile application that accurately reflects your company and produces tangible outcomes. Join forces with a Mumbai app development company that is dedicated to your success at every stage.",
       desc: "",
