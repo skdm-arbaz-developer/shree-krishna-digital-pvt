@@ -430,6 +430,82 @@ const services = [
         },
       ],
     },
+    schemaData:
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO (Search Engine Optimization) is the process of improving your website’s visibility on search engines like Google. The goal is to get more organic (unpaid) traffic by ranking higher for relevant keywords."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Why is SEO important for my business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO helps people find your business online. A well-optimized website attracts more traffic, generates leads, increases sales, and builds brand credibility."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How long does SEO take to show results?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO is a long-term strategy. Most websites start seeing noticeable improvements in 3 to 6 months, depending on the competition and the quality of the SEO work."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What are keywords and why do they matter?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Keywords are the words or phrases people type into search engines. Using the right keywords in your content helps your website appear in relevant search results."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What is the difference between on-page and off-page SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "On-page SEO includes elements like keywords, content, titles, and internal links on your website. Off-page SEO refers to actions taken outside your site, like backlink building, social media marketing, and online reviews."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Do I need SEO if I’m running Google Ads?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. SEO and Google Ads can work together. Ads bring immediate traffic, while SEO builds long-term visibility and trust organically."
+        }
+      }, {
+        "@type": "Question",
+        "name": "What are backlinks and why are they important?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Backlinks are links from other websites pointing to your site. They signal trust and authority to search engines, helping your site rank higher."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Can I do SEO myself or should I hire an agency?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While basic SEO can be done with some research, hiring an experienced SEO agency (like Shree Krishna Digital Solution PVT. LTD) ensures better strategy, results, and return on investment."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How does local SEO work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Local SEO helps your business show up in local searches (like \"restaurant near me\"). It includes optimizing your Google My Business profile, location-based keywords, and getting local reviews."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How do I know if my SEO is working?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can track SEO performance using tools like Google Analytics, Google Search Console, and SEO dashboards. Key metrics include traffic, keyword rankings, bounce rate, and conversions."
+        }
+      }]
+    }
   },
   {
     banner: SocialMediaMarketing,
@@ -798,6 +874,82 @@ const services = [
         },
       ],
     },
+
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is social media marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Social media marketing involves using platforms like Facebook, Instagram, LinkedIn, Twitter, and others to promote your business, build brand awareness, connect with your audience, and drive website traffic or sales."
+        }
+      },{
+        "@type": "Question",
+        "name": "Which social media platforms should my business use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on your target audience and business goals. For B2C, platforms like Instagram, Facebook, and TikTok work well. For B2B, LinkedIn is ideal. We help identify and prioritize the platforms best suited to your audience."
+        }
+      },{
+        "@type": "Question",
+        "name": "How often should I post on social media?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Consistency is key. Most businesses benefit from posting 3–5 times a week. The frequency can vary depending on the platform and your goals. We create custom content calendars to maintain regular engagement."
+        }
+      },{
+        "@type": "Question",
+        "name": "How long does it take to see results from social media marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Typically, it takes 2–3 months to see consistent engagement growth and 3–6 months for measurable results like leads, sales, or conversions. Paid campaigns may generate faster results."
+        }
+      },{
+        "@type": "Question",
+        "name": "Do I need to run ads to succeed on social media?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While organic content is essential for building trust and brand presence, social media ads help amplify reach, target specific audiences, and drive faster results. We often recommend a mix of both."
+        }
+      },{
+        "@type": "Question",
+        "name": "What kind of content should I post on social media?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A mix of engaging, informative, and promotional content works best—such as tips, customer testimonials, behind-the-scenes videos, product highlights, reels, and offers. We customize content based on your brand tone and goals."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can social media help with lead generation?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. With the right strategy—targeted content, compelling CTAs, lead magnets, and ad campaigns—social media can be a powerful lead generation tool for both B2B and B2C businesses."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do you measure the success of a social media campaign?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We track key metrics such as engagement rate, reach, followers, website traffic, lead conversions, and ROI. Regular reports help you see what’s working and where we can improve."
+        }
+      },{
+        "@type": "Question",
+        "name": "Will you manage my accounts or just provide guidance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We offer both options. We can fully manage your accounts—from content creation to posting and analytics—or work alongside your in-house team to provide strategy, training, and performance reviews."
+        }
+      },{
+        "@type": "Question",
+        "name": "How much does social media marketing cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our pricing depends on the scope of work, number of platforms, content needs, and whether you're including paid ads. We offer flexible packages tailored to your goals and budget."
+        }
+      }]
+    }
   },
   {
     banner: GmbBanner,
@@ -807,82 +959,6 @@ const services = [
     canonical: "https://skdm.in/google-my-business-listing-service",
     shortdesc: "GMB strengthens your online presence, showing your business in local searches, maps, and results when it matters most.",
     slug: "/google-my-business-listing-service",
-    schemaData:
-    {
-      "@context": "https://schema.org",
-      "@type": "FAQPage",
-      "mainEntity": [{
-        "@type": "Question",
-        "name": "What is Google My Business (GMB)?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Google My Business is a free tool by Google that allows businesses to manage their online presence across Google Search and Google Maps. It helps customers find your business location, contact details, reviews, photos, and more."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Why is Google My Business important for local SEO?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "GMB plays a critical role in local SEO by boosting your visibility in local search results, especially when people search for services “near me” or within a specific location."
-        }
-      }, {
-        "@type": "Question",
-        "name": "How do I create a Google My Business profile?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can create a GMB profile by visiting google.com/business, signing in with your Google account, entering your business details, verifying your listing, and optimizing it with relevant information."
-        }
-      }, {
-        "@type": "Question",
-        "name": "What is the verification process for GMB?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Most businesses verify their GMB listing through a postcard sent to their business address. Some businesses may also qualify for phone, email, or instant verification options, depending on their category."
-        }
-      }, {
-        "@type": "Question",
-        "name": "How can I optimize my Google My Business profile?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "You can optimize your GMB profile by adding accurate business information, uploading high-quality photos, regularly posting updates, responding to reviews, and using relevant keywords in your description."
-        }
-      }, {
-        "@type": "Question",
-        "name": "How does GMB help bring more customers to my business?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "A well-optimized GMB profile makes your business more discoverable in local searches, increases trust through reviews and photos, and provides users with quick access to contact or visit you, leading to higher foot traffic and inquiries."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Is Google My Business free to use?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, GMB is completely free to set up and use. However, investing in professional GMB management services can enhance your profile performance significantly."
-        }
-      }, {
-        "@type": "Question",
-        "name": "What are local SEO ranking factors for GMB?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Important ranking factors include proximity to the searcher, relevance of your business category, number and quality of reviews, keyword optimization, consistent NAP (Name, Address, Phone) data, and profile completeness."
-        }
-      }, {
-        "@type": "Question",
-        "name": "Can I manage multiple locations under one Google My Business account?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, you can manage multiple business locations from a single GMB dashboard. Each location should have accurate and unique details to maintain authenticity and visibility."
-        }
-      }, {
-        "@type": "Question",
-        "name": "How often should I update my GMB listing?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "It's recommended to update your GMB profile regularly—post updates weekly, respond to reviews promptly, and ensure all business details (like hours, address, services) are always accurate."
-        }
-      }]
-    },
     description: {
       mode: "light",
       title:
@@ -1162,6 +1238,81 @@ const services = [
         },
       ],
     },
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is Google My Business (GMB)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Google My Business is a free tool by Google that allows businesses to manage their online presence across Google Search and Google Maps. It helps customers find your business location, contact details, reviews, photos, and more."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why is Google My Business important for local SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "GMB plays a critical role in local SEO by boosting your visibility in local search results, especially when people search for services “near me” or within a specific location."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do I create a Google My Business profile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can create a GMB profile by visiting google.com/business, signing in with your Google account, entering your business details, verifying your listing, and optimizing it with relevant information."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the verification process for GMB?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Most businesses verify their GMB listing through a postcard sent to their business address. Some businesses may also qualify for phone, email, or instant verification options, depending on their category."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can I optimize my Google My Business profile?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "You can optimize your GMB profile by adding accurate business information, uploading high-quality photos, regularly posting updates, responding to reviews, and using relevant keywords in your description."
+        }
+      },{
+        "@type": "Question",
+        "name": "How does GMB help bring more customers to my business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "A well-optimized GMB profile makes your business more discoverable in local searches, increases trust through reviews and photos, and provides users with quick access to contact or visit you, leading to higher foot traffic and inquiries."
+        }
+      },{
+        "@type": "Question",
+        "name": "Is Google My Business free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, GMB is completely free to set up and use. However, investing in professional GMB management services can enhance your profile performance significantly."
+        }
+      },{
+        "@type": "Question",
+        "name": "What are local SEO ranking factors for GMB?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Important ranking factors include proximity to the searcher, relevance of your business category, number and quality of reviews, keyword optimization, consistent NAP (Name, Address, Phone) data, and profile completeness."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can I manage multiple locations under one Google My Business account?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, you can manage multiple business locations from a single GMB dashboard. Each location should have accurate and unique details to maintain authenticity and visibility."
+        }
+      },{
+        "@type": "Question",
+        "name": "How often should I update my GMB listing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It's recommended to update your GMB profile regularly—post updates weekly, respond to reviews promptly, and ensure all business details (like hours, address, services) are always accurate."
+        }
+      }]
+    }
   },
   {
     banner: PpcBannner,
@@ -1403,6 +1554,7 @@ const services = [
         // },
       ],
     },
+
     contact: {
       mode: "gray",
       title: "Have Any Query! Let's discuss",
@@ -1460,6 +1612,82 @@ const services = [
         },
       ],
     },
+
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is Pay-Per-Click (PPC) advertising?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PPC is a digital advertising model where advertisers pay a fee each time someone clicks on their ad. It's commonly used on platforms like Google Ads, Facebook Ads, and Bing Ads to drive targeted traffic to websites."
+        }
+      },{
+        "@type": "Question",
+        "name": "How does PPC work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PPC ads appear on search engines or social media platforms. You bid on keywords, and when users search for those terms, your ad may appear. If they click, you pay a fee based on the bid and ad quality."
+        }
+      },{
+        "@type": "Question",
+        "name": "Which platforms can I run PPC ads on?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Popular platforms include: * Google Ads (Search, Display, YouTube) * Microsoft/Bing Ads * Facebook and Instagram Ads * LinkedIn Ads * Twitter/X Ads"
+        }
+      },{
+        "@type": "Question",
+        "name": "How much does PPC advertising cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "There’s no fixed cost. You set a daily or monthly budget, and your cost-per-click (CPC) depends on competition, industry, keyword quality, and other factors. It can range from a few cents to several dollars per click."
+        }
+      },{
+        "@type": "Question",
+        "name": "What are the benefits of PPC for my business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "* Immediate visibility in search results * Targeted traffic based on location, interests, or behavior * Flexible budget control * Trackable ROI and performance metrics * Increases brand awareness and conversions"
+        }
+      },{
+        "@type": "Question",
+        "name": "What is Quality Score in Google Ads?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Quality Score is Google's rating of your ad relevance, keyword choice, and landing page experience. A higher score can lower your cost per click and improve your ad position."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do I choose the right keywords for PPC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Using keyword research tools, identify terms your target audience is searching for. Focus on keywords with high intent, relevance, and manageable competition. Include long-tail keywords for better targeting."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can PPC help my local business?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes! PPC is great for local targeting. With local extensions and geo-targeting, you can show ads to people searching for services near your location, driving foot traffic and local leads."
+        }
+      },{
+        "@type": "Question",
+        "name": "How long does it take to see results from PPC?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "PPC can show immediate traffic and clicks once your campaign goes live. However, consistent results and ROI optimization may take a few weeks of testing, refining keywords, and adjusting targeting."
+        }
+      },{
+        "@type": "Question",
+        "name": "Why should I hire a PPC agency?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "An experienced PPC agency like Shree Krishna Digital Solution PVT. LTD can:* Create effective ad strategies * Optimize bids and budgets * Write high-converting ad copy * Manage and monitor campaigns * Maximize your ROI with expert insights * Optimize bids and budgets"
+        }
+      }]
+    }
   },
   {
     banner: WebDevelopmentBanner,
@@ -1751,6 +1979,81 @@ const services = [
         },
       ],
     },
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is web development?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Web development is the process of creating and maintaining websites or web applications. It involves front-end development (what users see), back-end development (server-side logic), and sometimes database management."
+        }
+      },{
+        "@type": "Question",
+        "name": "What’s the difference between web design and web development?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Web design focuses on the look, layout, and user experience of a website, while web development involves writing the code to make the website function. Designers create the visuals, and developers bring them to life."
+        }
+      },{
+        "@type": "Question",
+        "name": "How long does it take to build a website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The timeline depends on the project's complexity. A basic website may take 1–3 weeks, while a complex website or e-commerce platform could take 6–12 weeks or more."
+        }
+      },{
+        "@type": "Question",
+        "name": "How much does web development cost?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Costs vary based on design, features, content, and functionality. A basic site may start from a few hundred dollars, while custom-built or enterprise-level websites can cost significantly more."
+        }
+      },{
+        "@type": "Question",
+        "name": "Will my website be mobile-friendly?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. All our websites are developed with responsive design, ensuring they look and function perfectly on smartphones, tablets, and desktops."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can I update the website myself after it's built?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. We build websites with easy-to-use content management systems (CMS) like WordPress, so you can update content, images, and more without technical knowledge."
+        }
+      },{
+        "@type": "Question",
+        "name": "Do you offer website maintenance and support?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We offer ongoing maintenance plans that include updates, backups, security checks, and technical support to keep your website running smoothly."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can you help with website hosting and domain registration?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We assist with domain name registration, web hosting setup, and SSL certificate installation to ensure your site is secure and live online."
+        }
+      },{
+        "@type": "Question",
+        "name": "Will my website be SEO-friendly?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We follow SEO best practices during development, including fast loading times, mobile responsiveness, and optimized structure to improve your visibility on search engines."
+        }
+      },{
+        "@type": "Question",
+        "name": "Do you develop e-commerce websites?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. We build secure and scalable e-commerce websites using platforms like WooCommerce, Shopify, or custom solutions, tailored to your business needs."
+        }
+      }]
+    }
   },
   {
     banner: AppBanner,
@@ -2014,6 +2317,81 @@ const services = [
         },
       ],
     },
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "What is application development?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Application development is the process of creating software applications for mobile devices, desktops, or web platforms. It involves planning, designing, coding, testing, and launching apps tailored to user or business needs."
+        }
+      },{
+        "@type": "Question",
+        "name": "What platforms do you develop applications for?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We develop applications for Android, iOS, web browsers, and desktop systems. We also build cross-platform apps that work seamlessly across multiple devices using frameworks like Flutter or React Native."
+        }
+      },{
+        "@type": "Question",
+        "name": "How much does it cost to develop an app?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The cost varies based on the app’s complexity, features, design, and the platforms involved. We offer customized quotes after a detailed requirement discussion to match your budget and goals."
+        }
+      },{
+        "@type": "Question",
+        "name": "How long does it take to develop an application?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The development timeline depends on the scope of the project. On average, a simple app takes 4–8 weeks, while complex applications may take 3–6 months or more."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can you help with app design and user interface (UI/UX)?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we have a dedicated team of UI/UX designers who create visually appealing, intuitive, and user-friendly interfaces to ensure an optimal user experience."
+        }
+      },{
+        "@type": "Question",
+        "name": "Do you provide post-launch support and updates?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely! We offer maintenance and support packages that include bug fixes, feature enhancements, updates for new OS versions, and performance monitoring."
+        }
+      },{
+        "@type": "Question",
+        "name": "Will I own the source code of my app?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Once the project is complete and full payment is made, you will have full ownership of the app and its source code."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can you integrate third-party services like payment gateways or APIs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we regularly integrate third-party APIs, including payment gateways, location services, chat systems, and more to enhance app functionality."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do you ensure app security?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "We follow industry-standard security practices, including data encryption, secure authentication, and regular code audits to protect your app and user data."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can you help publish the app on Google Play Store and Apple App Store?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, we take care of the entire app deployment process, including preparing assets, setting up developer accounts, and publishing to the app stores."
+        }
+      }]
+    }
   },
 ];
 

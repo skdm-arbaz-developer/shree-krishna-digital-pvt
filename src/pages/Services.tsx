@@ -21,21 +21,21 @@ export default function Services() {
   return (
     data && (
       <>
-      <Helmet>
-        <title>{data?.metaTitle}</title>
-        <meta name="description" content={data?.metaDes} />
-        <meta name="keywords" content="Best Digital Marketing Agency In Mumbai,Digital Marketing Company In Mumbai,Digital Marketing Experts In Mumbai,Top Digital Marketing Services In Mumbai,Life At Digital Marketing Agency In Mumbai,Digital Marketing In Mumbai,Top Digital Marketing Company In Mumbai,Internet Marketing Service In Mumbai,Digital Marketing In Mumbai,Best SEO Company In Mumbai,Social Media Marketing Agency In Mumbai,Google My Business listing service,PPC Agency Mumbai,PR Agency In Mumbai,Web Development Company In Mumbai,App Development Company In Mumbai,CRM Development Company In Mumbai,Digital Marketing For Healthcare In Mumbai,Digital Marketing For Hospitility & Caterers In Mumbai,Digital Marketing For Real Estate In Mumbai,Digital Marketing For Resort & Villas In Mumbai,Digital Marketing For Interior Designer In Mumbai,Digital Marketing For Spa & Salon In Mumbai,Digital Marketing For Education In Mumbai,Digital Marketing For Real Life Style In Mumbai,Best Digital Marketing Agency In Mumbai ,Online Marketing Near Mumbai,Search Engine Optimization in India,Social Media Marketing in India,Google My Business in India,Pay Per Click Marketing In India,Web Developement In India,Application Development In India,Search Engine Optimization in Australia,Social Media Marketing in Australia,GMB Optimization Service in Australia,Pay Per Click Marketing in Australia,Web Developement in Australia,Application Development in Australia,Search Engine Optimization in Canada,Social Media Marketing in Canada,GMB Optimization Service in Canada,Pay Per Click Marketing in Canada,Web Developement in Canada,Application Development in Canada,Search Engine Optimization in Malaysia,Social Media Marketing in Malaysia,GMB Optimization Service in Malaysia,Pay Per Click Marketing in Malaysia,Web Developement in Malaysia,Application Development in Malaysia,Search Engine Optimization in Nepal ,Social Media Marketing in Nepal ,GMB Optimization Service in Nepal,Pay Per Click Marketing in Nepal,Web Developement in Nepal,Application Development in Nepal,Search Engine Optimization in Dubai,Social Media Marketing in Dubai,GMB Optimization Service in Dubai ,Pay Per Click Marketing in Dubai,Web Developement in Dubai,Application Development in Dubai,Search Engine Optimization in USA,Social Media Marketing in USA,GMB Optimization Service in USA,Pay Per Click Marketing in USA,Web Developement in USA,Application Development in USA,Search Engine Optimization in United Kingdom,Social Media Marketing in United Kingdom,GMB Optimization Service in United Kingdom ,Pay Per Click Marketing in United Kingdom,Web Developement in United Kingdom,Application Development in United Kingdom,Search Engine Optimization in Maldives,Social Media Marketing in Maldives,GMB Optimization Service in Maldives,Pay Per Click Marketing in Maldives,Web Developement in Maldives,Application Development in Maldives" />
-        <link rel="canonical" href={data?.canonical} />
-        <meta httpEquiv="cache-control" content="no-cache" />
-        <meta httpEquiv="expires" content="0" />
-        <meta httpEquiv="pragma" content="no-cache" />
-        <meta property="og:title" content={data?.title} />
-        <meta property="og:locale" content="en_US" />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://skdm.in/" />
-        <meta property="og:description" content={data?.metaDes} />
-        <meta property="og:image" content="https://katariashubli.com/static/media/kartaria%20logo.61ab17e04111050f3cc9.png" />
-      </Helmet>
+        <Helmet>
+          <title>{data?.metaTitle}</title>
+          <meta name="description" content={data?.metaDes} />
+          <meta name="keywords" content="Best Digital Marketing Agency In Mumbai,Digital Marketing Company In Mumbai,Digital Marketing Experts In Mumbai,Top Digital Marketing Services In Mumbai,Life At Digital Marketing Agency In Mumbai,Digital Marketing In Mumbai,Top Digital Marketing Company In Mumbai,Internet Marketing Service In Mumbai,Digital Marketing In Mumbai,Best SEO Company In Mumbai,Social Media Marketing Agency In Mumbai,Google My Business listing service,PPC Agency Mumbai,PR Agency In Mumbai,Web Development Company In Mumbai,App Development Company In Mumbai,CRM Development Company In Mumbai,Digital Marketing For Healthcare In Mumbai,Digital Marketing For Hospitility & Caterers In Mumbai,Digital Marketing For Real Estate In Mumbai,Digital Marketing For Resort & Villas In Mumbai,Digital Marketing For Interior Designer In Mumbai,Digital Marketing For Spa & Salon In Mumbai,Digital Marketing For Education In Mumbai,Digital Marketing For Real Life Style In Mumbai,Best Digital Marketing Agency In Mumbai ,Online Marketing Near Mumbai,Search Engine Optimization in India,Social Media Marketing in India,Google My Business in India,Pay Per Click Marketing In India,Web Developement In India,Application Development In India,Search Engine Optimization in Australia,Social Media Marketing in Australia,GMB Optimization Service in Australia,Pay Per Click Marketing in Australia,Web Developement in Australia,Application Development in Australia,Search Engine Optimization in Canada,Social Media Marketing in Canada,GMB Optimization Service in Canada,Pay Per Click Marketing in Canada,Web Developement in Canada,Application Development in Canada,Search Engine Optimization in Malaysia,Social Media Marketing in Malaysia,GMB Optimization Service in Malaysia,Pay Per Click Marketing in Malaysia,Web Developement in Malaysia,Application Development in Malaysia,Search Engine Optimization in Nepal ,Social Media Marketing in Nepal ,GMB Optimization Service in Nepal,Pay Per Click Marketing in Nepal,Web Developement in Nepal,Application Development in Nepal,Search Engine Optimization in Dubai,Social Media Marketing in Dubai,GMB Optimization Service in Dubai ,Pay Per Click Marketing in Dubai,Web Developement in Dubai,Application Development in Dubai,Search Engine Optimization in USA,Social Media Marketing in USA,GMB Optimization Service in USA,Pay Per Click Marketing in USA,Web Developement in USA,Application Development in USA,Search Engine Optimization in United Kingdom,Social Media Marketing in United Kingdom,GMB Optimization Service in United Kingdom ,Pay Per Click Marketing in United Kingdom,Web Developement in United Kingdom,Application Development in United Kingdom,Search Engine Optimization in Maldives,Social Media Marketing in Maldives,GMB Optimization Service in Maldives,Pay Per Click Marketing in Maldives,Web Developement in Maldives,Application Development in Maldives" />
+          <link rel="canonical" href={data?.canonical} />
+          <meta httpEquiv="cache-control" content="no-cache" />
+          <meta httpEquiv="expires" content="0" />
+          <meta httpEquiv="pragma" content="no-cache" />
+          <meta property="og:title" content={data?.title} />
+          <meta property="og:locale" content="en_US" />
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://skdm.in/" />
+          <meta property="og:description" content={data?.metaDes} />
+          <meta property="og:image" content="https://katariashubli.com/static/media/kartaria%20logo.61ab17e04111050f3cc9.png" />
+        </Helmet>
         <CommanBanner
           image={data?.banner}
           title={data?.title}
@@ -43,128 +43,130 @@ export default function Services() {
         />
 
         {data.description && (
-          console.log("data.schemaData",data.schemaData),
+          console.log("data.schemaData", data.schemaData),
           <>
-          <section
-            className={`section relative section-${data?.description?.mode}`}
-          >
-            <img
-              src={SvgIcon}
-              alt={data?.description?.title}
-              className="absolute top-0 right-0"
-            />
+            <section
+              className={`section relative section-${data?.description?.mode}`}
+            >
+              <img
+                src={SvgIcon}
+                alt={data?.description?.title}
+                className="absolute top-0 right-0"
+              />
 
-            <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-              <div className="section-body flex flex-col items-center">
-                <h2 className="section-title max-w-[900px] md:text-center">
-                  {data?.description?.title}
-                </h2>
-                <p className="section-content md:text-center">
-                  {data?.description?.shortdesc}
-                </p>
-              </div>
+              <div className="container mx-auto px-0 sm:px-5 xl:px-0">
+                <div className="section-body flex flex-col items-center">
+                  <h2 className="section-title max-w-[900px] md:text-center">
+                    {data?.description?.title}
+                  </h2>
+                  <p className="section-content md:text-center">
+                    {data?.description?.shortdesc}
+                  </p>
+                </div>
 
-              <div className="section-details mt-10">
-                <div className="grid lg:grid-cols-2 gap-10">
-                  {data?.description?.imagePostion !== "right" ? (
-                    <div className="descption-image">
-                      <img
-                        alt={data?.description?.title}
-                        style={{ width: "100%", height: "100%" }}
-                        src={data?.description?.image}
-                        className="rounded-2xl"
-                      />
-                    </div>
-                  ) : (
-                    <div className="block lg:hidden descption-image">
-                      <img
-                        alt={data?.description?.title}
-                        style={{ width: "100%", height: "100%" }}
-                        src={data?.description?.image}
-                        className="rounded-2xl"
-                      />
-                    </div>
-                  )}
-
-                  <div className="section-detail-content">
-                    {data?.description?.desc.map((val, index) => (
-                      <p className="mb-5" key={index}>
-                        {val}
-                      </p>
-                    ))}
-
-                    {data?.description?.subtitle && (
-                      <h5 style={{ fontSize: "1.4rem" }}>
-                        {data?.description?.subtitle}
-                      </h5>
+                <div className="section-details mt-10">
+                  <div className="grid lg:grid-cols-2 gap-10">
+                    {data?.description?.imagePostion !== "right" ? (
+                      <div className="descption-image">
+                        <img
+                          alt={data?.description?.title}
+                          style={{ width: "100%", height: "100%" }}
+                          src={data?.description?.image}
+                          className="rounded-2xl"
+                        />
+                      </div>
+                    ) : (
+                      <div className="block lg:hidden descption-image">
+                        <img
+                          alt={data?.description?.title}
+                          style={{ width: "100%", height: "100%" }}
+                          src={data?.description?.image}
+                          className="rounded-2xl"
+                        />
+                      </div>
                     )}
 
-                    {data?.description?.subdesc.map((val, index) => (
-                      <p className="my-3" key={index}>
-                        {val}
-                      </p>
-                    ))}
+                    <div className="section-detail-content">
+                      {data?.description?.desc.map((val, index) => (
+                        <p className="mb-5" key={index}>
+                          {val}
+                        </p>
+                      ))}
 
-                    {data?.description?.pointStyle !== "card" &&
-                      data?.description?.points?.map((val, index) => (
-                        <div
-                          className="service-card flex items-center my-5"
-                          key={index}
-                        >
-                          {val?.icon && (
-                            <div
-                              className="icon"
-                              style={{ borderWidth: 2, width: 50, height: 50 }}
-                            >
-                              {val?.icon}
+                      {data?.description?.subtitle && (
+                        <h5 style={{ fontSize: "1.4rem" }}>
+                          {data?.description?.subtitle}
+                        </h5>
+                      )}
+
+                      {data?.description?.subdesc.map((val, index) => (
+                        <p className="my-3" key={index}>
+                          {val}
+                        </p>
+                      ))}
+
+                      {data?.description?.pointStyle !== "card" &&
+                        data?.description?.points?.map((val, index) => (
+                          <div
+                            className="service-card flex items-center my-5"
+                            key={index}
+                          >
+                            {val?.icon && (
+                              <div
+                                className="icon"
+                                style={{ borderWidth: 2, width: 50, height: 50 }}
+                              >
+                                {val?.icon}
+                              </div>
+                            )}
+                            <div className="card-content">
+                              <span style={{ fontSize: ".8rem" }}>
+                                {val?.subtitle}
+                              </span>
+                              <h5 className="text-gray-950 text-xl">
+                                {val?.title}
+                              </h5>
+                              <p className="text-gray-500">{val?.desc}</p>
                             </div>
-                          )}
-                          <div className="card-content">
-                            <span style={{ fontSize: ".8rem" }}>
-                              {val?.subtitle}
-                            </span>
-                            <h5 className="text-gray-950 text-xl">
-                              {val?.title}
-                            </h5>
-                            <p className="text-gray-500">{val?.desc}</p>
                           </div>
+                        ))}
+                    </div>
+
+                    {data?.description?.imagePostion === "right" && (
+                      <div className="hidden lg:block descption-image">
+                        <img
+                          alt={data?.description?.title}
+                          style={{ width: "100%", height: "100%", maxWidth: 500 }}
+                          src={data?.description?.image}
+                          className="rounded-2xl"
+                        />
+                      </div>
+                    )}
+                  </div>
+                  <div className="card-list mt-10">
+                    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
+                      {data?.description?.points?.map((val, index) => (
+                        <div className="card shadow p-5" key={index}>
+                          <div className="icon">{val?.icon}</div>
+                          <h5 style={{ fontSize: "1.2rem", margin: "10px 0" }}>
+                            {val?.title}
+                          </h5>
+                          <p style={{ fontSize: ".85rem" }}>{val?.desc}</p>
                         </div>
                       ))}
-                  </div>
-
-                  {data?.description?.imagePostion === "right" && (
-                    <div className="hidden lg:block descption-image">
-                      <img
-                        alt={data?.description?.title}
-                        style={{ width: "100%", height: "100%", maxWidth: 500 }}
-                        src={data?.description?.image}
-                        className="rounded-2xl"
-                      />
                     </div>
-                  )}
-                </div>
-                <div className="card-list mt-10">
-                  <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-5">
-                    {data?.description?.points?.map((val, index) => (
-                      <div className="card shadow p-5" key={index}>
-                        <div className="icon">{val?.icon}</div>
-                        <h5 style={{ fontSize: "1.2rem", margin: "10px 0" }}>
-                          {val?.title}
-                        </h5>
-                        <p style={{ fontSize: ".85rem" }}>{val?.desc}</p>
-                      </div>
-                    ))}
                   </div>
                 </div>
               </div>
-            </div>
-          </section>
-          <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(data.schemaData) }}
-        />
-        </>
+            </section>
+            <script
+              type="application/ld+json"
+              dangerouslySetInnerHTML={{ __html: JSON.stringify(data.schemaData) }}
+            />
+          </>
         )}
+
+
 
         {data.descriptionSecond && (
           <section
@@ -325,11 +327,10 @@ export default function Services() {
                       </div>
                       <div className="card-content">
                         <h5
-                          className={`${
-                            data?.services?.mode === "dark"
+                          className={`${data?.services?.mode === "dark"
                               ? "text-white"
                               : "text-gray-950"
-                          }  text-xl mt-3`}
+                            }  text-xl mt-3`}
                         >
                           {val?.title}
                         </h5>
@@ -446,11 +447,10 @@ export default function Services() {
                   )}
 
                   <div
-                    className={`section-detail-content col-span-2 ${
-                      data?.benefitsSecond?.mode === "dark"
+                    className={`section-detail-content col-span-2 ${data?.benefitsSecond?.mode === "dark"
                         ? "text-white"
                         : "text-gray-950"
-                    }`}
+                      }`}
                   >
                     {data?.benefitsSecond?.desc.map((val, index) => (
                       <p className="mb-5" key={index}>
@@ -681,6 +681,17 @@ export default function Services() {
             </div>
           </section>
         )}
+        {
+          data?.schemaData && (
+            <>
+              <Helmet>
+                <script type="application/ld+json">
+                  {JSON.stringify(data?.schemaData)}
+                </script>
+              </Helmet>
+            </>
+          )
+        }
       </>
     )
   );
@@ -788,45 +799,39 @@ const BenefitsSection = ({ detail, index }: any) => (
 
 const PackageCard = ({ detail }: any) => (
   <div
-    className={`package-card  p-12 cursor-pointer mt-5 lg:mt-0 ${
-      detail.status === "active" ? "bg-violet-950" : "bg-white"
-    }`}
+    className={`package-card  p-12 cursor-pointer mt-5 lg:mt-0 ${detail.status === "active" ? "bg-violet-950" : "bg-white"
+      }`}
   >
     <div className="package-top mb-5">
       <strong
-        className={`${
-          detail.status === "active" ? "text-white" : "text-gray-950"
-        }`}
+        className={`${detail.status === "active" ? "text-white" : "text-gray-950"
+          }`}
       >
         {detail?.title}
       </strong>
       <div className="pricing flex items-end my-5">
         <h3 className="flex items-center mr-2">
           <FaIndianRupeeSign
-            className={`text-3xl ${
-              detail.status === "active" ? "text-white" : "text-gray-950"
-            }`}
+            className={`text-3xl ${detail.status === "active" ? "text-white" : "text-gray-950"
+              }`}
           />
           <span
-            className={`text-5xl ${
-              detail.status === "active" ? "text-white" : "text-gray-950"
-            }`}
+            className={`text-5xl ${detail.status === "active" ? "text-white" : "text-gray-950"
+              }`}
           >
             {detail?.price}
           </span>
         </h3>
         <span
-          className={`${
-            detail.status === "active" ? "text-white" : "text-gray-950"
-          }`}
+          className={`${detail.status === "active" ? "text-white" : "text-gray-950"
+            }`}
         >
           / {detail?.period}
         </span>
       </div>
       <p
-        className={`${
-          detail.status === "active" ? "text-white" : "text-gray-500"
-        }`}
+        className={`${detail.status === "active" ? "text-white" : "text-gray-500"
+          }`}
         style={{ fontSize: ".9rem" }}
       >
         {detail?.shortdesc}
@@ -837,16 +842,14 @@ const PackageCard = ({ detail }: any) => (
         {detail?.features?.map((val: string, index: number) => (
           <li className="flex items-center mb-2" key={index}>
             <span
-              className={`mr-2 rounded-sm w-4 h-4 flex items-center justify-center p-1 ${
-                detail.status === "active" ? "bg-white" : "bg-gray-300"
-              }`}
+              className={`mr-2 rounded-sm w-4 h-4 flex items-center justify-center p-1 ${detail.status === "active" ? "bg-white" : "bg-gray-300"
+                }`}
             >
               <FaCheck className="text-green-700" />
             </span>
             <p
-              className={` text-md ${
-                detail.status === "active" ? "text-white" : "text-gray-900"
-              }`}
+              className={` text-md ${detail.status === "active" ? "text-white" : "text-gray-900"
+                }`}
             >
               {val}
             </p>
@@ -856,11 +859,10 @@ const PackageCard = ({ detail }: any) => (
     </div>
     <div className="package-bottom mt-10">
       <button
-        className={`w-full border-1 p-3 cursor-pointer ${
-          detail.status === "active"
+        className={`w-full border-1 p-3 cursor-pointer ${detail.status === "active"
             ? "border-white text-white hover:bg-white hover:text-violet-950 transition-colors"
             : "text-violet-950 border-violet-950 hover:bg-violet-950 hover:text-white transition-colors"
-        }`}
+          }`}
       >
         Choose Plan
       </button>
@@ -912,5 +914,4 @@ const FAQ = ({ detail }: any) => (
     </div>
   </div>
 );
-
 
