@@ -141,10 +141,11 @@ export default function EnquiryForm({ text }: any) {
     },
   ];
 
-  const handleSubmit = ({ value }: any) => {
-    console.log(value);
+  const handleSubmit = (values: any) => {
+    console.log(values); // This will now correctly log all form values
+    setActive((prev) => prev + 1); // Move to the confirmation step after successful submission
   };
-
+  
   const handleRadioChange = (value: string) => {
     setSelectedData((prev) => ({
       ...prev,
@@ -222,8 +223,8 @@ export default function EnquiryForm({ text }: any) {
                         active === 2
                           ? selectedData.business
                           : active === 3
-                          ? selectedData.budget
-                          : selectedData.planing
+                            ? selectedData.budget
+                            : selectedData.planing
                       }
                     >
                       <div className="grid grid-cols-2 gap-5">
@@ -277,12 +278,12 @@ export default function EnquiryForm({ text }: any) {
                   active === 1
                     ? selectedData.service?.length === 0
                     : active === 2
-                    ? selectedData.business === null
-                    : active === 3
-                    ? selectedData.budget === null
-                    : active === 4
-                    ? selectedData.planing === null
-                    : false
+                      ? selectedData.business === null
+                      : active === 3
+                        ? selectedData.budget === null
+                        : active === 4
+                          ? selectedData.planing === null
+                          : false
                 }
                 onClick={() => setActive((prev) => prev + 1)}
               >

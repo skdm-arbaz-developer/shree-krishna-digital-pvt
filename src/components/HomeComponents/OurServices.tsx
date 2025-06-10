@@ -9,11 +9,11 @@ export default function OurServices() {
   const services = [
     {
       title: "Website Development",
-      link: "/web-development",
+      link: "/web-development-company-in-mumbai",
     },
     {
       title: "App Development",
-      link: "/application-development",
+      link: "/app-development-company-mumbai",
     },
     // {
     //   title: "CRM Development",
@@ -21,15 +21,15 @@ export default function OurServices() {
     // },
     {
       title: "SEO Optimization",
-      link: "/search-engine-optimization",
+      link: "/best-seo-company-mumbai",
     },
     {
       title: "Social Media Marketing",
-      link: "/social-media-marketing",
+      link: "/social-media-marketing-agency-mumbai",
     },
     {
       title: "Pay Per Click",
-      link: "/pay-per-click",
+      link: "/ppc-agency-mumbai",
     },
     {
       title: "PR and Ads Marketing",

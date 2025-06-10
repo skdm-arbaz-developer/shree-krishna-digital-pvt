@@ -49,7 +49,7 @@ const componentMap: RouteMap = {
   bestdigitalmarketingagencymumbai: <Career />,
   lifeatdigitalmarketingagencymumbai: <LifeAtSkd />,
   casestudyview: <CaseStudyView />,
-  blogs: <Blog />,
+  internetmarketingmumbai: <Blog />,
 };
 
 const navigations: NavigationType[] = NavigationLinks;

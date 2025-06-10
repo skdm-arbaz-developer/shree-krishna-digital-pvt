@@ -85,6 +85,7 @@ Allow:/gmb-optimization-service-nepal
 Allow:/pay-per-click-marketing-nepal
 Allow:/web-development-nepal
 Allow:/application-development-nepal
+Allow:/internet-marketing-mumbai
 
 # Host
 Host: https://skdm.in/

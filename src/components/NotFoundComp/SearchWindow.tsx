@@ -2,7 +2,7 @@ import React, { forwardRef } from "react";
 import { Animal } from "./animal-information";
 import { Button } from "antd";
 import { IoCloseSharp } from "react-icons/io5";
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 interface SearchWindowProps {
   isVisible: boolean;
@@ -91,7 +91,7 @@ const SearchWindow = forwardRef<HTMLDivElement, SearchWindowProps>(
             {" "}
             {/* This div is for React Transition Group or direct mapping */}
             {results.map((data, index) => (
-              <NavLink to={"/"+data?.link} replace>
+              <Link to={data?.link} replace>
                 <div
                   className="search-window-container"
                   key={index} // Using index as key is acceptable if list is static or items don't reorder/change identity
@@ -105,9 +105,9 @@ const SearchWindow = forwardRef<HTMLDivElement, SearchWindowProps>(
                       {data.name}
                     </a>
                   </div>
-                  <div className="search-window-content">{data.desc}</div>
+                  {/* <div className="search-window-content">{data.desc}</div> */}
                 </div>
-              </NavLink>
+              </Link>
             ))}
             {results.length === 0 && keyword.length > 0 && (
               <div className="search-window-container">

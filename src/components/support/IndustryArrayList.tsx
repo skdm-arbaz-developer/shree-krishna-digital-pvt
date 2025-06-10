@@ -238,7 +238,7 @@ const industries = [
             para: "Boost your hospital or clinic's local visibility with GMB optimization. Appear in top local searches, build trust through reviews, and make it easy for patients to find and contact you instantly.",
             keywords: [],
           },
-          link: "/google-my-business",
+          link: "/google-my-business-listing-service  ",
         },
         {
           image: seo,
@@ -247,7 +247,7 @@ const industries = [
             para: "Rank higher on Google when patients search for healthcare services. Our healthcare-specific SEO strategies help hospitals and doctors attract organic traffic and increase appointment bookings through relevant, high-intent keyword targeting.",
             keywords: [],
           },
-          link: "/search-engine-optimization",
+          link: "/best-seo-company-mumbai",
         },
         {
           image: ppc,
@@ -256,7 +256,7 @@ const industries = [
             para: "Drive instant leads with targeted PPC campaigns for hospitals and clinics. Appear above competitors on Google when potential patients search, ensuring you get clicks, calls, and conversions at the right time.",
             keywords: [],
           },
-          link: "/pay-per-click",
+          link: "/ppc-agency-mumbai",
         },
         {
           image: YouTubeMarketing,
@@ -265,7 +265,7 @@ const industries = [
             para: "Establish authority with YouTube videos showcasing treatments, success stories, and doctor introductions. Build trust, educate viewers, and attract new patients through visual content tailored for the healthcare and wellness audience.",
             keywords: [],
           },
-          link: "/social-media-marketing",
+          link: "/social-media-marketing-agency-mumbai",
         },
       ],
     },
@@ -430,6 +430,82 @@ const industries = [
         },
       ],
     },
+
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How can digital marketing help hotels and caterers get more bookings?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By increasing online visibility, digital marketing brings targeted traffic from people searching for hospitality services."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the role of SEO in hospitality marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO helps your hotel or catering business rank higher for keywords like \"wedding caterers near me\" or \"best hotel in [city]."
+        }
+      },{
+        "@type": "Question",
+        "name": "Are social media platforms effective for catering businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Instagram and Facebook help showcase events, menus, and client testimonials."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do online reviews impact the hospitality industry?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Positive reviews on platforms like Google and TripAdvisor can influence booking decisions."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can Google Ads help generate leads for catering services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. Targeted ads ensure your business appears when someone searches for catering in your location."
+        }
+      },{
+        "@type": "Question",
+        "name": "How important is mobile optimization for hospitality websites?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Very important. Many users book hotels and catering services via mobile devices."
+        }
+      },{
+        "@type": "Question",
+        "name": "What kind of content works best for promoting hospitality services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mouth-watering food photos, customer testimonials, behind-the-scenes videos, and service highlights."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can email marketing help in customer retention?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By sending special offers, festive menus, and loyalty discounts to past clients."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can influencer marketing be effective for boutique hotels or chefs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, collaborations with food bloggers or travel influencers drive high visibility."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to measure ROI in digital marketing for hospitality?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By tracking bookings, form fills, calls, and online inquiries through analytics tools."
+        }
+      }]
+    }
   },
   {
     banner:RealestateBanner,
@@ -599,7 +675,7 @@ const industries = [
             para: "Maximize local reach for your real estate agency with GMB optimization. Get found on Google Maps, showcase property listings, collect reviews, and generate walk-in or call-in leads from serious property seekers near you.",
             keywords: [],
           },
-          link: "/google-my-business",
+          link: "/google-my-business-listing-service",
         },
         {
           image:seo,
@@ -608,7 +684,7 @@ const industries = [
             para: "Get your real estate website ranked on Google for high-converting keywords. Our SEO strategy attracts quality leads actively searching for properties, helping you sell or rent faster by boosting organic traffic and visibility.",
             keywords: [],
           },
-          link: "/search-engine-optimization",
+          link: "/best-seo-company-mumbai",
         },
         {
           image:ppc,
@@ -617,7 +693,7 @@ const industries = [
             para: "Launch high-intent Google Ads targeting property buyers and renters. Appear at the top when prospects search for homes, offices, or plots, driving quality leads with tailored ad creatives and budget-focused campaign management.",
             keywords: [],
           },
-          link: "/pay-per-click",
+          link: "/ppc-agency-mumbai",
         },
         {
           image:YouTubeMarketing,
@@ -626,7 +702,7 @@ const industries = [
             para: "Showcase property walkthroughs, client testimonials, and investment tips on YouTube. Build trust and attract interested buyers through compelling real estate videos, helping your brand stand out in a highly visual, competitive market.",
             keywords: [],
           },
-          link: "/social-media-marketing",
+          link: "/social-media-marketing-agency-mumbai",
         },
       ],
     },
@@ -783,6 +859,81 @@ const industries = [
         },
       ],
     },
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How can digital marketing help real estate agents get more leads?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By targeting users actively searching for properties through ads, SEO, and social media."
+        }
+      },{
+        "@type": "Question",
+        "name": "2. Is SEO important for property listings?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, SEO ensures your listings appear when users search for properties online."
+        }
+      },{
+        "@type": "Question",
+        "name": "How does social media influence real estate buyers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Platforms like Instagram and Facebook help visualize properties and reach potential buyers."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can virtual tours and video marketing improve property interest?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, they offer immersive experiences, increasing trust and conversion."
+        }
+      },{
+        "@type": "Question",
+        "name": "5. What role do Google Ads play in real estate marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They offer quick exposure to a large audience and can target buyers based on location and intent."
+        }
+      },{
+        "@type": "Question",
+        "name": "How does content marketing build trust for real estate companies?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Blogs and videos that educate buyers help build authority and trust."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the ROI of using digital platforms for property sales?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "High ROI due to measurable results and targeted audience reach."
+        }
+      },{
+        "@type": "Question",
+        "name": "8.How important is it to have a mobile-friendly real estate website?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Vital. Most users search for properties on mobile devices."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can digital marketing reduce dependency on traditional agents?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Direct digital campaigns can generate qualified leads."
+        }
+      },{
+        "@type": "Question",
+        "name": "What platforms are best for promoting real estate listings?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Google, Facebook, Instagram, MagicBricks, and 99acres."
+        }
+      }]
+    }
   },
   {
     banner: EducationBanner,
@@ -951,7 +1102,7 @@ const industries = [
             para: "Stand out in local searches with an optimized GMB profile. Highlight your courses, timings, reviews, and campus photos. Help parents and students easily find directions, contact you, and read real success stories online.",
             keywords: [],
           },
-          link: "/google-my-business",
+          link: "/google-my-business-listing-service",
         },
         {
           image:seo,
@@ -960,7 +1111,7 @@ const industries = [
             para: "Reach students and parents searching for courses, coaching, or schools online. SEO boosts your website’s visibility on Google, helping you attract more admissions, demo class registrations, and inquiries through organic traffic.",
             keywords: [],
           },
-          link: "/search-engine-optimization",
+          link: "/best-seo-company-mumbai",
         },
         {
           image:ppc,
@@ -969,7 +1120,7 @@ const industries = [
             para: "Promote courses, entrance batches, or admission drives using targeted Meta Ads. Capture leads by showcasing testimonials, faculty highlights, and student results to generate high-quality inquiries and grow enrollments quickly.",
             keywords: [],
           },
-          link: "/pay-per-click",
+          link: "/ppc-agency-mumbai",
         },
         {
           image:YouTubeMarketing,
@@ -978,7 +1129,7 @@ const industries = [
             para: "Create engaging Reels that showcase student achievements, daily learning moments, faculty intros, and campus life. Build brand trust, attract youth, and increase inquiries by sharing real educational impact in short, powerful videos.",
             keywords: [],
           },
-          link: "/social-media-marketing",
+          link: "/social-media-marketing-agency-mumbai",
         },
       ],
     },
@@ -1132,6 +1283,81 @@ const industries = [
         },
       ],
     },
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How can digital marketing increase student enrollments?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By using targeted ads, SEO, and social content to reach students and parents online."
+        }
+      },{
+        "@type": "Question",
+        "name": "Is social media effective for promoting courses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Instagram, Facebook, and YouTube are powerful tools to share course highlights and testimonials."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do educational institutions use SEO to gain visibility?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By optimizing their websites and blogs for relevant course and location-based queries."
+        }
+      },{
+        "@type": "Question",
+        "name": "What role do paid ads play in student admissions?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They help reach a larger audience quickly and drive inquiries and registrations."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to target the right audience for a coaching institute?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use location, age, education level, and interest-based targeting on ad platforms."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can email campaigns help retain stu",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, email is excellent for keeping students updated on admissions, courses, and exam tips."
+        }
+      },{
+        "@type": "Question",
+        "name": "What kind of content works best for educational marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Tutorials, FAQs, webinar promotions, and success stories are highly effective."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can YouTube help in student acquisition?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Educational content and testimonials build trust and attract learners through visual appeal."
+        }
+      },{
+        "@type": "Question",
+        "name": "Is mobile marketing effective for colleges and coaching centers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, SMS campaigns and mobile-optimized websites are crucial for student engagement."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to measure ROI in educational digital marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By tracking leads, enrollments, website visits, and cost per acquisition (CPA)."
+        }
+      }]
+    }
   },
   {
     banner: HospitalityCatering,
@@ -1300,7 +1526,7 @@ const industries = [
             para: "Maximize your hospitality visibility with GMB optimization. Show up in local searches, gather positive reviews, and attract bookings with an updated profile. Ideal for restaurants, banquets, and catering businesses targeting nearby customers",
             keywords: [],
           },
-          link: "/google-my-business",
+          link: "/google-my-business-listing-service",
         },
         {
           image:seo,
@@ -1309,7 +1535,7 @@ const industries = [
             para: " Boost your hospitality website’s ranking with strategic SEO. From keyword-rich content to local listings, drive organic traffic and inquiries for your catering and event services. Stay ahead with consistent, long-term lead generation.",
             keywords: [],
           },
-          link: "/search-engine-optimization",
+          link: "/best-seo-company-mumbai",
         },
         {
           image:ppc,
@@ -1318,7 +1544,7 @@ const industries = [
             para: "Target your ideal clients through Meta Ads. Generate direct leads for catering orders, event bookings, or hotel reservations. Fast, cost-effective results to keep your hospitality business at the top of customer minds.",
             keywords: [],
           },
-          link: "/pay-per-click",
+          link: "/best-seo-company-mumbai",
         },
         {
           image: SocialMedia,
@@ -1327,7 +1553,7 @@ const industries = [
             para: "Showcase your food, ambiance, and events through engaging Reels. Reach thousands with short, visual stories that highlight your brand’s uniqueness and attract instant attention from event planners, diners, and hospitality seekers.",
             keywords: [],
           },
-          link: "/social-media-marketing",
+          link: "/social-media-marketing-agency-mumbai",
         },
       ],
     },
@@ -1482,6 +1708,81 @@ const industries = [
         },
       ],
     },
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How can digital marketing help hotels and caterers get more bookings?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By increasing online visibility, digital marketing brings targeted traffic from people searching for hospitality services."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the role of SEO in hospitality marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "SEO helps your hotel or catering business rank higher for keywords like \"wedding caterers near me\" or \"best hotel in [city]."
+        }
+      },{
+        "@type": "Question",
+        "name": "Are social media platforms effective for catering businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Instagram and Facebook help showcase events, menus, and client testimonials."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do online reviews impact the hospitality industry?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Positive reviews on platforms like Google and TripAdvisor can influence booking decisions."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can Google Ads help generate leads for catering services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. Targeted ads ensure your business appears when someone searches for catering in your location."
+        }
+      },{
+        "@type": "Question",
+        "name": "How important is mobile optimization for hospitality websites?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Very important. Many users book hotels and catering services via mobile devices."
+        }
+      },{
+        "@type": "Question",
+        "name": "What kind of content works best for promoting hospitality services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Mouth-watering food photos, customer testimonials, behind-the-scenes videos, and service highlights."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can email marketing help in customer retention?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By sending special offers, festive menus, and loyalty discounts to past clients."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can influencer marketing be effective for boutique hotels or chefs?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, collaborations with food bloggers or travel influencers drive high visibility."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to measure ROI in digital marketing for hospitality?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By tracking bookings, form fills, calls, and online inquiries through analytics tools."
+        }
+      }]
+    }
   },
   {
     banner: ResortVilla,
@@ -1648,7 +1949,7 @@ const industries = [
             para: "Boost direct bookings with a professionally optimized GMB profile. Showcase stunning resort images, collect guest reviews, appear in top local searches, and make it easy for travelers to find, trust, and contact your property.",
             keywords: [],
           },
-          link: "/google-my-business",
+          link: "/google-my-business-listing-service",
         },
         {
           image:seo,
@@ -1657,7 +1958,7 @@ const industries = [
             para: " Attract travelers searching online for weekend getaways or luxury stays. Our SEO strategy helps your resort or villa rank for high-intent keywords like `best villas near me` or `resort booking.`",
             keywords: [],
           },
-          link: "/search-engine-optimization",
+          link: "/best-seo-company-mumbai",
         },
         {
           image:ppc,
@@ -1666,7 +1967,7 @@ const industries = [
             para: "Drive instant resort bookings with targeted Meta Ads. Reach travelers based on location, interests, and behavior. Showcase your best offers and packages with scroll-stopping creatives that convert viewers into paying guests.",
             keywords: [],
           },
-          link: "/pay-per-click",
+          link: "/ppc-agency-mumbai",
         },
         {
           image: SocialMedia,
@@ -1675,7 +1976,7 @@ const industries = [
             para: "Captivate travel lovers with immersive Reels showcasing your property, views, food, and guest experiences. Leverage trending music and storytelling to build engagement, boost shares, and inspire direct bookings via social media.",
             keywords: [],
           },
-          link: "/social-media-marketing",
+          link: "/social-media-marketing-agency-mumbai",
         },
       ],
     },
@@ -1830,6 +2131,81 @@ const industries = [
         },
       ],
     },
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How can digital marketing help increase bookings for resorts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By targeting travelers with offers and visual content on social media and Google."
+        }
+      },{
+        "@type": "Question",
+        "name": "What is the impact of Google Business Profile on resort visibility?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It enhances local SEO and makes it easy for guests to find and review your resort."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can Instagram and Facebook help market villas?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Through engaging reels, stories, and testimonials that create a desire to book."
+        }
+      },{
+        "@type": "Question",
+        "name": "Are influencer collaborations effective for luxury stays?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, influencers drive high engagement and bookings."
+        }
+      },{
+        "@type": "Question",
+        "name": "What digital tools can showcase property amenities better?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "360° videos, drone photography, and virtual walkthroughs."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do online travel platforms integrate with digital marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They can sync with your website and marketing campaigns to improve reach."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can customer reviews on digital platforms attract more guests?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Absolutely. High ratings improve trust and bookings."
+        }
+      },{
+        "@type": "Question",
+        "name": "What SEO practices work for vacation villas and resorts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Location-based keywords, optimized listings, and backlinks."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can retargeting ads bring back website visitors?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "They remind users who visited your site to come back and book."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to market seasonal offers digitally for resorts?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use email campaigns, social media banners, and Google Ads."
+        }
+      }]
+    }
   },
   {
     banner:InteriorBanner,
@@ -1995,7 +2371,7 @@ const industries = [
             para: "Boost direct bookings with a professionally optimized GMB profile. Showcase stunning resort images, collect guest reviews, appear in top local searches, and make it easy for travelers to find, trust, and contact your property.",
             keywords: [],
           },
-          link: "/google-my-business",
+          link: "/google-my-business-listing-service",
         },
         {
           image:seo,
@@ -2004,7 +2380,7 @@ const industries = [
             para: " Attract travelers searching online for weekend getaways or luxury stays. Our SEO strategy helps your resort or villa rank for high-intent keywords like `best villas near me` or `resort booking.`",
             keywords: [],
           },
-          link: "/search-engine-optimization",
+          link: "/best-seo-company-mumbai",
         },
         {
           image:ppc,
@@ -2013,7 +2389,7 @@ const industries = [
             para: "Drive instant resort bookings with targeted Meta Ads. Reach travelers based on location, interests, and behavior. Showcase your best offers and packages with scroll-stopping creatives that convert viewers into paying guests.",
             keywords: [],
           },
-          link: "/pay-per-click",
+          link: "/ppc-agency-mumbai",
         },
         {
           image: SocialMedia,
@@ -2022,7 +2398,7 @@ const industries = [
             para: "Captivate travel lovers with immersive Reels showcasing your property, views, food, and guest experiences. Leverage trending music and storytelling to build engagement, boost shares, and inspire direct bookings via social media.",
             keywords: [],
           },
-          link: "/social-media-marketing",
+          link: "/social-media-marketing-agency-mumbai",
         },
       ],
     },
@@ -2176,6 +2552,81 @@ const industries = [
         },
       ],
     },
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How can interior designers attract high-paying clients online?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Through professional branding, showcasing portfolios, and client testimonials."
+        }
+      },{
+        "@type": "Question",
+        "name": "Is Pinterest useful for marketing interior design services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, it's a top platform for visual discovery and inspiration."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can a blog improve brand authority for designers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By educating users and showing design expertise."
+        }
+      },{
+        "@type": "Question",
+        "name": "What are the best social platforms for interior projects?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Instagram, Pinterest, and YouTube."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can digital portfolios help win interior projects?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, clients prefer seeing real projects before contacting."
+        }
+      },{
+        "@type": "Question",
+        "name": "How does SEO benefit interior design websites?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It brings organic traffic from users searching for interior services."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can video testimonials help in building trust?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Definitely. They offer proof of client satisfaction."
+        }
+      },{
+        "@type": "Question",
+        "name": "How to showcase before-and-after transformations effectively?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Through time-lapse videos or photo sliders on the website and social media."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can Google Ads bring in more local interior design inquiries?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "By targeting users searching for \"interior designer near me.\""
+        }
+      },{
+        "@type": "Question",
+        "name": "How important is website UI/UX for interior firms?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Very. A well-designed site reflects the firm's aesthetic and builds credibility."
+        }
+      }]
+    }
   },
   {
     banner:SpaSalonBanner,
@@ -2343,7 +2794,7 @@ const industries = [
             para: "Appear in local searches when people look for nearby salons and spas. With an optimized GMB profile, showcase your services, pricing, reviews, and photos, making it easy for clients to book or visit instantly.",
             keywords: [],
           },
-          link: "/google-my-business",
+          link: "/google-my-business-listing-service",
         },
         {
           image:seo,
@@ -2352,7 +2803,7 @@ const industries = [
             para: "Attract organic traffic from people searching for best salon near me or spa deals in [city] SEO helps your business rank higher on Google and generate appointment-ready leads without paid promotions.",
             keywords: [],
           },
-          link: "/search-engine-optimization",
+          link: "/",
         },
         {
           image:ppc,
@@ -2524,6 +2975,81 @@ const industries = [
         },
       ],
     },
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How does digital marketing increase footfall for spas and salons?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It promotes your services to local audiences using Google Maps, Instagram, and Facebook, increasing bookings."
+        }
+      },{
+        "@type": "Question",
+        "name": "What platforms are best for advertising spa services?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Instagram, Facebook, and Google Ads are highly effective for promotions and visibility."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can appointment booking systems be integrated into digital marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, platforms like Google My Business, websites, and Facebook can allow direct appointment booking."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can discounts be promoted digitally to attract new customers?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Use email marketing, SMS campaigns, and social ads with offer-driven messaging."
+        }
+      },{
+        "@type": "Question",
+        "name": "Are Facebook and Instagram ads effective for salons?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, they allow targeting by location, gender, age, and beauty interests."
+        }
+      },{
+        "@type": "Question",
+        "name": "How important are online reviews for beauty and wellness brands?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Crucial—they help establish trust and influence customer choices."
+        }
+      },{
+        "@type": "Question",
+        "name": "What role do influencers play in spa marketing?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Local influencers can provide authentic exposure and attract new clients."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can content like tips and tutorials help build trust?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It positions your brand as an expert, attracting followers and potential customers."
+        }
+      },{
+        "@type": "Question",
+        "name": "What keywords are important for spa SEO?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Keywords like “best spa near me” or “bridal makeup in [city]” boost search visibility."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can customer loyalty programs be marketed digitally?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, through email and SMS automation, you can retain customers and drive repeat visits."
+        }
+      }]
+    }
   },
   {
     banner:LifestyleBanner,
@@ -2690,7 +3216,7 @@ const industries = [
             para: "Enhance local visibility with an optimized GMB profile showcasing your lifestyle brand’s services, reviews, and images. Make it easy for customers to find, engage, and visit your store or book consultations instantly.",
             keywords: [],
           },
-          link: "/google-my-business",
+          link: "/google-my-business-listing-service",
         },
         {
           image:seo,
@@ -2699,7 +3225,7 @@ const industries = [
             para: "Drive organic traffic by ranking for lifestyle-related searches like “best wellness coach” or “fashion boutique near me.” SEO helps your brand appear in top search results and attract quality leads interested in your offerings.",
             keywords: [],
           },
-          link: "/search-engine-optimization",
+          link: "/best-seo-company-mumbai",
         },
         {
           image:ppc,
@@ -2708,7 +3234,7 @@ const industries = [
             para: "Target lifestyle enthusiasts with compelling Meta Ads showcasing products, events, or services. Use audience segmentation and eye-catching creatives to convert browsers into loyal customers and increase sales rapidly.",
             keywords: [],
           },
-          link: "/pay-per-click",
+          link: "/ppc-agency-mumbai",
         },
         {
           image: SocialMedia,
@@ -2717,7 +3243,7 @@ const industries = [
             para: "Showcase your brand’s vibe through engaging Reels, featuring behind-the-scenes, tips, tutorials, or client stories. Captivate your audience with visual storytelling that builds community and drives bookings or sales.",
             keywords: [],
           },
-          link: "/social-media-marketing",
+          link: "/social-media-marketing-agency-mumbai",
         },
       ],
     },
@@ -2872,6 +3398,81 @@ const industries = [
         },
       ],
     },
+    schemaData:{
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "How can digital marketing boost brand awareness for a lifestyle brand?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Digital marketing uses platforms like Instagram, Pinterest, and YouTube to visually promote lifestyle products or services. This helps build brand identity and increase exposure to a wider audience."
+        }
+      },{
+        "@type": "Question",
+        "name": "What platforms are best for marketing lifestyle products?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Platforms like Instagram, Facebook, YouTube, and Pinterest are ideal for lifestyle brands because they support rich visuals, influencer partnerships, and storytelling."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can influencer marketing really help lifestyle businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, influencer marketing is highly effective in the lifestyle niche. Collaborating with relevant influencers can increase credibility, engagement, and drive more traffic to your brand."
+        }
+      },{
+        "@type": "Question",
+        "name": "How does SEO help lifestyle businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Search Engine Optimization (SEO) helps your website appear in search results when people look for related lifestyle products or tips. This drives organic traffic and leads to more conversions."
+        }
+      },{
+        "@type": "Question",
+        "name": "Is social media marketing enough for lifestyle brands?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "While social media is essential, combining it with SEO, email marketing, and paid ads ensures a well-rounded digital presence and better results."
+        }
+      },{
+        "@type": "Question",
+        "name": "How can email marketing support lifestyle businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Email campaigns keep your audience engaged with updates, product launches, seasonal trends, and personalized recommendations, boosting customer loyalty and repeat purchases."
+        }
+      },{
+        "@type": "Question",
+        "name": "What role does content marketing play for lifestyle brands?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Blogs, videos, and tutorials build authority and trust. For example, a fitness brand might post workout videos or diet plans, driving traffic and establishing brand credibility."
+        }
+      },{
+        "@type": "Question",
+        "name": "Can paid ads help lifestyle brands grow faster?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, platforms like Google Ads, Meta Ads, and Instagram Ads allow you to target specific interests, age groups, and locations to quickly reach your ideal customer."
+        }
+      },{
+        "@type": "Question",
+        "name": "How do analytics help improve digital marketing efforts for lifestyle businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Analytics tools show which campaigns perform best, who your audience is, and what they respond to — helping you refine your strategy and boost ROI."
+        }
+      },{
+        "@type": "Question",
+        "name": "What makes digital marketing cost-effective for small lifestyle businesses?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Unlike traditional ads, digital marketing allows flexible budgets, detailed targeting, and real-time tracking, making it a cost-effective option for small to mid-size lifestyle brands."
+        }
+      }]
+    }
   },
 ];
 

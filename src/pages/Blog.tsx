@@ -29,7 +29,7 @@ export default function Blog() {
     <>
       <CommanBanner
         image={BlogBanner}
-        title={"Blogs"}
+        title={"Internet Marketing In Mumbai"}
         desc={
           "Explore our latest blogs to stay updated with the latest trends, insights, and tips in the industry."
         }

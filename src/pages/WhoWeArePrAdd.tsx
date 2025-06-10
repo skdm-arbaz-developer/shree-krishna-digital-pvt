@@ -100,7 +100,7 @@ export default function WhoWeArePrAdd() {
       </Helmet>
       <CommanBanner
         title="PR Agency In Mumbai"
-        desc="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, maxime, porro, quae perferendis odit dolorem eveniet odio saepe inventore repudiandae non repellendus commodi a corporis? Consequuntur aspernatur officia vero dolores!"
+        desc="At Shree Krishna Digital Solutions Pvt Ltd, we specialize in creating powerful PR narratives and performance-driven advertising campaigns that elevate your brand and connect with your audience across all platforms."
         image={PrAd}
       />
       <section className="section relative">
@@ -120,24 +120,10 @@ export default function WhoWeArePrAdd() {
               <div className="section-body">
                 <h2 className="section-title">We are as Advertising Company</h2>
                 <p className="section-content">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Itaque, deleniti. Neque in eum, voluptates voluptatem vel modi
-                  ut laborum officia incidunt voluptas nam accusamus eligendi,
-                  asperiores magnam nisi! Expedita, magnam?
+                At Shree Krishna Digital Solutions Pvt Ltd, we are more than just an advertising company; we are your brand’s growth partner. Our mission is to craft creative, result-oriented campaigns that connect businesses with their audience in meaningful ways. From digital ads and social media marketing to print media and outdoor advertising, we offer 360° advertising solutions tailored to your goals.
                 </p>
                 <p className="section-content pt-3">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Itaque, deleniti. Neque in eum, voluptates voluptatem vel modi
-                  ut laborum officia incidunt voluptas nam accusamus eligendi,
-                  asperiores magnam nisi! Expedita, magnam? Lorem ipsum dolor
-                  sit, amet consectetur adipisicing elit. Itaque, deleniti.
-                  Neque in eum, voluptates voluptatem vel modi ut laborum
-                  officia incidunt voluptas nam accusamus eligendi, asperiores
-                  magnam nisi! Expedita, magnam? Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Itaque, deleniti. Neque in eum,
-                  voluptates voluptatem vel modi ut laborum officia incidunt
-                  voluptas nam accusamus eligendi, asperiores magnam nisi!
-                  Expedita, magnam?
+                Our team of strategists, designers, and media planners works closely with you to understand your vision and translate it into high-impact campaigns that drive visibility, engagement, and conversions. Whether you're a startup building awareness or an established brand aiming to scale, we deliver measurable results with data-backed strategies and innovative creativity.We don’t just advertise; we build brands, shape reputations, and drive business success.
                 </p>
               </div>
             </div>
@@ -154,24 +140,10 @@ export default function WhoWeArePrAdd() {
                   We are as In PR Marketing Support
                 </h2>
                 <p className="section-content">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Itaque, deleniti. Neque in eum, voluptates voluptatem vel modi
-                  ut laborum officia incidunt voluptas nam accusamus eligendi,
-                  asperiores magnam nisi! Expedita, magnam?
+                We are your partners in purposeful communication at Shree Krishna Digital Solutions Pvt Ltd, offering professional PR marketing support that brings your brand story to life. Our team helps you engage with your audience through newsworthy press releases, targeted media placements, and storytelling that connects. 
                 </p>
                 <p className="section-content pt-3">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Itaque, deleniti. Neque in eum, voluptates voluptatem vel modi
-                  ut laborum officia incidunt voluptas nam accusamus eligendi,
-                  asperiores magnam nisi! Expedita, magnam? Lorem ipsum dolor
-                  sit, amet consectetur adipisicing elit. Itaque, deleniti.
-                  Neque in eum, voluptates voluptatem vel modi ut laborum
-                  officia incidunt voluptas nam accusamus eligendi, asperiores
-                  magnam nisi! Expedita, magnam? Lorem ipsum dolor sit, amet
-                  consectetur adipisicing elit. Itaque, deleniti. Neque in eum,
-                  voluptates voluptatem vel modi ut laborum officia incidunt
-                  voluptas nam accusamus eligendi, asperiores magnam nisi!
-                  Expedita, magnam?
+                We design PR strategies that go beyond promotion to build reputation, increase visibility, and drive customer trust. From media relations and corporate communication to influencer tie-ups and event promotions, our approach ensures you’re in control of your narrative. Whether you want to launch a product, strengthen credibility, or handle a sensitive issue, our PR support is thoughtful, timely, and effective. We don’t just create noise; we build influence. Let your brand speak louder, smarter, and with purpose.
                 </p>
               </div>
             </div>
@@ -210,10 +182,7 @@ export default function WhoWeArePrAdd() {
               className="section-content text-center"
               style={{ maxWidth: 900 }}
             >
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
-              nesciunt quis eaque eos animi temporibus repellat a facere aliquam
-              quasi at laboriosam molestias quia ea vitae, quos distinctio,
-              repudiandae hic!
+      We are the team behind the ads, crafting campaigns with care, creativity, and strategy. Each project reflects our passion for helping brands achieve visibility and connection.
             </p>
           </div>
 
@@ -262,13 +231,13 @@ export default function WhoWeArePrAdd() {
                 </Button>
               </NavLink> */}
             </div>
-            <p className="section-content">
+            {/* <p className="section-content">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
               quibusdam fuga tenetur neque soluta facere! Ipsa esse sint dolorum
               quidem magni unde qui exercitationem inventore. Voluptas fugiat
               nam maxime non! Lorem ipsum dolor sit amet consectetur adipisicing
               elit.
-            </p>
+            </p> */}
           </div>
 
           <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-8 my-10">

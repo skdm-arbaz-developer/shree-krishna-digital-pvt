@@ -207,7 +207,7 @@ const NavigationLinks = [
   {
     prefix: <LiaBloggerB color="#e98c14" style={{ fontSize: "20px" }} />,
     name: "Blogs",
-    link: "/blogs",
+    link: "/internet-marketing-mumbai",
     desc: "",
   },
   {

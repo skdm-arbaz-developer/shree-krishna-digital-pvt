@@ -41,6 +41,7 @@ export default function Services() {
           title={data?.title}
           desc={data?.shortdesc}
         />
+        
 
         {data.description && (
           console.log("data.schemaData", data.schemaData),

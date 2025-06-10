@@ -1,4 +1,4 @@
-import { NavLink, useLocation } from "react-router-dom";
+import { Link, NavLink, useLocation } from "react-router-dom";
 import "../../css/LandingPage.css";
 import logo from "../../assets/images/logo-white.png";
 
@@ -94,9 +94,12 @@ export default function Header({
     <>
       <header className="landng-page-header">
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
+          <Link to="/">
           <div className="logo" onClick={() => setActiveSection("home")}>
             <img src={logo} />
           </div>
+          </Link>
+
           <div className={`navigation ${showNavList ? "active" : ""}`}>
             <ul>
               {navigation.map((val, index) => (
@@ -145,9 +148,11 @@ export default function Header({
       <div className={`header-second ${active ? "active" : ""}`}>
         <header className="landng-page-header">
           <div className="container mx-auto px-0 sm:px-5 xl:px-0">
+            <Link to="/">
             <div className="logo" onClick={() => setActiveSection("home")}>
               <img src={logo} />
             </div>
+            </Link>
             <div className={`navigation ${showNavList ? "active" : ""}`}>
               <ul>
                 {navigation.map((val, index) => (

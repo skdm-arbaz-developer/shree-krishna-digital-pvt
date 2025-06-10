@@ -24,7 +24,7 @@ export default function AboutUs() {
               deliver measurable results and give businesses a competitive edge
               in the digital landscape.
             </p>
-            <NavLink to="/about-us">
+            <NavLink to="/digital-marketing-company-mumbai">
               <Button
                 className="comman-button mt-7 justify-between"
                 style={{ maxWidth: 170 }}

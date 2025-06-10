@@ -39,11 +39,11 @@ export default function Footer() {
   const links = [
     {
       title: <>About&nbsp;Us</>,
-      link: "/about-us",
+      link: "/digital-marketing-company-mumbai",
     },
     {
       title: <>Our&nbsp;Team</>,
-      link: "/our-team",
+      link: "/digital-marketing-experts-mumbai",
     },
     {
       title: <>Privacy&nbsp;Policy</>,
@@ -52,16 +52,16 @@ export default function Footer() {
 
     {
       title: "Careers",
-      link: "/career",
+      link: "/best-digital-marketing-agency-mumbai",
     },
     {
       title: "Blogs",
-      link: "/blogs",
+      link: "/internet-marketing-mumbai",
     },
 
     {
       title: <>Contact&nbsp;Us</>,
-      link: "/contact-us",
+      link: "/online-marketing-near-mumbai",
     },
   ];
 

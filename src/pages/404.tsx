@@ -48,7 +48,7 @@ export default function NotFound() {
         allAnimals.filter(
           (animal) =>
             animal.name.toLowerCase().includes(lowerKeyword) ||
-            animal.desc.toLowerCase().includes(lowerKeyword) ||
+            // animal.desc.toLowerCase().includes(lowerKeyword) ||
             animal.link.toLowerCase().includes(lowerKeyword)
         )
       );

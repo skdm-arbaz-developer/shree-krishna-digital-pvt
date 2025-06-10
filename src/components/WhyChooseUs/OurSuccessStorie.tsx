@@ -26,6 +26,7 @@ export default function OurSuccessStorie() {
       type: "Real Estate",
       title: "Luxury Living Realty – SEO Transformation",
       desc: "Implemented a high-impact SEO strategy that boosted organic traffic by 300%.",
+      link:"/digital-marketing-for-real-estate-mumbai",
     },
     {
       img: Hospitality,
@@ -33,6 +34,7 @@ export default function OurSuccessStorie() {
       type: "Hospitality",
       title: "ResortEase – Application Development",
       desc: "Developed a booking and resort management app used by over 100+ resorts.",
+       link:"/digital-marketing-for-hospitality-and-caterers-mumbai",
     },
     {
       img: ECommerce,
@@ -40,6 +42,7 @@ export default function OurSuccessStorie() {
       type: "E-Commerce",
       title: "UrbanCart – Digital Marketing Overhaul",
       desc: "Revamped performance marketing and email automation for a 5x ROI.",
+       link:"/web-development-company-in-mumbai",
     },
     {
       img: Education,
@@ -47,6 +50,7 @@ export default function OurSuccessStorie() {
       type: "Education",
       title: "STEM Boost Academy – Website & CRM",
       desc: "Delivered a custom LMS portal with lead capture and student dashboard.",
+       link:"/digital-marketing-for-education-in-mumbai",
     },
     {
       img: InteriorDesign,
@@ -54,6 +58,7 @@ export default function OurSuccessStorie() {
       type: "Interior Design",
       title: "DecoraNest – Portfolio Website",
       desc: "Created a stylish web presence and social strategy for luxury interiors.",
+       link:"/digital-marketing-for-interior-designer-mumbai",
     },
     {
       img: Logistics,
@@ -61,6 +66,7 @@ export default function OurSuccessStorie() {
       type: "Logistics",
       title: "FastTrack Movers – Branding & CRM Setup",
       desc: "Launched branding campaign and built CRM for real-time delivery tracking.",
+       link:"/crm-development-company-mumbai",
     },
     {
       img: Healthcare,
@@ -68,6 +74,7 @@ export default function OurSuccessStorie() {
       type: "Healthcare",
       title: "CareWell Clinic – Google Ads & SEO",
       desc: "Scaled online appointments through local SEO and lead-gen landing pages.",
+       link:"/digital-marketing-for-healthcare-mumbai",
     },
     {
       img: ITServices,
@@ -75,6 +82,7 @@ export default function OurSuccessStorie() {
       type: "IT Services",
       title: "TechNova – Corporate Website Redesign",
       desc: "Redesigned corporate site with animations, blogs, and case study sections.",
+       link:"/app-development-company-mumbai",
     },
     {
       img: Travel,
@@ -82,6 +90,7 @@ export default function OurSuccessStorie() {
       type: "Travel",
       title: "WanderScape – Social Media Strategy",
       desc: "Built Instagram and YouTube presence from scratch, now at 80K+ followers.",
+       link:"/pr-agency-mumbai",
     },
     {
       img: Fashion,
@@ -89,6 +98,7 @@ export default function OurSuccessStorie() {
       type: "Fashion",
       title: "StyleLoop – Shopify Store Optimization",
       desc: "Optimized product pages and checkout for a 45% increase in conversions.",
+       link:"/digital-marketing-for-spa-and-salon-mumbai",
     },
   ];
 
