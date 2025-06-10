@@ -7,6 +7,7 @@ import {
   Input,
   Modal,
   Radio,
+  Typography,
 } from "antd";
 import { useState } from "react";
 import { MdOutlineSupportAgent } from "react-icons/md";
@@ -16,6 +17,7 @@ import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import { BsSendArrowUpFill } from "react-icons/bs";
 import { BiBriefcase, BiEnvelope, BiPhone, BiUserCircle } from "react-icons/bi";
 import banner from "../../assets/images/banners/enquiry-banner.jpeg";
+import axios from "axios"; // Ensure axios is installed: npm install axios or yarn add axios
 
 interface SelectedData {
   service: string[] | null;
@@ -34,13 +36,25 @@ export default function EnquiryForm({ text }: any) {
     budget: null,
     planing: null,
   });
+  const [isSubmitting, setIsSubmitting] = useState(false); // State for submit button loading
 
   const showModal = () => {
     setIsModalOpen(true);
+    // Reset form and active step when opening the modal
+    form.resetFields();
+    setActive(1);
+    setSelectedData({
+      service: [],
+      business: null,
+      budget: null,
+      planing: null,
+    });
   };
+
   const handleOk = () => {
     setIsModalOpen(false);
   };
+
   const handleCancel = () => {
     setIsModalOpen(false);
   };
@@ -96,7 +110,7 @@ export default function EnquiryForm({ text }: any) {
       ],
     },
     {
-      step: 5,
+      step: 5, // This is now the final step for submission
       question: "How can we contact you?",
       type: "form",
       fields: [
@@ -132,21 +146,98 @@ export default function EnquiryForm({ text }: any) {
         },
       ],
     },
-    {
-      step: 6,
-      question: "Confirmation",
-      type: "message",
-      message:
-        "✅ Thank you for your interest! Our team will contact you shortly with a customized digital growth plan.",
-    },
   ];
 
-  const handleSubmit = (values: any) => {
-    console.log(values); // This will now correctly log all form values
-    setActive((prev) => prev + 1); // Move to the confirmation step after successful submission
+  const handleSubmit = async (values: any) => {
+    setIsSubmitting(true); // Disable button and show loading state
+
+    // Combine all collected data for logging and sending
+    const allFormData = {
+      ...selectedData, // Includes service, business, budget, planing
+      contactDetails: {
+        fullName: values.fullName,
+        phone: values.phone,
+        email: values.email,
+        company: values.company,
+      },
+    };
+    console.log("All Form Data for Submission:", allFormData);
+
+    const mailBody = `
+      <!DOCTYPE html>
+      <html>
+      <head>
+          <title>Enquiry Lead - Shree Krishna Digital PVT</title>
+      </head>
+      <body>
+          <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;background-color:#000;padding:20px;color:#fff;">
+              <h2 style="color:#fff">1Five - New Website Enquiry</h2>
+              <p style="color:#fff">Hello Team,</p>
+              <p style="color:#fff">A new enquiry has been generated from the website with the following details:</p>
+              <table cellpadding="5" style="margin:0;width:100%;color:#fff;border-collapse:collapse;">
+                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Full Name:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.contactDetails.fullName || 'N/A'}</td></tr>
+                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Email:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.contactDetails.email || 'N/A'}</td></tr>
+                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Phone No:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.contactDetails.phone || 'N/A'}</td></tr>
+                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Company Name:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.contactDetails.company || 'N/A'}</td></tr>
+                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Interested Services:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.service?.join(', ') || 'N/A'}</td></tr>
+                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Business Type:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.business || 'N/A'}</td></tr>
+                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Monthly Budget:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.budget || 'N/A'}</td></tr>
+                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Planning to Start:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.planing || 'N/A'}</td></tr>
+              </table>
+              <p style="text-align:left;color:#fff;">Best regards,<br>Your Website Team at Shree Krishna Digital PVT</p>
+          </div>
+      </body>
+      </html>
+    `;
+
+    try {
+      const response = await axios.post(
+        "https://skdm.in/server/v1/send_lead_mail.php",
+        {
+          toEmail: "daddu.tamhankar01@gmail.com",
+          fromEmail: "daddu.tamhankar01@gmail.com",
+          bccMail: "skdmlead@gmail.com",
+          mailSubject: "New Customer Lead from 1Five Website",
+          mailBody: mailBody,
+          accountName: "1five",
+          accountLeadSource: "https://skdm.in.in/",
+        },
+        {
+          headers: {
+            'Content-Type': 'application/x-www-form-urlencoded'
+          }
+        }
+      );
+
+      console.log("Axios Response:", response.data);
+
+      // Assuming your PHP script returns a simple string like "success" or similar upon success.
+      // Adjust this condition based on your actual PHP backend response.
+      if (response.data && typeof response.data === 'string' && response.data.includes("success")) {
+        alert("Your form has been submitted successfully! Our team will contact you soon.");
+        setIsModalOpen(false); // Close the modal on successful submission
+      } else {
+        alert("There was an issue submitting your form. Please try again.");
+        console.error("Submission failed with data:", response.data);
+      }
+    } catch (error) {
+      console.error("Axios Error:", error);
+      alert("There was a network error submitting your form. Please check your connection and try again.");
+    } finally {
+      setIsSubmitting(false); // Re-enable button
+      form.resetFields(); // Reset contact form fields
+      setActive(1); // Reset to the first survey question
+      setSelectedData({ // Clear previously selected survey data
+        service: [],
+        business: null,
+        budget: null,
+        planing: null,
+      });
+    }
   };
-  
-  const handleRadioChange = (value: string) => {
+
+  const handleRadioChange = (e: any) => {
+    const value = e.target.value;
     setSelectedData((prev) => ({
       ...prev,
       business: active === 2 ? value : prev.business,
@@ -154,6 +245,9 @@ export default function EnquiryForm({ text }: any) {
       planing: active === 4 ? value : prev.planing,
     }));
   };
+
+  const currentStepData = steps.find((val) => val.step === active);
+  const isLastStep = active === steps.length; // Check if it's the last step (which is now step 5)
 
   return (
     <>
@@ -182,7 +276,7 @@ export default function EnquiryForm({ text }: any) {
             <img src={banner} alt="Survey Popup" />
 
             <div className="survey-content">
-              <img src={logo} alt="Compnay Logo" />
+              <img src={logo} alt="Company Logo" />
               <h2>Get Your Free Digital Marketing Assessment</h2>
             </div>
           </div>
@@ -196,102 +290,103 @@ export default function EnquiryForm({ text }: any) {
               },
             }}
           >
-            {steps
-              .filter((val) => val.step === active)
-              .map((val, index) => (
-                <div key={index} className="survey-question">
-                  <h4>Q. {val?.question}</h4>
-                  <Divider />
-                  {val.type === "checkbox" ? (
-                    <Checkbox.Group
-                      value={selectedData?.service ?? []}
-                      onChange={(value) =>
-                        setSelectedData((prev) => ({ ...prev, service: value }))
-                      }
-                      style={{ width: "100%" }}
-                    >
-                      <div className="grid grid-cols-2 gap-5">
-                        {val?.options?.map((val, index) => (
-                          <Checkbox key={index} value={val}>{val}</Checkbox>
-                        ))}
-                      </div>
-                    </Checkbox.Group>
-                  ) : val?.type === "radio" ? (
-                    <Radio.Group
-                      onChange={(e) => handleRadioChange(e.target.value)}
-                      value={
-                        active === 2
-                          ? selectedData.business
-                          : active === 3
-                            ? selectedData.budget
-                            : selectedData.planing
-                      }
-                    >
-                      <div className="grid grid-cols-2 gap-5">
-                        {val?.options?.map((option, index) => (
-                          <Radio key={index} value={option}>
-                            {option}
-                          </Radio>
-                        ))}
-                      </div>
-                    </Radio.Group>
-                  ) : (
-                    <Form layout="vertical" form={form} onFinish={handleSubmit}>
-                      <div className="grid grid-cols-2 gap-x-5">
-                        {val?.fields?.map((valData, index) => (
-                          <Form.Item
-                            label={valData?.label}
-                            name={valData?.name}
-                            rules={[{ required: valData?.required }]}
-                            key={index}
-                            className={valData?.class}
-                          >
-                            <Input
-                              type={valData?.type}
-                              prefix={valData?.icon}
-                              placeholder={valData?.label}
-                            />
-                          </Form.Item>
-                        ))}
-                      </div>
-                    </Form>
-                  )}
-                </div>
-              ))}
+            {currentStepData && (
+              <div className="survey-question">
+                <h4>Q. {currentStepData.question}</h4>
+                <Divider />
+                {currentStepData.type === "checkbox" && (
+                  <Checkbox.Group
+                    value={selectedData?.service ?? []}
+                    onChange={(value) =>
+                      setSelectedData((prev) => ({ ...prev, service: value as string[] }))
+                    }
+                    style={{ width: "100%" }}
+                  >
+                    <div className="grid grid-cols-2 gap-5">
+                      {currentStepData.options?.map((val, index) => (
+                        <Checkbox key={index} value={val}>{val}</Checkbox>
+                      ))}
+                    </div>
+                  </Checkbox.Group>
+                )}
+                {currentStepData.type === "radio" && (
+                  <Radio.Group
+                    onChange={handleRadioChange}
+                    value={
+                      active === 2
+                        ? selectedData.business
+                        : active === 3
+                          ? selectedData.budget
+                          : selectedData.planing
+                    }
+                  >
+                    <div className="grid grid-cols-2 gap-5">
+                      {currentStepData.options?.map((option, index) => (
+                        <Radio key={index} value={option}>
+                          {option}
+                        </Radio>
+                      ))}
+                    </div>
+                  </Radio.Group>
+                )}
+                {currentStepData.type === "form" && (
+                  <Form layout="vertical" form={form} onFinish={handleSubmit}>
+                    <div className="grid grid-cols-2 gap-x-5">
+                      {currentStepData.fields?.map((valData, index) => (
+                        <Form.Item
+                          label={valData?.label}
+                          name={valData?.name}
+                          rules={[{ required: valData?.required, message: `${valData?.label} is required` }]}
+                          key={index}
+                          className={valData?.class}
+                        >
+                          <Input
+                            type={valData?.type}
+                            prefix={valData?.icon}
+                            placeholder={valData?.label}
+                          />
+                        </Form.Item>
+                      ))}
+                    </div>
+                  </Form>
+                )}
+              </div>
+            )}
           </ConfigProvider>
 
           <div className="button-list">
-            {active !== 1 ? (
+            {active !== 1 && ( // Show "Previous" button if not on the first step
               <Button
                 icon={<FaArrowAltCircleLeft />}
                 onClick={() => setActive((prev) => prev - 1)}
+                disabled={isSubmitting} // Disable during submission
               >
                 Previous
               </Button>
-            ) : (
-              <span></span>
             )}
+            {active === 1 && <span></span> /* Placeholder for alignment on first step */}
 
-            {active !== 5 ? (
+            {!isLastStep ? ( // Show "Next" button if not on the last step (form step)
               <Button
                 disabled={
-                  active === 1
-                    ? selectedData.service?.length === 0
-                    : active === 2
-                      ? selectedData.business === null
-                      : active === 3
-                        ? selectedData.budget === null
-                        : active === 4
-                          ? selectedData.planing === null
-                          : false
+                  isSubmitting ||
+                  (active === 1 && selectedData.service?.length === 0) ||
+                  (active === 2 && selectedData.business === null) ||
+                  (active === 3 && selectedData.budget === null) ||
+                  (active === 4 && selectedData.planing === null)
                 }
                 onClick={() => setActive((prev) => prev + 1)}
               >
                 Next&nbsp;
                 <FaArrowAltCircleRight />
               </Button>
-            ) : (
-              <Button onClick={() => form.submit()} className="success">
+            ) : ( // Show "Submit" button on the last step (form step)
+              <Button
+                onClick={() => form.submit()}
+                className="success"
+                loading={isSubmitting} // Show loading state
+                disabled={isSubmitting} // Disable during submission
+              >
                 Submit <BsSendArrowUpFill />
               </Button>
             )}
