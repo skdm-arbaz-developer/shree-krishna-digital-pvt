@@ -100,7 +100,7 @@ const countries = [
     metaTitle: "Digital Marketing in India | Shree Krishna Digital",
     metaDes: "Shree Krishna Digital offers expert Digital Marketing in India, helping businesses grow online through SEO, social media, and advertising strategies.",
     canonical: "https://skdm.in/digital-marketing-india",
-    bannerTitle: "Search Engine Optimization in India",
+    bannerTitle: "Top Digital Marketing Firm",
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam animi vel amet harum laborum quaerat ipsa, neque sed omnis, dolor quod, fuga ut. Illum inventore error rerum consequuntur et saepe.",
     url: "/digital-marketing-india",
     type: "india",
@@ -1220,7 +1220,7 @@ const countries = [
   },
   {
     title: "United Kingdom",
-    mainh1:"application-development-canada",
+    mainh1:"Digital Marketing in United Kingdom",
     metaTitle: "Digital Marketing in United Kingdom | Shree Krishna Digital",
     metaDes: "Boost your business with expert Digital Marketing in United Kingdom by Shree Krishna Digital. Drive traffic, leads, and growth today!",
     canonical: "https://skdm.in/digital-marketing-united-kingdom",

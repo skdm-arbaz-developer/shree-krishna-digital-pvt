@@ -1,7 +1,6 @@
 import { Button, Collapse, Divider, Drawer, List } from "antd";
 import { useEffect, useState } from "react";
 import logo from "../../assets/images/logo.png";
-import whiteLogo from "../../assets/images/logo-white.png";
 import { GrClose } from "react-icons/gr";
 import NavigationLinks from "../support/NavigationLinks";
 import { NavLink, useLocation } from "react-router-dom";
@@ -12,13 +11,11 @@ import {
   FaInstagram,
   FaLinkedin,
 } from "react-icons/fa6";
-import { useTheme } from "../../context/ThemeContext";
 import { BsWhatsapp } from "react-icons/bs";
 import "../../css/contactus.css";
 
 export default function LeftDrawerNav() {
   const [open, setOpen] = useState(false);
-  const { theme } = useTheme();
   const location = useLocation();
 
   const showDrawer = () => {
@@ -67,7 +64,7 @@ export default function LeftDrawerNav() {
             <div className="flex items-center gap-2">
               <img
                 className="w-20"
-                src={theme === "dark" ? whiteLogo : logo}
+                src={logo}
                 alt="logo"
               />
               <div>

@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import AboutUs from "../components/HomeComponents/AboutUs";
 import Banner from "../components/HomeComponents/Banner";
 import Blog from "../components/HomeComponents/Blog";
@@ -27,7 +27,7 @@ export default function Home() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://skdm.in/" />
         <meta property="og:description" content="Looking for the best digital marketing agency in Mumbai? We offer expert SEO, social media, PPC, and branding solutions to grow your business online. " />
-        <meta property="og:image" content="https://katariashubli.com/static/media/kartaria%20logo.61ab17e04111050f3cc9.png" />
+        <meta property="og:image" content="https://skdm.in/assets/logo-C6brZTHT.png" />
       </Helmet>
       <Banner />
       <CompanyVideo />

@@ -128,22 +128,6 @@
   z-index: 10000;
 }
 
-.landing-banner-content h1 {
-  display: block;
-  font-size: 6rem;
-  line-height: 1em;
-  color: #ffffff;
-  font-weight: 900;
-  opacity: 1;
-  text-transform: uppercase;
-  letter-spacing: 0;
-  margin-bottom: 30px;
-  z-index: 10000;
-  font-family: var(--section-title-font-family);
-  font-weight: var(--section-title-font-weight);
-  font-style: var(--section-title-font-style);
-}
-
 .landing-banner-content button {
   position: relative;
   display: inline-block;
@@ -176,7 +160,7 @@
   background: var(--canada-color);
 }
 
-.malasia .landing-banner-content button {
+.malaysia .landing-banner-content button {
   background: var(--malasia-color);
 }
 
@@ -323,7 +307,7 @@
   color: var(--canada-color);
 }
 
-.malasia .sec-title h2 .dot {
+.malaysia .sec-title h2 .dot {
   color: var(--malasia-color);
 }
 
@@ -430,7 +414,7 @@
   color: var(--canada-color);
 }
 
-.malasia .service-block .inner-box .icon-box {
+.malaysia .service-block .inner-box .icon-box {
   color: var(--malasia-color);
 }
 
@@ -549,7 +533,7 @@
   color: var(--canada-color);
 }
 
-.malasia .about-section .text-column .sec-title .lower-text {
+.malaysia .about-section .text-column .sec-title .lower-text {
   color: var(--malasia-color);
 }
 
@@ -624,7 +608,7 @@
   color: var(--canada-color);
 }
 
-.malasia .about-section .text-column .text ul li:before {
+.malaysia .about-section .text-column .text ul li:before {
   color: var(--malasia-color);
 }
 
@@ -700,7 +684,7 @@
   border-left: 2px solid var(--canada-color);
 }
 
-.malasia .about-section .text-column .text .since:after {
+.malaysia .about-section .text-column .text .since:after {
   border-left: 2px solid var(--malasia-color);
 }
 
@@ -752,7 +736,7 @@
   background: var(--canada-color);
 }
 
-.malasia .btn-style-one {
+.malaysia .btn-style-one {
   background: var(--malasia-color);
 }
 
@@ -792,7 +776,7 @@
   border-color: var(--canada-color) !important;
 }
 
-.malasia .btn-style-one:hover {
+.malaysia .btn-style-one:hover {
   color: var(--malasia-color) !important;
   border-color: var(--malasia-color) !important;
 }
@@ -923,7 +907,7 @@
   border-top: 4px solid var(--canada-color);
 }
 
-.malasia .fact-counter .column .inner:before {
+.malaysia .fact-counter .column .inner:before {
   border-top: 4px solid var(--malasia-color);
 }
 
@@ -1044,7 +1028,7 @@
   background: var(--canada-color);
 }
 
-.malasia .trusted-section .col-header .header-inner {
+.malaysia .trusted-section .col-header .header-inner {
   background: var(--malasia-color);
 }
 
@@ -1089,7 +1073,7 @@
   background: url(../assets/images/icons/AfterCurve/4.png) left top no-repeat;
 }
 
-.malasia .trusted-section .col-header .header-inner:before {
+.malaysia .trusted-section .col-header .header-inner:before {
   background: url(../assets/images/icons/AfterCurve/9.png) left top no-repeat;
 }
 
@@ -1177,7 +1161,7 @@
   color: var(--canada-color);
 }
 
-.malasia .trusted-section .feature .count {
+.malaysia .trusted-section .feature .count {
   background: linear-gradient(
       rgba(255, 255, 255, 0.8),
       rgba(255, 255, 255, 0.8)
@@ -1342,7 +1326,7 @@
   color: var(--canada-color);
 }
 
-.malasia .trusted-section .featured-block-two .text ul li:before {
+.malaysia .trusted-section .featured-block-two .text ul li:before {
   color: var(--malasia-color);
 }
 
@@ -1635,7 +1619,7 @@
   background-color: var(--canada-color);
 }
 
-.malasia .progress-bar-fill {
+.malaysia .progress-bar-fill {
   background-color: var(--malasia-color);
 }
 
@@ -1754,7 +1738,7 @@
   background: var(--canada-color);
 }
 
-.malasia .parallax-section .content-box .icon-box:after {
+.malaysia .parallax-section .content-box .icon-box:after {
   background: var(--malasia-color);
 }
 
@@ -1808,7 +1792,7 @@
   color: var(--canada-color);
 }
 
-.malasia .parallax-section .content-box h2 span {
+.malaysia .parallax-section .content-box h2 span {
   color: var(--malasia-color);
 }
 
@@ -1893,7 +1877,7 @@
   background-color: var(--canada-color);
 }
 
-.malasia .testi-block:hover .inner {
+.malaysia .testi-block:hover .inner {
   background-color: var(--malasia-color);
 }
 
@@ -1949,7 +1933,7 @@
   color: var(--canada-color);
 }
 
-.malasia .testi-block .icon-test {
+.malaysia .testi-block .icon-test {
   color: var(--malasia-color);
 }
 
@@ -2045,7 +2029,7 @@
   color: var(--canada-color);
 }
 
-.malasia .testi-block .info .designation {
+.malaysia .testi-block .info .designation {
   color: var(--malasia-color);
 }
 
@@ -2146,7 +2130,7 @@
   background-color: var(--canada-color) !important;
 }
 
-.malasia .testimonials-section .swiper-pagination-bullet-active {
+.malaysia .testimonials-section .swiper-pagination-bullet-active {
   background-color: var(--malasia-color) !important;
 }
 
@@ -2221,7 +2205,7 @@
   border-color: var(--canada-color);
 }
 
-.malasia .get-in-touch-list ul li a .get-in-touch-icon {
+.malaysia .get-in-touch-list ul li a .get-in-touch-icon {
   color: var(--malasia-color);
   border-color: var(--malasia-color);
 }
@@ -2270,7 +2254,7 @@
   border-color: var(--canada-color);
 }
 
-.malasia .get-in-touch-list ul li:hover a .get-in-touch-icon {
+.malaysia .get-in-touch-list ul li:hover a .get-in-touch-icon {
   background-color: var(--malasia-color);
   border-color: var(--malasia-color);
 }
@@ -2420,8 +2404,8 @@
   color: var(--canada-color);
 }
 
-.malasia .page-banner .bread-crumb li.active,
-.malasia .page-banner .bread-crumb li a:hover {
+.malaysia .page-banner .bread-crumb li.active,
+.malaysia .page-banner .bread-crumb li a:hover {
   color: var(--malasia-color);
 }
 
@@ -2567,7 +2551,7 @@
   border-left: 2px solid var(--canada-color);
 }
 
-.malasia .sidebar .services ul li:after {
+.malaysia .sidebar .services ul li:after {
   border-left: 2px solid var(--malasia-color);
 }
 
@@ -2687,7 +2671,7 @@
   color: var(--canada-color);
 }
 
-.malasia .sidebar .call-up .phone svg {
+.malaysia .sidebar .call-up .phone svg {
   color: var(--malasia-color);
 }
 
@@ -3099,7 +3083,7 @@
   color: var(--canada-color);
 }
 
-.malasia .toggleButton {
+.malaysia .toggleButton {
   color: var(--malasia-color);
 }
 
@@ -3186,10 +3170,6 @@
     font-size: 4rem;
     text-align: center;
   }
-  .landing-banner-content h1 {
-    font-size: 4rem;
-    text-align: center;
-  }
 
   .landing-banner {
     height: 80vh;
@@ -3207,11 +3187,6 @@
 @media (max-width: 767px) {
 
    .landing-banner-content h2 {
-    font-size: 3rem;
-    text-align: center;
-  }
-
-   .landing-banner-content h1 {
     font-size: 3rem;
     text-align: center;
   }

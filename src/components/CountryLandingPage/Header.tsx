@@ -60,7 +60,7 @@ export default function Header({
       case "united-kingdom":
         icons = unitedkingdomIcon;
         break;
-      case "malasia":
+      case "malaysia":
         icons = malasiaIcon;
         break;
       default:

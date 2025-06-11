@@ -64,7 +64,7 @@ export default function BannerPage({
         curles = unitedkingdomCurles;
         curves = unitedkingdomSideCurve;
         break;
-      case "malasia":
+      case "malaysia":
         curles = malasiaCurles;
         curves = malasiaSideCurve;
         break;
@@ -99,7 +99,7 @@ export default function BannerPage({
       ></div>
       <div className="landing-banner-content z-20 px-5">
         <h1 style={{maxWidth:700}}>{service?.mainh1}</h1>
-        {/* <h2 style={{maxWidth:700}}>{service?.bannerTitle}</h2> */}
+        <h2 style={{maxWidth:700}}>{service?.bannerTitle}</h2>
         <button onClick={handleClick}>
           <i className="btn-curve"></i> <span>Discover More</span>
         </button>

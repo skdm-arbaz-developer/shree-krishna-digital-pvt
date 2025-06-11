@@ -1,8 +1,7 @@
 import { lazy } from "react";
 import CommanBanner from "../components/support/CommanBanner";
-import OurSuccessStorie from "../components/WhyChooseUs/OurSuccessStorie";
 import whyus from "../assets/images/banners/whyus-banner.webp";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 const Brands = lazy(() => import("../components/WhyChooseUs/Brands"));
 const WhyChoosePoints = lazy(
   () => import("../components/WhyChooseUs/WhyChoosePoints")
@@ -25,16 +24,17 @@ export default function WhyChooseUs() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://skdm.in/" />
         <meta property="og:description" content="Explore the top digital marketing services in Mumbai including SEO, PPC, social media marketing, & content strategy, to boost your brand’s online presence. " />
-        <meta property="og:image" content="https://katariashubli.com/static/media/kartaria%20logo.61ab17e04111050f3cc9.png" />
+        <meta property="og:image" content="https://skdm.in/assets/logo-C6brZTHT.png" />
       </Helmet>
       <CommanBanner
         image={whyus}
-        title="Top Digital Marketing Services In Mumbai"
+        title="Why Choose Us"
+        keyword="Top Digital Marketing Services In Mumbai"
         desc="We’ve partnered with trusted brands through dedication and results. Our team works with heart and focus, giving you real value and long-term support in every step."
       />
       <Brands />
       <WhyChoosePoints />
-      <OurSuccessStorie />
+      {/* <OurSuccessStorie /> */}
       <OutProccess />
     </>
   );

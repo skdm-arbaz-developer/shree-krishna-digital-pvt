@@ -27,7 +27,7 @@ export default function Services({ data, serviceRef }: any) {
                 <div className="icon-box">
                   <img className="max-w-[65px]" src={val?.icon} alt={val?.altTag}/>
                 </div>
-                <h6>{val?.title}</h6>
+                <h6>{val?.title.replace(/ in [A-Za-z\s]+$/, "")}</h6>
               </div>
             </NavLink>
           ))}

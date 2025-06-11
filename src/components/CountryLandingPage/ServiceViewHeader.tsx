@@ -89,7 +89,7 @@ export default function ServiceViewHeader({ service }: any) {
     <>
       <header className="landng-page-header">
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-          <NavLink to={"/" + service?.type} className="logo">
+          <NavLink to={service?.url} className="logo">
             <img src={logo} />
           </NavLink>
           <div className={`navigation ${showNavList ? "active" : ""}`}>
@@ -102,7 +102,7 @@ export default function ServiceViewHeader({ service }: any) {
                   }}
                   style={{ cursor: "pointer" }}
                 >
-                  <NavLink to={"/" + service?.type} className="logo">
+                  <NavLink to={service?.url} className="logo">
                     {val?.title}
                   </NavLink>
                 </li>

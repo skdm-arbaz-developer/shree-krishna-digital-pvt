@@ -4,8 +4,7 @@ import { Tag } from "antd";
 import "../css/home/blogs.css";
 import { NavLink } from "react-router-dom";
 import blogsdata from "../components/support/BlogsArrayList";
-import BlogBanner from "../assets/images/banners/blog-banner.jpeg"
-
+import BlogBanner from "../assets/images/banners/blog-banner.jpeg";
 
 interface Data {
   image: string;
@@ -14,7 +13,7 @@ interface Data {
   content: string;
   tags: string[];
   summary: string;
-  altTag:string;
+  altTag: string;
 }
 
 interface CardProps {
@@ -29,7 +28,8 @@ export default function Blog() {
     <>
       <CommanBanner
         image={BlogBanner}
-        title={"Internet Marketing In Mumbai"}
+        keyword={"Internet Marketing In Mumbai"}
+        title="Blogs"
         desc={
           "Explore our latest blogs to stay updated with the latest trends, insights, and tips in the industry."
         }
@@ -62,29 +62,30 @@ export default function Blog() {
           </div>
         </div>
       </section>
+      {blogsdata.splice(4).length > 0 && (
+        <section className="section">
+          <div className="container mx-auto px-0 sm:px-5 xl:px-0">
+            <div className="section-body">
+              <h1 className="section-title">All Blogs</h1>
+            </div>
 
-      <section className="section">
-        <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-          <div className="section-body">
-            <h1 className="section-title">All Blogs</h1>
-          </div>
-
-          <div className="blog-list mt-15">
-            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-              {blogsdata.map((blog, index) => (
-                <div className="blogs-list">
-                  <BlogCard
-                    key={index}
-                    hideStyle={true}
-                    type="grid-card"
-                    data={blog}
-                  />
-                </div>
-              ))}
+            <div className="blog-list mt-15">
+              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {blogsdata.splice(4).map((blog, index) => (
+                  <div className="blogs-list">
+                    <BlogCard
+                      key={index}
+                      hideStyle={true}
+                      type="grid-card"
+                      data={blog}
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
     </>
   );
 }

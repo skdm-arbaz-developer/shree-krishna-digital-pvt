@@ -1,10 +1,10 @@
-
-
 export default function CommanBanner({
   title,
+  keyword,
   desc,
   image,
 }: {
+  keyword: string;
   desc: string;
   title: string;
   image: string;
@@ -15,7 +15,10 @@ export default function CommanBanner({
       style={{ backgroundImage: "url(" + image + ")" }}
     >
       <div className="banner-content">
-        <h1 className="mb-5">{title}</h1>
+        <h1 style={{ fontSize: "1rem" }}>
+          {keyword}
+        </h1>
+        <h2 className="mb-5">{title}</h2>
         <p>{desc}</p>
       </div>
     </div>

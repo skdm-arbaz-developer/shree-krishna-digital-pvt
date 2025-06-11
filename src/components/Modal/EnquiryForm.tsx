@@ -7,7 +7,6 @@ import {
   Input,
   Modal,
   Radio,
-  Typography,
 } from "antd";
 import { useState } from "react";
 import { MdOutlineSupportAgent } from "react-icons/md";
@@ -127,12 +126,14 @@ export default function EnquiryForm({ text }: any) {
           name: "phone",
           type: "tel",
           required: true,
+          class: "col-span-2 sm:col-span-1",
           icon: <BiPhone />,
         },
         {
           label: "Email Address",
           name: "email",
           type: "email",
+          class: "col-span-2 sm:col-span-1",
           required: true,
           icon: <BiEnvelope />,
         },
@@ -161,7 +162,6 @@ export default function EnquiryForm({ text }: any) {
         company: values.company,
       },
     };
-    console.log("All Form Data for Submission:", allFormData);
 
     const mailBody = `
       <!DOCTYPE html>
@@ -170,21 +170,37 @@ export default function EnquiryForm({ text }: any) {
           <title>Enquiry Lead - Shree Krishna Digital PVT</title>
       </head>
       <body>
-          <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;background-color:#000;padding:20px;color:#fff;">
-              <h2 style="color:#fff">1Five - New Website Enquiry</h2>
-              <p style="color:#fff">Hello Team,</p>
-              <p style="color:#fff">A new enquiry has been generated from the website with the following details:</p>
-              <table cellpadding="5" style="margin:0;width:100%;color:#fff;border-collapse:collapse;">
-                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Full Name:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.contactDetails.fullName || 'N/A'}</td></tr>
-                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Email:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.contactDetails.email || 'N/A'}</td></tr>
-                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Phone No:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.contactDetails.phone || 'N/A'}</td></tr>
-                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Company Name:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.contactDetails.company || 'N/A'}</td></tr>
-                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Interested Services:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.service?.join(', ') || 'N/A'}</td></tr>
-                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Business Type:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.business || 'N/A'}</td></tr>
-                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Monthly Budget:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.budget || 'N/A'}</td></tr>
-                  <tr><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;"><strong>Planning to Start:</strong></td><td style="text-align:left;color:#fff;padding:8px;border:1px solid #333;">${allFormData.planing || 'N/A'}</td></tr>
+          <div style="font-family:Arial,sans-serif;max-width:600px;margin:0 auto;background-color:#eee;padding:20px;color:#fff;box-shadow:0,0,0,2px #808080">
+              <h2 style="color:#000">SKD - New Website Enquiry</h2>
+              <p style="color:#000">Hello Team,</p>
+              <p style="color:#000">A new enquiry has been generated from the website with the following details:</p>
+              <table cellpadding="5" style="margin:0;width:100%;color:#000;border-collapse:collapse;">
+                  <tr><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;"><strong>Full Name:</strong></td><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;">${
+                    allFormData.contactDetails.fullName || "N/A"
+                  }</td></tr>
+                  <tr><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;"><strong>Email:</strong></td><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;">${
+                    allFormData.contactDetails.email || "N/A"
+                  }</td></tr>
+                  <tr><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;"><strong>Phone No:</strong></td><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;">${
+                    allFormData.contactDetails.phone || "N/A"
+                  }</td></tr>
+                  <tr><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;"><strong>Company Name:</strong></td><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;">${
+                    allFormData.contactDetails.company || "N/A"
+                  }</td></tr>
+                  <tr><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;"><strong>Interested Services:</strong></td><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;">${
+                    allFormData.service?.join(", ") || "N/A"
+                  }</td></tr>
+                  <tr><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;"><strong>Business Type:</strong></td><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;">${
+                    allFormData.business || "N/A"
+                  }</td></tr>
+                  <tr><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;"><strong>Monthly Budget:</strong></td><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;">${
+                    allFormData.budget || "N/A"
+                  }</td></tr>
+                  <tr><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;"><strong>Planning to Start:</strong></td><td style="text-align:left;color:#000;padding:8px;border:1px solid #333;">${
+                    allFormData.planing || "N/A"
+                  }</td></tr>
               </table>
-              <p style="text-align:left;color:#fff;">Best regards,<br>Your Website Team at Shree Krishna Digital PVT</p>
+              <p style="text-align:left;color:#000;">Best regards,<br>Shree Krishna Digital Pvt. Ltd.</p>
           </div>
       </body>
       </html>
@@ -194,40 +210,46 @@ export default function EnquiryForm({ text }: any) {
       const response = await axios.post(
         "https://skdm.in/server/v1/send_lead_mail.php",
         {
-          toEmail: "daddu.tamhankar01@gmail.com",
-          fromEmail: "daddu.tamhankar01@gmail.com",
+          toEmail: "shreekrishnadigitalsolution@gmail.com",
+          fromEmail: "skdmlead@gmail.com",
           bccMail: "skdmlead@gmail.com",
-          mailSubject: "New Customer Lead from 1Five Website",
+          mailSubject: "New Customer Lead from Shree Krishna Digital Website",
           mailBody: mailBody,
-          accountName: "1five",
+          accountName: "skdm",
           accountLeadSource: "https://skdm.in.in/",
         },
         {
           headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
-          }
+            "Content-Type": "application/x-www-form-urlencoded",
+          },
         }
       );
 
-      console.log("Axios Response:", response.data);
-
       // Assuming your PHP script returns a simple string like "success" or similar upon success.
       // Adjust this condition based on your actual PHP backend response.
-      if (response.data && typeof response.data === 'string' && response.data.includes("success")) {
-        alert("Your form has been submitted successfully! Our team will contact you soon.");
-        setIsModalOpen(false); // Close the modal on successful submission
-      } else {
-        alert("There was an issue submitting your form. Please try again.");
-        console.error("Submission failed with data:", response.data);
+      if (
+        response.data &&
+        typeof response.data === "string" &&
+        response.data.includes("success")
+      ) {
+        handleOk(); // Close the modal on successful submission
+
+        alert(
+          "Your form has been submitted successfully! Our team will contact you soon."
+        );
       }
     } catch (error) {
       console.error("Axios Error:", error);
-      alert("There was a network error submitting your form. Please check your connection and try again.");
+      alert(
+        "There was a network error submitting your form. Please check your connection and try again."
+      );
     } finally {
+      handleOk(); // Close the modal on successful submission
       setIsSubmitting(false); // Re-enable button
       form.resetFields(); // Reset contact form fields
       setActive(1); // Reset to the first survey question
-      setSelectedData({ // Clear previously selected survey data
+      setSelectedData({
+        // Clear previously selected survey data
         service: [],
         business: null,
         budget: null,
@@ -298,13 +320,18 @@ export default function EnquiryForm({ text }: any) {
                   <Checkbox.Group
                     value={selectedData?.service ?? []}
                     onChange={(value) =>
-                      setSelectedData((prev) => ({ ...prev, service: value as string[] }))
+                      setSelectedData((prev) => ({
+                        ...prev,
+                        service: value as string[],
+                      }))
                     }
                     style={{ width: "100%" }}
                   >
-                    <div className="grid grid-cols-2 gap-5">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                       {currentStepData.options?.map((val, index) => (
-                        <Checkbox key={index} value={val}>{val}</Checkbox>
+                        <Checkbox key={index} value={val}>
+                          {val}
+                        </Checkbox>
                       ))}
                     </div>
                   </Checkbox.Group>
@@ -316,11 +343,11 @@ export default function EnquiryForm({ text }: any) {
                       active === 2
                         ? selectedData.business
                         : active === 3
-                          ? selectedData.budget
-                          : selectedData.planing
+                        ? selectedData.budget
+                        : selectedData.planing
                     }
                   >
-                    <div className="grid grid-cols-2 gap-5">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                       {currentStepData.options?.map((option, index) => (
                         <Radio key={index} value={option}>
                           {option}
@@ -331,12 +358,17 @@ export default function EnquiryForm({ text }: any) {
                 )}
                 {currentStepData.type === "form" && (
                   <Form layout="vertical" form={form} onFinish={handleSubmit}>
-                    <div className="grid grid-cols-2 gap-x-5">
+                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-5">
                       {currentStepData.fields?.map((valData, index) => (
                         <Form.Item
                           label={valData?.label}
                           name={valData?.name}
-                          rules={[{ required: valData?.required, message: `${valData?.label} is required` }]}
+                          rules={[
+                            {
+                              required: valData?.required,
+                              message: `${valData?.label} is required`,
+                            },
+                          ]}
                           key={index}
                           className={valData?.class}
                         >
@@ -364,7 +396,11 @@ export default function EnquiryForm({ text }: any) {
                 Previous
               </Button>
             )}
-            {active === 1 && <span></span> /* Placeholder for alignment on first step */}
+            {
+              active === 1 && (
+                <span></span>
+              ) /* Placeholder for alignment on first step */
+            }
 
             {!isLastStep ? ( // Show "Next" button if not on the last step (form step)
               <Button
@@ -380,7 +416,8 @@ export default function EnquiryForm({ text }: any) {
                 Next&nbsp;
                 <FaArrowAltCircleRight />
               </Button>
-            ) : ( // Show "Submit" button on the last step (form step)
+            ) : (
+              // Show "Submit" button on the last step (form step)
               <Button
                 onClick={() => form.submit()}
                 className="success"

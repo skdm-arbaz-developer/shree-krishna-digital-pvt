@@ -29,7 +29,7 @@ interface Country {
   type: string;
   banner: string; // assuming it's a URL or image path
   services: Service[]; // array of service objects
-  altTag?: string;  
+  altTag?: string;
 }
 
 export default function CountryServices() {

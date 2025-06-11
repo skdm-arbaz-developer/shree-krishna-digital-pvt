@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import TeamBanner from "../assets/images/banners/team-banner.jpeg";
 import { lazy } from "react";
 
@@ -23,11 +23,12 @@ export default function OurTeam() {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://skdm.in/" />
         <meta property="og:description" content="Connect with top digital marketing experts in Mumbai to elevate your brand. We specialize in SEO, PPC, social media, and content marketing strategies. " />
-        <meta property="og:image" content="https://katariashubli.com/static/media/kartaria%20logo.61ab17e04111050f3cc9.png" />
+        <meta property="og:image" content="https://skdm.in/assets/logo-C6brZTHT.png" />
       </Helmet>
       <CommanBanner
         image={TeamBanner}
-        title="Digital Marketing Experts In Mumbai"
+        title="Our Team"
+        keyword="Digital Marketing Experts In Mumbai"
         desc="At Shree Krishna Digital Solutions Pvt Ltd, our team is our biggest strength. We are developers, designers, marketers, and problem-solvers who work with one 
 mission: your success."
       />

@@ -15,10 +15,10 @@ import PortfolioSectionCard from "../components/AdsAndPR/PortfolioSectionCard";
 import SvgIcon from "../assets/images/icons/home-about-right.svg";
 import FaqArrow from "../assets/images/icons/faq-arrow.svg";
 import FaqStart from "../assets/images/icons/faq-star.svg";
-import VinayMishra from "../assets/images/resources/VinayMishra.jpg"
-import KunalKahtoi from "../assets/images/resources/KunalKahtoi.jpeg"
-import PrAd from "../assets/images/banners/pr-ad-banner.webp"
-import { Helmet } from "react-helmet";
+import VinayMishra from "../assets/images/resources/VinayMishra.jpg";
+import KunalKahtoi from "../assets/images/resources/KunalKahtoi.jpeg";
+import PrAd from "../assets/images/banners/pr-ad-banner.webp";
+import { Helmet } from "react-helmet-async";
 
 export default function WhoWeArePrAdd() {
   const teamlist = [
@@ -80,31 +80,50 @@ export default function WhoWeArePrAdd() {
     "760366144",
   ];
 
-
   return (
     <>
       <Helmet>
         <title>PR Agency in Mumbai | Shree Krishna Digital</title>
-        <meta name="description" content="Looking for a PR agency in Mumbai? We offer expert media relations, brand strategy & PR services to help build credibility & connect with your audience." />
-        <meta name="keywords" content="Best Digital Marketing Agency In Mumbai,Digital Marketing Company In Mumbai,Digital Marketing Experts In Mumbai,Top Digital Marketing Services In Mumbai,Life At Digital Marketing Agency In Mumbai,Digital Marketing In Mumbai,Top Digital Marketing Company In Mumbai,Internet Marketing Service In Mumbai,Digital Marketing In Mumbai,Best SEO Company In Mumbai,Social Media Marketing Agency In Mumbai,Google My Business listing service,PPC Agency Mumbai,PR Agency In Mumbai,Web Development Company In Mumbai,App Development Company In Mumbai,CRM Development Company In Mumbai,Digital Marketing For Healthcare In Mumbai,Digital Marketing For Hospitility & Caterers In Mumbai,Digital Marketing For Real Estate In Mumbai,Digital Marketing For Resort & Villas In Mumbai,Digital Marketing For Interior Designer In Mumbai,Digital Marketing For Spa & Salon In Mumbai,Digital Marketing For Education In Mumbai,Digital Marketing For Real Life Style In Mumbai,Best Digital Marketing Agency In Mumbai ,Online Marketing Near Mumbai,Search Engine Optimization in India,Social Media Marketing in India,Google My Business in India,Pay Per Click Marketing In India,Web Developement In India,Application Development In India,Search Engine Optimization in Australia,Social Media Marketing in Australia,GMB Optimization Service in Australia,Pay Per Click Marketing in Australia,Web Developement in Australia,Application Development in Australia,Search Engine Optimization in Canada,Social Media Marketing in Canada,GMB Optimization Service in Canada,Pay Per Click Marketing in Canada,Web Developement in Canada,Application Development in Canada,Search Engine Optimization in Malaysia,Social Media Marketing in Malaysia,GMB Optimization Service in Malaysia,Pay Per Click Marketing in Malaysia,Web Developement in Malaysia,Application Development in Malaysia,Search Engine Optimization in Nepal ,Social Media Marketing in Nepal ,GMB Optimization Service in Nepal,Pay Per Click Marketing in Nepal,Web Developement in Nepal,Application Development in Nepal,Search Engine Optimization in Dubai,Social Media Marketing in Dubai,GMB Optimization Service in Dubai ,Pay Per Click Marketing in Dubai,Web Developement in Dubai,Application Development in Dubai,Search Engine Optimization in USA,Social Media Marketing in USA,GMB Optimization Service in USA,Pay Per Click Marketing in USA,Web Developement in USA,Application Development in USA,Search Engine Optimization in United Kingdom,Social Media Marketing in United Kingdom,GMB Optimization Service in United Kingdom ,Pay Per Click Marketing in United Kingdom,Web Developement in United Kingdom,Application Development in United Kingdom,Search Engine Optimization in Maldives,Social Media Marketing in Maldives,GMB Optimization Service in Maldives,Pay Per Click Marketing in Maldives,Web Developement in Maldives,Application Development in Maldives" />
+        <meta
+          name="description"
+          content="Looking for a PR agency in Mumbai? We offer expert media relations, brand strategy & PR services to help build credibility & connect with your audience."
+        />
+        <meta
+          name="keywords"
+          content="Best Digital Marketing Agency In Mumbai,Digital Marketing Company In Mumbai,Digital Marketing Experts In Mumbai,Top Digital Marketing Services In Mumbai,Life At Digital Marketing Agency In Mumbai,Digital Marketing In Mumbai,Top Digital Marketing Company In Mumbai,Internet Marketing Service In Mumbai,Digital Marketing In Mumbai,Best SEO Company In Mumbai,Social Media Marketing Agency In Mumbai,Google My Business listing service,PPC Agency Mumbai,PR Agency In Mumbai,Web Development Company In Mumbai,App Development Company In Mumbai,CRM Development Company In Mumbai,Digital Marketing For Healthcare In Mumbai,Digital Marketing For Hospitility & Caterers In Mumbai,Digital Marketing For Real Estate In Mumbai,Digital Marketing For Resort & Villas In Mumbai,Digital Marketing For Interior Designer In Mumbai,Digital Marketing For Spa & Salon In Mumbai,Digital Marketing For Education In Mumbai,Digital Marketing For Real Life Style In Mumbai,Best Digital Marketing Agency In Mumbai ,Online Marketing Near Mumbai,Search Engine Optimization in India,Social Media Marketing in India,Google My Business in India,Pay Per Click Marketing In India,Web Developement In India,Application Development In India,Search Engine Optimization in Australia,Social Media Marketing in Australia,GMB Optimization Service in Australia,Pay Per Click Marketing in Australia,Web Developement in Australia,Application Development in Australia,Search Engine Optimization in Canada,Social Media Marketing in Canada,GMB Optimization Service in Canada,Pay Per Click Marketing in Canada,Web Developement in Canada,Application Development in Canada,Search Engine Optimization in Malaysia,Social Media Marketing in Malaysia,GMB Optimization Service in Malaysia,Pay Per Click Marketing in Malaysia,Web Developement in Malaysia,Application Development in Malaysia,Search Engine Optimization in Nepal ,Social Media Marketing in Nepal ,GMB Optimization Service in Nepal,Pay Per Click Marketing in Nepal,Web Developement in Nepal,Application Development in Nepal,Search Engine Optimization in Dubai,Social Media Marketing in Dubai,GMB Optimization Service in Dubai ,Pay Per Click Marketing in Dubai,Web Developement in Dubai,Application Development in Dubai,Search Engine Optimization in USA,Social Media Marketing in USA,GMB Optimization Service in USA,Pay Per Click Marketing in USA,Web Developement in USA,Application Development in USA,Search Engine Optimization in United Kingdom,Social Media Marketing in United Kingdom,GMB Optimization Service in United Kingdom ,Pay Per Click Marketing in United Kingdom,Web Developement in United Kingdom,Application Development in United Kingdom,Search Engine Optimization in Maldives,Social Media Marketing in Maldives,GMB Optimization Service in Maldives,Pay Per Click Marketing in Maldives,Web Developement in Maldives,Application Development in Maldives"
+        />
         <link rel="canonical" href="https://skdm.in/pr-agency-mumbai" />
         <meta httpEquiv="cache-control" content="no-cache" />
         <meta httpEquiv="expires" content="0" />
         <meta httpEquiv="pragma" content="no-cache" />
-        <meta property="og:title" content="PR Agency in Mumbai | Shree Krishna Digital" />
+        <meta
+          property="og:title"
+          content="PR Agency in Mumbai | Shree Krishna Digital"
+        />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://skdm.in/" />
-        <meta property="og:description" content="Looking for a PR agency in Mumbai? We offer expert media relations, brand strategy & PR services to help build credibility & connect with your audience." />
-        <meta property="og:image" content="https://katariashubli.com/static/media/kartaria%20logo.61ab17e04111050f3cc9.png" />
+        <meta
+          property="og:description"
+          content="Looking for a PR agency in Mumbai? We offer expert media relations, brand strategy & PR services to help build credibility & connect with your audience."
+        />
+        <meta
+          property="og:image"
+          content="https://skdm.in/assets/logo-C6brZTHT.png"
+        />
       </Helmet>
       <CommanBanner
-        title="PR Agency In Mumbai"
+        title="PR & Advertisment"
+        keyword="PR Agency In Mumbai"
         desc="At Shree Krishna Digital Solutions Pvt Ltd, we specialize in creating powerful PR narratives and performance-driven advertising campaigns that elevate your brand and connect with your audience across all platforms."
         image={PrAd}
       />
       <section className="section relative">
-        <img src={SvgIcon} className="absolute top-0 right-0" alt="PR Agency in Mumbai"/>
+        <img
+          src={SvgIcon}
+          className="absolute top-0 right-0"
+          alt="PR Agency in Mumbai"
+        />
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="md:grid grid-cols-12 gap-10">
             <div className="col-span-12 md:col-span-5">
@@ -120,10 +139,23 @@ export default function WhoWeArePrAdd() {
               <div className="section-body">
                 <h2 className="section-title">We are as Advertising Company</h2>
                 <p className="section-content">
-                At Shree Krishna Digital Solutions Pvt Ltd, we are more than just an advertising company; we are your brand’s growth partner. Our mission is to craft creative, result-oriented campaigns that connect businesses with their audience in meaningful ways. From digital ads and social media marketing to print media and outdoor advertising, we offer 360° advertising solutions tailored to your goals.
+                  At Shree Krishna Digital Solutions Pvt Ltd, we are more than
+                  just an advertising company; we are your brand’s growth
+                  partner. Our mission is to craft creative, result-oriented
+                  campaigns that connect businesses with their audience in
+                  meaningful ways. From digital ads and social media marketing
+                  to print media and outdoor advertising, we offer 360°
+                  advertising solutions tailored to your goals.
                 </p>
                 <p className="section-content pt-3">
-                Our team of strategists, designers, and media planners works closely with you to understand your vision and translate it into high-impact campaigns that drive visibility, engagement, and conversions. Whether you're a startup building awareness or an established brand aiming to scale, we deliver measurable results with data-backed strategies and innovative creativity.We don’t just advertise; we build brands, shape reputations, and drive business success.
+                  Our team of strategists, designers, and media planners works
+                  closely with you to understand your vision and translate it
+                  into high-impact campaigns that drive visibility, engagement,
+                  and conversions. Whether you're a startup building awareness
+                  or an established brand aiming to scale, we deliver measurable
+                  results with data-backed strategies and innovative
+                  creativity.We don’t just advertise; we build brands, shape
+                  reputations, and drive business success.
                 </p>
               </div>
             </div>
@@ -140,10 +172,23 @@ export default function WhoWeArePrAdd() {
                   We are as In PR Marketing Support
                 </h2>
                 <p className="section-content">
-                We are your partners in purposeful communication at Shree Krishna Digital Solutions Pvt Ltd, offering professional PR marketing support that brings your brand story to life. Our team helps you engage with your audience through newsworthy press releases, targeted media placements, and storytelling that connects. 
+                  We are your partners in purposeful communication at Shree
+                  Krishna Digital Solutions Pvt Ltd, offering professional PR
+                  marketing support that brings your brand story to life. Our
+                  team helps you engage with your audience through newsworthy
+                  press releases, targeted media placements, and storytelling
+                  that connects.
                 </p>
                 <p className="section-content pt-3">
-                We design PR strategies that go beyond promotion to build reputation, increase visibility, and drive customer trust. From media relations and corporate communication to influencer tie-ups and event promotions, our approach ensures you’re in control of your narrative. Whether you want to launch a product, strengthen credibility, or handle a sensitive issue, our PR support is thoughtful, timely, and effective. We don’t just create noise; we build influence. Let your brand speak louder, smarter, and with purpose.
+                  We design PR strategies that go beyond promotion to build
+                  reputation, increase visibility, and drive customer trust.
+                  From media relations and corporate communication to influencer
+                  tie-ups and event promotions, our approach ensures you’re in
+                  control of your narrative. Whether you want to launch a
+                  product, strengthen credibility, or handle a sensitive issue,
+                  our PR support is thoughtful, timely, and effective. We don’t
+                  just create noise; we build influence. Let your brand speak
+                  louder, smarter, and with purpose.
                 </p>
               </div>
             </div>
@@ -173,8 +218,16 @@ export default function WhoWeArePrAdd() {
         </div>
       </div>
       <section className="section relative section-dark">
-        <img src={FaqArrow} className="absolute -top-10 left-0" alt="PR Top Agency in Mumbai"/>
-        <img src={FaqStart} className="absolute top-0 right-0" alt="PR company In Mumbai"/>
+        <img
+          src={FaqArrow}
+          className="absolute -top-10 left-0"
+          alt="PR Top Agency in Mumbai"
+        />
+        <img
+          src={FaqStart}
+          className="absolute top-0 right-0"
+          alt="PR company In Mumbai"
+        />
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="section-body flex justify-center items-center flex-col">
             <h2 className="section-title text-center">Team Behind the Ads</h2>
@@ -182,7 +235,9 @@ export default function WhoWeArePrAdd() {
               className="section-content text-center"
               style={{ maxWidth: 900 }}
             >
-      We are the team behind the ads, crafting campaigns with care, creativity, and strategy. Each project reflects our passion for helping brands achieve visibility and connection.
+              We are the team behind the ads, crafting campaigns with care,
+              creativity, and strategy. Each project reflects our passion for
+              helping brands achieve visibility and connection.
             </p>
           </div>
 
