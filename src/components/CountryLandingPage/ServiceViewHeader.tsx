@@ -90,7 +90,7 @@ export default function ServiceViewHeader({ service }: any) {
       <header className="landng-page-header">
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <NavLink to={service?.url} className="logo">
-            <img src={logo} />
+            <img src={logo} alt="Best Digital Marketing Company in Mumbai" />
           </NavLink>
           <div className={`navigation ${showNavList ? "active" : ""}`}>
             <ul>
@@ -112,7 +112,7 @@ export default function ServiceViewHeader({ service }: any) {
           <div className="hidden lg:block">
             <div className="callbutton">
               <div className="call-icon">
-                <img src={getIcons(service?.type)} />
+                <img src={getIcons(service?.type)} alt="Best Digital Marketing Company in Mumbai contact us" />
               </div>
               <div className="phone">
                 <span>CALL ANYTIME</span>
@@ -141,7 +141,7 @@ export default function ServiceViewHeader({ service }: any) {
         <header className="landng-page-header">
           <div className="container mx-auto px-0 sm:px-5 xl:px-0">
             <NavLink to={"/" + service?.type} className="logo">
-              <img src={logo} />
+              <img src={logo} alt="Best Digital Marketing Company in Mumbai" />
             </NavLink>
             <div className={`navigation ${showNavList ? "active" : ""}`}>
               <ul>
@@ -157,7 +157,7 @@ export default function ServiceViewHeader({ service }: any) {
             <div className="hidden lg:block">
               <div className="callbutton">
                 <div className="call-icon">
-                  <img src={getIcons(service?.type)} />
+                  <img src={getIcons(service?.type)} alt="Best Digital Marketing Company in Mumbai contact us" />
                 </div>
                 <div className="phone">
                   <span>CALL ANYTIME</span>

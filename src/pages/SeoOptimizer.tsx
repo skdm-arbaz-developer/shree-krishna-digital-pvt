@@ -1,13 +1,17 @@
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Banner from "../components/Product/SEOOptimizer/Banner";
 import Report from "../components/Product/SEOOptimizer/Report";
 import "../css/products/seoOptimizer.css";
-import { Empty } from "antd";
+import { Empty, Form, Spin } from "antd";
 import axios from "axios";
+import { getData, storeData } from "../services/StorageControl";
+import html2canvas from "html2canvas";
+import jsPDF from "jspdf";
 
 export default function SeoOptimizer() {
   const [data, setData] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [form] = Form.useForm();
 
   const handleSubmit = async (value: any) => {
     try {
@@ -17,7 +21,10 @@ export default function SeoOptimizer() {
       );
 
       setData(resp?.data?.lighthouseResult);
-
+      storeData({
+        name: "seoData",
+        data: resp?.data?.lighthouseResult,
+      });
     } catch (error) {
       console.error(error);
     } finally {
@@ -25,11 +32,47 @@ export default function SeoOptimizer() {
     }
   };
 
+  useEffect(() => {
+    const { data } = getData({ name: "seoData" });
+    if (data && data.length !== 0) {
+      setData(data);
+      form.setFieldsValue({
+        url: data?.requestedUrl,
+        strategy: data?.configSettings?.formFactor,
+      });
+    }
+  }, []);
+
+  const printRef = useRef<HTMLDivElement>(null);
+
+  const handleDownloadPdf = async () => {
+    const element = printRef.current;
+    if (!element) return;
+
+    console.log(element)
+
+    const canvas = await html2canvas(element, { scale: 2 });
+    const imgData = canvas.toDataURL("image/png");
+
+    console.log(imgData)
+
+    const pdf = new jsPDF({
+      orientation: "portrait",
+      unit: "px",
+      format: [canvas.width, canvas.height],
+    });
+
+    pdf.addImage(imgData, "PNG", 0, 0, canvas.width, canvas.height);
+    pdf.save("download.pdf");
+  };
+
   return (
     <>
-      <Banner handleSubmit={handleSubmit} loading={loading} />
+      <Banner form={form} handleSubmit={handleSubmit} loading={loading} />
       {data ? (
-        <Report data={data} />
+        <Spin spinning={loading}>
+          <Report printRef={printRef} handleDownloadPdf={handleDownloadPdf} data={data} />
+        </Spin>
       ) : (
         <div className="container mx-auto my-20 rounded-[20px] p-20 bg-[#eff5ff]">
           <Empty

@@ -7,9 +7,10 @@ type GaugeType = "grade" | "ring";
 type GaugeChartProps = {
   type?: GaugeType; // 'grade' (half) or 'ring' (full)
   value: number;
+  size?: number;
 };
 
-const GaugeChart: React.FC<GaugeChartProps> = ({ type = "grade", value }) => {
+const GaugeChart: React.FC<GaugeChartProps> = ({ type = "grade", value, size }) => {
   const chartRef = useRef<any>(null);
 
   useEffect(() => {
@@ -133,7 +134,7 @@ const GaugeChart: React.FC<GaugeChartProps> = ({ type = "grade", value }) => {
         },
         axisLine: {
           lineStyle: {
-            width: 6,
+            width: size ? 10 : 6,
             color: [[1, "#E6E6E6"]], // ✅ light background ring
           },
         },
@@ -142,7 +143,7 @@ const GaugeChart: React.FC<GaugeChartProps> = ({ type = "grade", value }) => {
         axisLabel: { show: false },
         data: [
           {
-            value: value,
+            value: value.toFixed(2),
             name: "",
             title: {
               offsetCenter: ["0%", "0%"],
@@ -159,7 +160,7 @@ const GaugeChart: React.FC<GaugeChartProps> = ({ type = "grade", value }) => {
         detail: {
           width: 50,
           height: 50,
-          fontSize: 16,
+          fontSize: size ? 25 : 16,
           color: getColorByValue(value),
           formatter: "{value}%",
         },
@@ -172,7 +173,7 @@ const GaugeChart: React.FC<GaugeChartProps> = ({ type = "grade", value }) => {
       ref={chartRef}
       option={optionRing}
       opts={{ renderer: "svg" }} // or 'canvas'
-      style={{ width: "100px", height: "100px" }}
+      style={{ width: size ?? "100px", height: size ?? "100px" }}
     />
   ) : (
     <div style={{ width: "100%", height: "300px" }}>

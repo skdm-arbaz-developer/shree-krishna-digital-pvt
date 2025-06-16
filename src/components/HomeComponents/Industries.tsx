@@ -114,7 +114,7 @@ export default function Industries() {
 
 const InductryCard = ({ img, title, desc, link }: CardProps) => (
   <div className="industry-card">
-    <img src={img} />
+    <img src={img} alt={title} />
     <NavLink to={link} className="content">
       <h3>{title}</h3>
       <p>{desc}</p>

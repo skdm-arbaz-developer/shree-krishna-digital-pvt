@@ -279,10 +279,22 @@ export default function EnquiryForm({ text }: any) {
           <MdOutlineSupportAgent />
         </Button>
       ) : (
-        <Button onClick={showModal} className="comman-button enquiry-button">
-          <span className="hidden xl:block">Get Quote</span>
-          <MdOutlineSupportAgent />
-        </Button>
+        <>
+          <div className="hidden xl:block">
+            <Button
+              onClick={showModal}
+              className="comman-button enquiry-button"
+            >
+              <span className="hidden xl:block">Get Quote</span>
+              <MdOutlineSupportAgent />
+            </Button>
+          </div>
+          <div className="block xl:hidden">
+            <span onClick={showModal} className="comman-button enquiry-button">
+              <MdOutlineSupportAgent />
+            </span>
+          </div>
+        </>
       )}
       <Modal
         width={900}

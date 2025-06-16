@@ -104,8 +104,8 @@ export default function Testimonial() {
 
   return (
     <section className="section section-dark mb-110 relative">
-      <img src={FaqArrow} className="absolute -top-10 left-0" />
-      <img src={FaqStart} className="absolute top-0 right-0" />
+      <img src={FaqArrow} alt="Arrow Up" className="absolute -top-10 left-0" />
+      <img src={FaqStart} alt="Arrow Circle" className="absolute top-0 right-0" />
 
       <div className="container mx-auto px-0 sm:px-5 xl:px-0 relative">
         <div className="section-body flex justify-center pb-20">
@@ -161,7 +161,7 @@ const TestimonialCard = ({ review, name, company }: CardProps) => (
     <div className="writer-detail">
       <Avatar size={50} shape="circle" icon={<FaUser />} />
       <div className="testimonial-contact-detail">
-        <h5>{name}</h5>
+        <h3>{name}</h3>
         <p>{company}</p>
       </div>
     </div>

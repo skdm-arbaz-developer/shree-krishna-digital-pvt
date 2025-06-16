@@ -1,14 +1,30 @@
 import { Button, ConfigProvider, Form, Input, Radio } from "antd";
+import { useEffect, useState } from "react";
 import { FaDesktop, FaMobileScreenButton } from "react-icons/fa6";
 import { HiMagnifyingGlass } from "react-icons/hi2";
 
-export default function Search({ handleSubmit, loading }: any) {
+export default function Search({ handleSubmit, loading, form }: any) {
   const options = [
     { label: "Desktop", value: "desktop", icon: <FaDesktop /> },
     { label: "Mobile", value: "mobile", icon: <FaMobileScreenButton /> },
   ];
 
-  const [form] = Form.useForm();
+  const [size, setSize] = useState({
+    width: window.innerWidth,
+    height: window.innerHeight,
+  });
+
+  useEffect(() => {
+    const handleResize = () => {
+      setSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <ConfigProvider
@@ -54,15 +70,15 @@ export default function Search({ handleSubmit, loading }: any) {
               rules={[{ required: true }, { type: "url" }]}
               name="url"
               label="Analyze a URL"
-              className="p-0 m-0 col-span-9"
+              className="p-0 m-0 col-span-12 lg:col-span-9"
             >
               <Input className="formInput" placeholder="Enter a Web Page URL" />
             </Form.Item>
 
             <Form.Item
               style={{ margin: 0, padding: 0 }}
-              className="p-0 m-0 col-span-3"
-              label=" "
+              className="p-0 m-0 col-span-12 lg:col-span-3"
+              label={size?.width < 990 ? "" : " "}
             >
               <Button
                 htmlType="submit"

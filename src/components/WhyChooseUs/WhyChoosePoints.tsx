@@ -81,7 +81,7 @@ export default function WhyChoosePoints() {
 
   return (
     <section className="section relative">
-      <img src={SvgIcon} className="absolute top-0 right-0" />
+      <img src={SvgIcon} alt="Circle Icon" className="absolute top-0 right-0" />
 
       <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body flex flex-col justify-center items-center">

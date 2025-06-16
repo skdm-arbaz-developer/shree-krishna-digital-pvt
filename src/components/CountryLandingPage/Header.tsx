@@ -96,7 +96,7 @@ export default function Header({
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <Link to="/">
           <div className="logo" onClick={() => setActiveSection("home")}>
-            <img src={logo} />
+            <img src={logo} alt="Best Digital Marketing Company in Mumbai" />
           </div>
           </Link>
 
@@ -120,7 +120,7 @@ export default function Header({
           <div className="hidden lg:block">
             <div className="callbutton">
               <div className="call-icon">
-                <img src={getIcons(service?.type)} />
+                <img src={getIcons(service?.type)} alt="Best Digital Marketing Company in Mumbai Contact Us" />
               </div>
               <div className="phone">
                 <span>CALL ANYTIME</span>
@@ -150,7 +150,7 @@ export default function Header({
           <div className="container mx-auto px-0 sm:px-5 xl:px-0">
             <Link to="/">
             <div className="logo" onClick={() => setActiveSection("home")}>
-              <img src={logo} />
+              <img src={logo} alt="Best Digital Marketing Company in Mumbai" />
             </div>
             </Link>
             <div className={`navigation ${showNavList ? "active" : ""}`}>
@@ -173,7 +173,7 @@ export default function Header({
             <div className="hidden lg:block">
               <div className="callbutton">
                 <div className="call-icon">
-                  <img src={getIcons(service?.type)} />
+                  <img src={getIcons(service?.type)} alt="Best Digital Marketing Company in Mumbai contact us" />
                 </div>
                 <div className="phone">
                   <span>CALL ANYTIME</span>

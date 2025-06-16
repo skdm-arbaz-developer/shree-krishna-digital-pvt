@@ -33,7 +33,7 @@ export default function LogoScrolling() {
         <div className="logo-list">
           <div className="logo-scroll">
             {brandslogo.map((val, index) => (
-              <img key={index} src={val} />
+              <img key={index} src={val} alt="Trusted Partners" />
             ))}
           </div>
         </div>

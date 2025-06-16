@@ -32,7 +32,7 @@ export default function LeftDrawerNav() {
 
   return (
     <>
-      <button className="toggle-button xl:hidden block" onClick={showDrawer}>
+      <span className="toggle-button xl:hidden block" onClick={showDrawer}>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           className="h-6 w-6"
@@ -47,7 +47,7 @@ export default function LeftDrawerNav() {
             d="M4 6h16M4 12h16m-7 6h7"
           />
         </svg>
-      </button>
+      </span>
 
       <Drawer
         title=""

@@ -42,14 +42,14 @@ export default function Blog() {
           </div>
 
           <div className="blog-list mt-15">
-            <div className="grid lg:grid-cols-2 gap-6">
+            <div className="sm:grid lg:grid-cols-2 gap-6">
               <BlogCard
                 type="grid-card"
                 hideStyle={false}
                 data={blogsdata[0]}
               />
               <div className="blogs-list">
-                {blogsdata.slice(1).map((blog, index) => (
+                {blogsdata.slice(1, 4).map((blog, index) => (
                   <BlogCard
                     key={index}
                     hideStyle={false}
@@ -62,7 +62,7 @@ export default function Blog() {
           </div>
         </div>
       </section>
-      {blogsdata.splice(4).length > 0 && (
+      {blogsdata.length > 0 && (
         <section className="section">
           <div className="container mx-auto px-0 sm:px-5 xl:px-0">
             <div className="section-body">
@@ -70,8 +70,8 @@ export default function Blog() {
             </div>
 
             <div className="blog-list mt-15">
-              <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-                {blogsdata.splice(4).map((blog, index) => (
+              <div className="sm:grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                {blogsdata.slice(4, 20).map((blog, index) => (
                   <div className="blogs-list">
                     <BlogCard
                       key={index}
@@ -116,12 +116,12 @@ const BlogCard = ({ type, data, hideStyle }: CardProps) => (
       ) : (
         <Tag color="#e98c14">{data?.tags[0]}</Tag>
       )}
-      <h4
+      <h3
         className="blog-card-title"
         style={{ fontSize: hideStyle ? "1rem" : "" }}
       >
         {data?.title}
-      </h4>
+      </h3>
       <p
         className="blog-card-content"
         style={{ fontSize: hideStyle ? ".8rem" : "" }}

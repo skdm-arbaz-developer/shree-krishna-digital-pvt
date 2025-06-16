@@ -40,7 +40,7 @@ export default function Blog() {
           <div className="lg:grid lg:grid-cols-2 gap-6">
             <BlogCard type="grid-card" data={blogsdata[0]} hideStyle={false} />
             <div className="blogs-list">
-              {blogsdata.slice(1).map((blog, index) => (
+              {blogsdata.slice(1,4).map((blog, index) => (
                 <BlogCard
                   key={index}
                   type="list"
@@ -81,12 +81,12 @@ const BlogCard = ({ type, data, hideStyle }: CardProps) => (
       ) : (
         <Tag color="#e98c14">{data?.tags[0]}</Tag>
       )}
-      <h4
+      <h3
         className="blog-card-title"
         style={{ fontSize: hideStyle ? "1rem" : "" }}
       >
         {data?.title}
-      </h4>
+      </h3>
       <p
         className="blog-card-content"
         style={{ fontSize: hideStyle ? ".8rem" : "" }}

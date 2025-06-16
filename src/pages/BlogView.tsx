@@ -29,7 +29,7 @@ export default function BlogView() {
       <>
         <section className="section">
           <div className="container mx-auto px-0 sm:px-5 xl:px-0">
-            <div className="grid grid-cols-12 gap-10">
+            <div className="lg:grid grid-cols-12 gap-10">
               <div className="col-span-12 lg:col-span-7">
                 <div className="section-body">
                   <div className="section-tags">
@@ -105,7 +105,7 @@ const BlogCard = ({ type, data }: CardProps) => (
       ) : (
         <Tag color="#e98c14">{data?.tags[0]}</Tag>
       )}
-      <h4 className="blog-card-title">{data?.title}</h4>
+      <h3 className="blog-card-title">{data?.title}</h3>
       <p className="blog-card-content">{data?.summary}</p>
     </div>
   </NavLink>

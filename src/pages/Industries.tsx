@@ -171,7 +171,7 @@ export default function Industries() {
                 </div>
               </div>
             </div>
-            <img src={SvgIcon} className="absolute top-0 right-0" />
+            <img src={SvgIcon} alt="circle Arraow" className="absolute top-0 right-0" />
           </section>
         )}
 
@@ -322,8 +322,8 @@ export default function Industries() {
 
         {data.testimonial && (
           <section className="section section-dark mb-110 relative">
-            <img src={FaqArrow} className="absolute -top-10 left-0" />
-            <img src={FaqStart} className="absolute top-0 right-0" />
+            <img src={FaqArrow} alt="Testimonial Arraow" className="absolute -top-10 left-0" />
+            <img src={FaqStart} alt="Arrow Testimonial" className="absolute top-0 right-0" />
 
             <div className="container mx-auto px-0 sm:px-5 xl:px-0 relative">
               <div className="section-body flex flex-col md:items-center pb-50">
@@ -471,7 +471,7 @@ export default function Industries() {
                 </div>
               </div>
             </div>
-            <img src={SvgIcon} className="absolute top-0 right-0" />
+            <img src={SvgIcon} alt="Shree Krishna Digital" className="absolute top-0 right-0" />
           </section>
         )}
 
@@ -493,7 +493,7 @@ const FAQ = ({ detail }: any) => (
   <div className="faq-list mt-15">
     <div className="grid grid-cols-12">
       <div className="faq-image col-span-12 lg:col-span-7">
-        <img src={detail?.image} />
+        <img src={detail?.image} alt={detail?.list[0]?.question} />
       </div>
       <div className="faq-content mt-5 lg:mt-0 col-span-12 lg:col-span-5 flex items-start justify-start">
         <Collapse
@@ -570,7 +570,7 @@ const OurWork = ({ data }: any) => (
     <div className="grid grid-cols-7 lg:gap-15">
       <div className="col-span-12 lg:col-span-4">
         <div className="videoFrame mb-5 lg:mb-0 flex items-center">
-          <img style={{ maxWidth: 400, margin: "auto" }} src={data?.image} />
+          <img style={{ maxWidth: 400, margin: "auto" }} alt={data?.title} src={data?.image} />
         </div>
       </div>
       <div className="col-span-12 lg:col-span-3">

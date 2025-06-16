@@ -501,7 +501,7 @@ export default function Services() {
                       </div>
                     ))}
                   </div>
-                  <img src={data?.platform?.image} alt="" />
+                  <img src={data?.platform?.image} alt={data?.platform?.title} />
                   <div className="social-list">
                     {data?.platform?.list?.slice(3, 6).map((val) => (
                       <div className="platform-card mb-10 flex flex-col items-center">
@@ -597,8 +597,8 @@ export default function Services() {
           <section
             className={`section relative section-${data?.whychoose?.mode}`}
           >
-            <img src={FaqArrow} className="absolute -top-10 left-0" />
-            <img src={FaqStart} className="absolute top-0 right-0" />
+            <img src={FaqArrow} alt="Why Choose Icon" className="absolute -top-10 left-0" />
+            <img src={FaqStart} alt="Why Choose Icon" className="absolute top-0 right-0" />
             <img
               src={circle}
               alt="circle"
@@ -637,7 +637,7 @@ export default function Services() {
                   {data?.enhance?.desc}
                 </p>
 
-                {data?.enhance?.image && <img src={data?.enhance?.image} />}
+                {data?.enhance?.image && <img alt={data?.enhance?.title} src={data?.enhance?.image} />}
               </div>
             </div>
           </section>
@@ -669,8 +669,8 @@ export default function Services() {
           <section
             className={`section relative section-${data?.benefits?.mode}`}
           >
-            <img src={FaqArrow} className="absolute -top-10 left-0" />
-            <img src={FaqStart} className="absolute top-0 right-0" />
+            <img src={FaqArrow} alt={data?.benefits?.title} className="absolute -top-10 left-0" />
+            <img src={FaqStart} alt={data?.benefits?.title} className="absolute top-0 right-0" />
             <img
               src={circle}
               alt="circle"
@@ -717,7 +717,7 @@ export default function Services() {
           <section
             className={`section relative section-${data?.contact?.mode}`}
           >
-            <img src={SvgIcon} className="absolute top-0 right-0" />
+            <img src={SvgIcon} alt={data?.contact?.title} className="absolute top-0 right-0" />
             <div className="container mx-auto px-0 sm:px-5 xl:px-0">
               <div className="section-body flex flex-col items-center">
                 <h2 className="section-title text-center">
@@ -990,7 +990,7 @@ const FAQ = ({ detail }: any) => (
   <div className="faq-list mt-15">
     <div className="lg:grid lg:grid-cols-12">
       <div className="faq-image lg:col-span-7">
-        <img src={detail?.image} />
+        <img src={detail?.image} alt={detail?.list[0]?.question} />
       </div>
       <div className="faq-content lg:col-span-5 flex items-start justify-start mt-10">
         <Collapse

@@ -53,7 +53,7 @@ export default function Comopnay({ links }: DropDownProps) {
                 <p>{val.desc}</p>
                 <div className="grid grid-cols-3 gap-4 partnerLogos">
                   {val?.logos?.map((val, index) => (
-                    <img key={index} src={val} />
+                    <img key={index} src={val} alt="Trusted Partners" />
                   ))}
                 </div>
               </>

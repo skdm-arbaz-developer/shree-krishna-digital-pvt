@@ -39,7 +39,7 @@ export default function Brands() {
         <div className="logo-list mt-20">
           <div className="logo-scroll">
             {brandslogo.map((val, index) => (
-              <img key={index} src={val} />
+              <img key={index} src={val} alt="Trusted Partners" />
             ))}
           </div>
         </div>

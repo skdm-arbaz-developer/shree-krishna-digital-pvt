@@ -26,6 +26,8 @@
   color: #eee;
 }
 
+
+
 .search_panel {
   background-color: #fff;
   padding: 30px;
@@ -50,4 +52,64 @@
 .data_title button:hover {
   border-color: red !important;
   color: red !important;
+}
+
+.shape {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.error.shape {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 10px solid red;
+}
+
+.warning.shape {
+  background-color: #fa3;
+  border-radius: 3px;
+}
+
+.success.shape {
+  background-color: #228b22;
+  border-radius: 50px;
+}
+
+.error.text {
+  color: red;
+}
+
+.warning.text {
+  color: #fa3;
+}
+
+.success.text {
+  color: #228b22;
+}
+
+.indicator p {
+  font-size: 0.9rem;
+}
+
+.printDetail {
+  --fallback-text-color: #000;
+  color: var(--fallback-text-color);
+}
+
+@media (max-width: 990px) {
+  .seo_banner h1 {
+    font-size: 2rem;
+  }
+
+  .seo_banner p {
+    color: #eee;
+  }
+
+  .data_title h2{
+    font-size: 1.2rem;
+  }
 }

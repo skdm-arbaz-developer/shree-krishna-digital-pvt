@@ -81,7 +81,8 @@ export default function Footer() {
         <div className="container mx-auto px-0 sm:px-5 xl:px-0">
           <div className="md:grid md:grid-cols-3 gap-20">
             <NavLink to="/" className="footer-brand">
-              <img src={logo} />
+              <img src={logo} alt="Digital Marketing Company In Mumbai
+" />
               <p>
                 Founded in 2018 in Andheri, Mumbai, Shree Krishna Digital
                 Marketing Solutions Pvt. Ltd. is dedicated to helping businesses

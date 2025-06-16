@@ -22,7 +22,7 @@ export default function Header() {
       <div className="container mx-auto px-0 sm:px-5 xl:px-0 flex flex-row items-center justify-between">
         <LeftDrawerNav />
         <NavLink to="/" className="logo">
-          <img alt="Shree Krishna Digital" src={logo} />
+          <img alt="Shree Krishna Digital Solution Pvt Ltd" src={logo} />
         </NavLink>
         <nav className="nav-links xl:flex hidden">
           {NavigationLinks.map((val, index) =>

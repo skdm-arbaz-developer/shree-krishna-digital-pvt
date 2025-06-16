@@ -55,7 +55,7 @@ export default function FrequentylAskQ() {
         <div className="faq-list mt-10">
           <div className="grid lg:grid-cols-3">
             <div className="faq-image col-span-2">
-              <img src={FaqImage} />
+              <img src={FaqImage} alt="Best Digital Marketing Agency In Mumbai" />
             </div>
             <div className="faq-content flex items-center justify-start">
               <Collapse

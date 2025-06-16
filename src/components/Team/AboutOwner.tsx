@@ -87,7 +87,7 @@ export default function AboutOwner() {
 
   return (
     <section className="section relative section-gray">
-      <img src={SvgIcon} className="absolute top-0 right-0" />
+      <img src={SvgIcon} alt="Circle Icon" className="absolute top-0 right-0" />
 
       <div className="container mx-auto px-0 sm:px-5 xl:px-0">
         <div className="section-body flex justify-center flex-col lg:items-center">
@@ -106,7 +106,7 @@ export default function AboutOwner() {
           <div className="owner-detail relative">
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
               <div className="owner-image">
-                <img src={boss} alt="Owner" />
+                <img src={boss} alt="Founder of Shree Krishna Digita Solution Pvt. Ltd." />
               </div>
               <div className="owner-content lg:col-span-2">
                 <h2>Mr. Ambrish Kumar</h2>
@@ -133,7 +133,7 @@ export default function AboutOwner() {
                     <h5>10+ Years</h5>
                     <h6>Industry Experience</h6>
                   </div>
-                  <img src="https://www.pngall.com/wp-content/uploads/14/Signature-PNG-Picture.png" />
+                  <img src="https://www.pngall.com/wp-content/uploads/14/Signature-PNG-Picture.png" alt="Owner Signature" />
                 </div>
               </div>
             </div>
